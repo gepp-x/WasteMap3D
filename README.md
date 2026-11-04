@@ -89,6 +89,20 @@ npm run data:build && npm run data:validate
   - full provenance on every value: observed / derived / estimated / simulated / unavailable.
 - **Responsive:** desktop command center; tablet drawers; mobile map-first layout with a bottom sheet. Reduced-motion and effects toggles are available.
 
+## Deploy (GitHub Pages)
+
+Live site: **https://gepp-x.github.io/WasteMap3D/**
+
+The app is a static export (`output: "export"`). Every push to `main` runs `.github/workflows/deploy-pages.yml`, which builds with `NEXT_PUBLIC_BASE_PATH=/WasteMap3D` and publishes `out/` to GitHub Pages.
+
+To preview the exact Pages build locally:
+
+```bash
+NEXT_PUBLIC_BASE_PATH=/WasteMap3D npx next build
+```
+
+Then serve `out/` under `/WasteMap3D/`. For a plain local build, run `npm run build && npm start` (serves `out/` at http://localhost:3000).
+
 ## Data at a glance
 
 | | Bangkok | Hat Yai |
