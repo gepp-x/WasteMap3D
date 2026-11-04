@@ -297,10 +297,10 @@ export function BrandBlock({ compact = false, textClassName }: { compact?: boole
   const t = useTr();
   return (
     <div className="flex min-w-0 shrink-0 items-center gap-2.5">
-      <BrandMark size={compact ? 26 : 30} />
+      <BrandMark size={compact ? 30 : 38} />
       <div className={cn("flex min-w-0 flex-col leading-tight", textClassName)}>
         <h1 className="truncate text-[12.5px] font-semibold tracking-[0.2em] text-ui-text uppercase">
-          Urban Intelligence
+          GEPP Urban Intelligence
           <span className="sr-only"> — {t({ th: "หอสังเกตการณ์ขยะและน้ำท่วม", en: "Waste & Flood Observatory" })}</span>
         </h1>
         <p aria-hidden className={cn("truncate text-ui-text-2", compact ? "text-[10.5px]" : "text-[11.5px]")}>

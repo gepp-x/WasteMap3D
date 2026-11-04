@@ -107,10 +107,10 @@ function MobileHeader() {
   return (
     <>
       <header className="relative z-30 flex shrink-0 items-center gap-2 border-b border-ui-border bg-ui-bg/95 px-3" style={{ height: HEADER_H }}>
-        <BrandMark size={26} />
+        <BrandMark size={32} />
         <div className="flex min-w-0 flex-1 flex-col items-start gap-0.5">
-          <h1 className="max-w-full truncate text-[11px] leading-none font-semibold tracking-[0.14em] text-ui-text uppercase">
-            Urban Intelligence
+          <h1 className="max-w-full truncate text-[11px] leading-none font-semibold tracking-[-0.01em] text-ui-text">
+            GEPP Urban Intelligence
             <span className="sr-only"> — {t({ th: "หอสังเกตการณ์ขยะและน้ำท่วม", en: "Waste & Flood Observatory" })}</span>
           </h1>
           <ModeIndicator compact onOpenLab={openLabMobile} />

@@ -12,10 +12,10 @@ import "./globals.css";
 import { TooltipProvider } from "@/components/ui/tooltip";
 
 export const metadata: Metadata = {
-  title: "Urban Intelligence — Waste & Flood Observatory",
+  title: "GEPP Urban Intelligence — Waste & Flood Observatory",
   description:
     "Explore relationships between municipal waste, population, rainfall, drainage and flood exposure in Bangkok and Hat Yai. Scenario outputs are illustrative simulations, not official forecasts.",
-  applicationName: "Urban Intelligence",
+  applicationName: "GEPP Urban Intelligence",
 };
 
 export const viewport: Viewport = {

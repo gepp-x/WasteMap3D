@@ -445,7 +445,7 @@ function ShellSkeleton() {
     <div className="ui-grid-bg flex h-dvh w-full flex-col bg-ui-bg" aria-busy>
       <div className="flex h-14 shrink-0 items-center gap-2.5 border-b border-ui-border px-3">
         <BrandMark size={30} />
-        <span className="text-[12.5px] font-semibold tracking-[0.2em] text-ui-text uppercase">Urban Intelligence</span>
+        <span className="text-[12.5px] font-semibold tracking-[0.2em] text-ui-text uppercase">GEPP Urban Intelligence</span>
       </div>
       <div className="flex flex-1 items-center justify-center">
         <BrandMark size={44} className="animate-pulse opacity-70" />

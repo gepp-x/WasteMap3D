@@ -1,4 +1,4 @@
-# Urban Intelligence — Waste & Flood Observatory
+# GEPP Urban Intelligence — Waste & Flood Observatory
 **หอสังเกตการณ์ขยะและน้ำท่วม · Understand the City. See the Connections.**
 
 An interactive geospatial dashboard and Three.js digital twin for **Bangkok** (50 districts) and **Hat Yai Municipality** (4 community-management zones). It connects municipal waste, population, rainfall, drainage and flood exposure. The interface is Thai by default, with an English switch.
