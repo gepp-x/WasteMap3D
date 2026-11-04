@@ -1,0 +1,7 @@
+{
+  "url": "https://data.bangkok.go.th/api/3/action/package_show?id=floodgate",
+  "httpStatus": 200,
+  "retrievedAt": "2026-11-04T01:46:23.662Z",
+  "bytes": 10868,
+  "note": "Initial download made manually with curl (same URL and User-Agent) while developing this script; retrievedAt = file modification time."
+}

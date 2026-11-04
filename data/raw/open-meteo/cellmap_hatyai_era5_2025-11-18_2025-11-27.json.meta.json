@@ -1,0 +1,8 @@
+{
+  "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.925%2C6.925%2C6.925%2C6.925%2C6.925%2C6.975%2C6.975%2C6.975%2C6.975%2C6.975%2C7.025%2C7.025%2C7.025%2C7.025%2C7.025%2C7.075%2C7.075%2C7.075%2C7.075%2C7.075%2C7.125%2C7.125%2C7.125%2C7.125%2C7.125&longitude=100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575&start_date=2025-11-18&end_date=2025-11-27&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+  "status": 200,
+  "retrievedAt": "2026-11-03T22:59:35.009Z",
+  "bytes": 12118,
+  "contentType": "application/json; charset=utf-8",
+  "retrievedAtSource": "http"
+}

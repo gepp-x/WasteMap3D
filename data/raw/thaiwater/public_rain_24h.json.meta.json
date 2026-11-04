@@ -1,0 +1,8 @@
+{
+  "url": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+  "status": 200,
+  "retrievedAt": "2026-11-03T18:35:46.967Z",
+  "bytes": 4835693,
+  "contentType": "application/json; charset=utf-8",
+  "retrievedAtSource": "http"
+}

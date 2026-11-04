@@ -1,0 +1,5166 @@
+{
+  "generatedAt": "2026-11-03T23:06:51.404Z",
+  "municipality": {
+    "nameTh": "เทศบาลนครหาดใหญ่",
+    "nameEn": "Hat Yai City Municipality",
+    "province": "Songkhla (สงขลา)"
+  },
+  "structure": {
+    "zoneTermTh": "เขต",
+    "zoneNamesTh": [
+      "เขต 1",
+      "เขต 2",
+      "เขต 3",
+      "เขต 4"
+    ],
+    "zoneTermNotes": "The community lists (cate/258) and the zone map (cate/259) name the zones 'เขต 1'…'เขต 4'. The 2022-2023 announcements state that the municipality consists of 4 electoral districts (ประกอบด้วยพื้นที่การเลือกตั้ง ๔ เขตเลือกตั้ง ๑๐๓ ชุมชน) and number them 'เขตที่ ๑'…'เขตที่ ๔'. 'Zone N' is our English rendering.",
+    "totalCommunities": 103,
+    "totalStatedInMapTitle": 103,
+    "perZone": {
+      "1": 28,
+      "2": 29,
+      "3": 25,
+      "4": 21
+    },
+    "perZoneStatedInAnnouncements": {
+      "1": 28,
+      "2": 29,
+      "3": 25,
+      "4": 21
+    },
+    "countsVerified": true
+  },
+  "zones": [
+    {
+      "zoneNo": 1,
+      "id": "hy-z1",
+      "nameTh": "เขต 1",
+      "nameEn": "Zone 1",
+      "communityCount": 28,
+      "communityCountStatedInAnnouncement": 28,
+      "printedPopulationSum": 33852,
+      "communitiesWithPrintedPopulation": 27,
+      "printedHouseholdsSum": 15921,
+      "communitiesWithHouseholds": 28,
+      "printedAreaSumKm2": 8.53,
+      "communitiesWithArea": 28,
+      "note": "Sums of figures printed in the 2022-2023 community-boundary announcements; communities with a missing or malformed total are excluded from the population sum (see per-community anomalies). Status: derived."
+    },
+    {
+      "zoneNo": 2,
+      "id": "hy-z2",
+      "nameTh": "เขต 2",
+      "nameEn": "Zone 2",
+      "communityCount": 29,
+      "communityCountStatedInAnnouncement": 29,
+      "printedPopulationSum": 33896,
+      "communitiesWithPrintedPopulation": 29,
+      "printedHouseholdsSum": 20856,
+      "communitiesWithHouseholds": 29,
+      "printedAreaSumKm2": 5.92,
+      "communitiesWithArea": 29,
+      "note": "Sums of figures printed in the 2022-2023 community-boundary announcements; communities with a missing or malformed total are excluded from the population sum (see per-community anomalies). Status: derived."
+    },
+    {
+      "zoneNo": 3,
+      "id": "hy-z3",
+      "nameTh": "เขต 3",
+      "nameEn": "Zone 3",
+      "communityCount": 25,
+      "communityCountStatedInAnnouncement": 25,
+      "printedPopulationSum": 33498,
+      "communitiesWithPrintedPopulation": 24,
+      "printedHouseholdsSum": 17142,
+      "communitiesWithHouseholds": 24,
+      "printedAreaSumKm2": 4.201,
+      "communitiesWithArea": 24,
+      "note": "Sums of figures printed in the 2022-2023 community-boundary announcements; communities with a missing or malformed total are excluded from the population sum (see per-community anomalies). Status: derived."
+    },
+    {
+      "zoneNo": 4,
+      "id": "hy-z4",
+      "nameTh": "เขต 4",
+      "nameEn": "Zone 4",
+      "communityCount": 21,
+      "communityCountStatedInAnnouncement": 21,
+      "printedPopulationSum": 36800,
+      "communitiesWithPrintedPopulation": 21,
+      "printedHouseholdsSum": 14516,
+      "communitiesWithHouseholds": 21,
+      "printedAreaSumKm2": 3.949,
+      "communitiesWithArea": 21,
+      "note": "Sums of figures printed in the 2022-2023 community-boundary announcements; communities with a missing or malformed total are excluded from the population sum (see per-community anomalies). Status: derived."
+    }
+  ],
+  "communities": [
+    {
+      "id": "hy-c1-01",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 1,
+      "nameTh": "ชุมชนหน้าสวนสาธารณะ",
+      "nameThNormalized": "ชุมชนหน้าสวนสาธารณะ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหน้าสวนสาธารณะ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 4270000,
+        "areaKm2Printed": 4.27,
+        "population": 1418,
+        "male": 670,
+        "female": 748,
+        "households": 681,
+        "maleFemaleSum": 1418,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนหน้าสวนสาธารณะ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 4,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-02",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 2,
+      "nameTh": "ชุมชนทักษิณเมืองทอง",
+      "nameThNormalized": "ชุมชนทักษิณเมืองทอง",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนทักษิณเมืองทอง",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 390000,
+        "areaKm2Printed": 0.39,
+        "population": 612,
+        "male": 253,
+        "female": 359,
+        "households": 373,
+        "maleFemaleSum": 612,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนทักษิณเมืองทอง",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 6,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-03",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 3,
+      "nameTh": "ชุมชนสุภาพอ่อนหวาน",
+      "nameThNormalized": "ชุมชนสุภาพอ่อนหวาน",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนสุภาพอ่อนหวาน",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 150000,
+        "areaKm2Printed": 0.15,
+        "population": 1004,
+        "male": 452,
+        "female": 552,
+        "households": 433,
+        "maleFemaleSum": 1004,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนสุภาพอ่อนหวาน",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 8,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-04",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 4,
+      "nameTh": "ชุมชนหน้าค่ายเสนาณรงค์",
+      "nameThNormalized": "ชุมชนหน้าค่ายเสนาณรงค์",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหน้าค่ายเสนาณรงค์",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 220000,
+        "areaKm2Printed": 0.22,
+        "population": 2263,
+        "male": 1080,
+        "female": 1183,
+        "households": 796,
+        "maleFemaleSum": 2263,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนหน้าค่ายเสนาณรงค์",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 10,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-05",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 5,
+      "nameTh": "ชุมชนภาสว่าง",
+      "nameThNormalized": "ชุมชนภาสว่าง",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนภาสว่าง",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 170000,
+        "areaKm2Printed": 0.17,
+        "population": 1079,
+        "male": 465,
+        "female": 614,
+        "households": 1385,
+        "maleFemaleSum": 1079,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": false,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [
+          "households (1385) exceed population (1079)"
+        ],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนภาสว่าง",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 12,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-06",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 6,
+      "nameTh": "ชุมชนอู่ ท.ส.",
+      "nameThNormalized": "ชุมชนอู่ ท.ส.",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนอู่ ท.ส.",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 140000,
+        "areaKm2Printed": 0.14,
+        "population": 499,
+        "male": 211,
+        "female": 288,
+        "households": 530,
+        "maleFemaleSum": 499,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": false,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [
+          "households (530) exceed population (499)"
+        ],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนอู่ ท.ส.",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 14,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-07",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 7,
+      "nameTh": "ชุมชนพรุแม่สอน",
+      "nameThNormalized": "ชุมชนพรุแม่สอน",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนพรุแม่สอน",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 320000,
+        "areaKm2Printed": 0.32,
+        "population": 1575,
+        "male": 719,
+        "female": 856,
+        "households": 882,
+        "maleFemaleSum": 1575,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนพรุแม่สอน",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 17,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-08",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 8,
+      "nameTh": "ชุมชนกอบกาญจน์ศึกษา",
+      "nameThNormalized": "ชุมชนกอบกาญจน์ศึกษา",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนกอบกาญจน์ศึกษา",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 280000,
+        "areaKm2Printed": 0.28,
+        "population": null,
+        "male": 728,
+        "female": 877,
+        "households": 698,
+        "maleFemaleSum": 1605,
+        "checks": {
+          "populationEqualsMalePlusFemale": null,
+          "householdsNotAbovePopulation": null,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [
+          "population: printed \"๑,๖๐๐๕\" — Printed total is malformed (5 digits after the comma separator); male + female = 1,605. Total left null; the male+female sum is reported separately as derived."
+        ],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนกอบกาญจน์ศึกษา",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 19,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-09",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 9,
+      "nameTh": "ชุมชนแม่ลิเตา",
+      "nameThNormalized": "ชุมชนแม่ลิเตา",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนแม่ลิเตา",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 210000,
+        "areaKm2Printed": 0.21,
+        "population": 2147,
+        "male": 979,
+        "female": 1168,
+        "households": 807,
+        "maleFemaleSum": 2147,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนแม่ลิเตา",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 21,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-10",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 10,
+      "nameTh": "ชุมชนคลองเตย",
+      "nameThNormalized": "ชุมชนคลองเตย",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนคลองเตย",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 180000,
+        "areaKm2Printed": 0.18,
+        "population": 1366,
+        "male": 630,
+        "female": 736,
+        "households": 610,
+        "maleFemaleSum": 1366,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนคลองเตย",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 23,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-11",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 11,
+      "nameTh": "ชุมชนโรงปูน",
+      "nameThNormalized": "ชุมชนโรงปูน",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนโรงปูน",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 80000,
+        "areaKm2Printed": 0.08,
+        "population": 640,
+        "male": 286,
+        "female": 354,
+        "households": 172,
+        "maleFemaleSum": 640,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนโรงปูน",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 25,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-12",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 12,
+      "nameTh": "ชุมชนอนุสรณ์อาจารย์ทอง",
+      "nameThNormalized": "ชุมชนอนุสรณ์อาจารย์ทอง",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนอนุสรณ์อาจารย์ทอง",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 150000,
+        "areaKm2Printed": 0.15,
+        "population": 906,
+        "male": 396,
+        "female": 510,
+        "households": 456,
+        "maleFemaleSum": 906,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนอนุสรณ์อาจารย์ทอง",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 27,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-13",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 13,
+      "nameTh": "ชุมชนสามัคคี",
+      "nameThNormalized": "ชุมชนสามัคคี",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนสามัคคี",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 190000,
+        "areaKm2Printed": 0.19,
+        "population": 910,
+        "male": 417,
+        "female": 493,
+        "households": 449,
+        "maleFemaleSum": 910,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนสามัคคี",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 29,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-14",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 14,
+      "nameTh": "ชุมชนหน้า รพ.ศิครินทร์",
+      "nameThNormalized": "ชุมชนหน้า รพ.ศิครินทร์",
+      "nameEn": null,
+      "boundaryNoticeNameTh": "ชุมชนหน้าโรงพยาบาลศิครินทร์",
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหน้า รพ.ศิครินทร์",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 90000,
+        "areaKm2Printed": 0.09,
+        "population": 1477,
+        "male": 685,
+        "female": 792,
+        "households": 555,
+        "maleFemaleSum": 1477,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนหน้าโรงพยาบาลศิครินทร์",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 31,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-15",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 15,
+      "nameTh": "ชุมชนเกาะเสือ",
+      "nameThNormalized": "ชุมชนเกาะเสือ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนเกาะเสือ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 190000,
+        "areaKm2Printed": 0.19,
+        "population": 2098,
+        "male": 985,
+        "female": 1113,
+        "households": 772,
+        "maleFemaleSum": 2098,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนเกาะเสือ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 33,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-16",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 16,
+      "nameTh": "ชุมชนหลังสนามกีฬากลาง",
+      "nameThNormalized": "ชุมชนหลังสนามกีฬากลาง",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหลังสนามกีฬากลาง",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 210000,
+        "areaKm2Printed": 0.21,
+        "population": 2278,
+        "male": 1043,
+        "female": 1235,
+        "households": 920,
+        "maleFemaleSum": 2278,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนหลังสนามกีฬากลาง",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 35,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-17",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 17,
+      "nameTh": "ชุมชนหลังโรงเรียน ญ.ว.",
+      "nameThNormalized": "ชุมชนหลังโรงเรียน ญ.ว.",
+      "nameEn": null,
+      "boundaryNoticeNameTh": "ชุมชนหลังโรงเรียนหาดใหญ่วิทยาลัย",
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหลังโรงเรียน ญ.ว.",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 150000,
+        "areaKm2Printed": 0.15,
+        "population": 623,
+        "male": 279,
+        "female": 344,
+        "households": 298,
+        "maleFemaleSum": 623,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนหลังโรงเรียนหาดใหญ่วิทยาลัย",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 37,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-18",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 18,
+      "nameTh": "ชุมชนศรีนิล",
+      "nameThNormalized": "ชุมชนศรีนิล",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนศรีนิล",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 110000,
+        "areaKm2Printed": 0.11,
+        "population": 916,
+        "male": 418,
+        "female": 498,
+        "households": 351,
+        "maleFemaleSum": 916,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนศรีนิล",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 39,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-19",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 19,
+      "nameTh": "ชุมชนหมัดยาเม๊าะ",
+      "nameThNormalized": "ชุมชนหมัดยาเม๊าะ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหมัดยาเม๊าะ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 120000,
+        "areaKm2Printed": 0.12,
+        "population": 1289,
+        "male": 602,
+        "female": 687,
+        "households": 461,
+        "maleFemaleSum": 1289,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนหมัดยาเม๊าะ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 41,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-20",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 20,
+      "nameTh": "ชุมชนป้อม 6",
+      "nameThNormalized": "ชุมชนป้อม 6",
+      "nameEn": null,
+      "boundaryNoticeNameTh": "ชุมชนป้อม ๖",
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนป้อม 6",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 80000,
+        "areaKm2Printed": 0.08,
+        "population": 1403,
+        "male": 671,
+        "female": 732,
+        "households": 593,
+        "maleFemaleSum": 1403,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนป้อม ๖",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 43,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-21",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 21,
+      "nameTh": "ชุมชนหน้าสนามกีฬากลาง",
+      "nameThNormalized": "ชุมชนหน้าสนามกีฬากลาง",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหน้าสนามกีฬากลาง",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 100000,
+        "areaKm2Printed": 0.1,
+        "population": 982,
+        "male": 469,
+        "female": 513,
+        "households": 363,
+        "maleFemaleSum": 982,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนหน้าสนามกีฬากลาง",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 45,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-22",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 22,
+      "nameTh": "ชุมชนโรงเรียนชาตรี",
+      "nameThNormalized": "ชุมชนโรงเรียนชาตรี",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนโรงเรียนชาตรี",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 100000,
+        "areaKm2Printed": 0.1,
+        "population": 1484,
+        "male": 713,
+        "female": 771,
+        "households": 442,
+        "maleFemaleSum": 1484,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนโรงเรียนชาตรี",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 47,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-23",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 23,
+      "nameTh": "ชุมชนศิครินทร์",
+      "nameThNormalized": "ชุมชนศิครินทร์",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนศิครินทร์",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 160000,
+        "areaKm2Printed": 0.16,
+        "population": 1627,
+        "male": 776,
+        "female": 851,
+        "households": 606,
+        "maleFemaleSum": 1627,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนศิครินทร์",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 49,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-24",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 24,
+      "nameTh": "ชุมชนรัถการ",
+      "nameThNormalized": "ชุมชนรัถการ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนรัถการ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 100000,
+        "areaKm2Printed": 0.1,
+        "population": 1424,
+        "male": 683,
+        "female": 741,
+        "households": 544,
+        "maleFemaleSum": 1424,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนรัถการ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 51,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-25",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 25,
+      "nameTh": "ชุมชนริมทางรถไฟ",
+      "nameThNormalized": "ชุมชนริมทางรถไฟ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนริมทางรถไฟ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 130000,
+        "areaKm2Printed": 0.13,
+        "population": 864,
+        "male": 438,
+        "female": 426,
+        "households": 254,
+        "maleFemaleSum": 864,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนริมทางรถไฟ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 53,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-26",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 26,
+      "nameTh": "ชุมชนมุสลิม",
+      "nameThNormalized": "ชุมชนมุสลิม",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนมุสลิม",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 40000,
+        "areaKm2Printed": 0.04,
+        "population": 872,
+        "male": 416,
+        "female": 456,
+        "households": 295,
+        "maleFemaleSum": 872,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนมุสลิม",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 55,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-27",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 27,
+      "nameTh": "ชุมชนหอนาฬิกา",
+      "nameThNormalized": "ชุมชนหอนาฬิกา",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหอนาฬิกา",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 120000,
+        "areaKm2Printed": 0.12,
+        "population": 1006,
+        "male": 452,
+        "female": 554,
+        "households": 585,
+        "maleFemaleSum": 1006,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนหอนาฬิกา",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 57,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c1-28",
+      "zoneNo": 1,
+      "zoneId": "hy-z1",
+      "seqInZone": 28,
+      "nameTh": "ชุมชนตลาดคอมเพล็กซ์",
+      "nameThNormalized": "ชุมชนตลาดคอมเพล็กซ์",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนตลาดคอมเพล็กซ์",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 80000,
+        "areaKm2Printed": 0.08,
+        "population": 1090,
+        "male": 492,
+        "female": 598,
+        "households": 610,
+        "maleFemaleSum": 1090,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนตลาดคอมเพล็กซ์",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "sourcePage": 59,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-01",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 1,
+      "nameTh": "ชุมชนบ้านพักรถไฟ",
+      "nameThNormalized": "ชุมชนบ้านพักรถไฟ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนบ้านพักรถไฟ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 126200,
+        "areaKm2Printed": 0.12,
+        "population": 746,
+        "male": 366,
+        "female": 380,
+        "households": 640,
+        "maleFemaleSum": 746,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนบ้านพักรถไฟ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 5,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนเพชรเกษม",
+          "south": "ถนนศรีภูวนารถ",
+          "east": "ถนนนิพัทธ์อุทิศ 1",
+          "west": "ถนนแนวเขตรถไฟ"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-02",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 2,
+      "nameTh": "ชุมชนศาลเจ้าพ่อเสือ",
+      "nameThNormalized": "ชุมชนศาลเจ้าพ่อเสือ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนศาลเจ้าพ่อเสือ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 104900,
+        "areaKm2Printed": 0.1,
+        "population": 552,
+        "male": 267,
+        "female": 285,
+        "households": 422,
+        "maleFemaleSum": 552,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนศาลเจ้าพ่อเสือ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 7,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนมนัสฤดี",
+          "south": "ถนนศรีภูวนารถ",
+          "east": "ถนนนิพัทธ์อุทิศ 3",
+          "west": "ถนนนิพัทธ์อุทิศ 1 (ชุมชนบ้านพักรถไฟ)"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-03",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 3,
+      "nameTh": "ชุมชนตลาดใหม่",
+      "nameThNormalized": "ชุมชนตลาดใหม่",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนตลาดใหม่",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 186500,
+        "areaKm2Printed": 0.18,
+        "population": 1609,
+        "male": 717,
+        "female": 892,
+        "households": 1278,
+        "maleFemaleSum": 1609,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนตลาดใหม่",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 9,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนกิมประดิษฐ์",
+          "south": "ถนนศรีภูวนารถ",
+          "east": "ถนนแนวคลองเตย (ชุมชนซีกิมหยง)",
+          "west": "ถนนนิพัทธ์อุทิศ 3"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-04",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 4,
+      "nameTh": "ชุมชนกิมหยงสันติสุข",
+      "nameThNormalized": "ชุมชนกิมหยงสันติสุข",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนกิมหยงสันติสุข",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 174000,
+        "areaKm2Printed": 0.17,
+        "population": 1738,
+        "male": 809,
+        "female": 929,
+        "households": 991,
+        "maleFemaleSum": 1738,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนกิมหยงสันติสุข",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 11,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนแสงศรี",
+          "south": "ถนนมนัสฤดี",
+          "east": "ถนนนิพัทธ์อุทิศ 3 และ ถนนแสงจันทร์",
+          "west": "ถนนเพชรเกษม (ชุมชนบ้านรถไฟ)"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-05",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 5,
+      "nameTh": "ชุมชนพระเสน่หามนตรี",
+      "nameThNormalized": "ชุมชนพระเสน่หามนตรี",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนพระเสน่หามนตรี",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 137600,
+        "areaKm2Printed": 0.13,
+        "population": 980,
+        "male": 457,
+        "female": 523,
+        "households": 702,
+        "maleFemaleSum": 980,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนพระเสน่หามนตรี",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 13,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนศุภสารรังสรรค์",
+          "south": "ถนนกิมประดิษฐ์ ถนนเสน่หานุสรณ์ และถนนปรีดารมย์",
+          "east": "ถนนแสงจันทร์ (ชุมชนป้อม 4)",
+          "west": "ถนนนิพัทธ์อุทิศ 3 (ชุมชนกิมหยงสันติสุข)"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-06",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 6,
+      "nameTh": "ชุมชนป้อม ๔",
+      "nameThNormalized": "ชุมชนป้อม 4",
+      "nameEn": null,
+      "boundaryNoticeNameTh": "ชุมชนป้อม 4",
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนป้อม ๔",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 89800,
+        "areaKm2Printed": 0.08,
+        "population": 735,
+        "male": 326,
+        "female": 409,
+        "households": 485,
+        "maleFemaleSum": 735,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนป้อม 4",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 15,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนศุภสารรังสรรค์ (ชุมชนแสงศรี)",
+          "south": "ถนนธรรมนูญวิถี",
+          "east": "ถนนประชาธิปัตย์ 1",
+          "west": "ถนนแสงจันทร์ (ชุมชนพระเสน่หามนตรี)"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-07",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 7,
+      "nameTh": "ชุมชนแสงศรี",
+      "nameThNormalized": "ชุมชนแสงศรี",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนแสงศรี",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 166900,
+        "areaKm2Printed": 0.16,
+        "population": 1040,
+        "male": 489,
+        "female": 551,
+        "households": 514,
+        "maleFemaleSum": 1040,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนแสงศรี",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 17,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนจุติอนุสรณ์ (ชุมชนจิระนคร)",
+          "south": "ถนนศุภสารรังสรรค์",
+          "east": "ถนนจุติอุทิศ 3 และถนนประชาธิปัตย์ 1",
+          "west": "ถนนแสงจันทร์ และถนนสวนศิริ"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-08",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 8,
+      "nameTh": "ชุมชนสวนศิริ",
+      "nameThNormalized": "ชุมชนสวนศิริ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนสวนศิริ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 66900,
+        "areaKm2Printed": 0.06,
+        "population": 748,
+        "male": 354,
+        "female": 394,
+        "households": 363,
+        "maleFemaleSum": 748,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนสวนศิริ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 19,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนจุติอนุสรณ์",
+          "south": "ถนนแสงศรี",
+          "east": "ถนนสวนศิริ",
+          "west": "ถนนเพชรเกษม"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-09",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 9,
+      "nameTh": "ชุมชนจิระนคร",
+      "nameThNormalized": "ชุมชนจิระนคร",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนจิระนคร",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 127300,
+        "areaKm2Printed": 0.12,
+        "population": 1247,
+        "male": 546,
+        "female": 701,
+        "households": 666,
+        "maleFemaleSum": 1247,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนจิระนคร",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 21,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนเพชรเกษม ซอย 17",
+          "south": "ถนนจุติอนุสรณ์",
+          "east": "ถนนสามชัย",
+          "west": "ถนนสุวรรณวงศ์ ถนนจิระนคร ซอย 1 และถนนเพชรเกษม ซอย 19"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-10",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 10,
+      "nameTh": "ชุมชนท่งเซียเซี่ยงตึ๊ง",
+      "nameThNormalized": "ชุมชนท่งเซียเซี่ยงตึ๊ง",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนท่งเซียเซี่ยงตึ๊ง",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 162100,
+        "areaKm2Printed": 0.16,
+        "population": 1950,
+        "male": 911,
+        "female": 1039,
+        "households": 1030,
+        "maleFemaleSum": 1950,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนท่งเซียเซี่ยงตึ๊ง",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 23,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "แนวคลองเตย",
+          "south": "ถนนประชาธิปัตย์ (ชุมชนประชาธิปัตย์)",
+          "east": "แนวคลองเตย (ชุมชนสามชัย)",
+          "west": "ถนนประชาธิปัตย์ 1"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-11",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 11,
+      "nameTh": "ชุมชนประชาธิปัตย์",
+      "nameThNormalized": "ชุมชนประชาธิปัตย์",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนประชาธิปัตย์",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 198900,
+        "areaKm2Printed": 0.19,
+        "population": 985,
+        "male": 474,
+        "female": 511,
+        "households": 615,
+        "maleFemaleSum": 985,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนประชาธิปัตย์",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 25,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนศุภสารรังสรรค์",
+          "south": "ถนนธรรมนูญวิถี",
+          "east": "ถนนราษฎร์ยินดี",
+          "west": "ถนนประชาธิปัตย์ 1"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-12",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 12,
+      "nameTh": "ชุมชนสามชัย",
+      "nameThNormalized": "ชุมชนสามชัย",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนสามชัย",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 249400,
+        "areaKm2Printed": 0.24,
+        "population": 1178,
+        "male": 538,
+        "female": 660,
+        "households": 738,
+        "maleFemaleSum": 1198,
+        "checks": {
+          "populationEqualsMalePlusFemale": false,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [
+          "printed total 1178 != male+female 1198"
+        ],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนสามชัย",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 27,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนจุติอนุสรณ์ และแนวคลองเตย",
+          "south": "ถนนศุภสารรังสรรค์",
+          "east": "ถนนราษฎร์ยินดี",
+          "west": "ถนนสุวรรณวงศ์ (ชุมชนท่งเซี่ยเซี่ยงตึ๊ง)"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-13",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 13,
+      "nameTh": "ชุมชนหน้าโรงเรียน ญ.ว.",
+      "nameThNormalized": "ชุมชนหน้าโรงเรียน ญ.ว.",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหน้าโรงเรียน ญ.ว.",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 99000,
+        "areaKm2Printed": 0.09,
+        "population": 884,
+        "male": 389,
+        "female": 495,
+        "households": 725,
+        "maleFemaleSum": 884,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนหน้าโรงเรียน ญ.ว.",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 29,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนเพชรเกษม",
+          "south": "แนวคลองเตยและถนนจิระนคร (ชุมชนจิระนคร)",
+          "east": "ถนนสามชัย",
+          "west": "ถนนจุติอนุสรณ์"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-14",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 14,
+      "nameTh": "ชุมชนชุมอุทิศ",
+      "nameThNormalized": "ชุมชนชุมอุทิศ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนชุมอุทิศ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 161500,
+        "areaKm2Printed": 0.16,
+        "population": 652,
+        "male": 296,
+        "female": 356,
+        "households": 362,
+        "maleFemaleSum": 652,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนชุมอุทิศ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 31,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนเพชรเกษม",
+          "south": "ซอยชุมอุทิศ 1 และแนวถนนคลองเตย",
+          "east": "แนวถนนคลองเตย",
+          "west": "ถนนสามชัย"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-15",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 15,
+      "nameTh": "ชุมชนโรงพยาบาลกรุงเทพ",
+      "nameThNormalized": "ชุมชนโรงพยาบาลกรุงเทพ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนโรงพยาบาลกรุงเทพ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 185500,
+        "areaKm2Printed": 0.18,
+        "population": 1365,
+        "male": 603,
+        "female": 762,
+        "households": 724,
+        "maleFemaleSum": 1365,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนโรงพยาบาลกรุงเทพ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 33,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนเพชรเกษม",
+          "south": "ถนนวงศ์วานิช",
+          "east": "ถนนเพชรเกษม ซอย 11",
+          "west": "ถนนคลองเรียน 1"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-16",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 16,
+      "nameTh": "ชุมชนบ้านจ่า",
+      "nameThNormalized": "ชุมชนบ้านจ่า",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนบ้านจ่า",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 142600,
+        "areaKm2Printed": 0.14,
+        "population": 1480,
+        "male": 646,
+        "female": 834,
+        "households": 1033,
+        "maleFemaleSum": 1480,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนบ้านจ่า",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 35,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนเพชรเกษม",
+          "south": "ซอย 3 ถนนราษฎร์ยินดี",
+          "east": "ถนนคลองเรียน 1",
+          "west": "ถนนราษฎร์ยินดี"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-17",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 17,
+      "nameTh": "ชุมชนดรุณศึกษา",
+      "nameThNormalized": "ชุมชนดรุณศึกษา",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนดรุณศึกษา",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 298900,
+        "areaKm2Printed": 0.29,
+        "population": 1725,
+        "male": 722,
+        "female": 1003,
+        "households": 1509,
+        "maleFemaleSum": 1725,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนดรุณศึกษา",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 37,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนราษฎร์ยินดี ซอย 3 และถนนวงศ์วานิช",
+          "south": "ถนนศุภสารรังสรรค์",
+          "east": "ถนนประชายินดี",
+          "west": "ถนนราษฎร์ยินดี"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-18",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 18,
+      "nameTh": "ชุมชนกลางนา",
+      "nameThNormalized": "ชุมชนกลางนา",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนกลางนา",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 299400,
+        "areaKm2Printed": 0.29,
+        "population": 2207,
+        "male": 976,
+        "female": 1231,
+        "households": 892,
+        "maleFemaleSum": 2207,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนกลางนา",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 39,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนเพชรเกษม",
+          "south": "ถนนกาญจนวณิชย์ ซอย 17",
+          "east": "ถนนเพชรเกษม ซอย 5",
+          "west": "ถนนเพชรเกษม ซอย 11"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-19",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 19,
+      "nameTh": "ชุมชนหน้าโรงเรียนโสตศึกษา",
+      "nameThNormalized": "ชุมชนหน้าโรงเรียนโสตศึกษา",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหน้าโรงเรียนโสตศึกษา",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 700000,
+        "areaKm2Printed": 0.7,
+        "population": 1752,
+        "male": 795,
+        "female": 957,
+        "households": 970,
+        "maleFemaleSum": 1752,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนหน้าโรงเรียนโสตศึกษา",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 41,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนเพชรเกษม",
+          "south": "ถนนศุภสารรังสรรค์",
+          "east": "แนวเขตเทศบาลเมืองคอหงส์",
+          "west": "ถ.เพชรเกษม ซ.5 ถ.กาญจนวนิช ซ.17 และ ถ.ประชายินดี"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-20",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 20,
+      "nameTh": "ชุมชนหัวนาหัก",
+      "nameThNormalized": "ชุมชนหัวนาหัก",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหัวนาหัก",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 158800,
+        "areaKm2Printed": 0.15,
+        "population": 1326,
+        "male": 590,
+        "female": 736,
+        "households": 1138,
+        "maleFemaleSum": 1326,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนหัวนาหัก",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 43,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนศุภสารรังสรรค์",
+          "south": "ถนนธรรมนูญวิถี",
+          "east": "ถนนคลองเรียน 1",
+          "west": "ถนนราษฎร์ยินดี"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-21",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 21,
+      "nameTh": "ชุมชนซีกิมหยง",
+      "nameThNormalized": "ชุมชนซีกิมหยง",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนซีกิมหยง",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 122500,
+        "areaKm2Printed": 0.12,
+        "population": 707,
+        "male": 309,
+        "female": 398,
+        "households": 387,
+        "maleFemaleSum": 707,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนซีกิมหยง",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 45,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนชลธารา (แนวคลองเตย)",
+          "south": "ถนนหอยมุกต์ (แนวคลองเตย)",
+          "east": "ถนนละม้ายสงเคราะห์",
+          "west": "ถนนชลธารา (แนวคลองเตย)"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-22",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 22,
+      "nameTh": "ชุมชนละม้ายสงเคราะห์",
+      "nameThNormalized": "ชุมชนละม้ายสงเคราะห์",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนละม้ายสงเคราะห์",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 314600,
+        "areaKm2Printed": 0.31,
+        "population": 1177,
+        "male": 517,
+        "female": 660,
+        "households": 614,
+        "maleFemaleSum": 1177,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนละม้ายสงเคราะห์",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 47,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนธรรมนูญวิถี",
+          "south": "ถนนศรีภูวนารถ",
+          "east": "ถนนราษฎร์ยินดี",
+          "west": "ถนนละม้ายสงเคราะห์"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-23",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 23,
+      "nameTh": "ชุมชนคลองเรียน",
+      "nameThNormalized": "ชุมชนคลองเรียน",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนคลองเรียน",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 307100,
+        "areaKm2Printed": 0.3,
+        "population": 1892,
+        "male": 857,
+        "female": 1035,
+        "households": 1450,
+        "maleFemaleSum": 1892,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนคลองเรียน",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 49,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนธรรมนูญวิถี",
+          "south": "ถนนศรีภูวนารถ",
+          "east": "ถนนคลองเรียน 2",
+          "west": "ถนนราษฎร์ยินดี"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-24",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 24,
+      "nameTh": "ชุมชนบ้านร่มเย็น",
+      "nameThNormalized": "ชุมชนบ้านร่มเย็น",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนบ้านร่มเย็น",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 153800,
+        "areaKm2Printed": 0.15,
+        "population": 1811,
+        "male": 833,
+        "female": 978,
+        "households": 768,
+        "maleFemaleSum": 1811,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนบ้านร่มเย็น",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 51,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนธรรมนูญวิถี",
+          "south": "ถนนคลองเรียน 2 ซอย 2",
+          "east": "แนวคลองเตย (ชุมชนตลาดคลองเรียน)",
+          "west": "ถนนคลองเรียน 2"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-25",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 25,
+      "nameTh": "ชุมชนทุ่งคลองเรียน",
+      "nameThNormalized": "ชุมชนทุ่งคลองเรียน",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนทุ่งคลองเรียน",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 143100,
+        "areaKm2Printed": 0.14,
+        "population": 654,
+        "male": 324,
+        "female": 330,
+        "households": 271,
+        "maleFemaleSum": 654,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนทุ่งคลองเรียน",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 53,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนคลองเรียน 2 ซอย 2",
+          "south": "ถนนศรีภูวนารถ",
+          "east": "ถนนกาญจนวนิช",
+          "west": "ถนนคลองเรียน 2"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-26",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 26,
+      "nameTh": "ชุมชนตลาดคลองเรียน",
+      "nameThNormalized": "ชุมชนตลาดคลองเรียน",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนตลาดคลองเรียน",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 208300,
+        "areaKm2Printed": 0.2,
+        "population": 753,
+        "male": 367,
+        "female": 386,
+        "households": 466,
+        "maleFemaleSum": 753,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนตลาดคลองเรียน",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 55,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนธรรมนูญวิถี",
+          "south": "แนวคลองเตย (ถนนคลองเรียน 2 ซอย 2)",
+          "east": "ถนนกาญจนวนิช",
+          "west": "แนวคลองเตย (บ้านร่มเย็น)"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-27",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 27,
+      "nameTh": "ชุมชน มอ. - คลองเรียน ๑",
+      "nameThNormalized": "ชุมชน มอ. - คลองเรียน 1",
+      "nameEn": null,
+      "boundaryNoticeNameTh": "ชุมชน มอ. - คลองเรียน 1",
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชน มอ. - คลองเรียน ๑",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 605000,
+        "areaKm2Printed": 0.6,
+        "population": 144,
+        "male": 55,
+        "female": 89,
+        "households": 118,
+        "maleFemaleSum": 144,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชน มอ. - คลองเรียน 1",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 57,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนศุภสารรังสรรค์",
+          "south": "ถนนธรรมนูญวิถี",
+          "east": "ถนนกาญจนวณิช",
+          "west": "ถนนคลองเรียน 1"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-28",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 28,
+      "nameTh": "ชุมชนสามแยกคลองเรียน",
+      "nameThNormalized": "ชุมชนสามแยกคลองเรียน",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนสามแยกคลองเรียน",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 61200,
+        "areaKm2Printed": 0.06,
+        "population": 529,
+        "male": 250,
+        "female": 279,
+        "households": 320,
+        "maleFemaleSum": 529,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนสามแยกคลองเรียน",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 59,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนปุณณกัณฑ์",
+          "south": "ถนนทวีวรรณ์",
+          "east": "แนวเขตเทศบาลเมืองคอหงส์",
+          "west": "ถนนกาญจนวนิช"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c2-29",
+      "zoneNo": 2,
+      "zoneId": "hy-z2",
+      "seqInZone": 29,
+      "nameTh": "ชุมชนผาสุก - เคียงดาว",
+      "nameThNormalized": "ชุมชนผาสุก - เคียงดาว",
+      "nameEn": null,
+      "boundaryNoticeNameTh": "ชุมชนผาสุก-เคียงดาว",
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนผาสุก - เคียงดาว",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 168500,
+        "areaKm2Printed": 0.16,
+        "population": 1330,
+        "male": 599,
+        "female": 731,
+        "households": 665,
+        "maleFemaleSum": 1330,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนผาสุก-เคียงดาว",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "sourcePage": 61,
+        "announcement": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนทวีวรรณ์",
+          "south": "แนวเขตรถไฟ",
+          "east": "แนวเขตเทศบาลเมืองคอหงส์",
+          "west": "ถนนกาญจนวนิช"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-01",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 1,
+      "nameTh": "ชุมชนริมควน",
+      "nameThNormalized": "ชุมชนริมควน",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนริมควน",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 443090,
+        "areaKm2Printed": 0.44,
+        "population": 2947,
+        "male": 1363,
+        "female": 1584,
+        "households": 1434,
+        "maleFemaleSum": 2947,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนริมควน",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 4,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": {
+          "north": "แนวถนนเพชรเกษม",
+          "south": "แนวเขตเทศบาลเมืองควนลัง",
+          "east": "ซอย41 ถนนเพชรเกษม",
+          "west": "แนวเขตเทศบาลเมืองควนลัง"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-02",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 2,
+      "nameTh": "ชุมชนคลองระบายน้ำที่ 1",
+      "nameThNormalized": "ชุมชนคลองระบายน้ำที่ 1",
+      "nameEn": null,
+      "boundaryNoticeNameTh": "ชุมชนคลองระบายน้ำที่ ๑",
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนคลองระบายน้ำที่ 1",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 327121,
+        "areaKm2Printed": 0.32,
+        "population": 2269,
+        "male": 1074,
+        "female": 1195,
+        "households": 937,
+        "maleFemaleSum": 2269,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนคลองระบายน้ำที่ ๑",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 6,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-03",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 3,
+      "nameTh": "ชุมชนเทศาพัฒนา",
+      "nameThNormalized": "ชุมชนเทศาพัฒนา",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนเทศาพัฒนา",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 64499,
+        "areaKm2Printed": 0.06,
+        "population": 1435,
+        "male": 654,
+        "female": 781,
+        "households": 576,
+        "maleFemaleSum": 1435,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนเทศาพัฒนา",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 8,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-04",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 4,
+      "nameTh": "ชุมชนตลาดพ่อพรหม",
+      "nameThNormalized": "ชุมชนตลาดพ่อพรหม",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนตลาดพ่อพรหม",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 112184,
+        "areaKm2Printed": 0.11,
+        "population": 1571,
+        "male": 751,
+        "female": 820,
+        "households": 497,
+        "maleFemaleSum": 1571,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนตลาดพ่อพรหม",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 10,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-05",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 5,
+      "nameTh": "ชุมชนศาลาลุงทอง",
+      "nameThNormalized": "ชุมชนศาลาลุงทอง",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนศาลาลุงทอง",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 80911,
+        "areaKm2Printed": 0.08,
+        "population": 1258,
+        "male": 596,
+        "female": 662,
+        "households": 520,
+        "maleFemaleSum": 1258,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนศาลาลุงทอง",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 12,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-06",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 6,
+      "nameTh": "ชุมชนหลังที่ว่าการอำเภอ",
+      "nameThNormalized": "ชุมชนหลังที่ว่าการอำเภอ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหลังที่ว่าการอำเภอ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 130578,
+        "areaKm2Printed": 0.13,
+        "population": 1145,
+        "male": 549,
+        "female": 596,
+        "households": 252,
+        "maleFemaleSum": 1145,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนหลังที่ว่าการอำเภอ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 14,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-07",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 7,
+      "nameTh": "ชุมชนบ้านหาดใหญ่",
+      "nameThNormalized": "ชุมชนบ้านหาดใหญ่",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนบ้านหาดใหญ่",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 117172,
+        "areaKm2Printed": 0.11,
+        "population": 1127,
+        "male": 515,
+        "female": 612,
+        "households": 662,
+        "maleFemaleSum": 1127,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนบ้านหาดใหญ่",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 16,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-08",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 8,
+      "nameTh": "ชุมชนท่าเคียน",
+      "nameThNormalized": "ชุมชนท่าเคียน",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนท่าเคียน",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 304474,
+        "areaKm2Printed": 0.3,
+        "population": 804,
+        "male": 354,
+        "female": 450,
+        "households": 486,
+        "maleFemaleSum": 804,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนท่าเคียน",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 18,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-09",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 9,
+      "nameTh": "ชุมชนดีแลนด์ - ไทยเจริญ",
+      "nameThNormalized": "ชุมชนดีแลนด์ - ไทยเจริญ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": "ชุมชนดีแลนด์ – ไทยเจริญ",
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนดีแลนด์ - ไทยเจริญ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 157161,
+        "areaKm2Printed": 0.15,
+        "population": 1295,
+        "male": 599,
+        "female": null,
+        "households": 538,
+        "maleFemaleSum": null,
+        "checks": {
+          "populationEqualsMalePlusFemale": null,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [
+          "female: printed \"๗๓๐๖๙๖\" — Printed female count is malformed; population - male = 696. Female left null."
+        ],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนดีแลนด์ – ไทยเจริญ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 20,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-10",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 10,
+      "nameTh": "ชุมชนปลักกริม",
+      "nameThNormalized": "ชุมชนปลักกริม",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนปลักกริม",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 296284,
+        "areaKm2Printed": 0.29,
+        "population": 1198,
+        "male": 555,
+        "female": 643,
+        "households": 616,
+        "maleFemaleSum": 1198,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนปลักกริม",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 22,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-11",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 11,
+      "nameTh": "ชุมชนจันทร์ประทีป",
+      "nameThNormalized": "ชุมชนจันทร์ประทีป",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนจันทร์ประทีป",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 120722,
+        "areaKm2Printed": 0.12,
+        "population": 744,
+        "male": 349,
+        "female": 395,
+        "households": 210,
+        "maleFemaleSum": 744,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนจันทร์ประทีป",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 24,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-12",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 12,
+      "nameTh": "ชุมชนจันทร์วิโรจน์",
+      "nameThNormalized": "ชุมชนจันทร์วิโรจน์",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนจันทร์วิโรจน์",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 111238,
+        "areaKm2Printed": 0.11,
+        "population": 1301,
+        "male": 584,
+        "female": 727,
+        "households": 474,
+        "maleFemaleSum": 1311,
+        "checks": {
+          "populationEqualsMalePlusFemale": false,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [
+          "printed total 1301 != male+female 1311",
+          "population: printed \"๑,๓๐๑ (ชาย ๕๘๔ / หญิง ๗๒๗)\" — Printed total 1,301 but male + female = 1,311. Printed values kept as published."
+        ],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนจันทร์วิโรจน์",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 26,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-13",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 13,
+      "nameTh": "ชุมชนรัตนวิบูลย์",
+      "nameThNormalized": "ชุมชนรัตนวิบูลย์",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนรัตนวิบูลย์",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "unavailable"
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-14",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 14,
+      "nameTh": "ชุมชนจันทร์นิเวศน์",
+      "nameThNormalized": "ชุมชนจันทร์นิเวศน์",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนจันทร์นิเวศน์",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 231999,
+        "areaKm2Printed": 0.23,
+        "population": 1946,
+        "male": 864,
+        "female": 1082,
+        "households": 1007,
+        "maleFemaleSum": 1946,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนจันทร์นิเวศน์",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 29,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-15",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 15,
+      "nameTh": "ชุมชนทุ่งเสา",
+      "nameThNormalized": "ชุมชนทุ่งเสา",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนทุ่งเสา",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 242949,
+        "areaKm2Printed": 0.24,
+        "population": 2885,
+        "male": 1308,
+        "female": 1577,
+        "households": 1553,
+        "maleFemaleSum": 2885,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนทุ่งเสา",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 31,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-16",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 16,
+      "nameTh": "ชุมชนอู่ญี่ปุ่น",
+      "nameThNormalized": "ชุมชนอู่ญี่ปุ่น",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนอู่ญี่ปุ่น",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 221217,
+        "areaKm2Printed": 0.22,
+        "population": 1888,
+        "male": 856,
+        "female": 1032,
+        "households": 1079,
+        "maleFemaleSum": 1888,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนอู่ญี่ปุ่น",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 33,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-17",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 17,
+      "nameTh": "ชุมชนขนส่ง",
+      "nameThNormalized": "ชุมชนขนส่ง",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนขนส่ง",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 464304,
+        "areaKm2Printed": 0.46,
+        "population": 1586,
+        "male": 724,
+        "female": 862,
+        "households": 952,
+        "maleFemaleSum": 1586,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนขนส่ง",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 35,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-18",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 18,
+      "nameTh": "ชุมชนหน้าวัดคลองเรียน",
+      "nameThNormalized": "ชุมชนหน้าวัดคลองเรียน",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหน้าวัดคลองเรียน",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 195230,
+        "areaKm2Printed": 0.19,
+        "population": 1119,
+        "male": 515,
+        "female": 604,
+        "households": 1553,
+        "maleFemaleSum": 1119,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": false,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [
+          "households: printed \"๑,๕๕๓\" — Printed households (1,553) exceed printed population (1,119) and are identical to ชุมชนทุ่งเสา's figure; probably a copy error in the source. Kept as printed and flagged.",
+          "households (1553) exceed population (1119)"
+        ],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนหน้าวัดคลองเรียน",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 37,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-19",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 19,
+      "nameTh": "ชุมชนไทยโฮเต็ล",
+      "nameThNormalized": "ชุมชนไทยโฮเต็ล",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนไทยโฮเต็ล",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 178727,
+        "areaKm2Printed": 0.17,
+        "population": 1133,
+        "male": 490,
+        "female": 643,
+        "households": 658,
+        "maleFemaleSum": 1133,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนไทยโฮเต็ล",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 39,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "osm",
+        "lon": 100.4631368,
+        "lat": 6.9969764,
+        "osmId": "node/4367170491",
+        "osmName": "ศูนย์สาธารณสุขมูลฐานชุมชนชุมชนไทยโฮเต็ล",
+        "matchMethod": "osm-name-contains-full-official-community-name",
+        "approxZoneNo": 3
+      }
+    },
+    {
+      "id": "hy-c3-20",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 20,
+      "nameTh": "ชุมชนหน้าสถานีรถไฟ",
+      "nameThNormalized": "ชุมชนหน้าสถานีรถไฟ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหน้าสถานีรถไฟ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 111300,
+        "areaKm2Printed": 0.11,
+        "population": 1321,
+        "male": 587,
+        "female": 734,
+        "households": 1111,
+        "maleFemaleSum": 1321,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนหน้าสถานีรถไฟ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 41,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-21",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 21,
+      "nameTh": "ชุมชนหลังโรงพัก",
+      "nameThNormalized": "ชุมชนหลังโรงพัก",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหลังโรงพัก",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 56760,
+        "areaKm2Printed": 0.05,
+        "population": 1357,
+        "male": 615,
+        "female": 742,
+        "households": 591,
+        "maleFemaleSum": 1357,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนหลังโรงพัก",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 43,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-22",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 22,
+      "nameTh": "ชุมชนหลังอู่รถไฟ",
+      "nameThNormalized": "ชุมชนหลังอู่รถไฟ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหลังอู่รถไฟ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 63733,
+        "areaKm2Printed": 0.06,
+        "population": 651,
+        "male": 329,
+        "female": 322,
+        "households": 301,
+        "maleFemaleSum": 651,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนหลังอู่รถไฟ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 45,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-23",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 23,
+      "nameTh": "ชุมชนประชาราษฎร์อุทิศ",
+      "nameThNormalized": "ชุมชนประชาราษฎร์อุทิศ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนประชาราษฎร์อุทิศ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 138219,
+        "areaKm2Printed": 0.13,
+        "population": 882,
+        "male": 382,
+        "female": 500,
+        "households": 407,
+        "maleFemaleSum": 882,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนประชาราษฎร์อุทิศ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 47,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-24",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 24,
+      "nameTh": "ชุมชนแฟลตเคหะใหม่",
+      "nameThNormalized": "ชุมชนแฟลตเคหะใหม่",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนแฟลตเคหะใหม่",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 17998,
+        "areaKm2Printed": 0.01,
+        "population": 1048,
+        "male": 476,
+        "female": 572,
+        "households": 367,
+        "maleFemaleSum": 1048,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนแฟลตเคหะใหม่",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 49,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c3-25",
+      "zoneNo": 3,
+      "zoneId": "hy-z3",
+      "seqInZone": 25,
+      "nameTh": "ชุมชนแฟลตเคหะเก่า",
+      "nameThNormalized": "ชุมชนแฟลตเคหะเก่า",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนแฟลตเคหะเก่า",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 13000,
+        "areaKm2Printed": 0.01,
+        "population": 588,
+        "male": 258,
+        "female": 330,
+        "households": 361,
+        "maleFemaleSum": 588,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "manual-transcription-of-scanned-page",
+        "printedNameTh": "ชุมชนแฟลตเคหะเก่า",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "sourcePage": 51,
+        "announcement": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "boundaryDescriptionTh": null
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-01",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 1,
+      "nameTh": "ชุมชนท่าไทร",
+      "nameThNormalized": "ชุมชนท่าไทร",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนท่าไทร",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 168035,
+        "areaKm2Printed": 0.16,
+        "population": 1137,
+        "male": 500,
+        "female": 637,
+        "households": 438,
+        "maleFemaleSum": 1137,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนท่าไทร",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 5,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "แนวทางรถไฟ",
+          "south": "เขตถนนสัจจกุล",
+          "east": "ถนนสาครมงคล",
+          "west": "คลองอู่ตะเภา"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-02",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 2,
+      "nameTh": "ชุมชนสถานีอู่ตะเภา",
+      "nameThNormalized": "ชุมชนสถานีอู่ตะเภา",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนสถานีอู่ตะเภา",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 31280,
+        "areaKm2Printed": 0.03,
+        "population": 215,
+        "male": 101,
+        "female": 114,
+        "households": 60,
+        "maleFemaleSum": 215,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนสถานีอู่ตะเภา",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 7,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "คลองอู่ตะเภา",
+          "south": "เขตชุมชนต้นโด",
+          "east": "แนวทางรถไฟ",
+          "west": "ชุมชนหัวพานรถไฟ"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-03",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 3,
+      "nameTh": "ชุมชนต้นโด",
+      "nameThNormalized": "ชุมชนต้นโด",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนต้นโด",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 301689,
+        "areaKm2Printed": 0.3,
+        "population": 2152,
+        "male": 975,
+        "female": 1177,
+        "households": 684,
+        "maleFemaleSum": 2152,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนต้นโด",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 9,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ชุมชนสถานีอู่ตะเภา",
+          "south": "ถนนสัจจกุล",
+          "east": "แนวทางรถไฟ",
+          "west": "ถนนราษฎร์อุทิศ"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-04",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 4,
+      "nameTh": "ชุมชนหน้าโรงเหล้าสรรพสามิตร",
+      "nameThNormalized": "ชุมชนหน้าโรงเหล้าสรรพสามิตร",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหน้าโรงเหล้าสรรพสามิตร",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 200296,
+        "areaKm2Printed": 0.2,
+        "population": 1011,
+        "male": 500,
+        "female": 511,
+        "households": 471,
+        "maleFemaleSum": 1011,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนหน้าโรงเหล้าสรรพสามิตร",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 11,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "แนวเขตถนนสัจจกุล",
+          "south": "ถนนราษฎร์อุทิศ ซอย 4",
+          "east": "ถนนราษฎร์อุทิศ",
+          "west": "คลองอู่ตะเภา"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-05",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 5,
+      "nameTh": "ชุมชนสัจจกุล",
+      "nameThNormalized": "ชุมชนสัจจกุล",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนสัจจกุล",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 203959,
+        "areaKm2Printed": 0.2,
+        "population": 2196,
+        "male": 1010,
+        "female": 1186,
+        "households": 960,
+        "maleFemaleSum": 2196,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนสัจจกุล",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 13,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "แนวเขตถนนสัจจกุล",
+          "south": "แนวเขตซอย 17 รัตนอุทิศ",
+          "east": "แนวถนนรัตนอุทิศ",
+          "west": "ถนนราษฎร์อุทิศ"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-06",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 6,
+      "nameTh": "ชุมชนรัชมังคลาภิเษก",
+      "nameThNormalized": "ชุมชนรัชมังคลาภิเษก",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนรัชมังคลาภิเษก",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 107498,
+        "areaKm2Printed": 0.1,
+        "population": 2278,
+        "male": 1049,
+        "female": 1229,
+        "households": 666,
+        "maleFemaleSum": 2278,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนรัชมังคลาภิเษก",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 15,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "แนวเขตหมู่บ้านมั่นคงสามัคคี",
+          "south": "แนวถนนโชคสมาน 5 ซอย 8",
+          "east": "เขตริมทางรถไฟโชคสมาน",
+          "west": "แนวถนนรัตนอุทิศ"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-07",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 7,
+      "nameTh": "ชุมชนบ้านฉาง",
+      "nameThNormalized": "ชุมชนบ้านฉาง",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนบ้านฉาง",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 211120,
+        "areaKm2Printed": 0.21,
+        "population": 2667,
+        "male": 1218,
+        "female": 1449,
+        "households": 1029,
+        "maleFemaleSum": 2667,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนบ้านฉาง",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 17,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "แนวถนนรัตนอุทิศ ซอย 17",
+          "south": "แนวถนนรัตนอุทิศ ซอย 11",
+          "east": "ถนนรัตนอุทิศ",
+          "west": "แนวถนนราษฎร์อุทิศ"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-08",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 8,
+      "nameTh": "ชุมชนสามทหาร",
+      "nameThNormalized": "ชุมชนสามทหาร",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนสามทหาร",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 67497,
+        "areaKm2Printed": 0.06,
+        "population": 997,
+        "male": 458,
+        "female": 539,
+        "households": 300,
+        "maleFemaleSum": 997,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนสามทหาร",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 19,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "แนวเขตซอย 18 โชคสมาน 5",
+          "south": "แนวเขตซอย 13 โชคสมาน 5",
+          "east": "แนวเขตริมทางรถไฟ",
+          "west": "ถนนรัตนอุทิศ"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-09",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 9,
+      "nameTh": "ชุมชนบางหัก",
+      "nameThNormalized": "ชุมชนบางหัก",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนบางหัก",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 433624,
+        "areaKm2Printed": 0.43,
+        "population": 1780,
+        "male": 808,
+        "female": 972,
+        "households": 825,
+        "maleFemaleSum": 1780,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนบางหัก",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 21,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "แนวเขตถนนราษฎร์อุทิศ ซอย 25/1 และถนนสาครมงคล 2 ซอย 1",
+          "south": "แนวเขตถนนสาครมงคล ซอย 3",
+          "east": "ถนนราษฎร์อุทิศ",
+          "west": "คลองอู่ตะเภา"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-10",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 10,
+      "nameTh": "ชุมชนเกาะเลียบ",
+      "nameThNormalized": "ชุมชนเกาะเลียบ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนเกาะเลียบ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 293226,
+        "areaKm2Printed": 0.29,
+        "population": 3399,
+        "male": 1493,
+        "female": 1906,
+        "households": 1273,
+        "maleFemaleSum": 3399,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนเกาะเลียบ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 23,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนรัตนอุทิศ ซอย 11",
+          "south": "ถนนโชคสมาน 5 ซอย 7",
+          "east": "ถนนรัตนอุทิศ",
+          "west": "ถนนราษฎร์อุทิศ"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-11",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 11,
+      "nameTh": "ชุมชนรัตนอุทิศ",
+      "nameThNormalized": "ชุมชนรัตนอุทิศ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนรัตนอุทิศ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 95576,
+        "areaKm2Printed": 0.09,
+        "population": 2199,
+        "male": 1031,
+        "female": 1168,
+        "households": 686,
+        "maleFemaleSum": 2199,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนรัตนอุทิศ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 25,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนโชคสมาน 5 ซอย 15",
+          "south": "ถนนโชคสมาน 5 ซอย 15",
+          "east": "แนวเขตริมทางรถไฟ",
+          "west": "แนวถนนรัตนอุทิศ"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-12",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 12,
+      "nameTh": "ชุมชนสถานี 2",
+      "nameThNormalized": "ชุมชนสถานี 2",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนสถานี 2",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 116140,
+        "areaKm2Printed": 0.11,
+        "population": 2873,
+        "male": 1343,
+        "female": 1530,
+        "households": 817,
+        "maleFemaleSum": 2873,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนสถานี 2",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 27,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนโชคสมาน 5 ซอย 10",
+          "south": "ถนนโชคสมาน 5 ซอย 10",
+          "east": "แนวเขตทางรถไฟ",
+          "west": "แนวเขตถนนรัตนอุทิศ"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-13",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 13,
+      "nameTh": "ชุมชนมงคลหรรษา",
+      "nameThNormalized": "ชุมชนมงคลหรรษา",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนมงคลหรรษา",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 260436,
+        "areaKm2Printed": 0.26,
+        "population": 2038,
+        "male": 920,
+        "female": 1118,
+        "households": 1309,
+        "maleFemaleSum": 2038,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนมงคลหรรษา",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 29,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนสาครมงคล ซอย 3",
+          "south": "ซอยราษฎร์บูรณะ และถนนราษฎร์อุทิศ ซอย 19",
+          "east": "ถนนราษฎร์อุทิศ",
+          "west": "ถนนสาครมงคล"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-14",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 14,
+      "nameTh": "ชุมชนบ้านกลาง",
+      "nameThNormalized": "ชุมชนบ้านกลาง",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนบ้านกลาง",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 64967,
+        "areaKm2Printed": 0.06,
+        "population": 718,
+        "male": 314,
+        "female": 404,
+        "households": 286,
+        "maleFemaleSum": 718,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนบ้านกลาง",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 31,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนโชคสมาน 5 ซอย 7",
+          "south": "แนวเขตถนนราษฎร์อุทิศ ซอย 12",
+          "east": "ถนนสาลี และถนนเพชรเกษม ซอย 18",
+          "west": "ถนนราษฎร์อุทิศ"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-15",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 15,
+      "nameTh": "ชุมชนโชคสมาน",
+      "nameThNormalized": "ชุมชนโชคสมาน",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนโชคสมาน",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 163071,
+        "areaKm2Printed": 0.16,
+        "population": 3098,
+        "male": 1439,
+        "female": 1659,
+        "households": 1061,
+        "maleFemaleSum": 3098,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนโชคสมาน",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 33,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "แนวเขตโชคสมาน 5 ซอย 7",
+          "south": "แนวเขตถนนโชคสมาน 2 และถนนโชคสมานคุณ",
+          "east": "แนวถนนริมทางรถไฟ",
+          "west": "แนวเขตถนนสาลี"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-16",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 16,
+      "nameTh": "ชุมชนหน้าอำเภอ",
+      "nameThNormalized": "ชุมชนหน้าอำเภอ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหน้าอำเภอ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 123630,
+        "areaKm2Printed": 0.12,
+        "population": 1213,
+        "male": 534,
+        "female": 679,
+        "households": 512,
+        "maleFemaleSum": 1213,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนหน้าอ าเภอ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 35,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "แนวเขตถนนราษฎร์บูรณะ",
+          "south": "แนวเขตถนนเพชรเกษม",
+          "east": "ถนนเพชรเกษม และซอย 2 สันติราษฎร์ ซอย 20",
+          "west": "แนวคลองอู่ตะเภา"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-17",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 17,
+      "nameTh": "ชุมชนราษฎร์อุทิศ",
+      "nameThNormalized": "ชุมชนราษฎร์อุทิศ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนราษฎร์อุทิศ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 120801,
+        "areaKm2Printed": 0.12,
+        "population": 1937,
+        "male": 852,
+        "female": 1085,
+        "households": 1129,
+        "maleFemaleSum": 1937,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนราษฎร์อุทิศ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 37,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ถนนราษฎร์อุทิศ ซอย 19",
+          "south": "ถนนเพชรเกษม",
+          "east": "ถนนราษฎร์อุทิศ",
+          "west": "ถนนเพชรเกษม"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-18",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 18,
+      "nameTh": "ชุมชนวัดโคกสมานคุณ",
+      "nameThNormalized": "ชุมชนวัดโคกสมานคุณ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนวัดโคกสมานคุณ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 241997,
+        "areaKm2Printed": 0.24,
+        "population": 1660,
+        "male": 809,
+        "female": 851,
+        "households": 689,
+        "maleFemaleSum": 1660,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนวัดโคกสมานคุณ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 39,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "แนวเขตถนนโชคสมาน",
+          "south": "แนวเขตถนนเพชรเกษม",
+          "east": "แนวเขตทางรถไฟ",
+          "west": "แนวเขตถนนราษฎร์อุทิศ"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-19",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 19,
+      "nameTh": "ชุมชนวัดหาดใหญ่ใน",
+      "nameThNormalized": "ชุมชนวัดหาดใหญ่ใน",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนวัดหาดใหญ่ใน",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 313642,
+        "areaKm2Printed": 0.31,
+        "population": 2209,
+        "male": 1093,
+        "female": 1116,
+        "households": 787,
+        "maleFemaleSum": 2209,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนวัดหาดใหญ่ใน",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 41,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "คลองต ่า",
+          "south": "ถนนเพชรเกษม",
+          "east": "คลองอู่ตะเภา",
+          "west": "สะพานเมตตา"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-20",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 20,
+      "nameTh": "ชุมชนสถานีขนส่งหาดใหญ่ใน",
+      "nameThNormalized": "ชุมชนสถานีขนส่งหาดใหญ่ใน",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนสถานีขนส่งหาดใหญ่ใน",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 297589,
+        "areaKm2Printed": 0.29,
+        "population": 324,
+        "male": 145,
+        "female": 179,
+        "households": 202,
+        "maleFemaleSum": 324,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนสถานีขนส่งหาดใหญ่ใน",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 43,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "คลองต ่า",
+          "south": "ถนนเพชรเกษม",
+          "east": "สถานีขนส่งหาดใหญ่ใน",
+          "west": "แนวเขตเทศบาลควนลัง"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    },
+    {
+      "id": "hy-c4-21",
+      "zoneNo": 4,
+      "zoneId": "hy-z4",
+      "seqInZone": 21,
+      "nameTh": "ชุมชนหัวพานรถไฟ",
+      "nameThNormalized": "ชุมชนหัวพานรถไฟ",
+      "nameEn": null,
+      "boundaryNoticeNameTh": null,
+      "nameVerification": {
+        "chairmenPdfTextLayer": "ชุมชนหัวพานรถไฟ",
+        "exactMatch": true,
+        "markInsensitiveMatch": true
+      },
+      "stats": {
+        "status": "observed",
+        "definition": "Figures as printed in the municipal community-boundary announcement (population = persons, households = ครัวเรือน, area = พื้นที่ (โดยประมาณ)). The announcement does not state the reference date or method of the counts.",
+        "areaM2": 132533,
+        "areaKm2Printed": 0.13,
+        "population": 699,
+        "male": 301,
+        "female": 398,
+        "households": 332,
+        "maleFemaleSum": 699,
+        "checks": {
+          "populationEqualsMalePlusFemale": true,
+          "householdsNotAbovePopulation": true,
+          "areaM2MatchesKm2": true
+        },
+        "anomalies": [],
+        "extraction": "pdf-text-layer",
+        "printedNameTh": "ชุมชนหัวพานรถไฟ",
+        "sourcePdf": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+        "sourcePage": 45,
+        "announcement": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        },
+        "boundaryDescriptionTh": {
+          "north": "ชุมชนสถานีคลองอู่ตะเภา",
+          "south": "ถนนสัจจกุล",
+          "east": "ถนนราษฎร์อุทิศ",
+          "west": "ถนนสาครมงคล"
+        }
+      },
+      "location": {
+        "status": "unavailable",
+        "note": "no authoritative coordinate and no OSM feature with a matching name; not geocoded"
+      }
+    }
+  ],
+  "sources": {
+    "list": {
+      "page": "https://www.hatyaicity.go.th/content/cate/258",
+      "pdfs": {
+        "1": "https://www.hatyaicity.go.th/files/com_content/2026-10_52b9459ea4a7422.pdf",
+        "2": "https://www.hatyaicity.go.th/files/com_content/2026-10_88f95045c1f09cf.pdf",
+        "3": "https://www.hatyaicity.go.th/files/com_content/2026-10_c4082307b7aa624.pdf",
+        "4": "https://www.hatyaicity.go.th/files/com_content/2026-10_d3574032c938eaf.pdf"
+      },
+      "referenceDate": "2026-10-01",
+      "chairmenPdfMeta": {
+        "1": {
+          "zoneInHeader": 1,
+          "dataDateTh": "1 ตุลาคม 2569"
+        },
+        "2": {
+          "zoneInHeader": 2,
+          "dataDateTh": "1 ตุลาคม 2569"
+        },
+        "3": {
+          "zoneInHeader": 3,
+          "dataDateTh": "1 ตุลาคม 2569"
+        },
+        "4": {
+          "zoneInHeader": 4,
+          "dataDateTh": "1 ตุลาคม 2569"
+        }
+      }
+    },
+    "boundaryNotices": {
+      "page": "https://www.hatyaicity.go.th/content/cate/259",
+      "pdfs": {
+        "1": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+        "2": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+        "3": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+        "4": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf"
+      },
+      "announcements": {
+        "1": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๑"
+        },
+        "2": {
+          "announcedMonth": "2022-11",
+          "announcedTh": "ประกาศ ณ วันที่ ๘ (ลายมือ) พฤศจิกายน พ.ศ. ๒๕๖๕",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง แนวเขตชุมชน เขต ๒"
+        },
+        "3": {
+          "announcedMonth": "2023-01",
+          "announcedTh": "ประกาศ ณ วันที่ ๑๘ (ลายมือ) มกราคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๓"
+        },
+        "4": {
+          "announcedMonth": "2023-05",
+          "announcedTh": "ประกาศ ณ วันที่ ๒๒ (ลายมือ, ไม่ชัด) พฤษภาคม พ.ศ. ๒๕๖๖",
+          "titleTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน เขต ๔"
+        }
+      }
+    },
+    "map": {
+      "url": "https://www.hatyaicity.go.th/files/com_content/2025-12_025a423a70b78d4.pdf",
+      "titleTh": "แผนที่ชุมชนภายในเขตเทศบาลนครหาดใหญ่ จำนวน 103 ชุมชน",
+      "revisedTh": "ปรับปรุงเมื่อ 14 พ.ย. 2565",
+      "revised": "2022-11-14"
+    },
+    "manualInputs": [
+      "data/manual/hatyai-communities-official-list.json",
+      "data/manual/hatyai-boundary-notice-transcriptions.json"
+    ]
+  },
+  "privacy": "Chairperson names and phone numbers present in the source PDFs are intentionally not reproduced.",
+  "limitations": [
+    "nameEn is null: the municipality publishes no English community names.",
+    "Community figures come from the boundary announcements (Nov 2022 - May 2023); the reference date and counting method are not stated in the documents and the figures are not DOPA registration counts.",
+    "All 28 zone-1 information pages and 23 of the 24 zone-3 information pages are scanned images; their figures (51 communities) are manual transcriptions (checked with total = male + female). Zones 2 and 4 and the first zone-3 page are parsed from the PDF text layer (51 communities).",
+    "ชุมชนรัตนวิบูลย์ (เขต 3) has a map page but no information page in the announcement: statistics unavailable.",
+    "Only communities with an OSM feature whose name contains the official community name have a point; no geocoding by guesswork."
+  ]
+}

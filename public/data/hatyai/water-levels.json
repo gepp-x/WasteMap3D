@@ -1,0 +1,596 @@
+[
+  {
+    "id": "hii-ONE037",
+    "nameTh": "สะพานข้ามคลองอู่ตะเภา",
+    "nameEn": "Khlong U Taphao Bridge",
+    "lon": 100.45321,
+    "lat": 7.135,
+    "agency": "Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน))",
+    "waterway": "คลองอู่ตะเภา",
+    "waterLevel": {
+      "value": 0.37,
+      "unit": "m MSL",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge HII ONE037 “สะพานข้ามคลองอู่ตะเภา” on คลองอู่ตะเภา, ต.คูเต่า อ.หาดใหญ่ จ.สงขลา (Khu Tao, Hat Yai District, Songkhla).",
+        "methodology": "Telemetered water level as published (waterlevel_msl = \"0.37\" m above mean sea level, ม.รทก.) at waterlevel_datetime = \"2026-11-04 08:40\" (Thai local time, UTC+7). Originating agency: Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน)).",
+        "limitations": [
+          "Snapshot retrieved 2026-11-04T02:00:22.170Z; not live — rerun the script to refresh.",
+          "Telemetry as distributed by ThaiWater; not quality-controlled."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T08:40:00+07:00",
+    "bankLevel": {
+      "value": 0.84,
+      "unit": "m MSL",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge HII ONE037 “สะพานข้ามคลองอู่ตะเภา” on คลองอู่ตะเภา, ต.คูเต่า อ.หาดใหญ่ จ.สงขลา (Khu Tao, Hat Yai District, Songkhla).",
+        "methodology": "Station attribute min_bank = 0.84 m MSL as published by ThaiWater (the bank level ThaiWater uses as 100 % in its storage_percent). Published left/right bank: 0.836 / 1.127 m MSL.",
+        "limitations": [
+          "Station metadata as published; survey date not stated."
+        ]
+      }
+    },
+    "capacityPct": {
+      "value": 91.2,
+      "unit": "%",
+      "provenance": {
+        "status": "derived",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge HII ONE037 “สะพานข้ามคลองอู่ตะเภา” on คลองอู่ตะเภา, ต.คูเต่า อ.หาดใหญ่ จ.สงขลา (Khu Tao, Hat Yai District, Songkhla).",
+        "methodology": "(water level − ground level) ÷ (bank level − ground level) × 100 = (0.37 − -4.515) ÷ (0.84 − -4.515) × 100, using the published waterlevel_msl, ground_level (channel bed) and min_bank. ThaiWater's own storage_percent for this reading: 91.29 %.",
+        "limitations": [
+          "Share of the channel depth between bed and bank that is filled; not a flow-capacity measure."
+        ]
+      }
+    },
+    "situation": "น้ำมาก"
+  },
+  {
+    "id": "hii-ONE038",
+    "nameTh": "สะพานสวนเฉลิมพระเกียรติ 72 พรรษามหาราชินี",
+    "nameEn": "Queen Bridge",
+    "lon": 100.59448,
+    "lat": 7.18275,
+    "agency": "Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน))",
+    "waterway": "ทะเลสาบสงขลา",
+    "waterLevel": {
+      "value": 0.26,
+      "unit": "m MSL",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge HII ONE038 “สะพานสวนเฉลิมพระเกียรติ 72 พรรษามหาราชินี” on ทะเลสาบสงขลา, ต.หัวเขา อ.สิงหนคร จ.สงขลา (Hua Khao, Singhanakhon District, Songkhla).",
+        "methodology": "Telemetered water level as published (waterlevel_msl = \"0.26\" m above mean sea level, ม.รทก.) at waterlevel_datetime = \"2026-11-04 08:40\" (Thai local time, UTC+7). Originating agency: Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน)).",
+        "limitations": [
+          "Snapshot retrieved 2026-11-04T02:00:22.170Z; not live — rerun the script to refresh.",
+          "Telemetry as distributed by ThaiWater; not quality-controlled."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T08:40:00+07:00",
+    "bankLevel": {
+      "value": 0.9,
+      "unit": "m MSL",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge HII ONE038 “สะพานสวนเฉลิมพระเกียรติ 72 พรรษามหาราชินี” on ทะเลสาบสงขลา, ต.หัวเขา อ.สิงหนคร จ.สงขลา (Hua Khao, Singhanakhon District, Songkhla).",
+        "methodology": "Station attribute min_bank = 0.9 m MSL as published by ThaiWater (the bank level ThaiWater uses as 100 % in its storage_percent). Published left/right bank: 0.902 / 1.008 m MSL.",
+        "limitations": [
+          "Station metadata as published; survey date not stated."
+        ]
+      }
+    },
+    "capacityPct": {
+      "value": 62.4,
+      "unit": "%",
+      "provenance": {
+        "status": "derived",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge HII ONE038 “สะพานสวนเฉลิมพระเกียรติ 72 พรรษามหาราชินี” on ทะเลสาบสงขลา, ต.หัวเขา อ.สิงหนคร จ.สงขลา (Hua Khao, Singhanakhon District, Songkhla).",
+        "methodology": "(water level − ground level) ÷ (bank level − ground level) × 100 = (0.26 − -0.804) ÷ (0.9 − -0.804) × 100, using the published waterlevel_msl, ground_level (channel bed) and min_bank. ThaiWater's own storage_percent for this reading: 62.37 %.",
+        "limitations": [
+          "Share of the channel depth between bed and bank that is filled; not a flow-capacity measure."
+        ]
+      }
+    },
+    "situation": "น้ำปกติ"
+  },
+  {
+    "id": "hii-SLA002",
+    "nameTh": "คลองหอยโข่ง",
+    "nameEn": "Song Khla Lake 2",
+    "lon": 100.43985,
+    "lat": 6.93123,
+    "agency": "Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน))",
+    "waterway": "คลองอู่ตะเภา",
+    "waterLevel": {
+      "value": 2.24,
+      "unit": "m MSL",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge HII SLA002 “คลองหอยโข่ง” on คลองอู่ตะเภา, ต.ทุ่งลาน อ.คลองหอยโข่ง จ.สงขลา (Thung Lan, Khlong Hoi Khong District, Songkhla).",
+        "methodology": "Telemetered water level as published (waterlevel_msl = \"2.24\" m above mean sea level, ม.รทก.) at waterlevel_datetime = \"2026-11-04 08:40\" (Thai local time, UTC+7). Originating agency: Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน)).",
+        "limitations": [
+          "Snapshot retrieved 2026-11-04T02:00:22.170Z; not live — rerun the script to refresh.",
+          "Telemetry as distributed by ThaiWater; not quality-controlled."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T08:40:00+07:00",
+    "bankLevel": {
+      "value": 9.34,
+      "unit": "m MSL",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge HII SLA002 “คลองหอยโข่ง” on คลองอู่ตะเภา, ต.ทุ่งลาน อ.คลองหอยโข่ง จ.สงขลา (Thung Lan, Khlong Hoi Khong District, Songkhla).",
+        "methodology": "Station attribute min_bank = 9.34 m MSL as published by ThaiWater (the bank level ThaiWater uses as 100 % in its storage_percent). Published left/right bank: 9.339 / 11.211 m MSL.",
+        "limitations": [
+          "Station metadata as published; survey date not stated."
+        ]
+      }
+    },
+    "capacityPct": {
+      "value": 31.4,
+      "unit": "%",
+      "provenance": {
+        "status": "derived",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge HII SLA002 “คลองหอยโข่ง” on คลองอู่ตะเภา, ต.ทุ่งลาน อ.คลองหอยโข่ง จ.สงขลา (Thung Lan, Khlong Hoi Khong District, Songkhla).",
+        "methodology": "(water level − ground level) ÷ (bank level − ground level) × 100 = (2.24 − -1.013) ÷ (9.34 − -1.013) × 100, using the published waterlevel_msl, ground_level (channel bed) and min_bank. ThaiWater's own storage_percent for this reading: 31.42 %.",
+        "limitations": [
+          "Share of the channel depth between bed and bank that is filled; not a flow-capacity measure."
+        ]
+      }
+    },
+    "situation": "น้ำปกติ"
+  },
+  {
+    "id": "hii-SLA007",
+    "nameTh": "บางกล่ำ",
+    "nameEn": "Songkhla 7",
+    "lon": 100.42788,
+    "lat": 7.07942,
+    "agency": "Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน))",
+    "waterway": "คลองบางกล่ำ",
+    "waterLevel": {
+      "value": 0.33,
+      "unit": "m MSL",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge HII SLA007 “บางกล่ำ” on คลองบางกล่ำ, ต.ท่าช้าง อ.บางกล่ำ จ.สงขลา (Tha Chang, Bang Klam District, Songkhla).",
+        "methodology": "Telemetered water level as published (waterlevel_msl = \"0.33\" m above mean sea level, ม.รทก.) at waterlevel_datetime = \"2026-11-04 08:40\" (Thai local time, UTC+7). Originating agency: Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน)).",
+        "limitations": [
+          "Snapshot retrieved 2026-11-04T02:00:22.170Z; not live — rerun the script to refresh.",
+          "Telemetry as distributed by ThaiWater; not quality-controlled."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T08:40:00+07:00",
+    "bankLevel": {
+      "value": 1.59,
+      "unit": "m MSL",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge HII SLA007 “บางกล่ำ” on คลองบางกล่ำ, ต.ท่าช้าง อ.บางกล่ำ จ.สงขลา (Tha Chang, Bang Klam District, Songkhla).",
+        "methodology": "Station attribute min_bank = 1.59 m MSL as published by ThaiWater (the bank level ThaiWater uses as 100 % in its storage_percent). Published left/right bank: 1.592 / 2.71 m MSL.",
+        "limitations": [
+          "Station metadata as published; survey date not stated."
+        ]
+      }
+    },
+    "capacityPct": {
+      "value": 62.2,
+      "unit": "%",
+      "provenance": {
+        "status": "derived",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge HII SLA007 “บางกล่ำ” on คลองบางกล่ำ, ต.ท่าช้าง อ.บางกล่ำ จ.สงขลา (Tha Chang, Bang Klam District, Songkhla).",
+        "methodology": "(water level − ground level) ÷ (bank level − ground level) × 100 = (0.33 − -1.739) ÷ (1.59 − -1.739) × 100, using the published waterlevel_msl, ground_level (channel bed) and min_bank. ThaiWater's own storage_percent for this reading: 62.11 %.",
+        "limitations": [
+          "Share of the channel depth between bed and bank that is filled; not a flow-capacity measure."
+        ]
+      }
+    },
+    "situation": "น้ำปกติ"
+  },
+  {
+    "id": "rid-X.174",
+    "nameTh": "บ้านคลองหวะ",
+    "nameEn": "RID gauge X.174 (Kho Hong, Hat Yai District, Songkhla)",
+    "lon": 100.48186,
+    "lat": 6.98637,
+    "agency": "Royal Irrigation Department (RID; กรมชลประทาน)",
+    "waterway": "คลองหวะ",
+    "waterLevel": {
+      "value": 4.81,
+      "unit": "m MSL",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge RID X.174 “บ้านคลองหวะ” on คลองหวะ, ต.คอหงส์ อ.หาดใหญ่ จ.สงขลา (Kho Hong, Hat Yai District, Songkhla).",
+        "methodology": "Telemetered water level as published (waterlevel_msl = \"4.81\" m above mean sea level, ม.รทก.) at waterlevel_datetime = \"2026-11-04 08:00\" (Thai local time, UTC+7). Originating agency: Royal Irrigation Department (RID; กรมชลประทาน).",
+        "limitations": [
+          "Snapshot retrieved 2026-11-04T02:00:22.170Z; not live — rerun the script to refresh.",
+          "Telemetry as distributed by ThaiWater; not quality-controlled."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T08:00:00+07:00",
+    "bankLevel": {
+      "value": 8.88,
+      "unit": "m MSL",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge RID X.174 “บ้านคลองหวะ” on คลองหวะ, ต.คอหงส์ อ.หาดใหญ่ จ.สงขลา (Kho Hong, Hat Yai District, Songkhla).",
+        "methodology": "Station attribute min_bank = 8.88 m MSL as published by ThaiWater (the bank level ThaiWater uses as 100 % in its storage_percent). Published left/right bank: 8.88 / 8.88 m MSL.",
+        "limitations": [
+          "Station metadata as published; survey date not stated."
+        ]
+      }
+    },
+    "capacityPct": {
+      "value": 54.2,
+      "unit": "%",
+      "provenance": {
+        "status": "derived",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge RID X.174 “บ้านคลองหวะ” on คลองหวะ, ต.คอหงส์ อ.หาดใหญ่ จ.สงขลา (Kho Hong, Hat Yai District, Songkhla).",
+        "methodology": "(water level − ground level) ÷ (bank level − ground level) × 100 = (4.81 − 0) ÷ (8.88 − 0) × 100, using the published waterlevel_msl, ground_level (channel bed) and min_bank. ThaiWater's own storage_percent for this reading: 54.17 %.",
+        "limitations": [
+          "Share of the channel depth between bed and bank that is filled; not a flow-capacity measure."
+        ]
+      }
+    },
+    "situation": "น้ำปกติ"
+  },
+  {
+    "id": "rid-X.181",
+    "nameTh": "บ้านคลองแห",
+    "nameEn": "RID gauge X.181 (Ban Han, Bang Klam District, Songkhla)",
+    "lon": 100.45319,
+    "lat": 7.05997,
+    "agency": "Royal Irrigation Department (RID; กรมชลประทาน)",
+    "waterway": "คลองอู่ตะเภา",
+    "waterLevel": {
+      "value": 0.32,
+      "unit": "m MSL",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge RID X.181 “บ้านคลองแห” on คลองอู่ตะเภา, ต.บ้านหาร อ.บางกล่ำ จ.สงขลา (Ban Han, Bang Klam District, Songkhla).",
+        "methodology": "Telemetered water level as published (waterlevel_msl = \"0.32\" m above mean sea level, ม.รทก.) at waterlevel_datetime = \"2026-11-04 08:00\" (Thai local time, UTC+7). Originating agency: Royal Irrigation Department (RID; กรมชลประทาน).",
+        "limitations": [
+          "Snapshot retrieved 2026-11-04T02:00:22.170Z; not live — rerun the script to refresh.",
+          "Telemetry as distributed by ThaiWater; not quality-controlled."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T08:00:00+07:00",
+    "bankLevel": {
+      "value": 5,
+      "unit": "m MSL",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge RID X.181 “บ้านคลองแห” on คลองอู่ตะเภา, ต.บ้านหาร อ.บางกล่ำ จ.สงขลา (Ban Han, Bang Klam District, Songkhla).",
+        "methodology": "Station attribute min_bank = 5 m MSL as published by ThaiWater (the bank level ThaiWater uses as 100 % in its storage_percent). Published left/right bank: 3.427 / 4.127 m MSL.",
+        "limitations": [
+          "Station metadata as published; survey date not stated."
+        ]
+      }
+    },
+    "capacityPct": {
+      "value": 47.2,
+      "unit": "%",
+      "provenance": {
+        "status": "derived",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge RID X.181 “บ้านคลองแห” on คลองอู่ตะเภา, ต.บ้านหาร อ.บางกล่ำ จ.สงขลา (Ban Han, Bang Klam District, Songkhla).",
+        "methodology": "(water level − ground level) ÷ (bank level − ground level) × 100 = (0.32 − -3.861) ÷ (5 − -3.861) × 100, using the published waterlevel_msl, ground_level (channel bed) and min_bank. ThaiWater's own storage_percent for this reading: 47.18 %.",
+        "limitations": [
+          "Share of the channel depth between bed and bank that is filled; not a flow-capacity measure."
+        ]
+      }
+    },
+    "situation": "น้ำปกติ"
+  },
+  {
+    "id": "rid-X.240",
+    "nameTh": "บ้านหูแร่",
+    "nameEn": "RID gauge X.240 (Thung Tam Sao, Hat Yai District, Songkhla)",
+    "lon": 100.32833,
+    "lat": 6.98306,
+    "agency": "Royal Irrigation Department (RID; กรมชลประทาน)",
+    "waterway": "คลองวาด",
+    "waterLevel": {
+      "value": 17.91,
+      "unit": "m MSL",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge RID X.240 “บ้านหูแร่” on คลองวาด, ต.ทุ่งตำเสา อ.หาดใหญ่ จ.สงขลา (Thung Tam Sao, Hat Yai District, Songkhla).",
+        "methodology": "Telemetered water level as published (waterlevel_msl = \"17.91\" m above mean sea level, ม.รทก.) at waterlevel_datetime = \"2026-11-04 08:00\" (Thai local time, UTC+7). Originating agency: Royal Irrigation Department (RID; กรมชลประทาน).",
+        "limitations": [
+          "Snapshot retrieved 2026-11-04T02:00:22.170Z; not live — rerun the script to refresh.",
+          "Telemetry as distributed by ThaiWater; not quality-controlled."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T08:00:00+07:00",
+    "bankLevel": {
+      "value": 23.1,
+      "unit": "m MSL",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge RID X.240 “บ้านหูแร่” on คลองวาด, ต.ทุ่งตำเสา อ.หาดใหญ่ จ.สงขลา (Thung Tam Sao, Hat Yai District, Songkhla).",
+        "methodology": "Station attribute min_bank = 23.1 m MSL as published by ThaiWater (the bank level ThaiWater uses as 100 % in its storage_percent). Published left/right bank: 25.099 / 25.076 m MSL.",
+        "limitations": [
+          "Station metadata as published; survey date not stated."
+        ]
+      }
+    },
+    "capacityPct": {
+      "value": 16.7,
+      "unit": "%",
+      "provenance": {
+        "status": "derived",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge RID X.240 “บ้านหูแร่” on คลองวาด, ต.ทุ่งตำเสา อ.หาดใหญ่ จ.สงขลา (Thung Tam Sao, Hat Yai District, Songkhla).",
+        "methodology": "(water level − ground level) ÷ (bank level − ground level) × 100 = (17.91 − 16.869) ÷ (23.1 − 16.869) × 100, using the published waterlevel_msl, ground_level (channel bed) and min_bank. ThaiWater's own storage_percent for this reading: 16.71 %.",
+        "limitations": [
+          "Share of the channel depth between bed and bank that is filled; not a flow-capacity measure."
+        ]
+      }
+    },
+    "situation": "น้ำน้อย"
+  },
+  {
+    "id": "rid-X.44",
+    "nameTh": "บ้านหาดใหญ่ใน",
+    "nameEn": "RID gauge X.44 (Hat Yai, Hat Yai District, Songkhla)",
+    "lon": 100.45606,
+    "lat": 7.00218,
+    "agency": "Royal Irrigation Department (RID; กรมชลประทาน)",
+    "waterway": "คลองอู่ตะเภา",
+    "waterLevel": {
+      "value": 0.62,
+      "unit": "m MSL",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge RID X.44 “บ้านหาดใหญ่ใน” on คลองอู่ตะเภา, ต.หาดใหญ่ อ.หาดใหญ่ จ.สงขลา (Hat Yai, Hat Yai District, Songkhla).",
+        "methodology": "Telemetered water level as published (waterlevel_msl = \"0.62\" m above mean sea level, ม.รทก.) at waterlevel_datetime = \"2026-11-04 08:00\" (Thai local time, UTC+7). Originating agency: Royal Irrigation Department (RID; กรมชลประทาน).",
+        "limitations": [
+          "Snapshot retrieved 2026-11-04T02:00:22.170Z; not live — rerun the script to refresh.",
+          "Telemetry as distributed by ThaiWater; not quality-controlled."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T08:00:00+07:00",
+    "bankLevel": {
+      "value": 7.15,
+      "unit": "m MSL",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge RID X.44 “บ้านหาดใหญ่ใน” on คลองอู่ตะเภา, ต.หาดใหญ่ อ.หาดใหญ่ จ.สงขลา (Hat Yai, Hat Yai District, Songkhla).",
+        "methodology": "Station attribute min_bank = 7.15 m MSL as published by ThaiWater (the bank level ThaiWater uses as 100 % in its storage_percent). Published left/right bank: 8.68 / 8.661 m MSL; critical level 7.44 m MSL.",
+        "limitations": [
+          "Station metadata as published; survey date not stated."
+        ]
+      }
+    },
+    "capacityPct": {
+      "value": 30.2,
+      "unit": "%",
+      "provenance": {
+        "status": "derived",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge RID X.44 “บ้านหาดใหญ่ใน” on คลองอู่ตะเภา, ต.หาดใหญ่ อ.หาดใหญ่ จ.สงขลา (Hat Yai, Hat Yai District, Songkhla).",
+        "methodology": "(water level − ground level) ÷ (bank level − ground level) × 100 = (0.62 − -2.204) ÷ (7.15 − -2.204) × 100, using the published waterlevel_msl, ground_level (channel bed) and min_bank. ThaiWater's own storage_percent for this reading: 30.19 %.",
+        "limitations": [
+          "Share of the channel depth between bed and bank that is filled; not a flow-capacity measure."
+        ]
+      }
+    },
+    "situation": "น้ำปกติ"
+  },
+  {
+    "id": "rid-X.90",
+    "nameTh": "บ้านบางศาลา",
+    "nameEn": "RID gauge X.90 (Ban Phru, Hat Yai District, Songkhla)",
+    "lon": 100.43986,
+    "lat": 6.93124,
+    "agency": "Royal Irrigation Department (RID; กรมชลประทาน)",
+    "waterway": "คลองอู่ตะเภา",
+    "waterLevel": {
+      "value": 2.37,
+      "unit": "m MSL",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge RID X.90 “บ้านบางศาลา” on คลองอู่ตะเภา, ต.บ้านพรุ อ.หาดใหญ่ จ.สงขลา (Ban Phru, Hat Yai District, Songkhla).",
+        "methodology": "Telemetered water level as published (waterlevel_msl = \"2.37\" m above mean sea level, ม.รทก.) at waterlevel_datetime = \"2026-11-04 08:00\" (Thai local time, UTC+7). Originating agency: Royal Irrigation Department (RID; กรมชลประทาน).",
+        "limitations": [
+          "Snapshot retrieved 2026-11-04T02:00:22.170Z; not live — rerun the script to refresh.",
+          "Telemetry as distributed by ThaiWater; not quality-controlled."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T08:00:00+07:00",
+    "bankLevel": {
+      "value": 9.34,
+      "unit": "m MSL",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge RID X.90 “บ้านบางศาลา” on คลองอู่ตะเภา, ต.บ้านพรุ อ.หาดใหญ่ จ.สงขลา (Ban Phru, Hat Yai District, Songkhla).",
+        "methodology": "Station attribute min_bank = 9.34 m MSL as published by ThaiWater (the bank level ThaiWater uses as 100 % in its storage_percent). Published left/right bank: 11.247 / 11.25 m MSL.",
+        "limitations": [
+          "Station metadata as published; survey date not stated."
+        ]
+      }
+    },
+    "capacityPct": {
+      "value": 31.8,
+      "unit": "%",
+      "provenance": {
+        "status": "derived",
+        "sourceId": "thaiwater-public-waterlevel",
+        "sourceName": "HII ThaiWater public API — waterlevel_load (ระดับน้ำ)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+        "observedFrom": "2026-11-04",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge RID X.90 “บ้านบางศาลา” on คลองอู่ตะเภา, ต.บ้านพรุ อ.หาดใหญ่ จ.สงขลา (Ban Phru, Hat Yai District, Songkhla).",
+        "methodology": "(water level − ground level) ÷ (bank level − ground level) × 100 = (2.37 − -0.881) ÷ (9.34 − -0.881) × 100, using the published waterlevel_msl, ground_level (channel bed) and min_bank. ThaiWater's own storage_percent for this reading: 31.81 %.",
+        "limitations": [
+          "Share of the channel depth between bed and bank that is filled; not a flow-capacity measure."
+        ]
+      }
+    },
+    "situation": "น้ำปกติ"
+  }
+]

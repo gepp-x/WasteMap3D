@@ -1,0 +1,7 @@
+{
+  "url": "https://www.thaiwater.net/uploads/contents/current/2022/FloodBKK_May2022/summary.html",
+  "httpStatus": 200,
+  "retrievedAt": "2026-11-04T01:51:34.720Z",
+  "bytes": 15184,
+  "note": "Initial download made manually with curl (same URL and User-Agent) while developing this script; retrievedAt = file modification time."
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://data.opendevelopmentmekong.net/dataset/8853ede2-9c6f-4e5c-9b55-14bfb9a40071/resource/0b15648c-4e21-4240-97bb-385ac230f07f/download/698220wp0v10p106011020120box370022b.pdf",
+  "httpStatus": 200,
+  "retrievedAt": "2026-11-04T01:49:21.934Z",
+  "bytes": 2169543,
+  "note": "Initial download made manually with curl (same URL and User-Agent) while developing this script; retrievedAt = file modification time."
+}

@@ -1,0 +1,21 @@
+{
+  "key": "hy-drainage",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "httpStatus": 200,
+  "retrievedAt": "2026-11-03T18:55:00.631Z",
+  "osmBaseTimestamp": "2026-11-03T18:53:35Z",
+  "bytes": 3056,
+  "sha256": "98aa9dabe746019ef5bb25b36292becdac9bb4b2659f74edd89b9da1388e1236",
+  "elementCount": 4,
+  "userAgent": "UrbanIntelligenceDemo/0.1 (research prototype)",
+  "query": "[out:json][timeout:90][bbox:6.94,100.4,7.09,100.54];\n(\n  nwr[\"man_made\"=\"pumping_station\"];\n  nwr[\"pumping_station\"];\n  nwr[\"waterway\"~\"^(sluice_gate|lock_gate|weir|dam|floodgate|flood_gate)$\"];\n  nwr[\"man_made\"=\"monitoring_station\"][\"monitoring:water_level\"=\"yes\"];\n  nwr[\"basin\"~\"retention|detention\"];\n  nwr[\"name\"~\"แก้มลิง|สถานีสูบน้ำ|บ่อสูบน้ำ|ประตูระบายน้ำ|บ่อหน่วงน้ำ|อุโมงค์ระบายน้ำ|วัดระดับน้ำ\"];\n  nwr[\"name:th\"~\"แก้มลิง|สถานีสูบน้ำ|บ่อสูบน้ำ|ประตูระบายน้ำ|บ่อหน่วงน้ำ|อุโมงค์ระบายน้ำ|วัดระดับน้ำ\"];\n  nwr[\"name:en\"~\"pump(ing)? station|sluice|flood ?gate|retention pond|detention pond|monkey cheek|kaem ?ling|keam ?ling|water level station|drainage tunnel\",i];\n);\nout body geom;\nnwr[\"flood_prone\"=\"yes\"];\nout count;",
+  "attempts": [
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "startedAt": "2026-11-03T18:54:22.349Z",
+      "durationMs": 38282,
+      "httpStatus": 200,
+      "error": null
+    }
+  ]
+}

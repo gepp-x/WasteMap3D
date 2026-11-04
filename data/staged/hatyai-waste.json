@@ -1,0 +1,560 @@
+{
+  "generatedAt": "2026-11-03T23:06:51.404Z",
+  "principle": "Generated, collected and utilised waste are different quantities and are kept strictly separate; derived t/day = published t/year ÷ days in the Thai fiscal year (Oct 1 - Sep 30).",
+  "datagoth_dataset_sw_02": {
+    "status": "not-applicable-to-hat-yai",
+    "packageUrl": "https://data.go.th/api/3/action/package_show?id=dataset_sw_02",
+    "title": "ปริมาณขยะมูลฝอยขององค์กรปกครองส่วนท้องถิ่น",
+    "organization": "สำนักงานจังหวัดนครศรีธรรมราช",
+    "notes": "ปริมาณขยะมูลฝอย องค์กรปกครองส่วนท้องถิ่น (อปท.) ในจังหวัดนครศรีธรรมราช ข้อมูล ณ ปี 2569 \r\nรายละเอียดคำอธิบายข้อมูลในแต่ละคอลัมน์\r\nDistrict - อำเภอ / \r\nLAO_name - ชื่อองค์กรปกครองส่วนท้องถิ่น (อปท.) / \r\nMSWG - Municipal solid waste generation - ปริมาณขยะมูลฝอยชุมชนที่เกิดขึ้น / \r\nCDSW - Collected and disposed solid waste - ขยะมูลฝอยที่เก็บขนไปกำจัด / \r\nHMSW - Household-managed solid waste - ปริมาณขยะมูลฝอยที่ได้รับการจัดการในครัวเรือน (ตัน/เดือน) / \r\nUSW - Utilized solid waste - ขยะมูลฝอยที่นำไปใช้ประโยชน์ / \r\nUMSW - Uncollected or unmanaged solid waste - ขยะมูลฝอยที่อปท. มีการคัดแยกตามประเภทกิจกรรมต่างๆ (ไม่ได้นำไปกำจัดตามข้อ 2) (แยกเป็น)\r\nOrganic waste - ขยะอินทรีย์ / \r\nRecyclable waste - ขยะรีไซเคิล / \r\ntotal - ปริมาณขยะมูลฝอยทั้งหมด",
+    "geoCoverage": "อำเภอ",
+    "license": "Open Data Common",
+    "dataYearBE": "2569",
+    "dataSource": "ระบบสารสนเทศการจัดการมูลฝอยของกรมส่งเสริมการปกครองท้องถิ่น",
+    "resourceUrl": "https://nakhonsithammarat.gdcatalog.go.th/dataset/49b250a2-4780-4e89-b5b8-73cb7745e63f/resource/52b471af-f3c8-467a-a723-bce890f263b2/download/dataset_sw_02.csv",
+    "resourceLastModified": "2026-08-20T05:56:14.490780",
+    "columns": [
+      "District",
+      "LAO_name",
+      "MSWG",
+      "CDSW",
+      "HMSW",
+      "USW",
+      "UMSW",
+      "Organic waste",
+      "Recyclable waste",
+      "total"
+    ],
+    "rowCount": 184,
+    "districts": [
+      "ขนอม",
+      "จุฬาภรณ์",
+      "ฉวาง",
+      "ชะอวด",
+      "ช้างกลาง",
+      "ถ้ำพรรณรา",
+      "ทุ่งสง",
+      "ทุ่งใหญ่",
+      "ท่าศาลา",
+      "นบพิตำ",
+      "นาบอน",
+      "บางขัน",
+      "ปากพนัง",
+      "พรหมคีรี",
+      "พระพรหม",
+      "พิปูน",
+      "ร่อนพิบูลย์",
+      "ลานสกา",
+      "สิชล",
+      "หัวไทร",
+      "เฉลิมพระเกียรติ",
+      "เชียรใหญ่",
+      "เมืองนครศรีธรรมราช"
+    ],
+    "containsHatYai": false,
+    "scopeAssessment": "dataset_sw_02 on data.go.th is published by สำนักงานจังหวัดนครศรีธรรมราช and lists LAOs of Nakhon Si Thammarat province only (year 2569); it contains no Songkhla/Hat Yai rows. The same id does not exist on the Songkhla provincial catalog (HTTP 404). The Songkhla catalog's LAO-level equivalents (dataset_10_27/33/34) are used below."
+  },
+  "songkhlaLaoDatasets": {
+    "scope": "LAO = เทศบาลนครหาดใหญ่ (Hat Yai City Municipality), from the Songkhla provincial data catalog (source: DLA solid-waste survey of LAOs, via สำนักงานส่งเสริมการปกครองท้องถิ่นจังหวัดสงขลา)",
+    "datasets": {
+      "dataset_10_27": {
+        "url": "https://songkhla.gdcatalog.go.th/dataset/60342451-0da6-49f5-bcc6-aec5a2718590/resource/437f6ccb-3dd7-47ad-a921-2c0af1babb4b/download/waste.happen.csv",
+        "name": "ข้อมูลปริมาณขยะมูลฝอยชุมชนที่เกิดขึ้น",
+        "lastModified": "2025-07-30T06:56:15.631928",
+        "title": "ข้อมูลปริมาณขยะมูลฝอยชุมชนที่เกิดขึ้น",
+        "license": "Open Data Common",
+        "organization": "สำนักงานท้องถิ่นจังหวัดสงขลา",
+        "dataSource": "รายงานผลแบบสำรวจเพื่อจัดทำฐานข้อมูลด้านการบริหารจัดการขยะมูลฝอยชุมชนของ อปท. ",
+        "geoCoverage": "เทศบาล/อบต."
+      },
+      "dataset_10_33": {
+        "url": "https://songkhla.gdcatalog.go.th/dataset/b7ddcc41-80ff-48c1-8aca-e7b4a295e26c/resource/0ba29841-bc8d-4d7d-85ec-e292544cc531/download/waste.remove.csv",
+        "name": "ข้อมูลปริมาณขยะมูลฝอยที่เก็บขนไปกำจัด ปีงบประมาณ พ.ศ. 2564 - 2567",
+        "lastModified": "2025-08-05T06:50:21.859805",
+        "title": "ข้อมูลปริมาณขยะมูลฝอยที่เก็บขนไปกำจัด",
+        "license": "Open Data Common",
+        "organization": "สำนักงานท้องถิ่นจังหวัดสงขลา",
+        "dataSource": "รายงานผลแบบสำรวจเพื่อจัดทำฐานข้อมูลด้านการบริหารจัดการขยะมูลฝอยชุมชนของ อปท. ",
+        "geoCoverage": "เทศบาล/อบต."
+      },
+      "dataset_10_34": {
+        "url": "https://songkhla.gdcatalog.go.th/dataset/6d87a941-36e5-4406-8422-f2d7496ad8da/resource/c70d1b44-975e-4143-bf29-35296c9150d5/download/recycle.csv",
+        "name": "ข้อมูลปริมาณขยะมูลฝอยที่ถูกนำไปใช้ประโยชน์ ปีงบประมาณ พ.ศ. 2564 - 2567",
+        "lastModified": "2025-07-31T03:44:55.943923",
+        "title": "ข้อมูลปริมาณขยะมูลฝอยที่ถูกนำไปใช้ประโยชน์",
+        "license": "Open Data Common",
+        "organization": "สำนักงานท้องถิ่นจังหวัดสงขลา",
+        "dataSource": "รายงานผลแบบสำรวจเพื่อจัดทำฐานข้อมูลด้านการบริหารจัดการขยะมูลฝอยชุมชนของ อปท. ",
+        "geoCoverage": "เทศบาล/อบต."
+      },
+      "dataset_10_37": {
+        "url": "https://songkhla.gdcatalog.go.th/dataset/ed53a742-d3c3-4606-9cea-934f2fe145c1/resource/cef85076-4bf1-4172-9dea-b1157689d31e/download/status.waste-.csv",
+        "name": "ข้อมูลสถานการณ์ขยะมูลฝอยของจังหวัด สงขลา",
+        "lastModified": "2025-08-04T07:15:15.240862",
+        "title": "ข้อมูลสถานการณ์ขยะมูลฝอยของจังหวัดสงขลา",
+        "license": "License not specified",
+        "organization": "กรมควบคุมมลพิษ",
+        "dataSource": "รายงานข้อมูลสถานการณ์ขยะมูลฝอยของประเทศ",
+        "geoCoverage": "จังหวัด"
+      }
+    },
+    "generated": [
+      {
+        "fiscalYearBE": 2565,
+        "observedFrom": "2021-10-01",
+        "observedTo": "2022-09-30",
+        "metric": "ปริมาณขยะมูลฝอยชุมชนที่เกิดขึ้น",
+        "definition": "ปริมาณขยะมูลฝอยชุมชนที่เกิดขึ้น — municipal solid waste GENERATED in the LAO area, as reported by the LAO in the DLA solid-waste survey",
+        "valueTonPerYear": 101002.212,
+        "unitPublished": "ตัน/ปี",
+        "status": "observed",
+        "derivedTonPerDay": 276.72,
+        "derivedKgPerCapitaDay": 1.855,
+        "perCapitaDenominator": {
+          "dopaRegisteredPopulation": 149142,
+          "referenceDate": "2021-12-31"
+        }
+      },
+      {
+        "fiscalYearBE": 2566,
+        "observedFrom": "2022-10-01",
+        "observedTo": "2023-09-30",
+        "metric": "ปริมาณขยะมูลฝอยชุมชนที่เกิดขึ้น",
+        "definition": "ปริมาณขยะมูลฝอยชุมชนที่เกิดขึ้น — municipal solid waste GENERATED in the LAO area, as reported by the LAO in the DLA solid-waste survey",
+        "valueTonPerYear": null,
+        "unitPublished": "ตัน/ปี",
+        "status": "unavailable",
+        "derivedTonPerDay": null,
+        "derivedKgPerCapitaDay": null,
+        "perCapitaDenominator": {
+          "dopaRegisteredPopulation": 146528,
+          "referenceDate": "2022-12-31"
+        }
+      },
+      {
+        "fiscalYearBE": 2567,
+        "observedFrom": "2023-10-01",
+        "observedTo": "2024-09-30",
+        "metric": "ปริมาณขยะมูลฝอยชุมชนที่เกิดขึ้น",
+        "definition": "ปริมาณขยะมูลฝอยชุมชนที่เกิดขึ้น — municipal solid waste GENERATED in the LAO area, as reported by the LAO in the DLA solid-waste survey",
+        "valueTonPerYear": null,
+        "unitPublished": "ตัน/ปี",
+        "status": "unavailable",
+        "derivedTonPerDay": null,
+        "derivedKgPerCapitaDay": null,
+        "perCapitaDenominator": {
+          "dopaRegisteredPopulation": 143733,
+          "referenceDate": "2023-12-31"
+        }
+      }
+    ],
+    "collected": [
+      {
+        "fiscalYearBE": 2564,
+        "observedFrom": "2020-10-01",
+        "observedTo": "2021-09-30",
+        "metric": "ปริมาณขยะมูลฝอยชุมชนที่เก็บขนได้ในเขต อปท.",
+        "definition": "ปริมาณขยะมูลฝอยชุมชนที่เก็บขนได้ในเขต อปท. — waste COLLECTED (and transported to disposal) within the LAO area",
+        "valueTonPerYear": 68180.77,
+        "unitPublished": "ตัน/ปี",
+        "status": "observed",
+        "derivedTonPerDay": 186.8,
+        "householdsServedPublished": 807588,
+        "householdsServedNote": "Column 'ครัวเรือนรับเก็บขยะ' = 807588 — implausible as a household count (DOPA lists ~68701 houses); kept as published, not used.",
+        "publisher": "สำนักงานส่งเสริมการปกครองท้องถิ่นจังหวัดสงขลา"
+      },
+      {
+        "fiscalYearBE": 2565,
+        "observedFrom": "2021-10-01",
+        "observedTo": "2022-09-30",
+        "metric": "ปริมาณขยะมูลฝอยชุมชนที่เก็บขนได้ในเขต อปท.",
+        "definition": "ปริมาณขยะมูลฝอยชุมชนที่เก็บขนได้ในเขต อปท. — waste COLLECTED (and transported to disposal) within the LAO area",
+        "valueTonPerYear": 67193.63,
+        "unitPublished": "ตัน/ปี",
+        "status": "observed",
+        "derivedTonPerDay": 184.09,
+        "householdsServedPublished": 740289,
+        "householdsServedNote": "Column 'ครัวเรือนรับเก็บขยะ' = 740289 — implausible as a household count (DOPA lists ~68976 houses); kept as published, not used.",
+        "publisher": "สำนักงานส่งเสริมการปกครองท้องถิ่นจังหวัดสงขลา"
+      },
+      {
+        "fiscalYearBE": 2566,
+        "observedFrom": "2022-10-01",
+        "observedTo": "2023-09-30",
+        "metric": "ปริมาณขยะมูลฝอยชุมชนที่เก็บขนได้ในเขต อปท.",
+        "definition": "ปริมาณขยะมูลฝอยชุมชนที่เก็บขนได้ในเขต อปท. — waste COLLECTED (and transported to disposal) within the LAO area",
+        "valueTonPerYear": null,
+        "unitPublished": "ตัน/ปี",
+        "status": "unavailable",
+        "derivedTonPerDay": null,
+        "householdsServedPublished": null,
+        "householdsServedNote": null,
+        "publisher": "สำนักงานส่งเสริมการปกครองท้องถิ่นจังหวัดสงขลา"
+      },
+      {
+        "fiscalYearBE": 2567,
+        "observedFrom": "2023-10-01",
+        "observedTo": "2024-09-30",
+        "metric": "ปริมาณขยะมูลฝอยชุมชนที่เก็บขนได้ในเขต อปท.",
+        "definition": "ปริมาณขยะมูลฝอยชุมชนที่เก็บขนได้ในเขต อปท. — waste COLLECTED (and transported to disposal) within the LAO area",
+        "valueTonPerYear": null,
+        "unitPublished": "ตัน/ปี",
+        "status": "unavailable",
+        "derivedTonPerDay": null,
+        "householdsServedPublished": null,
+        "householdsServedNote": null,
+        "publisher": "สำนักงานส่งเสริมการปกครองท้องถิ่นจังหวัดสงขลา"
+      }
+    ],
+    "collectedOtherRows": [
+      {
+        "fiscalYearBE": 2564,
+        "metric": "ปริมาณขยะมูลฝอยชุมชนที่เก็บขนได้ในเขต อปท.แยกตามสถานที่กำจัดขยะ",
+        "valueTonPerYear": null,
+        "unit": "ตัน/ปี"
+      },
+      {
+        "fiscalYearBE": 2564,
+        "metric": "ปริมาณขยะมูลฝอยชุมชนที่เก็บขนได้ไม่ระบุสถานที่",
+        "valueTonPerYear": 68180.77,
+        "unit": "ตัน/ปี"
+      }
+    ],
+    "utilized": [
+      {
+        "fiscalYearBE": 2564,
+        "observedFrom": "2020-10-01",
+        "observedTo": "2021-09-30",
+        "metric": "ปริมาณขยะมูลฝอยที่ถูกนำไปใช้ประโยชน์",
+        "definition": "ปริมาณขยะมูลฝอยที่ถูกนำไปใช้ประโยชน์ — waste UTILISED (recycling/composting/energy), as reported by the LAO",
+        "valueTonPerYear": 34080.973,
+        "unitPublished": "ตัน/ปี",
+        "status": "observed",
+        "derivedTonPerDay": 93.37
+      },
+      {
+        "fiscalYearBE": 2565,
+        "observedFrom": "2021-10-01",
+        "observedTo": "2022-09-30",
+        "metric": "ปริมาณขยะมูลฝอยที่ถูกนำไปใช้ประโยชน์",
+        "definition": "ปริมาณขยะมูลฝอยที่ถูกนำไปใช้ประโยชน์ — waste UTILISED (recycling/composting/energy), as reported by the LAO",
+        "valueTonPerYear": 28613.292,
+        "unitPublished": "ตัน/ปี",
+        "status": "observed",
+        "derivedTonPerDay": 78.39
+      }
+    ],
+    "note": "FY2566-2567 cells for Hat Yai are empty in the published CSVs (status unavailable). Generated + collected + utilised are reported independently by the LAO and need not add up."
+  },
+  "songkhlaProvince": {
+    "source": "dataset_10_37 (PCD national MSW situation report, province scope)",
+    "rows": [
+      {
+        "yearBE": 2563,
+        "referenceYear": 2020,
+        "metric": "ขยะมูลฝอยที่เกิดขึ้น",
+        "value": 1140.3,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2563,
+        "referenceYear": 2020,
+        "metric": "ขยะมูลฝอยที่ถูกนำกลับมาใช้ประโยชน์",
+        "value": 337.1,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2563,
+        "referenceYear": 2020,
+        "metric": "ขยะมูลฝอยที่ถูกกำจัดถูกต้อง",
+        "value": 700,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2563,
+        "referenceYear": 2020,
+        "metric": "ขยะมูลฝอยที่ถูกกำจัดไม่ถูกต้อง",
+        "value": 103.2,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2563,
+        "referenceYear": 2020,
+        "metric": "ขยะมูลฝอยตกค้าง",
+        "value": 0,
+        "unit": "ตัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2564,
+        "referenceYear": 2021,
+        "metric": "ขยะมูลฝอยที่เกิดขึ้น",
+        "value": 1236,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2564,
+        "referenceYear": 2021,
+        "metric": "ขยะมูลฝอยที่ถูกนำกลับมาใช้ประโยชน์",
+        "value": 357,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2564,
+        "referenceYear": 2021,
+        "metric": "ขยะมูลฝอยที่ถูกกำจัดถูกต้อง",
+        "value": 715,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2564,
+        "referenceYear": 2021,
+        "metric": "ขยะมูลฝอยที่ถูกกำจัดไม่ถูกต้อง",
+        "value": 164,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2564,
+        "referenceYear": 2021,
+        "metric": "ขยะมูลฝอยตกค้าง",
+        "value": 4041,
+        "unit": "ตัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2565,
+        "referenceYear": 2022,
+        "metric": "ขยะมูลฝอยที่เกิดขึ้น",
+        "value": 1207,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2565,
+        "referenceYear": 2022,
+        "metric": "ขยะมูลฝอยที่ถูกนำกลับมาใช้ประโยชน์",
+        "value": 320,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2565,
+        "referenceYear": 2022,
+        "metric": "ขยะมูลฝอยที่ถูกกำจัดถูกต้อง",
+        "value": 730,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2565,
+        "referenceYear": 2022,
+        "metric": "ขยะมูลฝอยที่ถูกกำจัดไม่ถูกต้อง",
+        "value": 157,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2565,
+        "referenceYear": 2022,
+        "metric": "ขยะมูลฝอยตกค้าง",
+        "value": 141870,
+        "unit": "ตัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2566,
+        "referenceYear": 2023,
+        "metric": "ขยะมูลฝอยที่เกิดขึ้น",
+        "value": 1599,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2566,
+        "referenceYear": 2023,
+        "metric": "ขยะมูลฝอยที่ถูกนำกลับมาใช้ประโยชน์",
+        "value": 420,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2566,
+        "referenceYear": 2023,
+        "metric": "ขยะมูลฝอยที่ถูกกำจัดถูกต้อง",
+        "value": 509,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2566,
+        "referenceYear": 2023,
+        "metric": "ขยะมูลฝอยที่ถูกกำจัดไม่ถูกต้อง",
+        "value": 670,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2566,
+        "referenceYear": 2023,
+        "metric": "ขยะมูลฝอยตกค้าง",
+        "value": 104336,
+        "unit": "ตัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2567,
+        "referenceYear": 2024,
+        "metric": "ขยะมูลฝอยที่เกิดขึ้น",
+        "value": 1596,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2567,
+        "referenceYear": 2024,
+        "metric": "ขยะมูลฝอยที่ถูกนำกลับมาใช้ประโยชน์",
+        "value": 604,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2567,
+        "referenceYear": 2024,
+        "metric": "ขยะมูลฝอยที่ถูกกำจัดถูกต้อง",
+        "value": 642,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2567,
+        "referenceYear": 2024,
+        "metric": "ขยะมูลฝอยที่ถูกกำจัดไม่ถูกต้อง",
+        "value": 350,
+        "unit": "ตัน/วัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      },
+      {
+        "yearBE": 2567,
+        "referenceYear": 2024,
+        "metric": "ขยะมูลฝอยตกค้าง",
+        "value": 104336,
+        "unit": "ตัน",
+        "publisher": "กรมควบคุมมลพิษ",
+        "scope": "Songkhla province (all LAOs)"
+      }
+    ]
+  },
+  "pmc12247160": {
+    "status": "verified-statement",
+    "citation": {
+      "authors": [
+        "Nisamon Thongham",
+        "Parinya Khongprom",
+        "Chontira Sangsubun"
+      ],
+      "title": "Multiscale characterization of commercial and landfill-recovered plastics in Songkhla province, Thailand",
+      "journal": "RSC Advances",
+      "volume": "15",
+      "issue": "30",
+      "pages": "24424-24434",
+      "doi": "10.1039/d5ra03620h",
+      "pmcid": "PMC12247160",
+      "pmid": "40656571",
+      "published": "2025-07-11",
+      "license": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    "householdWasteClaim": {
+      "value": 237.75,
+      "unit": "t/day",
+      "quote": "The city produces approximately 237.75 tons of household waste per day.",
+      "quoteLocation": "Section 2.1 'Site specification' (efetch XML body); the same sentence is present in the article HTML: yes",
+      "kind": "household waste generation as worded ('The city produces approximately 237.75 tons of household waste per day') — 'generated', not 'collected'",
+      "citedSource": "Hat Yai Municipality , Annual Waste Management Report 2024 , 2024 , [in Thai]",
+      "citedReportYear": 2024,
+      "studyPeriod": null,
+      "referencePeriodNote": "Not stated. The article (published 2025-07-11) gives no reference date/period for the figure; it cites a municipal report titled 'Annual Waste Management Report 2024' (in Thai), so the figure presumably refers to 2024 or FY2567, but the article does not say so.",
+      "scope": "Hat Yai Municipality ('the city' in the site description of Hat Yai Municipality, 21.00 km²), household waste only; whether commercial/tourism waste is included is not stated.",
+      "methodology": null,
+      "methodologyNote": "Not stated: no weighing, sampling or per-capita factor is described for this number. It is background information in the site description, not a result of the study (which characterises commercial PE/PP/PET/PVC and PE recovered from a local landfill in Songkhla province).",
+      "status": "estimated",
+      "assessment": "Secondary citation only: verified that the article states 237.75 t/day and attributes it to 'Hat Yai Municipality, Annual Waste Management Report 2024 [in Thai]' (reference 32), which we could not locate online. Use as an 'estimated' (cited) generation figure with this caveat, never as 'observed'.",
+      "context": {
+        "status": "derived",
+        "kgPerCapitaDayUsingDopa2024": 1.688,
+        "dopa2024RegisteredPopulation": 140851,
+        "kgPerCapitaDayUsingArticlePopulation": 1.24,
+        "articlePopulation2024": 191696,
+        "songkhlaCatalogGeneratedFY2565TonPerDay": 276.72,
+        "note": "For comparison only. The LAO survey (Songkhla catalog dataset_10_27) reports 101002.212 t/year generated in FY2565 (2021-10-01..2022-09-30) = 276.72 t/day (derived); definitions and years differ, so the two figures are not interchangeable."
+      }
+    },
+    "populationClaim": {
+      "quote": "Covering an area of 21.00 km 2 , Hat Yai Municipality had an estimated population of approximately 191 696 in 2024, making it the fourth-largest city municipality in Thailand.",
+      "citedSource": "Department of Provincial Administration , Statistical Yearbook Thailand 2024 , Ministry of Interior , Thailand , 2024"
+    },
+    "composition": {
+      "status": "unavailable",
+      "shares": null,
+      "quote": "32 The major components of the municipal waste stream are consistent with those observed in other urban centers in Southeast Asia: organic waste—including food scraps and garden residues—accounts for the largest proportion, followed by plastic waste from commercial and household sources (such as packaging materials and single-use plastics), as well as glass and metal containers.",
+      "citedSource": "United Nations Environment Programme (UNEP) , Regional Waste Management Outlook for Asia and the Pacific , 2023",
+      "assessment": "No composition table for Hat Yai exists in the article; tables present: Mechanical properties of selected plastics a | FTIR analysis: (a) PE, (b) PP, (c) PET, (d) PVC, (e) PE (LF).. The text only ranks components qualitatively (organic largest, then plastic, then glass and metal) citing a regional UNEP outlook. No percentage shares can be mapped to organic/plastic/paper/glassMetal/hazardous/other.",
+      "categoryMappingIfAvailable": {
+        "organic": "food scraps + garden residues",
+        "plastic": "plastic",
+        "paper": "paper/cardboard",
+        "glassMetal": "glass + metal",
+        "hazardous": "household hazardous",
+        "other": "all remaining"
+      }
+    },
+    "references": {
+      "cit30": "Department of Provincial Administration , Statistical Yearbook Thailand 2024 , Ministry of Interior , Thailand , 2024",
+      "cit31": "World Bank , Thailand: Solid Waste Management Sector Assessment , 2022",
+      "cit32": "Hat Yai Municipality , Annual Waste Management Report 2024 , 2024 , [in Thai]",
+      "cit33": "United Nations Environment Programme (UNEP) , Regional Waste Management Outlook for Asia and the Pacific , 2023",
+      "cit34": "Pollution Control Department (PCD) , Municipal Solid Waste Management in Thailand , Ministry of Natural Resources and Environment , 2023",
+      "cit35": "Koti A. Khongprom P. Ratanawilai S. ACS Omega 2024 10 6 5744 5755 10.1021/acsomega.4c09247 PMC11840772 39989809"
+    }
+  },
+  "municipalityStatistics": {
+    "status": "unavailable",
+    "note": "No machine-readable collected-waste statistics were found on hatyaicity.go.th; the 'Annual Waste Management Report 2024' cited by PMC12247160 was not located."
+  },
+  "composition": {
+    "shares": null,
+    "status": "unavailable",
+    "note": "No sourced Hat Yai composition with percentage shares was retrieved; do not display a composition for Hat Yai unless a cited table is added."
+  }
+}

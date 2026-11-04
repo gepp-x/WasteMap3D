@@ -1,0 +1,222 @@
+{
+  "pcd/export_country_2568.pdf": {
+    "url": "https://thaimsw.pcd.go.th/service/api/report-country/export?year=2568",
+    "retrievedAt": "2026-11-04T01:45:26Z",
+    "httpStatus": 200,
+    "bytes": 84727,
+    "sha256": "9f1951e4438d3f9c2ad2003d0e7b819aeaf168b48678f688c416c8e8a84f9f71",
+    "contentType": "application/pdf",
+    "note": "one-page PDF export of the 2568 province table (reference copy)"
+  },
+  "pcd/report_country_2556.html": {
+    "url": "https://thaimsw.pcd.go.th/report_country.php?year=2556",
+    "retrievedAt": "2026-11-04T01:55:49.354Z",
+    "httpStatus": 200,
+    "bytes": 64243,
+    "sha256": "e629e05c878f9985a6d87cf7629c97c2046389dff437da09c40df30beecd48a2",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_country_2557.html": {
+    "url": "https://thaimsw.pcd.go.th/report_country.php?year=2557",
+    "retrievedAt": "2026-11-04T01:55:51.411Z",
+    "httpStatus": 200,
+    "bytes": 64240,
+    "sha256": "fd545ca89ac5bce1bd06d9ad36c1ec7701065588f6b0f9e644fe15e1863f8f98",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_country_2558.html": {
+    "url": "https://thaimsw.pcd.go.th/report_country.php?year=2558",
+    "retrievedAt": "2026-11-04T01:55:52.982Z",
+    "httpStatus": 200,
+    "bytes": 64235,
+    "sha256": "7bac41bef7b8234bde958fb2bdf1283905e4692a9d4b99beffdff1ac78c694ea",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_country_2559.html": {
+    "url": "https://thaimsw.pcd.go.th/report_country.php?year=2559",
+    "retrievedAt": "2026-11-04T01:55:56.211Z",
+    "httpStatus": 200,
+    "bytes": 64232,
+    "sha256": "88d91d413ab54d5294a1babcb56083567d5449aa74f5a14ff5ab6eb4e969080c",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_country_2560.html": {
+    "url": "https://thaimsw.pcd.go.th/report_country.php?year=2560",
+    "retrievedAt": "2026-11-04T01:55:57.731Z",
+    "httpStatus": 200,
+    "bytes": 64197,
+    "sha256": "39d574874aef2338c8f85bb9432ed4f4a4292a6ca2a944e23340c12d44d0bfd5",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_country_2561.html": {
+    "url": "https://thaimsw.pcd.go.th/report_country.php?year=2561",
+    "retrievedAt": "2026-11-04T01:56:01.451Z",
+    "httpStatus": 200,
+    "bytes": 64171,
+    "sha256": "916e5c82de15706a7240c18eb47247784464df1ddea81ccb075baa5479966e86",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_country_2562.html": {
+    "url": "https://thaimsw.pcd.go.th/report_country.php?year=2562",
+    "retrievedAt": "2026-11-04T01:56:02.950Z",
+    "httpStatus": 200,
+    "bytes": 64106,
+    "sha256": "30a0c8ae8996b13d777d0e1c7b8f6274bf181d12c714f384a32c145ec2895db4",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_country_2563.html": {
+    "url": "https://thaimsw.pcd.go.th/report_country.php?year=2563",
+    "retrievedAt": "2026-11-04T01:56:06.895Z",
+    "httpStatus": 200,
+    "bytes": 64101,
+    "sha256": "6edf5ea6e45d5b5c0f80b52dec53a299b06912d7e579f2199dc9bfc897361243",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_country_2564.html": {
+    "url": "https://thaimsw.pcd.go.th/report_country.php?year=2564",
+    "retrievedAt": "2026-11-04T01:56:12.613Z",
+    "httpStatus": 200,
+    "bytes": 64128,
+    "sha256": "27606350c8052d48bbcdb12b3fe78a3416502dd971f6e12b127ed04a9e7d69ba",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_country_2565.html": {
+    "url": "https://thaimsw.pcd.go.th/report_country.php?year=2565",
+    "retrievedAt": "2026-11-04T01:56:15.537Z",
+    "httpStatus": 200,
+    "bytes": 64153,
+    "sha256": "a4aa8a26a7baa185bdffa4967d77b7fbaf28f606d53728193e3d09e10e348e32",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_country_2566.html": {
+    "url": "https://thaimsw.pcd.go.th/report_country.php?year=2566",
+    "retrievedAt": "2026-11-04T01:56:19.205Z",
+    "httpStatus": 200,
+    "bytes": 64178,
+    "sha256": "9dac5b6e7af88d1e6f7d15b2b760e5c839446a264d225920d1238feb32d206f0",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_country_2567.html": {
+    "url": "https://thaimsw.pcd.go.th/report_country.php?year=2567",
+    "retrievedAt": "2026-11-04T01:56:23.925Z",
+    "httpStatus": 200,
+    "bytes": 64176,
+    "sha256": "7506b80adcf4d530ec7a7e1370d4eeb013c790b8dd7809ec16a4665a6ebf345b",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_country_2568.html": {
+    "url": "https://thaimsw.pcd.go.th/report_country.php?year=2568",
+    "retrievedAt": "2026-11-04T01:56:29.696Z",
+    "httpStatus": 200,
+    "bytes": 64190,
+    "sha256": "a26aebad45ed083c134067c17b5f28fd8773dfd84995056d08a9b93f46d4ef60",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_country_2569.html": {
+    "url": "https://thaimsw.pcd.go.th/report_country.php?year=2569",
+    "retrievedAt": "2026-11-04T01:56:35.836Z",
+    "httpStatus": 200,
+    "bytes": 63200,
+    "sha256": "29a8b522332c4ab4b72e40ed61215a7686742befb54a2371bcb5db33ae0c22f7",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_country_2570.html": {
+    "url": "https://thaimsw.pcd.go.th/report_country.php?year=2570",
+    "retrievedAt": "2026-11-04T01:56:41.088Z",
+    "httpStatus": 200,
+    "bytes": 63200,
+    "sha256": "15a97c4746511893a3b2acfa7416457faa7f3b8a64539b011e8bd384cf714a79",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_province_bkk_2562.html": {
+    "url": "https://thaimsw.pcd.go.th/report_province.php?year=2562&province=1",
+    "retrievedAt": "2026-11-04T01:56:04.735Z",
+    "httpStatus": 200,
+    "bytes": 28980,
+    "sha256": "e677fa3b1f714a091e1729ba4567ca57305fa5ba23b0770460506cf56962d1f2",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_province_bkk_2563.html": {
+    "url": "https://thaimsw.pcd.go.th/report_province.php?year=2563&province=1",
+    "retrievedAt": "2026-11-04T01:56:08.718Z",
+    "httpStatus": 200,
+    "bytes": 28979,
+    "sha256": "a99fdeceb5e8674b03bc9ae300210fc1e03c01df952c54352ecb76a36234e51f",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_province_bkk_2564.html": {
+    "url": "https://thaimsw.pcd.go.th/report_province.php?year=2564&province=1",
+    "retrievedAt": "2026-11-04T01:56:13.964Z",
+    "httpStatus": 200,
+    "bytes": 28977,
+    "sha256": "646456938e3eefc85ecf6d96096b6fecafdada0d69db8c6d3f62aeef9a1b7fa1",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_province_bkk_2565.html": {
+    "url": "https://thaimsw.pcd.go.th/report_province.php?year=2565&province=1",
+    "retrievedAt": "2026-11-04T01:56:17.306Z",
+    "httpStatus": 200,
+    "bytes": 28955,
+    "sha256": "417c1a0ccd9e35c8d0a7cb541e80823d73819b74bd7acaabeb72c63efff2b3d4",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_province_bkk_2566.html": {
+    "url": "https://thaimsw.pcd.go.th/report_province.php?year=2566&province=1",
+    "retrievedAt": "2026-11-04T01:56:20.975Z",
+    "httpStatus": 200,
+    "bytes": 28979,
+    "sha256": "13d16bba478577b3d5140bbb5446f9f27c2673c782470c8f28ac0b9eb00fdb39",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_province_bkk_2567.html": {
+    "url": "https://thaimsw.pcd.go.th/report_province.php?year=2567&province=1",
+    "retrievedAt": "2026-11-04T01:56:25.731Z",
+    "httpStatus": 200,
+    "bytes": 28985,
+    "sha256": "e11c207febb87ce28d3079754634a9d5125988e309367a8f66c76a872973045f",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/report_province_bkk_2568.html": {
+    "url": "https://thaimsw.pcd.go.th/report_province.php?year=2568&province=1",
+    "retrievedAt": "2026-11-04T01:56:30.962Z",
+    "httpStatus": 200,
+    "bytes": 28985,
+    "sha256": "198c829059f6cf51118c446709f0c513c55a6bd1a07ead7708dc3975c6b3d9eb",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "pcd/reports/pcdnew-2022-08-18_03-17-27_336926.pdf": {
+    "url": "https://www.pcd.go.th/wp-content/uploads/2022/08/pcdnew-2022-08-18_03-17-27_336926.pdf",
+    "retrievedAt": "2026-11-04T01:47:44Z",
+    "httpStatus": 200,
+    "bytes": 45825656,
+    "sha256": "7908d5a6f98f677e3eed4d33f1c0b974c3763992709a0dd13fe9f81beae95181",
+    "contentType": "application/pdf",
+    "note": "downloaded with curl during research; text layer cached in pcd/text/, PDF deleted (size)"
+  },
+  "pcd/reports/pcdnew-2023-05-23_07-53-42_299799.pdf": {
+    "url": "https://www.pcd.go.th/wp-content/uploads/2023/04/pcdnew-2023-05-23_07-53-42_299799.pdf",
+    "retrievedAt": "2026-11-04T01:47:11Z",
+    "httpStatus": 200,
+    "bytes": 58888943,
+    "sha256": "434a53bbba84c42c26613fa82e1ae8649a72ee4e7458a196ed1ce18a78392fde",
+    "contentType": "application/pdf",
+    "note": "scanned, no text layer (PDFKit returned no text); PDF deleted (size)"
+  },
+  "pcd/reports/pcdnew-2024-05-09_07-53-50_682275.pdf": {
+    "url": "https://www.pcd.go.th/wp-content/uploads/2024/05/pcdnew-2024-05-09_07-53-50_682275.pdf",
+    "retrievedAt": "2026-11-04T01:46:30Z",
+    "httpStatus": 200,
+    "bytes": 51103094,
+    "sha256": "c66abe6cdccd4e28b3246ea5aced7e305559361465202c6b2a691f235692dd74",
+    "contentType": "application/pdf",
+    "note": "downloaded with curl during research; text layer cached in pcd/text/, PDF deleted (size)"
+  },
+  "psu/64052245_400371.pdf": {
+    "url": "https://kb.psu.ac.th/psukb/bitstream/2016/19489/1/64052245_400371.pdf",
+    "retrievedAt": "2026-11-04T01:57:45.756Z",
+    "httpStatus": 200,
+    "bytes": 2992818,
+    "sha256": "7e15288e989504922d88552d5bac022b99391a8b2d7d5c97ecf8a0499d698f4c",
+    "contentType": "application/pdf;charset=UTF-8"
+  }
+}

@@ -1,0 +1,31 @@
+[
+ {
+  "id": "hy-flood-2025-11",
+  "cityId": "hatyai",
+  "titleTh": "อุทกภัยหาดใหญ่ พฤศจิกายน 2568",
+  "titleEn": "Hat Yai flood, November 2025",
+  "from": "2025-11-19",
+  "to": "2025-11-28",
+  "summaryTh": "น้ำท่วม 2 ระลอก (19-21 และ 23-28 พ.ย. 2568) จากฝนตกหนักต่อเนื่องในลุ่มน้ำคลองอู่ตะเภา; ระดับน้ำคลองอู่ตะเภาที่สถานี X.44 บ้านหาดใหญ่ สูงสุด 9.97 ม.รทก. สูงกว่าปี 2543 และ 2553 (ThaiWater/สสน.)",
+  "summaryEn": "Two flood waves (19-21 and 23-28 Nov 2025) after persistent heavy rain over the U-Taphao basin; U-Taphao canal at station X.44 (Ban Hat Yai) peaked at 9.97 m above MSL, higher than the 2000 and 2010 floods (ThaiWater/HII).",
+  "peakRainMm": {
+   "value": 370.2,
+   "unit": "mm/day",
+   "provenance": {
+    "status": "observed",
+    "sourceId": "thaiwater-hatyai-nov2025",
+    "sourceUrl": "https://www.thaiwater.net/uploads/contents/current/2025/hatyai_nov2025/rain_tele.html",
+    "observedFrom": "2025-11-21",
+    "observedTo": "2025-11-21",
+    "referenceYear": 2025,
+    "geographicScope": "Station 'หาดใหญ่' (กรมอุตุนิยมวิทยา), ต.ทุ่งลาน อ.คลองหอยโข่ง จ.สงขลา",
+    "methodology": "Maximum daily rainfall among the stations named หาดใหญ่ or located in อ.หาดใหญ่ in ThaiWater's table of stations with > 90 mm/day.",
+    "limitations": [
+     "No station in this table is located in ต.หาดใหญ่ (the municipality's sub-district); values are for stations in the surrounding district / nearby.",
+     "The table lists only stations with > 90 mm/day."
+    ]
+   }
+  },
+  "sourceId": "thaiwater-hatyai-nov2025"
+ }
+]

@@ -1,0 +1,596 @@
+{
+  "generatedAt": "2026-11-03T23:06:51.404Z",
+  "event": {
+    "id": "hy-flood-2025-11",
+    "cityId": "hatyai",
+    "titleTh": "อุทกภัยหาดใหญ่ พฤศจิกายน 2568",
+    "titleEn": "Hat Yai flood, November 2025",
+    "from": "2025-11-19",
+    "to": "2025-11-28",
+    "summaryTh": "น้ำท่วม 2 ระลอก (19-21 และ 23-28 พ.ย. 2568) จากฝนตกหนักต่อเนื่องในลุ่มน้ำคลองอู่ตะเภา; ระดับน้ำคลองอู่ตะเภาที่สถานี X.44 บ้านหาดใหญ่ สูงสุด 9.97 ม.รทก. สูงกว่าปี 2543 และ 2553 (ThaiWater/สสน.)",
+    "summaryEn": "Two flood waves (19-21 and 23-28 Nov 2025) after persistent heavy rain over the U-Taphao basin; U-Taphao canal at station X.44 (Ban Hat Yai) peaked at 9.97 m above MSL, higher than the 2000 and 2010 floods (ThaiWater/HII).",
+    "peakRainMm": {
+      "value": 370.2,
+      "unit": "mm/day",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-hatyai-nov2025",
+        "sourceUrl": "https://www.thaiwater.net/uploads/contents/current/2025/hatyai_nov2025/rain_tele.html",
+        "observedFrom": "2025-11-21",
+        "observedTo": "2025-11-21",
+        "referenceYear": 2025,
+        "geographicScope": "Station 'หาดใหญ่' (กรมอุตุนิยมวิทยา), ต.ทุ่งลาน อ.คลองหอยโข่ง จ.สงขลา",
+        "methodology": "Maximum daily rainfall among the stations named หาดใหญ่ or located in อ.หาดใหญ่ in ThaiWater's table of stations with > 90 mm/day.",
+        "limitations": [
+          "No station in this table is located in ต.หาดใหญ่ (the municipality's sub-district); values are for stations in the surrounding district / nearby.",
+          "The table lists only stations with > 90 mm/day."
+        ]
+      }
+    },
+    "sourceId": "thaiwater-hatyai-nov2025"
+  },
+  "details": {
+    "source": {
+      "url": "https://www.thaiwater.net/uploads/contents/current/2025/hatyai_nov2025/summary.html",
+      "publisher": "NHC Steering and Operations Center (NHCSOC) / Hydro Informatics Institute (สถาบันสารสนเทศทรัพยากรน้ำ, HII) — ThaiWater (คลังข้อมูลน้ำแห่งชาติ)",
+      "titleTh": "บันทึกเหตุการณ์น้ำท่วมอำเภอหาดใหญ่และพื้นที่ภาคใต้ตอนล่าง ช่วงเดือนพฤศจิกายน 2568"
+    },
+    "floodWaves": {
+      "text": "อุทกภัยในเดือนพฤศจิกายน 2568 เกิดขึ้น 2 ครั้ง ครั้งแรกคือช่วงวันที่ 19-21 พฤศจิกายน 2568 ครั้งที่ 2 คือ ช่วงวันที่ 23-28 พฤศจิกายน 2568 อัตราปริมาณน้ำไหลผ่านสูงที่ไหลเข้า อ.หาดใหญ่ มีดังนี้",
+      "waves": [
+        {
+          "from": "2025-11-19",
+          "to": "2025-11-21"
+        },
+        {
+          "from": "2025-11-23",
+          "to": "2025-11-28"
+        }
+      ],
+      "source": "https://www.thaiwater.net/uploads/contents/current/2025/hatyai_nov2025/waterlevel_songkhla.html"
+    },
+    "uTaphaoX44": {
+      "station": "X.44 บ้านหาดใหญ่ (คลองอู่ตะเภา), ต.หาดใหญ่ อ.หาดใหญ่ จ.สงขลา",
+      "peakWaterLevel": {
+        "value": 9.97,
+        "unit": "m MSL (เมตร รทก.)",
+        "status": "observed",
+        "note": "Stated as the highest flood level compared with 2000 and 2010; time of peak not stated on the page."
+      },
+      "overbank": {
+        "from": "2025-11-23 (late night)",
+        "to": "2025-11-27 (morning)",
+        "durationTh": "4 วัน 17 ชั่วโมง"
+      },
+      "quoteTh": "จากการตรวจวัดระดับน้ำบริเวณคลองอู่ตะเภาที่สถานี X.44 บ้านหาดใหญ่ อ.หาดใหญ่ จ.สงขลา น้ำเริ่มต้นตลิ่งตั้งแต่ช่วงดึกของวันที่ 23 พฤศจิกายน 2568 และเริ่มต่ำกว่าตลิ่งช่วงเช้าวันที่ 27 พฤศจิกายน 2568 และหากเทียบระดับน้ำท่วมสูงสุดที่เคยเกิดขึ้นที่หาดใหญ่ในปี 2543 และ 2553 พบว่าในครั้งนี้มีระดับน้ำท่วมสูงที่สุดถึง 9.97 เมตร รทก.",
+      "quoteEn": "In Songkhla Province, water level monitoring at the U-Taphao Canal in Ban Hat Yai, Hat Yai District, recorded continuous river overflow lasting 4 days and 17 hours during 23–27 November 2025.",
+      "verifiedNumber": true
+    },
+    "otherStations": [
+      {
+        "station": "X.174 บ้านคลองหวะ (คลองหวะ)",
+        "overbank": "from evening 2025-11-21 to morning 2025-11-27",
+        "durationTh": "5 วัน 14 ชั่วโมง"
+      },
+      {
+        "station": "X.90 บ้านบางศาลา (คลองอู่ตะเภา)",
+        "durationTh": "5 วัน 18 ชั่วโมง"
+      },
+      {
+        "station": "X.173A บ้านม่วงก็อง (คลองอู่ตะเภา, อ.สะเดา)",
+        "durationTh": "5 วัน 11 ชั่วโมง"
+      }
+    ],
+    "peakInflowsM3s": {
+      "source": "https://www.thaiwater.net/uploads/contents/current/2025/hatyai_nov2025/waterlevel_songkhla.html (กรมชลประทาน)",
+      "values": [
+        {
+          "channel": "คลองวาด",
+          "wave1": ">145",
+          "wave2": ">145"
+        },
+        {
+          "channel": "คลองต่ำ",
+          "wave1": ">100",
+          "wave2": ">100"
+        },
+        {
+          "channel": "คลองอู่ตะเภา (จาก อ.สะเดา)",
+          "wave1": "624",
+          "wave2": "2,700"
+        },
+        {
+          "channel": "คลองหวะ",
+          "wave1": "443",
+          "wave2": ">465"
+        },
+        {
+          "channel": "เขาคอหงส์",
+          "wave1": ">90",
+          "wave2": ">90"
+        }
+      ],
+      "outletCapacity": {
+        "value": 1721,
+        "unit": "m³/s",
+        "note": "combined maximum drainage of คลอง ร.1 + คลองอู่ตะเภา"
+      },
+      "verified": true
+    },
+    "rainfall": {
+      "unit": "mm",
+      "hatYaiStationsDaily": [
+        {
+          "date": "2025-11-21",
+          "station": "หาดใหญ่",
+          "tambon": "ทุ่งลาน",
+          "amphoe": "คลองหอยโข่ง",
+          "province": "สงขลา",
+          "agency": "กรมอุตุนิยมวิทยา",
+          "rainMm": 370.2
+        },
+        {
+          "date": "2025-11-21",
+          "station": "บ้านวังพา",
+          "tambon": "ทุ่งตำเสา",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมทรัพยากรน้ำ",
+          "rainMm": 363
+        },
+        {
+          "date": "2025-11-24",
+          "station": "สะพานข้ามคลองอู่ตะเภา",
+          "tambon": "คูเต่า",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "สถาบันสารสนเทศทรัพยากรน้ำ",
+          "rainMm": 359.6
+        },
+        {
+          "date": "2025-11-21",
+          "station": "คอหงษ์ สกษ .",
+          "tambon": "คอหงส์",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมอุตุนิยมวิทยา",
+          "rainMm": 306.4
+        },
+        {
+          "date": "2025-11-24",
+          "station": "คอหงษ์ สกษ .",
+          "tambon": "คอหงส์",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมอุตุนิยมวิทยา",
+          "rainMm": 286.3
+        },
+        {
+          "date": "2025-11-21",
+          "station": "หาดใหญ่",
+          "tambon": "คอหงส์",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "สถาบันสารสนเทศทรัพยากรน้ำ",
+          "rainMm": 266
+        },
+        {
+          "date": "2025-11-24",
+          "station": "หาดใหญ่",
+          "tambon": "ทุ่งลาน",
+          "amphoe": "คลองหอยโข่ง",
+          "province": "สงขลา",
+          "agency": "กรมอุตุนิยมวิทยา",
+          "rainMm": 262
+        },
+        {
+          "date": "2025-11-21",
+          "station": "บ้านโฮ๊ะ *",
+          "tambon": "ทุ่งตำเสา",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมทรัพยากรน้ำ",
+          "rainMm": 258.5
+        },
+        {
+          "date": "2025-11-24",
+          "station": "ที่ทำการเขตรักษาพันธุ์สัตว์ป่าโตนงาช้าง",
+          "tambon": "ทุ่งตำเสา",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "มูลนิธิเพื่อนพึ่ง (ภาฯ)",
+          "rainMm": 257.4
+        },
+        {
+          "date": "2025-11-21",
+          "station": "บ้านทุ่งปรือ",
+          "tambon": "พะตง",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมทรัพยากรน้ำ",
+          "rainMm": 223.5
+        },
+        {
+          "date": "2025-11-23",
+          "station": "บ้านทุ่งปรือ",
+          "tambon": "พะตง",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมทรัพยากรน้ำ",
+          "rainMm": 221.5
+        },
+        {
+          "date": "2025-11-19",
+          "station": "คอหงษ์ สกษ .",
+          "tambon": "คอหงส์",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมอุตุนิยมวิทยา",
+          "rainMm": 210.4
+        },
+        {
+          "date": "2025-11-24",
+          "station": "บ้านวังพา",
+          "tambon": "ทุ่งตำเสา",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมทรัพยากรน้ำ",
+          "rainMm": 200
+        },
+        {
+          "date": "2025-11-24",
+          "station": "บ้านท่าจีน",
+          "tambon": "น้ำน้อย",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมทรัพยากรน้ำ",
+          "rainMm": 200
+        },
+        {
+          "date": "2025-11-25",
+          "station": "สะพานข้ามคลองอู่ตะเภา",
+          "tambon": "คูเต่า",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "สถาบันสารสนเทศทรัพยากรน้ำ",
+          "rainMm": 197.8
+        },
+        {
+          "date": "2025-11-21",
+          "station": "บ้านชายคลอง *",
+          "tambon": "บ้านพรุ",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมทรัพยากรน้ำ",
+          "rainMm": 193.5
+        },
+        {
+          "date": "2025-11-19",
+          "station": "สะพานข้ามคลองอู่ตะเภา",
+          "tambon": "คูเต่า",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "สถาบันสารสนเทศทรัพยากรน้ำ",
+          "rainMm": 188
+        },
+        {
+          "date": "2025-11-19",
+          "station": "บ้านวังพา",
+          "tambon": "ทุ่งตำเสา",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมทรัพยากรน้ำ",
+          "rainMm": 188
+        },
+        {
+          "date": "2025-11-22",
+          "station": "บ้านทุ่งปรือ",
+          "tambon": "พะตง",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมทรัพยากรน้ำ",
+          "rainMm": 176
+        },
+        {
+          "date": "2025-11-24",
+          "station": "บ้านโฮ๊ะ *",
+          "tambon": "ทุ่งตำเสา",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมทรัพยากรน้ำ",
+          "rainMm": 168.5
+        },
+        {
+          "date": "2025-11-23",
+          "station": "บ้านวังพา",
+          "tambon": "ทุ่งตำเสา",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมทรัพยากรน้ำ",
+          "rainMm": 165.5
+        },
+        {
+          "date": "2025-11-21",
+          "station": "สะพานข้ามคลองอู่ตะเภา",
+          "tambon": "คูเต่า",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "สถาบันสารสนเทศทรัพยากรน้ำ",
+          "rainMm": 165
+        },
+        {
+          "date": "2025-11-21",
+          "station": "ชุมชนวัดเกาะ *",
+          "tambon": "ควนลัง",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมทรัพยากรน้ำ",
+          "rainMm": 161
+        },
+        {
+          "date": "2025-11-19",
+          "station": "หาดใหญ่",
+          "tambon": "ทุ่งลาน",
+          "amphoe": "คลองหอยโข่ง",
+          "province": "สงขลา",
+          "agency": "กรมอุตุนิยมวิทยา",
+          "rainMm": 155
+        },
+        {
+          "date": "2025-11-23",
+          "station": "หาดใหญ่",
+          "tambon": "ทุ่งลาน",
+          "amphoe": "คลองหอยโข่ง",
+          "province": "สงขลา",
+          "agency": "กรมอุตุนิยมวิทยา",
+          "rainMm": 143.8
+        },
+        {
+          "date": "2025-11-22",
+          "station": "คอหงษ์ สกษ .",
+          "tambon": "คอหงส์",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมอุตุนิยมวิทยา",
+          "rainMm": 140.6
+        },
+        {
+          "date": "2025-11-22",
+          "station": "หาดใหญ่",
+          "tambon": "ทุ่งลาน",
+          "amphoe": "คลองหอยโข่ง",
+          "province": "สงขลา",
+          "agency": "กรมอุตุนิยมวิทยา",
+          "rainMm": 139.6
+        },
+        {
+          "date": "2025-11-19",
+          "station": "บ้านท่าจีน",
+          "tambon": "น้ำน้อย",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมทรัพยากรน้ำ",
+          "rainMm": 136.5
+        },
+        {
+          "date": "2025-11-19",
+          "station": "หาดใหญ่",
+          "tambon": "คอหงส์",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "สถาบันสารสนเทศทรัพยากรน้ำ",
+          "rainMm": 129
+        },
+        {
+          "date": "2025-11-25",
+          "station": "หาดใหญ่",
+          "tambon": "ทุ่งลาน",
+          "amphoe": "คลองหอยโข่ง",
+          "province": "สงขลา",
+          "agency": "กรมอุตุนิยมวิทยา",
+          "rainMm": 128.4
+        },
+        {
+          "date": "2025-11-21",
+          "station": "บ้านท่าจีน",
+          "tambon": "น้ำน้อย",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมทรัพยากรน้ำ",
+          "rainMm": 124.5
+        },
+        {
+          "date": "2025-11-19",
+          "station": "บ้านโฮ๊ะ *",
+          "tambon": "ทุ่งตำเสา",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมทรัพยากรน้ำ",
+          "rainMm": 109
+        },
+        {
+          "date": "2025-11-23",
+          "station": "สะพานข้ามคลองอู่ตะเภา",
+          "tambon": "คูเต่า",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "สถาบันสารสนเทศทรัพยากรน้ำ",
+          "rainMm": 106.8
+        },
+        {
+          "date": "2025-11-23",
+          "station": "คอหงษ์ สกษ .",
+          "tambon": "คอหงส์",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมอุตุนิยมวิทยา",
+          "rainMm": 106.3
+        },
+        {
+          "date": "2025-11-22",
+          "station": "หาดใหญ่",
+          "tambon": "คอหงส์",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "สถาบันสารสนเทศทรัพยากรน้ำ",
+          "rainMm": 95.2
+        }
+      ],
+      "hatYaiStations10Day": [
+        {
+          "station": "หาดใหญ่",
+          "tambon": "ทุ่งลาน",
+          "amphoe": "คลองหอยโข่ง",
+          "province": "สงขลา",
+          "agency": "กรมอุตุนิยมวิทยา",
+          "rain10dMm": 1285
+        },
+        {
+          "station": "สะพานข้ามคลองอู่ตะเภา",
+          "tambon": "คูเต่า",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "สถาบันสารสนเทศทรัพยากรน้ำ",
+          "rain10dMm": 1199.2
+        },
+        {
+          "station": "คอหงษ์ สกษ.",
+          "tambon": "คอหงส์",
+          "amphoe": "หาดใหญ่",
+          "province": "สงขลา",
+          "agency": "กรมอุตุนิยมวิทยา",
+          "rain10dMm": 1135
+        }
+      ],
+      "tenDayTableHeader": "ชื่อสถานี | ตำบล | อำเภอ | จังหวัด | หน่วยงาน | ปริมาณฝนสะสม 10 วัน (17-26 พ.ย. 68)",
+      "tenDayTableTitle": "ตารางแสดงปริมาณฝนสะสม 7 วัน (ช่วงวันที่ 17-26 พฤศจิกายน 2568)",
+      "regionalTopDaily": [
+        {
+          "date": "2025-11-22",
+          "station": "นราธิวาส",
+          "tambon": "บางนาค",
+          "amphoe": "เมืองนราธิวาส",
+          "province": "นราธิวาส",
+          "agency": "กรมอุตุนิยมวิทยา",
+          "rainMm": 624.2
+        },
+        {
+          "date": "2025-11-21",
+          "station": "อบต . พิจิตร",
+          "tambon": "พิจิตร",
+          "amphoe": "นาหม่อม",
+          "province": "สงขลา",
+          "agency": "สถาบันสารสนเทศทรัพยากรน้ำ",
+          "rainMm": 605.6
+        },
+        {
+          "date": "2025-11-28",
+          "station": "บ้านแป้น",
+          "tambon": "แป้น",
+          "amphoe": "สายบุรี",
+          "province": "ปัตตานี",
+          "agency": "กรมทรัพยากรน้ำ",
+          "rainMm": 533
+        }
+      ],
+      "regionalTop10Day": [
+        {
+          "station": "บ้านตลาดเทพา*",
+          "tambon": "เทพา",
+          "amphoe": "เทพา",
+          "province": "สงขลา",
+          "agency": "กรมทรัพยากรน้ำ",
+          "rain10dMm": 1705
+        },
+        {
+          "station": "จะนะ",
+          "tambon": "บ้านนา",
+          "amphoe": "จะนะ",
+          "province": "สงขลา",
+          "agency": "สถาบันสารสนเทศทรัพยากรน้ำ",
+          "rain10dMm": 1534
+        },
+        {
+          "station": "บ้านควนดินดำ",
+          "tambon": "หนองธง",
+          "amphoe": "ป่าบอน",
+          "province": "พัทลุง",
+          "agency": "กรมทรัพยากรน้ำ",
+          "rain10dMm": 1506.5
+        }
+      ],
+      "textCaveat": "ThaiWater's text says '10-day accumulation (17-20 Nov 2568)', the table title says '7 วัน (17-26 พฤศจิกายน 2568)' and the column header '10 วัน (17-26 พ.ย. 68)'. The column header (10 days, 17-26 Nov 2025) is used.",
+      "unattributedClaim": {
+        "quoteTh": "บางแหล่งข้อมูลระบุว่า ปริมาณฝนสะสมสูงถึง 630 มิลลิเมตร ใน 3 วัน (19–21 พ.ย.) ซึ่งมากกว่าปริมาณสูงสุดของปี 2553 (428 มม.)",
+        "note": "ThaiWater's flood-area page quotes 'some sources' for 630 mm in 3 days (19-21 Nov) vs 428 mm max in 2010; source not identified — not used as a metric."
+      }
+    },
+    "affected": {
+      "reportDate": "2025-11-30",
+      "period": {
+        "from": "2025-11-17",
+        "to": "2025-11-30"
+      },
+      "source": "กรมป้องกันและบรรเทาสาธารณภัย (DDPM) as summarised by ThaiWater",
+      "southernRegion": {
+        "provinces": 12,
+        "districts": 117,
+        "subdistricts": 778,
+        "villages": 5938,
+        "households": 1514895,
+        "persons": 3901155,
+        "deaths": 169
+      },
+      "stillAffectedOn20251130": {
+        "provinces": 9,
+        "districts": 81,
+        "subdistricts": 522,
+        "villages": 3504,
+        "households": 1108031,
+        "persons": 2789684
+      },
+      "songkhla": {
+        "districts": 16,
+        "subdistricts": 127,
+        "villages": 992,
+        "communities": 331,
+        "households": 633105,
+        "persons": 1319536,
+        "deaths": 131,
+        "quoteTh": "6) จ.สงขลา เกิดฝนตกหนักทำให้น้ำไหลหลากเข้าท่วมในพื้นที่ 16 อำเภอ 127 ตำบล 992 หมู่บ้าน 331 ชุมชน ประกอบด้วย"
+      },
+      "satelliteFloodArea": {
+        "value": 825365,
+        "unit": "rai",
+        "provinces": 9,
+        "songkhlaRai": 331821,
+        "source": "GISTDA via ThaiWater"
+      },
+      "verified": true
+    }
+  },
+  "earlierFloods": [
+    {
+      "id": "hy-flood-2000",
+      "year": 2000,
+      "yearBE": 2543,
+      "from": null,
+      "to": null,
+      "status": "manual-reference",
+      "evidence": "ThaiWater summary: the 2000 (2543) and 2010 (2553) Hat Yai floods are the most frequently cited major floods; the Nov 2025 peak at X.44 (9.97 m MSL) exceeded both.",
+      "sourceUrl": "https://www.thaiwater.net/uploads/contents/current/2025/hatyai_nov2025/summary.html",
+      "note": "Exact dates, rainfall and peak levels are not given on the cited page; left null."
+    },
+    {
+      "id": "hy-flood-2010",
+      "year": 2010,
+      "yearBE": 2553,
+      "from": null,
+      "to": null,
+      "status": "manual-reference",
+      "evidence": "ThaiWater summary (as above). The flood-area page quotes an unattributed 428 mm 3-day maximum for 2010, which is not used.",
+      "sourceUrl": "https://www.thaiwater.net/uploads/contents/current/2025/hatyai_nov2025/summary.html",
+      "note": "Exact dates and peak levels not given on the cited page; left null."
+    }
+  ]
+}

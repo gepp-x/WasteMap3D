@@ -1,0 +1,67 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-03T18:51:34Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "relation",
+  "id": 18959634,
+  "tags": {
+    "admin_level": "6",
+    "boundary": "administrative",
+    "name": "อำเภอบางกล่ำ",
+    "name:en": "Bang Klam District",
+    "name:th": "อำเภอบางกล่ำ",
+    "short_name": "บางกล่ำ",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 18959810,
+  "tags": {
+    "admin_level": "6",
+    "boundary": "administrative",
+    "country": "ไทย",
+    "name": "อำเภอหาดใหญ่",
+    "name:en": "Hat Yai District",
+    "name:th": "อำเภอหาดใหญ่",
+    "short_name": "หาดใหญ่",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 18960181,
+  "tags": {
+    "admin_level": "6",
+    "boundary": "administrative",
+    "name": "อำเภอนาหม่อม",
+    "name:en": "Na Mom District",
+    "name:th": "อำเภอนาหม่อม",
+    "short_name": "นาหม่อม",
+    "type": "boundary"
+  }
+},
+{
+  "type": "relation",
+  "id": 19981578,
+  "tags": {
+    "admin_level": "7",
+    "boundary": "administrative",
+    "description": "traceing from https://ratchakitcha.soc.go.th/documents/1658230.pdf",
+    "fixme": "approximate please verify",
+    "name": "เทศบาลนครหาดใหญ่",
+    "name:en": "Hatyai city municipality",
+    "name:th": "เทศบาลนครหาดใหญ่",
+    "type": "boundary",
+    "wikidata": "Q651286"
+  }
+}
+
+  ]
+}

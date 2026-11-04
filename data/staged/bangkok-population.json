@@ -1,0 +1,1145 @@
+{
+  "cityId": "bangkok",
+  "dataRetrievedAt": "2026-11-03T18:34:49.635Z",
+  "sourceId": "nso-dopa-registered-population",
+  "sourceUrl": "https://catalogapi.nso.go.th/api/index?table=OS_0405_01_0005_01&format=csv",
+  "definition": "Registered population (ประชากรตามหลักฐานการทะเบียนราษฎร): Thai nationals and non-Thai persons recorded in the house registers of each district under the Civil Registration Act B.E. 2534, as compiled by DOPA and published by NSO. Not the de facto resident population (excludes people living in Bangkok but registered elsewhere).",
+  "referenceDateNote": "DOPA annual registration figures are announced by the Central Registration Office as of 31 December of each BE year (e.g. BE 2568 → 2025-12-31). The NSO table labels rows only by BE year.",
+  "unit": "persons",
+  "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "latestYear": 2025,
+  "latestReferenceDate": "2025-12-31",
+  "cityTotals": [
+    {
+      "year": 2021,
+      "yearBE": 2564,
+      "districtsWithValue": 50,
+      "sumOfDistricts": 5527994,
+      "publishedTotal": 5527994,
+      "sumEqualsPublished": true
+    },
+    {
+      "year": 2022,
+      "yearBE": 2565,
+      "districtsWithValue": 50,
+      "sumOfDistricts": 5494932,
+      "publishedTotal": 5494932,
+      "sumEqualsPublished": true
+    },
+    {
+      "year": 2023,
+      "yearBE": 2566,
+      "districtsWithValue": 50,
+      "sumOfDistricts": 5471588,
+      "publishedTotal": 5471588,
+      "sumEqualsPublished": true
+    },
+    {
+      "year": 2024,
+      "yearBE": 2567,
+      "districtsWithValue": 50,
+      "sumOfDistricts": 5455020,
+      "publishedTotal": 5455020,
+      "sumEqualsPublished": true
+    },
+    {
+      "year": 2025,
+      "yearBE": 2568,
+      "districtsWithValue": 50,
+      "sumOfDistricts": 5422568,
+      "publishedTotal": 5422568,
+      "sumEqualsPublished": true
+    }
+  ],
+  "districts": [
+    {
+      "code": "1001",
+      "nameTh": "พระนคร",
+      "nameEn": "Phra Nakhon",
+      "population": {
+        "2021": 43062,
+        "2022": 41646,
+        "2023": 40254,
+        "2024": 39345,
+        "2025": 38408
+      },
+      "latest": {
+        "year": 2025,
+        "value": 38408,
+        "male": 18723,
+        "female": 19685,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1002",
+      "nameTh": "ดุสิต",
+      "nameEn": "Dusit",
+      "population": {
+        "2021": 81494,
+        "2022": 78602,
+        "2023": 75814,
+        "2024": 74584,
+        "2025": 72788
+      },
+      "latest": {
+        "year": 2025,
+        "value": 72788,
+        "male": 38627,
+        "female": 34161,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1003",
+      "nameTh": "หนองจอก",
+      "nameEn": "Nong Chok",
+      "population": {
+        "2021": 178856,
+        "2022": 181367,
+        "2023": 184138,
+        "2024": 186227,
+        "2025": 187987
+      },
+      "latest": {
+        "year": 2025,
+        "value": 187987,
+        "male": 91099,
+        "female": 96888,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1004",
+      "nameTh": "บางรัก",
+      "nameEn": "Bang Rak",
+      "population": {
+        "2021": 45015,
+        "2022": 43914,
+        "2023": 42921,
+        "2024": 41701,
+        "2025": 40549
+      },
+      "latest": {
+        "year": 2025,
+        "value": 40549,
+        "male": 18890,
+        "female": 21659,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1005",
+      "nameTh": "บางเขน",
+      "nameEn": "Bang Khen",
+      "population": {
+        "2021": 186200,
+        "2022": 185369,
+        "2023": 184611,
+        "2024": 184231,
+        "2025": 183306
+      },
+      "latest": {
+        "year": 2025,
+        "value": 183306,
+        "male": 85121,
+        "female": 98185,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1006",
+      "nameTh": "บางกะปิ",
+      "nameEn": "Bang Kapi",
+      "population": {
+        "2021": 142574,
+        "2022": 141489,
+        "2023": 141360,
+        "2024": 141412,
+        "2025": 140901
+      },
+      "latest": {
+        "year": 2025,
+        "value": 140901,
+        "male": 63664,
+        "female": 77237,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1007",
+      "nameTh": "ปทุมวัน",
+      "nameEn": "Pathum Wan",
+      "population": {
+        "2021": 41763,
+        "2022": 40844,
+        "2023": 40077,
+        "2024": 39399,
+        "2025": 38560
+      },
+      "latest": {
+        "year": 2025,
+        "value": 38560,
+        "male": 18121,
+        "female": 20439,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1008",
+      "nameTh": "ป้อมปราบศัตรูพ่าย",
+      "nameEn": "Pom Prap Sattru Phai",
+      "population": {
+        "2021": 40418,
+        "2022": 39310,
+        "2023": 38100,
+        "2024": 36905,
+        "2025": 35900
+      },
+      "latest": {
+        "year": 2025,
+        "value": 35900,
+        "male": 17516,
+        "female": 18384,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1009",
+      "nameTh": "พระโขนง",
+      "nameEn": "Phra Khanong",
+      "population": {
+        "2021": 87018,
+        "2022": 86290,
+        "2023": 85696,
+        "2024": 85070,
+        "2025": 84014
+      },
+      "latest": {
+        "year": 2025,
+        "value": 84014,
+        "male": 37420,
+        "female": 46594,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1010",
+      "nameTh": "มีนบุรี",
+      "nameEn": "Min Buri",
+      "population": {
+        "2021": 141374,
+        "2022": 141030,
+        "2023": 141018,
+        "2024": 140752,
+        "2025": 140449
+      },
+      "latest": {
+        "year": 2025,
+        "value": 140449,
+        "male": 65987,
+        "female": 74462,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1011",
+      "nameTh": "ลาดกระบัง",
+      "nameEn": "Lat Krabang",
+      "population": {
+        "2021": 178424,
+        "2022": 178350,
+        "2023": 179899,
+        "2024": 181253,
+        "2025": 182191
+      },
+      "latest": {
+        "year": 2025,
+        "value": 182191,
+        "male": 85793,
+        "female": 96398,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1012",
+      "nameTh": "ยานนาวา",
+      "nameEn": "Yan Nawa",
+      "population": {
+        "2021": 75076,
+        "2022": 74114,
+        "2023": 73416,
+        "2024": 72833,
+        "2025": 72413
+      },
+      "latest": {
+        "year": 2025,
+        "value": 72413,
+        "male": 33350,
+        "female": 39063,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1013",
+      "nameTh": "สัมพันธวงศ์",
+      "nameEn": "Samphanthawong",
+      "population": {
+        "2021": 20777,
+        "2022": 20168,
+        "2023": 19546,
+        "2024": 18845,
+        "2025": 18329
+      },
+      "latest": {
+        "year": 2025,
+        "value": 18329,
+        "male": 8901,
+        "female": 9428,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1014",
+      "nameTh": "พญาไท",
+      "nameEn": "Phaya Thai",
+      "population": {
+        "2021": 66212,
+        "2022": 65275,
+        "2023": 64037,
+        "2024": 63025,
+        "2025": 62275
+      },
+      "latest": {
+        "year": 2025,
+        "value": 62275,
+        "male": 29646,
+        "female": 32629,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1015",
+      "nameTh": "ธนบุรี",
+      "nameEn": "Thon Buri",
+      "population": {
+        "2021": 101217,
+        "2022": 99591,
+        "2023": 98286,
+        "2024": 97169,
+        "2025": 95666
+      },
+      "latest": {
+        "year": 2025,
+        "value": 95666,
+        "male": 44400,
+        "female": 51266,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1016",
+      "nameTh": "บางกอกใหญ่",
+      "nameEn": "Bangkok Yai",
+      "population": {
+        "2021": 62650,
+        "2022": 61579,
+        "2023": 60675,
+        "2024": 59797,
+        "2025": 58804
+      },
+      "latest": {
+        "year": 2025,
+        "value": 58804,
+        "male": 27277,
+        "female": 31527,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1017",
+      "nameTh": "ห้วยขวาง",
+      "nameEn": "Huai Khwang",
+      "population": {
+        "2021": 83278,
+        "2022": 83493,
+        "2023": 83692,
+        "2024": 83958,
+        "2025": 84038
+      },
+      "latest": {
+        "year": 2025,
+        "value": 84038,
+        "male": 37312,
+        "female": 46726,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1018",
+      "nameTh": "คลองสาน",
+      "nameEn": "Khlong San",
+      "population": {
+        "2021": 67579,
+        "2022": 66347,
+        "2023": 64961,
+        "2024": 63357,
+        "2025": 61832
+      },
+      "latest": {
+        "year": 2025,
+        "value": 61832,
+        "male": 28302,
+        "female": 33530,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1019",
+      "nameTh": "ตลิ่งชัน",
+      "nameEn": "Taling Chan",
+      "population": {
+        "2021": 102469,
+        "2022": 101802,
+        "2023": 101330,
+        "2024": 100887,
+        "2025": 100433
+      },
+      "latest": {
+        "year": 2025,
+        "value": 100433,
+        "male": 46691,
+        "female": 53742,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1020",
+      "nameTh": "บางกอกน้อย",
+      "nameEn": "Bangkok Noi",
+      "population": {
+        "2021": 101511,
+        "2022": 99729,
+        "2023": 98028,
+        "2024": 96745,
+        "2025": 94982
+      },
+      "latest": {
+        "year": 2025,
+        "value": 94982,
+        "male": 43891,
+        "female": 51091,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1021",
+      "nameTh": "บางขุนเทียน",
+      "nameEn": "Bang Khun Thian",
+      "population": {
+        "2021": 184994,
+        "2022": 184805,
+        "2023": 185159,
+        "2024": 185595,
+        "2025": 185160
+      },
+      "latest": {
+        "year": 2025,
+        "value": 185160,
+        "male": 86730,
+        "female": 98430,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1022",
+      "nameTh": "ภาษีเจริญ",
+      "nameEn": "Phasi Charoen",
+      "population": {
+        "2021": 122824,
+        "2022": 122070,
+        "2023": 121833,
+        "2024": 121716,
+        "2025": 120980
+      },
+      "latest": {
+        "year": 2025,
+        "value": 120980,
+        "male": 55545,
+        "female": 65435,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1023",
+      "nameTh": "หนองแขม",
+      "nameEn": "Nong Khaem",
+      "population": {
+        "2021": 155360,
+        "2022": 155243,
+        "2023": 155124,
+        "2024": 154956,
+        "2025": 154690
+      },
+      "latest": {
+        "year": 2025,
+        "value": 154690,
+        "male": 71556,
+        "female": 83134,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1024",
+      "nameTh": "ราษฎร์บูรณะ",
+      "nameEn": "Rat Burana",
+      "population": {
+        "2021": 77509,
+        "2022": 76590,
+        "2023": 75534,
+        "2024": 74977,
+        "2025": 74092
+      },
+      "latest": {
+        "year": 2025,
+        "value": 74092,
+        "male": 35180,
+        "female": 38912,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1025",
+      "nameTh": "บางพลัด",
+      "nameEn": "Bang Phlat",
+      "population": {
+        "2021": 88290,
+        "2022": 87475,
+        "2023": 87205,
+        "2024": 86571,
+        "2025": 85791
+      },
+      "latest": {
+        "year": 2025,
+        "value": 85791,
+        "male": 38591,
+        "female": 47200,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1026",
+      "nameTh": "ดินแดง",
+      "nameEn": "Din Daeng",
+      "population": {
+        "2021": 112814,
+        "2022": 111052,
+        "2023": 109802,
+        "2024": 110780,
+        "2025": 109047
+      },
+      "latest": {
+        "year": 2025,
+        "value": 109047,
+        "male": 49934,
+        "female": 59113,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1027",
+      "nameTh": "บึงกุ่ม",
+      "nameEn": "Bueng Kum",
+      "population": {
+        "2021": 139334,
+        "2022": 138050,
+        "2023": 137125,
+        "2024": 136108,
+        "2025": 134892
+      },
+      "latest": {
+        "year": 2025,
+        "value": 134892,
+        "male": 61151,
+        "female": 73741,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1028",
+      "nameTh": "สาทร",
+      "nameEn": "Sathon",
+      "population": {
+        "2021": 73987,
+        "2022": 72648,
+        "2023": 71306,
+        "2024": 70320,
+        "2025": 69219
+      },
+      "latest": {
+        "year": 2025,
+        "value": 69219,
+        "male": 32657,
+        "female": 36562,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1029",
+      "nameTh": "บางซื่อ",
+      "nameEn": "Bang Sue",
+      "population": {
+        "2021": 120718,
+        "2022": 119431,
+        "2023": 118634,
+        "2024": 117506,
+        "2025": 116600
+      },
+      "latest": {
+        "year": 2025,
+        "value": 116600,
+        "male": 53473,
+        "female": 63127,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1030",
+      "nameTh": "จตุจักร",
+      "nameEn": "Chatuchak",
+      "population": {
+        "2021": 154146,
+        "2022": 153792,
+        "2023": 154003,
+        "2024": 154500,
+        "2025": 154513
+      },
+      "latest": {
+        "year": 2025,
+        "value": 154513,
+        "male": 70449,
+        "female": 84064,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1031",
+      "nameTh": "บางคอแหลม",
+      "nameEn": "Bang Kho Laem",
+      "population": {
+        "2021": 80978,
+        "2022": 79095,
+        "2023": 77673,
+        "2024": 76224,
+        "2025": 74846
+      },
+      "latest": {
+        "year": 2025,
+        "value": 74846,
+        "male": 35184,
+        "female": 39662,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1032",
+      "nameTh": "ประเวศ",
+      "nameEn": "Prawet",
+      "population": {
+        "2021": 181632,
+        "2022": 182984,
+        "2023": 183893,
+        "2024": 184355,
+        "2025": 183562
+      },
+      "latest": {
+        "year": 2025,
+        "value": 183562,
+        "male": 85623,
+        "female": 97939,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1033",
+      "nameTh": "คลองเตย",
+      "nameEn": "Khlong Toei",
+      "population": {
+        "2021": 91636,
+        "2022": 90446,
+        "2023": 89514,
+        "2024": 89013,
+        "2025": 88304
+      },
+      "latest": {
+        "year": 2025,
+        "value": 88304,
+        "male": 41567,
+        "female": 46737,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1034",
+      "nameTh": "สวนหลวง",
+      "nameEn": "Suan Luang",
+      "population": {
+        "2021": 122824,
+        "2022": 122676,
+        "2023": 122994,
+        "2024": 123405,
+        "2025": 123291
+      },
+      "latest": {
+        "year": 2025,
+        "value": 123291,
+        "male": 55875,
+        "female": 67416,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1035",
+      "nameTh": "จอมทอง",
+      "nameEn": "Chom Thong",
+      "population": {
+        "2021": 145771,
+        "2022": 143330,
+        "2023": 141098,
+        "2024": 139427,
+        "2025": 137869
+      },
+      "latest": {
+        "year": 2025,
+        "value": 137869,
+        "male": 64776,
+        "female": 73093,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1036",
+      "nameTh": "ดอนเมือง",
+      "nameEn": "Don Mueang",
+      "population": {
+        "2021": 167921,
+        "2022": 166289,
+        "2023": 165941,
+        "2024": 166047,
+        "2025": 165594
+      },
+      "latest": {
+        "year": 2025,
+        "value": 165594,
+        "male": 82262,
+        "female": 83332,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1037",
+      "nameTh": "ราชเทวี",
+      "nameEn": "Ratchathewi",
+      "population": {
+        "2021": 67735,
+        "2022": 66279,
+        "2023": 64468,
+        "2024": 62632,
+        "2025": 61377
+      },
+      "latest": {
+        "year": 2025,
+        "value": 61377,
+        "male": 29052,
+        "female": 32325,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1038",
+      "nameTh": "ลาดพร้าว",
+      "nameEn": "Lat Phrao",
+      "population": {
+        "2021": 115602,
+        "2022": 114275,
+        "2023": 113197,
+        "2024": 112086,
+        "2025": 110660
+      },
+      "latest": {
+        "year": 2025,
+        "value": 110660,
+        "male": 49981,
+        "female": 60679,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1039",
+      "nameTh": "วัฒนา",
+      "nameEn": "Watthana",
+      "population": {
+        "2021": 81382,
+        "2022": 80830,
+        "2023": 80515,
+        "2024": 80272,
+        "2025": 79736
+      },
+      "latest": {
+        "year": 2025,
+        "value": 79736,
+        "male": 36929,
+        "female": 42807,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1040",
+      "nameTh": "บางแค",
+      "nameEn": "Bang Khae",
+      "population": {
+        "2021": 192431,
+        "2022": 192253,
+        "2023": 192234,
+        "2024": 192481,
+        "2025": 191997
+      },
+      "latest": {
+        "year": 2025,
+        "value": 191997,
+        "male": 88459,
+        "female": 103538,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1041",
+      "nameTh": "หลักสี่",
+      "nameEn": "Lak Si",
+      "population": {
+        "2021": 100534,
+        "2022": 100360,
+        "2023": 98377,
+        "2024": 98177,
+        "2025": 97352
+      },
+      "latest": {
+        "year": 2025,
+        "value": 97352,
+        "male": 46410,
+        "female": 50942,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1042",
+      "nameTh": "สายไหม",
+      "nameEn": "Sai Mai",
+      "population": {
+        "2021": 206831,
+        "2022": 208928,
+        "2023": 210954,
+        "2024": 212575,
+        "2025": 212912
+      },
+      "latest": {
+        "year": 2025,
+        "value": 212912,
+        "male": 98992,
+        "female": 113920,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1043",
+      "nameTh": "คันนายาว",
+      "nameEn": "Khan Na Yao",
+      "population": {
+        "2021": 95636,
+        "2022": 95523,
+        "2023": 95201,
+        "2024": 94194,
+        "2025": 93302
+      },
+      "latest": {
+        "year": 2025,
+        "value": 93302,
+        "male": 43191,
+        "female": 50111,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1044",
+      "nameTh": "สะพานสูง",
+      "nameEn": "Saphan Sung",
+      "population": {
+        "2021": 95922,
+        "2022": 96211,
+        "2023": 97061,
+        "2024": 97659,
+        "2025": 97812
+      },
+      "latest": {
+        "year": 2025,
+        "value": 97812,
+        "male": 44680,
+        "female": 53132,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1045",
+      "nameTh": "วังทองหลาง",
+      "nameEn": "Wang Thonglang",
+      "population": {
+        "2021": 105901,
+        "2022": 104478,
+        "2023": 103456,
+        "2024": 103056,
+        "2025": 102281
+      },
+      "latest": {
+        "year": 2025,
+        "value": 102281,
+        "male": 46225,
+        "female": 56056,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1046",
+      "nameTh": "คลองสามวา",
+      "nameEn": "Khlong Sam Wa",
+      "population": {
+        "2021": 206437,
+        "2022": 209120,
+        "2023": 212016,
+        "2024": 214311,
+        "2025": 215427
+      },
+      "latest": {
+        "year": 2025,
+        "value": 215427,
+        "male": 100782,
+        "female": 114645,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1047",
+      "nameTh": "บางนา",
+      "nameEn": "Bang Na",
+      "population": {
+        "2021": 87053,
+        "2022": 86155,
+        "2023": 85345,
+        "2024": 85001,
+        "2025": 84574
+      },
+      "latest": {
+        "year": 2025,
+        "value": 84574,
+        "male": 38866,
+        "female": 45708,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1048",
+      "nameTh": "ทวีวัฒนา",
+      "nameEn": "Thawi Watthana",
+      "population": {
+        "2021": 78798,
+        "2022": 79228,
+        "2023": 79771,
+        "2024": 80349,
+        "2025": 80816
+      },
+      "latest": {
+        "year": 2025,
+        "value": 80816,
+        "male": 37237,
+        "female": 43579,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1049",
+      "nameTh": "ทุ่งครุ",
+      "nameEn": "Thung Khru",
+      "population": {
+        "2021": 123392,
+        "2022": 123761,
+        "2023": 124093,
+        "2024": 124064,
+        "2025": 123887
+      },
+      "latest": {
+        "year": 2025,
+        "value": 123887,
+        "male": 57614,
+        "female": 66273,
+        "status": "observed"
+      }
+    },
+    {
+      "code": "1050",
+      "nameTh": "บางบอน",
+      "nameEn": "Bang Bon",
+      "population": {
+        "2021": 102635,
+        "2022": 101246,
+        "2023": 100203,
+        "2024": 99168,
+        "2025": 98160
+      },
+      "latest": {
+        "year": 2025,
+        "value": 98160,
+        "male": 46570,
+        "female": 51590,
+        "status": "observed"
+      }
+    }
+  ],
+  "unmatchedDistrictNames": [],
+  "crossCheckBmaOpenData": {
+    "available": true,
+    "encoding": "windows-874 (TIS-620 superset)",
+    "rows": 51,
+    "districtRowsMatchingNsoByYear": {
+      "2021": 0,
+      "2022": 0,
+      "2023": 50,
+      "2024": 0,
+      "2025": 0
+    },
+    "inferredYear": 2023,
+    "bmaPublishedTotal": 5471588,
+    "note": "The BMA file states no reference year; all 50 district values and the total equal the NSO/DOPA figures for the inferred year."
+  },
+  "crossCheckDopaAnnouncement": {
+    "available": true,
+    "textVia": "cached text layer",
+    "asOf": "2022-12-31",
+    "bangkokThaiNationals": 5394910,
+    "bangkokNonThai": 100022,
+    "bangkokTotal": 5494932,
+    "nsoTableValueSameYear": 5494932,
+    "equal": true,
+    "note": "Royal Gazette vol. 140 special part 16 ง (23 Jan 2023): ประกาศสำนักทะเบียนกลาง เรื่อง จำนวนราษฎรทั่วราชอาณาจักร ณ วันที่ 31 ธันวาคม 2565. Confirms the 31-December reference date and that totals include non-Thai registered persons."
+  },
+  "crossCheckDopaStatFiles": [
+    {
+      "year": 2021,
+      "yearBE": 2564,
+      "period": "6412",
+      "districtsInFile": 50,
+      "districtsEqualToNso": 50,
+      "bangkokTotalInFile": 5527994,
+      "bangkokTotalEqualsNso": true,
+      "housesInFile": 3147231
+    },
+    {
+      "year": 2022,
+      "yearBE": 2565,
+      "period": "6512",
+      "districtsInFile": 50,
+      "districtsEqualToNso": 50,
+      "bangkokTotalInFile": 5494932,
+      "bangkokTotalEqualsNso": true,
+      "housesInFile": 3197865
+    },
+    {
+      "year": 2023,
+      "yearBE": 2566,
+      "period": "6612",
+      "districtsInFile": 50,
+      "districtsEqualToNso": 50,
+      "bangkokTotalInFile": 5471588,
+      "bangkokTotalEqualsNso": true,
+      "housesInFile": 3251621
+    },
+    {
+      "year": 2024,
+      "yearBE": 2567,
+      "period": "6712",
+      "districtsInFile": 50,
+      "districtsEqualToNso": 50,
+      "bangkokTotalInFile": 5455020,
+      "bangkokTotalEqualsNso": true,
+      "housesInFile": 3304462
+    },
+    {
+      "year": 2025,
+      "yearBE": 2568,
+      "period": "6812",
+      "districtsInFile": 50,
+      "districtsEqualToNso": 50,
+      "bangkokTotalInFile": 5422568,
+      "bangkokTotalEqualsNso": true,
+      "housesInFile": 3356358
+    }
+  ],
+  "housesLatest": {
+    "1001": 18848,
+    "1002": 32986,
+    "1003": 75862,
+    "1004": 36129,
+    "1005": 121013,
+    "1006": 118394,
+    "1007": 32604,
+    "1008": 19645,
+    "1009": 66641,
+    "1010": 68253,
+    "1011": 109355,
+    "1012": 54497,
+    "1013": 12955,
+    "1014": 46986,
+    "1015": 66171,
+    "1016": 33220,
+    "1017": 96716,
+    "1018": 44636,
+    "1019": 45460,
+    "1020": 56273,
+    "1021": 96463,
+    "1022": 70059,
+    "1023": 66694,
+    "1024": 41018,
+    "1025": 62326,
+    "1026": 66035,
+    "1027": 79796,
+    "1028": 45276,
+    "1029": 79285,
+    "1030": 142403,
+    "1031": 41120,
+    "1032": 108246,
+    "1033": 83975,
+    "1034": 87941,
+    "1035": 74897,
+    "1036": 83940,
+    "1037": 58105,
+    "1038": 60897,
+    "1039": 87283,
+    "1040": 98608,
+    "1041": 63225,
+    "1042": 113037,
+    "1043": 49319,
+    "1044": 44739,
+    "1045": 66497,
+    "1046": 95016,
+    "1047": 83277,
+    "1048": 37532,
+    "1049": 58566,
+    "1050": 54139
+  },
+  "housesNote": "Number of registered houses (บ้าน) per district from the DOPA stat file for the latest year (sourceId dopa-stat-files); not used elsewhere.",
+  "externalCrossCheckNote": "Search-engine snippets of news reports (prachachat.net; page returned HTTP 403 to automated fetch, so unverified) give Bangkok 5,455,020 at end-2024 (BE 2567), equal to this table, and ~5.42 million at end-2025."
+}

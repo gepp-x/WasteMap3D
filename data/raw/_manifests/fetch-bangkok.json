@@ -1,0 +1,426 @@
+{
+  "bma-environment/composition/WasteComp_2.pdf": {
+    "url": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp_2.pdf",
+    "retrievedAt": "2026-11-03T18:35:17.808Z",
+    "httpStatus": 200,
+    "bytes": 1192219,
+    "sha256": "f005688aa6fe3b4edc968f978044a58550e800e22bc1e225a52f5ddbfa8bb08d",
+    "contentType": "application/pdf"
+  },
+  "bma-environment/composition/WasteComp_2565.pdf": {
+    "url": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+    "retrievedAt": "2026-11-03T18:35:15.513Z",
+    "httpStatus": 200,
+    "bytes": 55823,
+    "sha256": "0b23f86c1c81b7ebeea5299e4da790ed7efa85d82fb06f22a1e82b063e9cdf19",
+    "contentType": "application/pdf"
+  },
+  "bma-environment/composition/WasteCompo2563.pdf": {
+    "url": "https://webportal.bangkok.go.th/upload/user/00000231/data/waste63/WasteCompo2563.pdf",
+    "retrievedAt": "2026-11-03T18:35:16.738Z",
+    "httpStatus": 200,
+    "bytes": 1636527,
+    "sha256": "232b0d2513e86386ad273104a1643ec250bde1d158602bdd2fcd6ec2d051f6a7",
+    "contentType": "application/pdf"
+  },
+  "bma-environment/page_sub_20995.html": {
+    "url": "https://webportal.bangkok.go.th/environmentbma/page/sub/20995",
+    "retrievedAt": "2026-11-03T18:35:14.993Z",
+    "httpStatus": 200,
+    "bytes": 116011,
+    "sha256": "85f0f06ee526a9315b7509483132c87c547a264488460ed70df26778e676b8c6",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "bma-environment/page_sub_28229.html": {
+    "url": "https://webportal.bangkok.go.th/environmentbma/page/sub/28229",
+    "retrievedAt": "2026-11-03T18:35:01.660Z",
+    "httpStatus": 200,
+    "bytes": 118861,
+    "sha256": "f4d504556316c795d5b3dd981b64ad3ff0234cb4016745115c7004a17880cee7",
+    "contentType": "text/html; charset=UTF-8"
+  },
+  "bma-environment/waste-stats/FY2562_WasteSept_62_050121.pdf": {
+    "url": "https://webportal.bangkok.go.th/upload/user/00000231/data/waste/WasteSept_62_050121.pdf",
+    "retrievedAt": "2026-11-03T18:35:02.295Z",
+    "httpStatus": 200,
+    "bytes": 1844568,
+    "sha256": "d1ad0387dc7a2dfe1b6cabec0570f65f6f83b3f9e0ab6b4f74d619f98adc999c",
+    "contentType": "application/pdf"
+  },
+  "bma-environment/waste-stats/FY2563_waste_Sept63.pdf": {
+    "url": "https://webportal.bangkok.go.th/upload/user/00000231/data/law/waste_Sept63.pdf",
+    "retrievedAt": "2026-11-03T18:35:03.345Z",
+    "httpStatus": 200,
+    "bytes": 2281031,
+    "sha256": "51cca328272d77a448d610893bac5474e621a2fc2ffae3c11f0aec5979f280da",
+    "contentType": "application/pdf"
+  },
+  "bma-environment/waste-stats/FY2564_12.September2021.pdf": {
+    "url": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2564/12.September2021.pdf",
+    "retrievedAt": "2026-11-03T18:35:04.405Z",
+    "httpStatus": 200,
+    "bytes": 1423699,
+    "sha256": "10b616e5b46ef7f03a326333bce74744cefc64713e1e609f90514231dbb18be7",
+    "contentType": "application/pdf"
+  },
+  "bma-environment/waste-stats/FY2565_12.September2022.pdf": {
+    "url": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/12.September2022.pdf",
+    "retrievedAt": "2026-11-03T18:35:05.469Z",
+    "httpStatus": 200,
+    "bytes": 1424860,
+    "sha256": "f3403bffcb533c9e15ed6e466a6cebe06e1303fd29b20f6ae342ca84c9b6e567",
+    "contentType": "application/pdf"
+  },
+  "bma-environment/waste-stats/FY2566_12.September2566.pdf": {
+    "url": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2566/12.September2566.pdf",
+    "retrievedAt": "2026-11-03T18:35:06.578Z",
+    "httpStatus": 200,
+    "bytes": 1552057,
+    "sha256": "f4e314e08edaf539e1dbaf50b83839f26171bb36524d250593b49c3a9c360a76",
+    "contentType": "application/pdf"
+  },
+  "bma-environment/waste-stats/FY2567_12-September67.pdf": {
+    "url": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2567/12-September67.pdf",
+    "retrievedAt": "2026-11-03T18:35:07.665Z",
+    "httpStatus": 200,
+    "bytes": 1350211,
+    "sha256": "44ae30f09122550bb3a0ac1151fe60d7dcc8844ba4a81ca2805717ca7df98794",
+    "contentType": "application/pdf"
+  },
+  "bma-environment/waste-stats/FY2568_12_September.pdf": {
+    "url": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2568/12_September.pdf",
+    "retrievedAt": "2026-11-03T18:35:08.765Z",
+    "httpStatus": 200,
+    "bytes": 1310673,
+    "sha256": "413caa96c3c116429d5c7ae0c2d09ed0aa9445d788f81c369e8618bbadefbf10",
+    "contentType": "application/pdf"
+  },
+  "bma-environment/waste-stats/FY2569_Sep69.pdf": {
+    "url": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2569/%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%9D%E0%B8%AD%E0%B8%A2%E0%B8%81.%E0%B8%A2.69.pdf",
+    "retrievedAt": "2026-11-03T18:35:09.893Z",
+    "httpStatus": 200,
+    "bytes": 1247430,
+    "sha256": "186f9ec63334f4cd7261a4e9983fc7c9249f293966b893f2d28b30bc2091dac4",
+    "contentType": "application/pdf"
+  },
+  "bma-opendata/composition/garbage_element.csv": {
+    "url": "https://data.bangkok.go.th/dataset/a5e63301-7508-40ba-b8d2-9a5c6786fd80/resource/ee48268a-4501-4cba-a5b8-cf0d6d493ef9/download/garbage_element.csv",
+    "retrievedAt": "2026-11-03T18:35:19.026Z",
+    "httpStatus": 200,
+    "bytes": 522,
+    "sha256": "e5dd745f456e3a5a949835de6930786fa24ced09648dea082bc0a3560221a7a7",
+    "contentType": "text/csv"
+  },
+  "bma-opendata/district50/50district.csv": {
+    "url": "https://data.bangkok.go.th/dataset/e537025b-1cf6-4c5b-8e46-c2e976f13283/resource/7bf56a08-044f-4287-b10e-c2beefccdfcc/download/50district.csv",
+    "retrievedAt": "2026-11-03T18:34:46.150Z",
+    "httpStatus": 200,
+    "bytes": 2850,
+    "sha256": "43eb7c5111548df371a8f1140f9b01074739ef4038fcba2f1d195a3683cf2fd2",
+    "contentType": "text/csv"
+  },
+  "bma-opendata/district50/district-2.zip": {
+    "url": "https://data.bangkok.go.th/dataset/e537025b-1cf6-4c5b-8e46-c2e976f13283/resource/d7be7e84-9d84-4595-bf8f-79b0bc01f1ae/download/district-2.zip",
+    "retrievedAt": "2026-11-03T18:34:45.107Z",
+    "httpStatus": 200,
+    "bytes": 966139,
+    "sha256": "f44bfc78a89e59912f285a0fddb1b073ae1e82a01a4e202196e841bbe3ce54f5",
+    "contentType": "application/zip"
+  },
+  "bma-opendata/env0004/env0004.csv": {
+    "url": "https://data.bangkok.go.th/dataset/2ab09309-b85f-4db0-9651-dce396f620f1/resource/0f76b9bf-ed5d-4386-bea2-16e245ea8b28/download/env0004.csv",
+    "retrievedAt": "2026-11-03T18:35:13.272Z",
+    "httpStatus": 200,
+    "bytes": 6960,
+    "sha256": "a915229f6b69991d7f6a6a45c2c8c8df3b9aa9e081069e349525ef340ec8b55d",
+    "contentType": "text/csv"
+  },
+  "bma-opendata/env0011/env0011-65.csv": {
+    "url": "https://data.bangkok.go.th/dataset/af62128f-566b-4831-aece-1784041807d3/resource/55e93768-9427-4807-a791-e1f9350958d5/download/env0011-65.csv",
+    "retrievedAt": "2026-11-03T18:35:14.378Z",
+    "httpStatus": 200,
+    "bytes": 371,
+    "sha256": "4c175bad3fed08e3eae9df10f95f540c1db1dd74de5c730382522d6acfdeac0a",
+    "contentType": "text/csv"
+  },
+  "bma-opendata/flood/flood_point.zip": {
+    "url": "https://data.bangkok.go.th/dataset/36256cdf-5576-4b17-9c4a-ddde6c7ff343/resource/b8f2058d-e562-421e-a4cf-1dd706c3ba8a/download/flood_point.zip",
+    "retrievedAt": "2026-11-03T18:35:32.178Z",
+    "httpStatus": 200,
+    "bytes": 2561,
+    "sha256": "039cdfb9b7bdd9082ab32a51711e20288ccb2ce23df7cc9629438fddcec89cb4",
+    "contentType": "application/zip"
+  },
+  "bma-opendata/flood/flood_risk.csv": {
+    "url": "https://data.bangkok.go.th/dataset/3fcbe9f7-d2b0-4442-b110-4a5620ebdce3/resource/8f1102d5-52a2-4494-9131-403e4f87a242/download/flood_risk.csv",
+    "retrievedAt": "2026-11-03T18:35:27.947Z",
+    "httpStatus": 200,
+    "bytes": 481907,
+    "sha256": "8756092938cc2c89e01e73a540a2e8a2bdc99e29da73d2d867006a9a3577dade",
+    "contentType": "text/csv"
+  },
+  "bma-opendata/flood/flood_risk26.csv": {
+    "url": "https://data.bangkok.go.th/dataset/25bc3f04-5707-4b60-a885-5ad45aa38cd6/resource/837b7fb6-ce1f-4356-881e-6bf14eeb075f/download/flood_risk26.csv",
+    "retrievedAt": "2026-11-03T18:35:26.697Z",
+    "httpStatus": 200,
+    "bytes": 30655,
+    "sha256": "91dc21eedbe6a0c79183667b1da1f5d5b51810e87fca019319eb885173553e26",
+    "contentType": "text/csv"
+  },
+  "bma-opendata/flood/igd-21_risk_points.csv": {
+    "url": "https://data.bangkok.go.th/dataset/5ed16717-0ab8-4bd9-925b-4049eadb2107/resource/fa27e318-aea0-4c0b-a79a-f94b306b943e/download/6.-.csv",
+    "retrievedAt": "2026-11-03T18:35:30.027Z",
+    "httpStatus": 200,
+    "bytes": 5658,
+    "sha256": "6f3f84f9befc845f74df0fecfcd9cb1dd9393c123bc98b0ff7a11969376d1b95",
+    "contentType": "text/csv"
+  },
+  "bma-opendata/flood/igd-22_watch_points.csv": {
+    "url": "https://data.bangkok.go.th/dataset/0f44471a-9ad6-40bb-868d-784c687a8037/resource/1df60609-eea9-4e0a-b67c-39d97a2354e0/download/7.-.csv",
+    "retrievedAt": "2026-11-03T18:35:28.977Z",
+    "httpStatus": 200,
+    "bytes": 5673,
+    "sha256": "430d12951d7d89cab027136ba868344602abaf0e918ac8b10f63659ea598ebc4",
+    "contentType": "text/csv"
+  },
+  "bma-opendata/flood/risk-flood-bangkok-area-2566.csv": {
+    "url": "https://data.bangkok.go.th/dataset/a1cc1d7a-6d87-4dd2-a662-79ed58c2623c/resource/b719945f-f10b-4b4c-afd2-2e8b43d21726/download/-2566.csv",
+    "retrievedAt": "2026-11-03T18:35:31.127Z",
+    "httpStatus": 200,
+    "bytes": 8213,
+    "sha256": "7bab0052e65795eb18392e68bc924568447a234947abcaf2c88a9142fec7fc7e",
+    "contentType": "text/csv"
+  },
+  "bma-opendata/garbage/garbage.csv": {
+    "url": "https://data.bangkok.go.th/dataset/58771fe2-7614-4ebc-ab0b-a85c84fe19be/resource/f08ef6ac-4c78-47c5-952c-46ffa6e93579/download/garbage.csv",
+    "retrievedAt": "2026-11-03T18:35:10.126Z",
+    "httpStatus": 200,
+    "bytes": 9725,
+    "sha256": "f366a52c14e1fab02ccb10e011494d32f7aa617357daeeb026e7944b02e50dce",
+    "contentType": "text/csv"
+  },
+  "bma-opendata/garbage/garbage.docx": {
+    "url": "https://data.bangkok.go.th/dataset/58771fe2-7614-4ebc-ab0b-a85c84fe19be/resource/8a87c44a-d12b-4859-90cc-3a6a7719b0f2/download/garbage.docx",
+    "retrievedAt": "2026-11-03T18:35:11.154Z",
+    "httpStatus": 200,
+    "bytes": 16658,
+    "sha256": "7e5cb4dd5d9ee70d736e08a106cae2efac71480475f93121c90b7454c998efdc",
+    "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  "bma-opendata/garbage50/quantity_waste.csv": {
+    "url": "https://data.bangkok.go.th/dataset/693011d9-70d3-4b38-aced-af040a2ad6ec/resource/0f094f40-c0c9-42ea-8cdb-29ec0f40cecd/download/quantity_waste.csv",
+    "retrievedAt": "2026-11-03T18:35:12.196Z",
+    "httpStatus": 200,
+    "bytes": 2513,
+    "sha256": "50a55846bae72555900dfbd4785db56cd7a8ec7a9ae56dc459ab4c95d1018550",
+    "contentType": "text/csv"
+  },
+  "bma-opendata/pkg_district50.json": {
+    "url": "https://data.bangkok.go.th/api/3/action/package_show?id=e537025b-1cf6-4c5b-8e46-c2e976f13283",
+    "retrievedAt": "2026-11-03T18:34:43.978Z",
+    "httpStatus": 200,
+    "bytes": 12458,
+    "sha256": "ec82e39ab05fc04d3449766fc42d982a9a33138b6e172853b37ffe8271a7ab2b",
+    "contentType": "application/json;charset=utf-8"
+  },
+  "bma-opendata/pkg_env0011.json": {
+    "url": "https://data.bangkok.go.th/api/3/action/package_show?id=env0011",
+    "retrievedAt": "2026-11-03T18:35:00.977Z",
+    "httpStatus": 200,
+    "bytes": 5451,
+    "sha256": "e77e63aa2efcd3c633541b5aa4f9c8472eb366f7f08265986a68f86eeeedb7fb",
+    "contentType": "application/json;charset=utf-8"
+  },
+  "bma-opendata/pkg_flood_risk.json": {
+    "url": "https://data.bangkok.go.th/api/3/action/package_show?id=flood_risk",
+    "retrievedAt": "2026-11-03T18:35:21.167Z",
+    "httpStatus": 200,
+    "bytes": 7479,
+    "sha256": "3c9d208a0f562d118ad2b750f0f1e2efc2057884dace7f90a0add3ae965cec77",
+    "contentType": "application/json;charset=utf-8"
+  },
+  "bma-opendata/pkg_flood_risk26.json": {
+    "url": "https://data.bangkok.go.th/api/3/action/package_show?id=flood_risk26",
+    "retrievedAt": "2026-11-03T18:35:20.067Z",
+    "httpStatus": 200,
+    "bytes": 7797,
+    "sha256": "b28cd9e778a44325734d3ee353a1383a9dafa875b4adf32342230a31688ff300",
+    "contentType": "application/json;charset=utf-8"
+  },
+  "bma-opendata/pkg_floodpoint.json": {
+    "url": "https://data.bangkok.go.th/api/3/action/package_show?id=floodpoint",
+    "retrievedAt": "2026-11-03T18:35:25.571Z",
+    "httpStatus": 200,
+    "bytes": 11645,
+    "sha256": "6a424778e03baf4889b74fa76b50d8b59c529029ea1b66447dd538bd79720f7a",
+    "contentType": "application/json;charset=utf-8"
+  },
+  "bma-opendata/pkg_garbage50.json": {
+    "url": "https://data.bangkok.go.th/api/3/action/package_show?id=garbage50",
+    "retrievedAt": "2026-11-03T18:34:58.844Z",
+    "httpStatus": 200,
+    "bytes": 7162,
+    "sha256": "48b39140306cfd8bfa96347272a3423075956c6d0e7a3b5ad09cd9c488ab5607",
+    "contentType": "application/json;charset=utf-8"
+  },
+  "bma-opendata/pkg_https-webportal-bangkok-go-th-environmentbma-page-sub-20995.json": {
+    "url": "https://data.bangkok.go.th/api/3/action/package_show?id=https-webportal-bangkok-go-th-environmentbma-page-sub-20995",
+    "retrievedAt": "2026-11-03T18:35:17.952Z",
+    "httpStatus": 200,
+    "bytes": 6376,
+    "sha256": "d03ef873bea251373a40138bd42986d5512f67f534616791f171e6b9e4322ead",
+    "contentType": "application/json;charset=utf-8"
+  },
+  "bma-opendata/pkg_https-webportal-bangkok-go-th-environmentbma.json": {
+    "url": "https://data.bangkok.go.th/api/3/action/package_show?id=https-webportal-bangkok-go-th-environmentbma",
+    "retrievedAt": "2026-11-03T18:34:59.865Z",
+    "httpStatus": 200,
+    "bytes": 5624,
+    "sha256": "5f06fbaf84e8b4ef89344a59a937f75f1bfd5e177852d55f961cb59afb866ee7",
+    "contentType": "application/json;charset=utf-8"
+  },
+  "bma-opendata/pkg_igd-21.json": {
+    "url": "https://data.bangkok.go.th/api/3/action/package_show?id=igd-21",
+    "retrievedAt": "2026-11-03T18:35:23.375Z",
+    "httpStatus": 200,
+    "bytes": 6242,
+    "sha256": "5726a30b57340ad575c0b289824ccba211d49f263d9e665d181fdd749b10b4f7",
+    "contentType": "application/json;charset=utf-8"
+  },
+  "bma-opendata/pkg_igd-22.json": {
+    "url": "https://data.bangkok.go.th/api/3/action/package_show?id=igd-22",
+    "retrievedAt": "2026-11-03T18:35:22.270Z",
+    "httpStatus": 200,
+    "bytes": 6314,
+    "sha256": "857bb3ae1cc26323949eb6c405d10ab0098caa1b9b0e85fabf164249e75e84d0",
+    "contentType": "application/json;charset=utf-8"
+  },
+  "bma-opendata/pkg_risk-flood-bangkok-area.json": {
+    "url": "https://data.bangkok.go.th/api/3/action/package_show?id=risk-flood-bangkok-area",
+    "retrievedAt": "2026-11-03T18:35:24.476Z",
+    "httpStatus": 200,
+    "bytes": 8167,
+    "sha256": "d9161930462f2543ecd1cdd2472b1a2a6550e8347bb084c0a26af832c3041cf5",
+    "contentType": "application/json;charset=utf-8"
+  },
+  "bma-opendata/population/bangkok_population_separate_by_distric.csv": {
+    "url": "https://data.bangkok.go.th/dataset/9801eb64-aaa1-4dbf-9b83-98dfb04ff81e/resource/0e77f0fd-17c7-4bd3-ba53-1fc9c46a8c3e/download/bangkok_population_separate_by_distric.csv",
+    "retrievedAt": "2026-11-03T18:34:49.980Z",
+    "httpStatus": 200,
+    "bytes": 1602,
+    "sha256": "30944ffcb0d7b6bbfe92e1a56c116edd4bb454ad1dc06853ded49719d104512f",
+    "contentType": "text/csv"
+  },
+  "datagoth/garbage/garbage.csv": {
+    "url": "https://data.go.th/dataset/731a8cb0-d563-45ca-93ae-52e3de47e474/resource/1c0a2c55-d28e-446d-bbdf-9b810b8c0035/download/garbage.csv",
+    "retrievedAt": "2026-11-03T18:35:11.255Z",
+    "httpStatus": 200,
+    "bytes": 9725,
+    "sha256": "f366a52c14e1fab02ccb10e011494d32f7aa617357daeeb026e7944b02e50dce",
+    "contentType": "text/csv"
+  },
+  "datagoth/package_0405_01_0005.json": {
+    "url": "https://data.go.th/api/3/action/package_show?id=0405_01_0005",
+    "retrievedAt": "2026-11-03T18:34:47.094Z",
+    "httpStatus": 200,
+    "bytes": 11343,
+    "sha256": "e640820bba51fc33013144a76169f42ab1a5ed92f9191003794508298cfc09e0",
+    "contentType": "application/json;charset=utf-8"
+  },
+  "datagoth/package_50.json": {
+    "url": "https://data.go.th/api/3/action/package_show?id=50",
+    "retrievedAt": "2026-11-03T18:34:43.842Z",
+    "httpStatus": 200,
+    "bytes": 11379,
+    "sha256": "9cbf7667262ec2454ed75f6c387202f4701e14153f9da64969fdd18f03d30b21",
+    "contentType": "application/json;charset=utf-8"
+  },
+  "datagoth/package_bkkpopulationdistric.json": {
+    "url": "https://data.go.th/api/3/action/package_show?id=bkkpopulationdistric",
+    "retrievedAt": "2026-11-03T18:34:48.197Z",
+    "httpStatus": 200,
+    "bytes": 6640,
+    "sha256": "d81b9230ffc84557e5fd59007e984eda2436739b2133c738a14e3ccfaaa9f273",
+    "contentType": "application/json;charset=utf-8"
+  },
+  "datagoth/package_garbage.json": {
+    "url": "https://data.go.th/api/3/action/package_show?id=garbage",
+    "retrievedAt": "2026-11-03T18:34:58.716Z",
+    "httpStatus": 200,
+    "bytes": 6674,
+    "sha256": "e7f0c6c38223625624fe499b2cef622f2d8fc0876c43318a0aaf328cac061654",
+    "contentType": "application/json;charset=utf-8"
+  },
+  "datagoth/package_garbage1.json": {
+    "url": "https://data.go.th/api/3/action/package_show?id=garbage1",
+    "retrievedAt": "2026-11-03T18:34:57.573Z",
+    "httpStatus": 200,
+    "bytes": 9512,
+    "sha256": "15286f5751a90b3f88b339d004d66746bc099646a8f22d94248deb2978ab14ed",
+    "contentType": "application/json;charset=utf-8"
+  },
+  "dopa/bangkok/stat_a64.txt": {
+    "url": "https://stat.bora.dopa.go.th/new_stat/file/64/stat_a64.txt",
+    "retrievedAt": "2026-11-03T18:34:50.231Z",
+    "httpStatus": 200,
+    "bytes": 394581,
+    "sha256": "1139e73ed3e463f084c9f952e3737a95dd25910bc35295ef580cd49973698fa9",
+    "contentType": "text/plain; charset=UTF-8"
+  },
+  "dopa/bangkok/stat_a65.txt": {
+    "url": "https://stat.bora.dopa.go.th/new_stat/file/65/stat_a65.txt",
+    "retrievedAt": "2026-11-03T18:34:51.240Z",
+    "httpStatus": 200,
+    "bytes": 394627,
+    "sha256": "f52579ef8ddaddf84c9b46f4d07a208788d99b1e9484dc4efa1bfd58f0dd59fd",
+    "contentType": "text/plain; charset=UTF-8"
+  },
+  "dopa/bangkok/stat_a66.txt": {
+    "url": "https://stat.bora.dopa.go.th/new_stat/file/66/stat_a66.txt",
+    "retrievedAt": "2026-11-03T18:34:52.278Z",
+    "httpStatus": 200,
+    "bytes": 394819,
+    "sha256": "ed7d5a739b9c06eedbc6e99689908e1a1bacb59796d0d9403f7dab08ee43d4eb",
+    "contentType": "text/plain; charset=UTF-8"
+  },
+  "dopa/bangkok/stat_a67.txt": {
+    "url": "https://stat.bora.dopa.go.th/new_stat/file/67/stat_a67.txt",
+    "retrievedAt": "2026-11-03T18:34:53.347Z",
+    "httpStatus": 200,
+    "bytes": 395227,
+    "sha256": "84ae23af54e7dd6e78c5e9af32d91642da26b058cea6be2daffe5e61f6a4aba5",
+    "contentType": "text/plain; charset=UTF-8"
+  },
+  "dopa/bangkok/stat_a68.txt": {
+    "url": "https://stat.bora.dopa.go.th/new_stat/file/68/stat_a68.txt",
+    "retrievedAt": "2026-11-03T18:34:54.442Z",
+    "httpStatus": 200,
+    "bytes": 396965,
+    "sha256": "3e5d5725f5ac877ebd16483adbe450013a1bfd23650c52f1cc125861e0537222",
+    "contentType": "text/plain; charset=UTF-8"
+  },
+  "dopa/dopa_news_preview_10616.pdf": {
+    "url": "https://www.dopa.go.th/news/preview/10616",
+    "retrievedAt": "2026-11-03T18:34:57.276Z",
+    "httpStatus": 200,
+    "bytes": 123893,
+    "sha256": "ec6184350507dc7ec664680ed2a26ce265e24f7b50bd9347cdc13c1bfadcb4ca",
+    "contentType": "application/pdf"
+  },
+  "nso-catalog/OS_0405_01_0005_01_datadic.csv": {
+    "url": "https://catalogapi.nso.go.th/api/datadic?table=OS_0405_01_0005_01&format=csv",
+    "retrievedAt": "2026-11-03T18:34:49.910Z",
+    "httpStatus": 200,
+    "bytes": 428,
+    "sha256": "4e0f356b1fa41bf25ea83b0fe1e6d7a6a0601abf89f92d92ce95c7a1ba6ca01b",
+    "contentType": "text/csv;charset=UTF-8"
+  },
+  "nso-catalog/OS_0405_01_0005_01.csv": {
+    "url": "https://catalogapi.nso.go.th/api/index?table=OS_0405_01_0005_01&format=csv",
+    "retrievedAt": "2026-11-03T18:34:49.635Z",
+    "httpStatus": 200,
+    "bytes": 2105016,
+    "sha256": "7c24d89223d0709df54baa65f84bd3149fd2d26feeef252b83361237ad372a5a",
+    "contentType": "text/csv; charset=utf-8"
+  }
+}

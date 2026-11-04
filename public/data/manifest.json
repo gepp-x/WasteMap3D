@@ -1,0 +1,401 @@
+{
+ "generatedAt": "2026-11-04T02:00:22.839Z",
+ "note": "Every public data file with its byte size and sha256 at build time (scripts/data/build-datasets.ts). Building windows may be refreshed by scripts/data/fetch-buildings.ts after a build; re-run the build to refresh this manifest.",
+ "files": [
+  {
+   "path": "bangkok/areas.geojson",
+   "bytes": 328823,
+   "sha256": "3947e1efa762d3c42cce9cc5d0fb19d1ca3dc570bbdf998bf0543933c145f3e1"
+  },
+  {
+   "path": "bangkok/areas.json",
+   "bytes": 985544,
+   "sha256": "333e6e53fee65f37dd7206c9ea48b8944f915951d013739e62d7defcd3ec9ddc"
+  },
+  {
+   "path": "bangkok/districts.geojson",
+   "bytes": 334209,
+   "sha256": "6de7b80319f463321278935b8d76c25648ff85b4c0bc64e09095feb75e4e3dc1"
+  },
+  {
+   "path": "bangkok/drainage.geojson",
+   "bytes": 421092,
+   "sha256": "b9d817ad2de6a03596acbb2ef5c76711d9850ec51dbd0558ac627ed338fd3b38"
+  },
+  {
+   "path": "bangkok/flood-events.json",
+   "bytes": 12919,
+   "sha256": "a040258899dccf1a2ea01dbb3196af31af8aecfc936df3c73a2047588d1b1eb1"
+  },
+  {
+   "path": "bangkok/rain-areas.json",
+   "bytes": 197631,
+   "sha256": "9980df1cce25228c59ae05efeb81405ad3cece85256ab77c8dc24c332cc9a69f"
+  },
+  {
+   "path": "bangkok/rain-grid.json",
+   "bytes": 217931,
+   "sha256": "273e897b4cd2660cc2a82be21c81b425d0074e701d9e23044df622110d68ca7b"
+  },
+  {
+   "path": "bangkok/rain-hourly.json",
+   "bytes": 4600,
+   "sha256": "cb556018b071a9f4669a1867e2c6b7ff69b53978b2d7e68c26826a4611c1952a"
+  },
+  {
+   "path": "bangkok/stations.json",
+   "bytes": 380221,
+   "sha256": "7ecbe8a472bf2f4f84ddb3836eee3d994f97053319800784e07ac8bd765dcb63"
+  },
+  {
+   "path": "bangkok/water-levels.json",
+   "bytes": 785309,
+   "sha256": "df239da09395d0a42e24adbf767ea97d9780869a07e1f322c62ab170015aa42c"
+  },
+  {
+   "path": "bangkok/waterways.geojson",
+   "bytes": 1439869,
+   "sha256": "39841db9f0800d16b1e6ebfbabd5d78925450e6e8e441fe6ed35dd08e6a8b73f"
+  },
+  {
+   "path": "buildings/bkk-1001.json",
+   "bytes": 134382,
+   "sha256": "c3c665c514b95c33471a1cc710f87b929224d627de39249cfbd7341df5cdd365"
+  },
+  {
+   "path": "buildings/bkk-1002.json",
+   "bytes": 246468,
+   "sha256": "04d1b84dc87a3f68bbec6e10c190880b38619eb57aff95df430f1761e4bbd5cb"
+  },
+  {
+   "path": "buildings/bkk-1003.json",
+   "bytes": 65276,
+   "sha256": "939a0f529c6de2b52ce6c4c8e5aedecb876c025d45b1a17cf6369b1ae4612301"
+  },
+  {
+   "path": "buildings/bkk-1004.json",
+   "bytes": 208528,
+   "sha256": "6254a5fa109dce6e3280f91e37d82499dbea28e34859677ad52d7737e0035da3"
+  },
+  {
+   "path": "buildings/bkk-1005.json",
+   "bytes": 9764,
+   "sha256": "f2bedda4a7a260358fc801233e3ba1e26da8c9d5e09ed2c8a2fec46268e9d435"
+  },
+  {
+   "path": "buildings/bkk-1006.json",
+   "bytes": 29608,
+   "sha256": "93518b9a544631a3892ce96aec68b0416143ca12f840608dec8720e7e51bb4f1"
+  },
+  {
+   "path": "buildings/bkk-1007.json",
+   "bytes": 131760,
+   "sha256": "8201aced84f7e2e4111fa7bd780b67e5b3c9c3cbc0d871df0785eaf832c60d29"
+  },
+  {
+   "path": "buildings/bkk-1008.json",
+   "bytes": 99755,
+   "sha256": "0a5f802cafa71d11a7071c95b61074bc1862aa7639386057be0b716bd1eba482"
+  },
+  {
+   "path": "buildings/bkk-1009.json",
+   "bytes": 141385,
+   "sha256": "d8898953cbb104230c101ec0c31fc9c1b8e65f4e5c77336d74c9e44e8507143f"
+  },
+  {
+   "path": "buildings/bkk-1010.json",
+   "bytes": 27711,
+   "sha256": "bbe786e84e266c519df982c09d8cc5f023cfb446d8f33b85826fa7e5b7a43da6"
+  },
+  {
+   "path": "buildings/bkk-1011.json",
+   "bytes": 18786,
+   "sha256": "596dd0b4ec12b321bd43694af77129619d73b5ccef6cac6ac9e88d3a3005e3c2"
+  },
+  {
+   "path": "buildings/bkk-1012.json",
+   "bytes": 199138,
+   "sha256": "9d07930b05683cccd168e8ed8bbf3505a92322622d798375fd53be73263c3dbd"
+  },
+  {
+   "path": "buildings/bkk-1013.json",
+   "bytes": 211037,
+   "sha256": "d380a6bc147c249c6700eb52d0061263f1f6249a159fad7d4c785c04d57b8dfd"
+  },
+  {
+   "path": "buildings/bkk-1014.json",
+   "bytes": 119340,
+   "sha256": "c011755ec73d271962cf046488989135c8bb1cdb48f7b6218280145313e6ace5"
+  },
+  {
+   "path": "buildings/bkk-1015.json",
+   "bytes": 25534,
+   "sha256": "7b2bcf0b05d515cd446450785c5a955f5cc889c377cec2f66fcf4fc5a1ab9eef"
+  },
+  {
+   "path": "buildings/bkk-1016.json",
+   "bytes": 103758,
+   "sha256": "8ff8f4cca95be401aed8229baf11645e9cf90ce06a04bf46034c386f5b050209"
+  },
+  {
+   "path": "buildings/bkk-1017.json",
+   "bytes": 44922,
+   "sha256": "4f391216c3d99522e4c4692cb44216a96ceac7263f2e9b4a46bd5b86514bcb50"
+  },
+  {
+   "path": "buildings/bkk-1018.json",
+   "bytes": 91439,
+   "sha256": "ba4ad7d07c5fc106f5e1c033c56b601326fb3928325ce300cff9e578dcae995e"
+  },
+  {
+   "path": "buildings/bkk-1019.json",
+   "bytes": 39862,
+   "sha256": "dc25cd213233d0527ed17a404caa80e7b071dd298123472d52af94bfd0cb0d5f"
+  },
+  {
+   "path": "buildings/bkk-1020.json",
+   "bytes": 109233,
+   "sha256": "05a4a36ed606a1f7fc1e204e52ccdaad9da557c54e325644549e22964e772ff8"
+  },
+  {
+   "path": "buildings/bkk-1021.json",
+   "bytes": 17057,
+   "sha256": "9fb0c59fb0a650c55583bf10f8b206608e7364c13107c10a69baeb5caab0bfcb"
+  },
+  {
+   "path": "buildings/bkk-1022.json",
+   "bytes": 19609,
+   "sha256": "bce70f778fe56cc5197d5694111901baf872b3b83439600a6b8181eb0db2a5f1"
+  },
+  {
+   "path": "buildings/bkk-1023.json",
+   "bytes": 9160,
+   "sha256": "485ef494c87db8b3adc9692b4b4177889433eb11cc317c876c88029760cb8dd5"
+  },
+  {
+   "path": "buildings/bkk-1024.json",
+   "bytes": 7913,
+   "sha256": "28618ad62a476a447514c01dff2f5ad78abcbc4ee2fa3f9abada99dab5c2e2e2"
+  },
+  {
+   "path": "buildings/bkk-1025.json",
+   "bytes": 30079,
+   "sha256": "1c9a3fbe1238e84784e0c61415281f88706bcaaa3b9b55aca80c7030677ac9e0"
+  },
+  {
+   "path": "buildings/bkk-1026.json",
+   "bytes": 169045,
+   "sha256": "75efaa270f48e0b0888ab28071e744d778556bc7abcc1375639e3c3f03689306"
+  },
+  {
+   "path": "buildings/bkk-1027.json",
+   "bytes": 113290,
+   "sha256": "2ffb68400de4fb81086d386aeec8491f1d537c3f7bceea37dd24865208a03ae4"
+  },
+  {
+   "path": "buildings/bkk-1028.json",
+   "bytes": 206785,
+   "sha256": "8d1decb8a96b58a7d85481c84f5786976f9500936df3bd01ebfabeb22682570e"
+  },
+  {
+   "path": "buildings/bkk-1029.json",
+   "bytes": 14809,
+   "sha256": "cd40ded07395344fb8a4e5114cb6193084f663bce174a2d6632cfe382ab07abe"
+  },
+  {
+   "path": "buildings/bkk-1030.json",
+   "bytes": 39375,
+   "sha256": "a0ca2fc37e10aeec020b48fdb19f785c769f83670371f6fbf37f743486b44d3d"
+  },
+  {
+   "path": "buildings/bkk-1031.json",
+   "bytes": 216560,
+   "sha256": "53f114c5254875f6f8ff6e5f601cddeab53e9ed0eded4252f58e19adf36e4649"
+  },
+  {
+   "path": "buildings/bkk-1032.json",
+   "bytes": 7334,
+   "sha256": "23cbcf9b06bd265baba156ccd42349005c96da66430e9f61cd955dc688083dd2"
+  },
+  {
+   "path": "buildings/bkk-1033.json",
+   "bytes": 35370,
+   "sha256": "c53430da05b8a33c4fd6ac922821add82102a3439bd330e64fd8bedfe8c539a8"
+  },
+  {
+   "path": "buildings/bkk-1034.json",
+   "bytes": 15906,
+   "sha256": "eba4d99cecec092f259b426bd0359eb6338bfde0c74c079e88472929b2083397"
+  },
+  {
+   "path": "buildings/bkk-1035.json",
+   "bytes": 10511,
+   "sha256": "7bfa57dbe7b46ad7ed7f32897a36a6c05fd70d7702c5af8ebc44fef014a9dc18"
+  },
+  {
+   "path": "buildings/bkk-1036.json",
+   "bytes": 12805,
+   "sha256": "00efbbefcc4602d9ad49fe6e591651a8c5d137ec005da476c9fc0ef38572892a"
+  },
+  {
+   "path": "buildings/bkk-1037.json",
+   "bytes": 50780,
+   "sha256": "d92d74a8744c4cddfc8ffe6946f63ad9eac19a869ce14b2af57e79f43be5527d"
+  },
+  {
+   "path": "buildings/bkk-1038.json",
+   "bytes": 19209,
+   "sha256": "f862d1947be1bb2164ecd0303676cd4e875d711b1ba52fbd259bb4614a367858"
+  },
+  {
+   "path": "buildings/bkk-1039.json",
+   "bytes": 90027,
+   "sha256": "e1c67f48a60c51b2f2a4185b082eeef88b8d74956b5e740b78f13cb8a8b345df"
+  },
+  {
+   "path": "buildings/bkk-1040.json",
+   "bytes": 22941,
+   "sha256": "2485524003cd9d0df7e498ff0962edcd28edf435c2764cbf81e77b6a4e7e8f3f"
+  },
+  {
+   "path": "buildings/bkk-1041.json",
+   "bytes": 46025,
+   "sha256": "6a5f53bba2cb91f9192a2bd9b675cc5b496c3efd0cc4fe3df9ccdeb1cef02378"
+  },
+  {
+   "path": "buildings/bkk-1042.json",
+   "bytes": 11429,
+   "sha256": "2e7b2ddfa80c39daa56b6d89a7200730dd7646594fc8a8055420166182b6bff5"
+  },
+  {
+   "path": "buildings/bkk-1043.json",
+   "bytes": 82119,
+   "sha256": "240aee5c67cb8ec9c314e4dd5d89acc54d0afe34c43db31514c8f98e1600dfc1"
+  },
+  {
+   "path": "buildings/bkk-1044.json",
+   "bytes": 14559,
+   "sha256": "6ac77314c4253106c4f84740918a5fb5bae986dfe8806277885b476a21c52132"
+  },
+  {
+   "path": "buildings/bkk-1045.json",
+   "bytes": 16053,
+   "sha256": "73680577d7a1fb4876a639abe1f6383c0a06607252237348c842d2d991c60c62"
+  },
+  {
+   "path": "buildings/bkk-1046.json",
+   "bytes": 11387,
+   "sha256": "51ef22e7f9c537fcdc91835be56a2934322ea79ed2ed3e0c0814761c36e78c61"
+  },
+  {
+   "path": "buildings/bkk-1047.json",
+   "bytes": 11449,
+   "sha256": "8fba4720eac6894e4992c1491ff702da294639c645f337c9f529c3fe3358a3ed"
+  },
+  {
+   "path": "buildings/bkk-1048.json",
+   "bytes": 11706,
+   "sha256": "11056c4797a6731b6260d5ca3e7108774b863f09111325d2b482d52a2514d588"
+  },
+  {
+   "path": "buildings/bkk-1049.json",
+   "bytes": 28902,
+   "sha256": "80f75634ee15a639c2d976167de85a22f604ec19a0fccad56bb88256b43a8598"
+  },
+  {
+   "path": "buildings/bkk-1050.json",
+   "bytes": 10014,
+   "sha256": "86121b1ef4f6dbf3fcf2ae5fd27bd1ef2092065f7d11f824bd6c704c6234cab3"
+  },
+  {
+   "path": "buildings/hy-z1.json",
+   "bytes": 149631,
+   "sha256": "b3ace6bc5bb046ee21f6640b7533b2cc89dcac0e06bd169db0d36c544b565f90"
+  },
+  {
+   "path": "buildings/hy-z2.json",
+   "bytes": 137206,
+   "sha256": "8af5a2949c0d354b5b05ad8e01c5b8a931201485ae86c3d7ffced16c8e9329ce"
+  },
+  {
+   "path": "buildings/hy-z3.json",
+   "bytes": 216938,
+   "sha256": "688b701126991b4d40d10c53a1d40f2a384cf40aa1f6c948829e13b649968b7c"
+  },
+  {
+   "path": "buildings/hy-z4.json",
+   "bytes": 62793,
+   "sha256": "2f4638863d91828eb1e809191d4d4bfb52858b07548efbafc270816677aeef7c"
+  },
+  {
+   "path": "hatyai/areas.geojson",
+   "bytes": 22775,
+   "sha256": "192fce025f5b392c7a8df13f3ed08d153f8a6b1859e14ba75684f623e1f31f45"
+  },
+  {
+   "path": "hatyai/areas.json",
+   "bytes": 75524,
+   "sha256": "23d597ff517fac54cd5de7c807a445a9af99ea1323aa1e76ebadd34f5e64d697"
+  },
+  {
+   "path": "hatyai/communities.geojson",
+   "bytes": 156144,
+   "sha256": "706b87a54b531819d000e2ed975cd2c3fd800fa4d42364d54a95211b4b45d381"
+  },
+  {
+   "path": "hatyai/drainage.geojson",
+   "bytes": 3357,
+   "sha256": "5da20d15a67946348884966df96c0baf55f987fa632184f5dcb1b756c18bce20"
+  },
+  {
+   "path": "hatyai/flood-events.json",
+   "bytes": 1965,
+   "sha256": "393fa168ce6184f44cc457672ada966c96bcb33dfb9b375c819bf06be827dfdc"
+  },
+  {
+   "path": "hatyai/municipality.geojson",
+   "bytes": 33598,
+   "sha256": "69ed0af67e4b3ea09531c055327744a69bbd2c781bc4fedf368c11172ad4754f"
+  },
+  {
+   "path": "hatyai/rain-areas.json",
+   "bytes": 32866,
+   "sha256": "38804adcb10953216f8ce9e11159dd78a1a00e76501b30631af83cb412cbfd76"
+  },
+  {
+   "path": "hatyai/rain-grid.json",
+   "bytes": 145647,
+   "sha256": "ce9b5e2203e6eda49046f00a7912578e123c2aa71b3a23760f6b19e7e606aef4"
+  },
+  {
+   "path": "hatyai/rain-hourly.json",
+   "bytes": 9726,
+   "sha256": "6b57b63eb627c433fc9105623ed2ec626ca9ad19b2a81d7faab8d5f87f85d367"
+  },
+  {
+   "path": "hatyai/stations.json",
+   "bytes": 82587,
+   "sha256": "5ee6c7f550d8d5dfab28990cc7e8d32081dd189e933b665053e6c449c644a36d"
+  },
+  {
+   "path": "hatyai/water-levels.json",
+   "bytes": 35518,
+   "sha256": "22d314b46f9eb42310815e96f976453e5004daaaaf06006b79c5d5995979146c"
+  },
+  {
+   "path": "hatyai/waterways.geojson",
+   "bytes": 67845,
+   "sha256": "1601d97b9fc4655c4aeafa60479d9020a4f98d4ab346b741d10b699b71c78d51"
+  },
+  {
+   "path": "hatyai/zones.geojson",
+   "bytes": 87898,
+   "sha256": "0b3c601d06c191b0be6d065904884f3064db68916262e687007d92fba7378044"
+  },
+  {
+   "path": "sources.json",
+   "bytes": 84336,
+   "sha256": "e7665004a8f40333c183b50c866f3fb127bfe5f6466ef5c5e9398de4c7a1a42d"
+  }
+ ]
+}

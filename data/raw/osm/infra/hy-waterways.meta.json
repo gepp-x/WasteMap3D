@@ -1,0 +1,42 @@
+{
+  "key": "hy-waterways",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "httpStatus": 200,
+  "retrievedAt": "2026-11-03T18:53:41.655Z",
+  "osmBaseTimestamp": "2026-11-03T18:52:33Z",
+  "bytes": 242935,
+  "sha256": "a75e593b88cfe0682e93cefcf356f2143677951579bf7f4845a9b7db2d435b70",
+  "elementCount": 81,
+  "userAgent": "UrbanIntelligenceDemo/0.1 (research prototype)",
+  "query": "[out:json][timeout:90][bbox:6.94,100.4,7.09,100.54];\n(\n  way[\"waterway\"~\"^(river|canal|stream|drain|ditch)$\"][\"name\"];\n  way[\"waterway\"~\"^(river|canal|stream|drain|ditch)$\"][\"name:th\"];\n  way[\"waterway\"~\"^(river|canal|stream|drain|ditch)$\"][\"name:en\"];\n  way[\"waterway\"~\"^(river|canal)$\"];\n)->.w;\n.w out body geom;\nrel(bw.w)[\"waterway\"];\nout body;",
+  "attempts": [
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "startedAt": "2026-11-03T18:43:01.676Z",
+      "durationMs": 763,
+      "httpStatus": 502,
+      "error": "HTTP 502"
+    },
+    {
+      "endpoint": "https://overpass.kumi.systems/api/interpreter",
+      "startedAt": "2026-11-03T18:43:07.440Z",
+      "durationMs": 301140,
+      "httpStatus": null,
+      "error": "TypeError: fetch failed (Headers Timeout Error)"
+    },
+    {
+      "endpoint": "https://overpass.private.coffee/api/interpreter",
+      "startedAt": "2026-11-03T18:48:18.583Z",
+      "durationMs": 260267,
+      "httpStatus": 502,
+      "error": "HTTP 502"
+    },
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "startedAt": "2026-11-03T18:52:58.852Z",
+      "durationMs": 42803,
+      "httpStatus": 200,
+      "error": null
+    }
+  ]
+}

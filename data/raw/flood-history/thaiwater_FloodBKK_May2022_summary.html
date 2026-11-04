@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+      <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FloodBKK_17-18May2022</title>
+	<!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+     <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+     <!-- MORRIS CHART STYLES-->
+    <link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
+        <!-- CUSTOM STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+     <!-- GOOGLE FONTS-->
+   <link href='https://fonts.googleapis.com/css?family=Open+Sans|Prompt|Athiti|Bai+Jamjuree|Kanit|Kodchasan' rel='stylesheet' type='text/css' />	
+</head>
+<body>
+	
+	
+    <div id="wrapper">
+        <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+			
+ 			
+<div style="color: black; padding: 15px 50px 5px 50px; float: right; "><span class="Prompt2">บันทึกเหตุการณ์น้ำท่วมบริเวณกรุงเทพมหานคร ช่วงวันที่ 17-18 พฤษภาคม 2565 </span> 
+</div>
+	<br><br>			
+			
+        </nav>   
+           <!-- /. NAV TOP  -->
+ 	
+		
+
+      <nav class="navbar-default navbar-side" role="navigation"> 
+        <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+					<li class="BaiJamjuree1" style="background: #F5F5F5">&nbsp;&nbsp;Contents</li>
+                  <li><i class="fas fa-cloud-drizzle"></i>
+                        <a class="active-menu" href="summary.html">&nbsp;&nbsp;<i class="fa fa-star-o fa-2x"></i><span class="Athiti4">&nbsp;สรุปสถานการณ์</span></a>
+                  </li>
+                  <li>
+                        <a class="active-menu" href="satellite.html">&nbsp;&nbsp;<i class="fa fa-globe fa-2x"></i><span class="Athiti4">&nbsp;ภาพด่ายดาวเทียม</span></a>
+                  </li>					
+                  <li>
+                        <a class="active-menu" href="weathermap.html">&nbsp;&nbsp;<i class="fa fa-map-marker fa-2x"></i><span class="Athiti4">&nbsp;แผนที่อากาศ</span></a>
+                  </li>	
+					<li>
+                        <a href="#"><i class="fa fa-umbrella fa-2x"></i><span class="Athiti4">ปริมาณฝน</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="rain_tele.html"><span class="Athiti4">สถานีโทรมาตร</span></a>							
+                            </li>
+                            <li>
+                                <a href="rain_radar.html"><span class="Athiti4">เรดาร์ตรวจอากาศ</span></a>							
+                            </li>
+                        </ul>
+                      </li>  
+                      <li>
+                        <a  href="flood.html"><i class="fa fa-exclamation-circle fa-2x"></i><span class="Athiti4">น้ำท่วมถนน</span></a>
+                    </li>                      <li>
+                        <a  href="news.html"><i class="fa fa-bullhorn fa-2x"></i><span class="Athiti4">ข่าว</span></a>
+                    </li>					
+					
+				<li style="background: #F5F5F5; text-align: center; "><br><img src="BKK_flood_MAY2022/hii-logo1.png" width="15%"><br><span class="BaiJamjuree3">Provided by<br>Hydro DataSci Section</span><br>				
+					<span class="BaiJamjuree2"> Hydro Informatics Institute </span><br><br>
+					
+					</li>								
+                </ul>
+               
+            </div>
+            
+        </nav> 
+        <!-- /. NAV SIDE  -->
+		
+		
+        <div id="page-wrapper" >
+            <div id="page-inner">
+
+                 <!-- /. ROW  -->
+                <div class="row" >
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><span class="Prompt2">สรุปสถานการณ์</span><br>
+                        <span class="Prompt1">Summary:  Flooding in Bangkok during 17-18 May 2022</span><br>
+							
+					</div>
+                        <div class="panel-body">
+                            <div class="table-responsive">
+								 <div class=table>
+									<div class=tr>
+										<div class=td style="width:20%;text-align: left;">
+											<p class="Athiti3">อิทธิพลจากบริเวณความกดอากาศสูงหรือมวลอากาศเย็นจากประเทศจีนได้ปกคลุมภาคตะวันออกเฉียงเหนือของประเทศไทย ประกอบกับมรสุมตะวันตกเฉียงใต้กำลังปานกลางพัดปกคลุมทะเลอันดามัน ประเทศไทยและอ่าวไทย ส่งผลให้มีฝนตกหนักในบางพื้นที่ของภาคเหนือ ภาคกลาง ภาคตะวันออก รวมทั้งกรุงเทพมหานครและปริมณฑล ในช่วงวันที่ 17-18 พฤษภาคม  </p>
+										</div>
+										<div class=td style="width:2%;text-align: left;"></div>
+										<div class=td style="width:20%;text-align: left;">
+											<p class="Athiti3">2565 ซึ่งจากการตรวจวัดปริมาณฝนสะสมรายวันของสำนักการระบายน้ำกรุงเทพมหานคร ในช่วงวันที่ 17 พฤษภาคม 2565 เวลา 07.00 น. ถึงวันที่ 18 พฤษภาคม 2565 เวลา 07.00 น.  พบสถานีที่มีฝนตกหนักมากตรวจวัดปริมาณฝนเกิน 90 มิลลิเมตรต่อวัน ทั้งหมด 35 สถานี โดยมีสถานีที่วัดฝนได้เกิน 100 มิลลิเมตรอยู่ถึง 21 สถานี นอกจากนี้ยังมีสถานีที่</p>
+										</div>
+										<div class=td style="width:2%;text-align: left;"></div>
+										<div class=td style="width:20%;text-align: left;">
+											<p class="Athiti3">ตรวจพบฝนตกหนัก ปริมาณฝนสะสมเกิน 35 มิลลิเมตรต่อวัน อีก 44 สถานี โดยที่ สถานี ซ.สะพานขวา มีฝนตกมากที่สุด 136.0 มิลลิเมตรต่อวัน รองลงมาคือที่สถานีคลองตาอูฐ และจุดวัดศูนย์ราชการ-ถ.แจ้งวัฒนะ วัดปริมาณฝนได้ 125.0 และ 123.5 มิลลิเมตร ตามลำดับ</p>
+										</div>    
+								  </div>
+								</div>								
+
+	<br>
+								 <div class=table>
+									<div class=tr>
+										<div class=td style="width:20%;text-align: left;">
+											<p class="Athiti3">The influence of the high-pressure area from China that covered the Northeast of Thailand, accompanied with the moderate southwest monsoon that prevailed over the Andaman Sea, Thailand, and the Gulf of Thailand caused heavy rains in some areas of the North, Central, and East including Bangkok and its vicinity during 17-18 May 2022.  From the daily rainfall measurements </p>
+										</div>
+										<div class=td style="width:2%;text-align: left;"></div>
+										<div class=td style="width:20%;text-align: left;">
+											<p class="Athiti3">From the daily rainfall measurements of the Drainage and Sewerage Department, Bangkok Metropolitan Administration from 17 May 2022 at 07 a.m. to 19 May 2022 at 07 a.m., it was found that a total of 35 stations had very heavy rainfall with more than 90 millimeters per day, and 21 stations had cumulative rainfall with more than 100 millimeters per day. Moreover,</p>
+										</div>
+										<div class=td style="width:2%;text-align: left;"></div>
+										<div class=td style="width:20%;text-align: left;">
+											<p class="Athiti3"> 44 stations had heavy rainfall with more than 35 millimeters per day.  However, Soi Sapan Kwa Station had the highest daily rainfall of 136.0 millimeters, followed by Klong Ta Ood Station and the Government Center-Chaengwatana Road Station with daily rainfall of 125.0 and 123.5 millimeters, respectively.</p>
+										</div>    
+								  </div>
+								</div>										
+								
+								
+								
+								
+								<br>
+					<div class="Athiti5" align="center">แผนที่แสดงการกระจายตัวของฝน วันที่ 17 พฤษภาคม 2565 <br><img src="BKK_flood_MAY2022/0006566_1.jpg" width="80%" style = 'border: 0px solid #D2D2D8; border-radius: 8px'/></div>
+					<div class="Athiti5" align="center">กราฟแสดงปริมาณฝนสะสมรายวัน <br><img src="BKK_flood_MAY2022/Rain-BKK-graph1.png" width="100%" style = 'border: 0px solid #D2D2D8; border-radius: 8px'/></div>
+								
+					<br><br>
+								
+								 <div class=table>
+									<div class=tr>
+										<div class=td style="width:20%;text-align: left;">
+											<p class="Athiti3">จากสถานการณ์ฝนตกหนักถึงหนักมากข้างต้น ส่งผลให้เกิดน้ำท่วมพื้นที่กรุงเทพมหานครและปริมณฑลในหลายจุด โดยตั้งแต่ช่วงเย็นวันที่ 17 พฤษภาคม ถึงช่วงเช้าวันที่ 18 พฤษภาคม 2565 มี 
+</p>
+										</div>
+										<div class=td style="width:2%;text-align: left;"></div>
+										<div class=td style="width:20%;text-align: left;">
+											<p class="Athiti3">
+รายงานจุดน้ำท่วมบนถนนหลายสายเช่น บริเวณถนนถนนรัชดาภิเษก ถนนประชาสุข ถนนแจ้งวัฒนะ ถนนประชาชื่น-นนท์ ถนนพหลโยธิน ถนนพระรามหก ถนนอิสรภาพ ถนนสุขุมวิท ถนนศรีอยุธยา ถนน 
+
+ </p>
+										</div>
+										<div class=td style="width:2%;text-align: left;"></div>
+										<div class=td style="width:20%;text-align: left;">
+											<p class="Athiti3">ประชาราษฎร์สาย 2 ถนนประดิพัทธ์
+ถนนสมเด็จพระปิ่นเกล้า ถนนสามัคคี ถนนสามเสน ถนนพญาไท ถนนราชวิถี ถนนวิภาวดี-รังสิต ถนนลาดพร้าว ถนนศรีนครินทร์ ถนนงามวงศ์วาน
+</p>
+										</div>    
+								  </div>
+								</div>									
+								
+								<br>
+								
+								 <div class=table>
+									<div class=tr>
+										<div class=td style="width:20%;text-align: left;">
+											<p class="Athiti3">The heavy to very heavy rains mentioned above caused floods in Bangkok and its vicinity in several areas. From the evening of 17 May 2022 to the morning of 18 May 2022, Flooding was reported on many roads such as the </p>
+										</div>
+										<div class=td style="width:2%;text-align: left;"></div>
+										<div class=td style="width:20%;text-align: left;">
+											<p class="Athiti3">Ratchadaphisek Road, Prachasuk Road, Chaengwattana Road, Prachachuen-Non Road, Phahonyothin Road, Rama 6 Road, Itsaraphap Road, Sukhumvit Road, Si Ayutthaya Road, Pracharat Sai 2 </p>
+										</div>
+										<div class=td style="width:2%;text-align: left;"></div>
+										<div class=td style="width:20%;text-align: left;">
+											<p class="Athiti3">Road, Pradipat Road, Somdet Phra Pinklao Road, Samakkhi Road, Samsen Road,  Phayathai Road, Ratchawithi Road, Vibhavadi-Rangsit Road, Ladprao Road, Srinagarind Road, and Ngamwongwan Road.</p>
+										</div>    
+								  </div>
+								</div>									
+								
+								
+								<br>
+				<div class="Athiti5">
+					<div class="table-wrapper" style="width:100%; text-align:center;">
+					<div class="box a1" align="center"><img src="BKK_flood_MAY2022/news2.jpg" width="100%" style = 'border: 0px solid #D2D2D8; border-radius: 8px'/></div>
+					<div class="box b1" align="center"><img src="BKK_flood_MAY2022/news4.jpg" width="100%" style = 'border: 0px solid #D2D2D8; border-radius: 8px'/></div>
+					<div class="box c1" align="center"><img src="BKK_flood_MAY2022/news8.jpg" width="100%" style = 'border: 0px solid #D2D2D8; border-radius: 8px'/></div>
+
+
+					
+					</div>
+				</div>								
+								<br>
+					
+								
+								
+					</div>
+				</div>
+
+								
+			</div>		
+		</div>	
+								
+
+
+								
+                    </div>
+							
+	
+                    </div>
+                </div>
+				  
+
+    </div>
+            </div>
+				
+		
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+         <!-- /. PAGE WRAPPER  -->
+</div>
+     <!-- /. WRAPPER  -->
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+      <!-- BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+     <!-- MORRIS CHART SCRIPTS -->
+     <script src="assets/js/morris/raphael-2.1.0.min.js"></script>
+    <script src="assets/js/morris/morris.js"></script>
+      <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+    
+   
+</body>
+</html>

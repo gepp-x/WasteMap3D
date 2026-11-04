@@ -1,0 +1,8 @@
+{
+  "url": "https://aeromet2.tmd.go.th/api/daily-obs/rainfall-report",
+  "status": 200,
+  "retrievedAt": "2026-11-03T18:35:49.752Z",
+  "bytes": 6172,
+  "contentType": "application/json; charset=utf-8",
+  "retrievedAtSource": "http"
+}

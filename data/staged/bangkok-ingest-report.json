@@ -1,0 +1,416 @@
+{
+  "validation": {
+    "featureCount": 50,
+    "uniqueCodes": 50,
+    "codesMatch1001to1050": true,
+    "invalidGeometries": [],
+    "selfIntersections": [],
+    "unionAreaKm2": 1589.211,
+    "sumAreaSimplifiedKm2": 1589.211,
+    "sumAreaFullResolutionKm2": 1589.213,
+    "officialAreaKm2": 1568.737,
+    "unionVsOfficialPct": 1.305,
+    "withinThreePercent": true,
+    "sumOfBmaAreaTableKm2": 1568.737,
+    "vertices": {
+      "fullResolution": 81451,
+      "simplified": 15367
+    },
+    "simplificationDeviationM": {
+      "sampledVertices": 16309,
+      "median": 0.4,
+      "p95": 1.6,
+      "p99": 3.7,
+      "max": 21.1
+    },
+    "zoom13MetresPerPixel512": 9.28,
+    "fileBytes": 334209,
+    "simplification": "mapshaper -simplify 20% weighted keep-shapes (in EPSG:32647), then -proj wgs84, precision=0.00001",
+    "sourceEncoding": "cp874"
+  },
+  "fuzzyNameMatches": [
+    {
+      "dataset": "igd21",
+      "input": "สำนักงานเขตคลองสมวา",
+      "matched": "1046 คลองสามวา"
+    },
+    {
+      "dataset": "igd22",
+      "input": "สำนักงานเขตคลองสมวา",
+      "matched": "1046 คลองสามวา"
+    }
+  ],
+  "fetchResults": [
+    {
+      "url": "https://data.go.th/api/3/action/package_show?id=50",
+      "file": "datagoth/package_50.json",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/api/3/action/package_show?id=e537025b-1cf6-4c5b-8e46-c2e976f13283",
+      "file": "bma-opendata/pkg_district50.json",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/dataset/e537025b-1cf6-4c5b-8e46-c2e976f13283/resource/d7be7e84-9d84-4595-bf8f-79b0bc01f1ae/download/district-2.zip",
+      "file": "bma-opendata/district50/district-2.zip",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/dataset/e537025b-1cf6-4c5b-8e46-c2e976f13283/resource/7bf56a08-044f-4287-b10e-c2beefccdfcc/download/50district.csv",
+      "file": "bma-opendata/district50/50district.csv",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.go.th/api/3/action/package_show?id=0405_01_0005",
+      "file": "datagoth/package_0405_01_0005.json",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.go.th/api/3/action/package_show?id=bkkpopulationdistric",
+      "file": "datagoth/package_bkkpopulationdistric.json",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://catalogapi.nso.go.th/api/index?table=OS_0405_01_0005_01&format=csv",
+      "file": "nso-catalog/OS_0405_01_0005_01.csv",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://catalogapi.nso.go.th/api/datadic?table=OS_0405_01_0005_01&format=csv",
+      "file": "nso-catalog/OS_0405_01_0005_01_datadic.csv",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/dataset/9801eb64-aaa1-4dbf-9b83-98dfb04ff81e/resource/0e77f0fd-17c7-4bd3-ba53-1fc9c46a8c3e/download/bangkok_population_separate_by_distric.csv",
+      "file": "bma-opendata/population/bangkok_population_separate_by_distric.csv",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://stat.bora.dopa.go.th/new_stat/file/64/stat_a64.txt",
+      "file": "dopa/bangkok/stat_a64.txt",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://stat.bora.dopa.go.th/new_stat/file/65/stat_a65.txt",
+      "file": "dopa/bangkok/stat_a65.txt",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://stat.bora.dopa.go.th/new_stat/file/66/stat_a66.txt",
+      "file": "dopa/bangkok/stat_a66.txt",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://stat.bora.dopa.go.th/new_stat/file/67/stat_a67.txt",
+      "file": "dopa/bangkok/stat_a67.txt",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://stat.bora.dopa.go.th/new_stat/file/68/stat_a68.txt",
+      "file": "dopa/bangkok/stat_a68.txt",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://www.dopa.go.th/news/preview/10616",
+      "file": "dopa/dopa_news_preview_10616.pdf",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.go.th/api/3/action/package_show?id=garbage1",
+      "file": "datagoth/package_garbage1.json",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.go.th/api/3/action/package_show?id=garbage",
+      "file": "datagoth/package_garbage.json",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/api/3/action/package_show?id=garbage50",
+      "file": "bma-opendata/pkg_garbage50.json",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/api/3/action/package_show?id=https-webportal-bangkok-go-th-environmentbma",
+      "file": "bma-opendata/pkg_https-webportal-bangkok-go-th-environmentbma.json",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/api/3/action/package_show?id=env0011",
+      "file": "bma-opendata/pkg_env0011.json",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://webportal.bangkok.go.th/environmentbma/page/sub/28229",
+      "file": "bma-environment/page_sub_28229.html",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://webportal.bangkok.go.th/upload/user/00000231/data/waste/WasteSept_62_050121.pdf",
+      "file": "bma-environment/waste-stats/FY2562_WasteSept_62_050121.pdf",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://webportal.bangkok.go.th/upload/user/00000231/data/law/waste_Sept63.pdf",
+      "file": "bma-environment/waste-stats/FY2563_waste_Sept63.pdf",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2564/12.September2021.pdf",
+      "file": "bma-environment/waste-stats/FY2564_12.September2021.pdf",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/12.September2022.pdf",
+      "file": "bma-environment/waste-stats/FY2565_12.September2022.pdf",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2566/12.September2566.pdf",
+      "file": "bma-environment/waste-stats/FY2566_12.September2566.pdf",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2567/12-September67.pdf",
+      "file": "bma-environment/waste-stats/FY2567_12-September67.pdf",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2568/12_September.pdf",
+      "file": "bma-environment/waste-stats/FY2568_12_September.pdf",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2569/%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%9D%E0%B8%AD%E0%B8%A2%E0%B8%81.%E0%B8%A2.69.pdf",
+      "file": "bma-environment/waste-stats/FY2569_Sep69.pdf",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/dataset/58771fe2-7614-4ebc-ab0b-a85c84fe19be/resource/f08ef6ac-4c78-47c5-952c-46ffa6e93579/download/garbage.csv",
+      "file": "bma-opendata/garbage/garbage.csv",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/dataset/58771fe2-7614-4ebc-ab0b-a85c84fe19be/resource/8a87c44a-d12b-4859-90cc-3a6a7719b0f2/download/garbage.docx",
+      "file": "bma-opendata/garbage/garbage.docx",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.go.th/dataset/731a8cb0-d563-45ca-93ae-52e3de47e474/resource/1c0a2c55-d28e-446d-bbdf-9b810b8c0035/download/garbage.csv",
+      "file": "datagoth/garbage/garbage.csv",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/dataset/693011d9-70d3-4b38-aced-af040a2ad6ec/resource/0f094f40-c0c9-42ea-8cdb-29ec0f40cecd/download/quantity_waste.csv",
+      "file": "bma-opendata/garbage50/quantity_waste.csv",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/dataset/2ab09309-b85f-4db0-9651-dce396f620f1/resource/0f76b9bf-ed5d-4386-bea2-16e245ea8b28/download/env0004.csv",
+      "file": "bma-opendata/env0004/env0004.csv",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/dataset/af62128f-566b-4831-aece-1784041807d3/resource/55e93768-9427-4807-a791-e1f9350958d5/download/env0011-65.csv",
+      "file": "bma-opendata/env0011/env0011-65.csv",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://webportal.bangkok.go.th/environmentbma/page/sub/20995",
+      "file": "bma-environment/page_sub_20995.html",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+      "file": "bma-environment/composition/WasteComp_2565.pdf",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://webportal.bangkok.go.th/upload/user/00000231/data/waste63/WasteCompo2563.pdf",
+      "file": "bma-environment/composition/WasteCompo2563.pdf",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp_2.pdf",
+      "file": "bma-environment/composition/WasteComp_2.pdf",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/api/3/action/package_show?id=https-webportal-bangkok-go-th-environmentbma-page-sub-20995",
+      "file": "bma-opendata/pkg_https-webportal-bangkok-go-th-environmentbma-page-sub-20995.json",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/dataset/a5e63301-7508-40ba-b8d2-9a5c6786fd80/resource/ee48268a-4501-4cba-a5b8-cf0d6d493ef9/download/garbage_element.csv",
+      "file": "bma-opendata/composition/garbage_element.csv",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/api/3/action/package_show?id=flood_risk26",
+      "file": "bma-opendata/pkg_flood_risk26.json",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/api/3/action/package_show?id=flood_risk",
+      "file": "bma-opendata/pkg_flood_risk.json",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/api/3/action/package_show?id=igd-22",
+      "file": "bma-opendata/pkg_igd-22.json",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/api/3/action/package_show?id=igd-21",
+      "file": "bma-opendata/pkg_igd-21.json",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/api/3/action/package_show?id=risk-flood-bangkok-area",
+      "file": "bma-opendata/pkg_risk-flood-bangkok-area.json",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/api/3/action/package_show?id=floodpoint",
+      "file": "bma-opendata/pkg_floodpoint.json",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/dataset/25bc3f04-5707-4b60-a885-5ad45aa38cd6/resource/837b7fb6-ce1f-4356-881e-6bf14eeb075f/download/flood_risk26.csv",
+      "file": "bma-opendata/flood/flood_risk26.csv",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/dataset/3fcbe9f7-d2b0-4442-b110-4a5620ebdce3/resource/8f1102d5-52a2-4494-9131-403e4f87a242/download/flood_risk.csv",
+      "file": "bma-opendata/flood/flood_risk.csv",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/dataset/0f44471a-9ad6-40bb-868d-784c687a8037/resource/1df60609-eea9-4e0a-b67c-39d97a2354e0/download/7.-.csv",
+      "file": "bma-opendata/flood/igd-22_watch_points.csv",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/dataset/5ed16717-0ab8-4bd9-925b-4049eadb2107/resource/fa27e318-aea0-4c0b-a79a-f94b306b943e/download/6.-.csv",
+      "file": "bma-opendata/flood/igd-21_risk_points.csv",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/dataset/a1cc1d7a-6d87-4dd2-a662-79ed58c2623c/resource/b719945f-f10b-4b4c-afd2-2e8b43d21726/download/-2566.csv",
+      "file": "bma-opendata/flood/risk-flood-bangkok-area-2566.csv",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    },
+    {
+      "url": "https://data.bangkok.go.th/dataset/36256cdf-5576-4b17-9c4a-ddde6c7ff343/resource/b8f2058d-e562-421e-a4cf-1dd706c3ba8a/download/flood_point.zip",
+      "file": "bma-opendata/flood/flood_point.zip",
+      "ok": true,
+      "via": "cache",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://data.tmd.go.th/api/WeatherToday/V2/?type=json",
+  "status": 200,
+  "error": "invalid payload: empty body without uid/ukey",
+  "attemptedAt": "2026-11-03T23:02:43.000Z",
+  "note": "Re-probed once with curl (User-Agent UrbanIntelligenceDemo/0.1) to record the attempt time: HTTP 200, 0-byte body. Same result as the script's 2026-11-03T18:35Z attempt (fetch log)."
+}

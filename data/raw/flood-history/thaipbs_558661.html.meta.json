@@ -1,0 +1,7 @@
+{
+  "url": "https://www.thaipbs.or.th/news/content/558661",
+  "httpStatus": 200,
+  "retrievedAt": "2026-11-04T01:52:26.984Z",
+  "bytes": 482463,
+  "note": "Initial download made manually with curl (same URL and User-Agent) while developing this script; retrievedAt = file modification time."
+}

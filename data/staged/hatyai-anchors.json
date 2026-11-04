@@ -1,0 +1,54 @@
+[
+ {
+  "areaId": "hy-z1",
+  "anchor": [
+   100.482534,
+   7.026764
+  ],
+  "anchorSource": "point-on-surface",
+  "buildingCount": 1227,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 1227,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "hy-z2",
+  "anchor": [
+   100.483157,
+   7.003623
+  ],
+  "anchorSource": "point-on-surface",
+  "buildingCount": 1079,
+  "taggedHeightCount": 0,
+  "levelsCount": 2,
+  "estimatedCount": 1077,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "hy-z3",
+  "anchor": [
+   100.458805,
+   6.997219
+  ],
+  "anchorSource": "point-on-surface",
+  "buildingCount": 1825,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 1825,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "hy-z4",
+  "anchor": [
+   100.450297,
+   7.012188
+  ],
+  "anchorSource": "point-on-surface",
+  "buildingCount": 505,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 505,
+  "droppedCount": 0
+ }
+]

@@ -1,0 +1,57 @@
+{
+  "overpass-buildings/_townhalls-hatyai.json": {
+    "url": "https://overpass-api.de/api/interpreter",
+    "method": "POST data=<Overpass QL in sidecar .meta.json>",
+    "retrievedAt": "2026-11-03T23:13:40.049Z",
+    "httpStatus": 200,
+    "bytes": 713,
+    "sha256": "edf44546c8fc6208b02ddaf9c01237f60d4ab6b28ef2e87fba20430bf24d77fe",
+    "contentType": "application/json",
+    "osmBaseTimestamp": "2026-11-03T23:12:12Z",
+    "elementCount": 1
+  },
+  "overpass-buildings/hy-z1.json": {
+    "url": "https://overpass-api.de/api/interpreter",
+    "method": "POST data=<Overpass QL in sidecar .meta.json>",
+    "retrievedAt": "2026-11-03T23:14:26.844Z",
+    "httpStatus": 200,
+    "bytes": 665177,
+    "sha256": "ea045c7ae3d85c3e76b6e8a86fa3e12ae380deab9f765982be30ee0d50222cf5",
+    "contentType": "application/json",
+    "osmBaseTimestamp": "2026-11-03T23:13:16Z",
+    "elementCount": 1395
+  },
+  "overpass-buildings/hy-z2.json": {
+    "url": "https://overpass.kumi.systems/api/interpreter",
+    "method": "POST data=<Overpass QL in sidecar .meta.json>",
+    "retrievedAt": "2026-11-03T23:30:59.478Z",
+    "httpStatus": 200,
+    "bytes": 614213,
+    "sha256": "ce89b31c06cc5bb24654e93ba52eb9d10176019b1fdd67f0da8d085b0c60b55d",
+    "contentType": "application/json",
+    "osmBaseTimestamp": "2026-07-15T15:22:01Z",
+    "elementCount": 1257
+  },
+  "overpass-buildings/hy-z3.json": {
+    "url": "https://overpass-api.de/api/interpreter",
+    "method": "POST data=<Overpass QL in sidecar .meta.json>",
+    "retrievedAt": "2026-11-03T23:42:25.419Z",
+    "httpStatus": 200,
+    "bytes": 978962,
+    "sha256": "a2954dfb956bcf57a50a288668420cd88696134a5da390f5d08e3790a8528894",
+    "contentType": "application/json",
+    "osmBaseTimestamp": "2026-11-03T23:41:36Z",
+    "elementCount": 1976
+  },
+  "overpass-buildings/hy-z4.json": {
+    "url": "https://overpass-api.de/api/interpreter",
+    "method": "POST data=<Overpass QL in sidecar .meta.json>",
+    "retrievedAt": "2026-11-03T23:43:06.440Z",
+    "httpStatus": 200,
+    "bytes": 331494,
+    "sha256": "fcfbb3150c6356d9ee6fc8c12ab85fe6f696d28f7cda0de32f66d12b838b2c28",
+    "contentType": "application/json",
+    "osmBaseTimestamp": "2026-11-03T23:41:36Z",
+    "elementCount": 583
+  }
+}

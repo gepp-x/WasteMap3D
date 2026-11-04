@@ -1,0 +1,7 @@
+{
+  "url": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+  "httpStatus": 200,
+  "retrievedAt": "2026-11-04T02:00:22.170Z",
+  "bytes": 1403367,
+  "contentType": "application/json; charset=utf-8"
+}

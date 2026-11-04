@@ -1,0 +1,7 @@
+{
+  "url": "https://data.bangkok.go.th/dataset/83ae5639-a37f-4e19-bd37-e1c97930f39d/resource/42948cf7-0759-4719-a32f-8eeabd89b8ee/download/floodgate.csv",
+  "httpStatus": 200,
+  "retrievedAt": "2026-11-04T01:46:48.951Z",
+  "bytes": 52160,
+  "note": "Initial download made manually with curl (same URL and User-Agent) while developing this script; retrievedAt = file modification time."
+}

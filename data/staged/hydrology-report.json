@@ -1,0 +1,737 @@
+{
+  "generatedBy": "scripts/data/fetch-hydrology.ts",
+  "offline": false,
+  "waterLevels": {
+    "retrievedAt": {
+      "waterlevel_load": "2026-11-04T02:00:22.170Z",
+      "canal_waterlevel": "2026-11-04T02:00:22.839Z"
+    },
+    "fetch": {
+      "waterlevel_load": "HTTP 200",
+      "canal_waterlevel": "HTTP 200"
+    },
+    "freshnessHours": 48,
+    "situationScale": {
+      "1": {
+        "th": "น้ำน้อยวิกฤติ",
+        "en": "Critically low (≤ 10 %)"
+      },
+      "2": {
+        "th": "น้ำน้อย",
+        "en": "Low (> 10 – 30 %)"
+      },
+      "3": {
+        "th": "น้ำปกติ",
+        "en": "Normal (> 30 – 70 %)"
+      },
+      "4": {
+        "th": "น้ำมาก",
+        "en": "High (> 70 – 100 %)"
+      },
+      "5": {
+        "th": "น้ำล้นตลิ่ง",
+        "en": "Overbank (> 100 % of bank capacity)"
+      }
+    },
+    "situationTextEn": {
+      "น้ำล้นตลิ่ง": "Overbank (> 100 % of bank capacity)",
+      "น้ำมาก": "High (> 70 – 100 %)",
+      "น้ำปกติ": "Normal (> 30 – 70 %)",
+      "น้ำน้อย": "Low (> 10 – 30 %)",
+      "น้ำน้อยวิกฤติ": "Critically low (≤ 10 %)",
+      "ถึงระดับวิกฤต": "At or above the critical level",
+      "ถึงระดับเฝ้าระวัง": "At or above the watch (warning) level",
+      "ต่ำกว่าระดับเฝ้าระวัง": "Below the watch (warning) level"
+    },
+    "canalSituationRule": "BMA canal gauges: ≥ critical_level → 'ถึงระดับวิกฤต' (critical); ≥ warning_level → 'ถึงระดับเฝ้าระวัง' (watch); else 'ต่ำกว่าระดับเฝ้าระวัง' (below watch level) — the ThaiWater web-map rule applied to the published thresholds.",
+    "cities": {
+      "bangkok": {
+        "stations": 255,
+        "byAgencyPrefix": {
+          "bma": 227,
+          "hii": 25,
+          "rid": 3
+        },
+        "withBankLevel": 250,
+        "withCapacityPct": 28,
+        "situationCounts": {
+          "ต่ำกว่าระดับเฝ้าระวัง": 214,
+          "ถึงระดับเฝ้าระวัง": 5,
+          "ถึงระดับวิกฤต": 1,
+          "น้ำปกติ": 8,
+          "น้ำล้นตลิ่ง": 3,
+          "น้ำมาก": 16,
+          "น้ำน้อยวิกฤติ": 1
+        },
+        "readingTimes": [
+          "2026-11-02T13:55:00+07:00",
+          "2026-11-04T09:05:00+07:00"
+        ],
+        "capacityPctVsPublishedStoragePercent": {
+          "checked": 28,
+          "maxAbsDiffPct": 0.203
+        },
+        "excluded": [
+          {
+            "id": "hii-KRP901",
+            "reason": "HII gauge KRP901 (อุทยานเฉลิมพระเกียรติ…, เขตดุสิต) publishes water level 29.82 and bank 30 / ground 27 labelled m MSL inside Bangkok, where land lies about 0–2 m MSL: the gauge evidently uses a local datum, so presenting it as m MSL would mislead. Excluded."
+          },
+          {
+            "id": "bma-WL.PSC.04",
+            "reason": "stale: last reading 2021-01-22T12:05:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.SSB.05",
+            "reason": "stale: last reading 2023-10-23T11:05:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.CTC.01",
+            "reason": "stale: last reading 2022-10-04T13:30:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-BK02",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-LP03",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-LP01",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-KP02",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-SS06",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.TPK.01",
+            "reason": "stale: last reading 2025-01-24T13:45:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-KP03",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-PK01",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-SS01",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-PL01",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-SA02",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-BS03",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-BK03",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-SA03",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-BS04",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-KP01",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-SS03",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-SS05",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-BK01",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-BS02",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.LPG.01",
+            "reason": "stale: last reading 2023-09-26T09:20:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-SA01",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-SS04",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-LP02",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-BS01",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-SA04",
+            "reason": "stale: last reading 2019-12-24T14:38:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.BKL.01",
+            "reason": "stale: last reading 2024-05-14T13:50:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.KNK.01",
+            "reason": "stale: last reading 2024-04-23T16:05:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.LPT.04",
+            "reason": "stale: last reading 2024-08-19T21:55:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.NKW.01",
+            "reason": "stale: last reading 2021-10-29T09:35:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.MID.01",
+            "reason": "stale: last reading 2024-06-12T14:55:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.LPI.01",
+            "reason": "stale: last reading 2023-08-24T15:25:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.SSB.02",
+            "reason": "stale: last reading 2026-03-23T23:20:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.CNS.04",
+            "reason": "stale: last reading 2021-09-03T10:45:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.SPP.01",
+            "reason": "stale: last reading 2022-10-07T11:30:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.CNS.03",
+            "reason": "stale: last reading 2025-08-31T10:40:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.TUT.01",
+            "reason": "stale: last reading 2025-10-22T14:35:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.PPA.02",
+            "reason": "stale: last reading 2024-05-14T13:45:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.BPN.01",
+            "reason": "stale: last reading 2024-05-14T12:30:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.CNS.02",
+            "reason": "stale: last reading 2023-04-19T17:40:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.KPM.02",
+            "reason": "stale: last reading 2024-04-01T11:25:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.LPW.02",
+            "reason": "stale: last reading 2026-09-26T00:15:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.SSN.03",
+            "reason": "stale: last reading 2026-02-21T12:05:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.IDE.01",
+            "reason": "stale: last reading 2023-04-24T12:50:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.LBK.01",
+            "reason": "stale: last reading 2026-01-13T09:55:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.SSN.05",
+            "reason": "stale: last reading 2023-08-10T13:25:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.LPT.02",
+            "reason": "stale: last reading 2025-06-29T18:25:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.CBJ.01",
+            "reason": "stale: last reading 2026-06-01T16:50:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.STR.02",
+            "reason": "stale: last reading 2024-11-11T13:40:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.KTK.03",
+            "reason": "stale: last reading 2026-06-05T11:55:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.TNG.01",
+            "reason": "stale: last reading 2026-06-09T12:10:00+07:00 is more than 48 h before retrieval"
+          },
+          {
+            "id": "bma-WL.BNA.02",
+            "reason": "stale: last reading 2026-10-28T11:05:00+07:00 is more than 48 h before retrieval"
+          }
+        ],
+        "keyGauges": [
+          {
+            "id": "hii-BKC003",
+            "nameTh": "ปตร. คลองลัดบางยอ 1",
+            "waterway": "แม่น้ำเจ้าพระยา",
+            "waterLevel": 0.12,
+            "bankLevel": 1.51,
+            "capacityPct": 42.5,
+            "situation": "น้ำปกติ",
+            "observedAt": "2026-11-04T08:40:00+07:00"
+          },
+          {
+            "id": "hii-BKC004",
+            "nameTh": "ปตร. คลองลัดบางยอ 2",
+            "waterway": "แม่น้ำเจ้าพระยา",
+            "waterLevel": 1.01,
+            "bankLevel": 0.91,
+            "capacityPct": 103.9,
+            "situation": "น้ำล้นตลิ่ง",
+            "observedAt": "2026-11-02T20:50:00+07:00"
+          },
+          {
+            "id": "hii-CPY014",
+            "nameTh": "สะพานนวลฉวี",
+            "waterway": "แม่น้ำเจ้าพระยา",
+            "waterLevel": 0.95,
+            "bankLevel": 2.5,
+            "capacityPct": 90.2,
+            "situation": "น้ำมาก",
+            "observedAt": "2026-11-04T08:40:00+07:00"
+          },
+          {
+            "id": "hii-CPY015",
+            "nameTh": "สะพานกรุงเทพ",
+            "waterway": "แม่น้ำเจ้าพระยา",
+            "waterLevel": -0.12,
+            "bankLevel": 2.16,
+            "capacityPct": 87.2,
+            "situation": "น้ำมาก",
+            "observedAt": "2026-11-04T08:40:00+07:00"
+          },
+          {
+            "id": "rid-C.12",
+            "nameTh": "กรมชลประทานสามเสน",
+            "waterway": "แม่น้ำเจ้าพระยา",
+            "waterLevel": 0.35,
+            "bankLevel": 2.26,
+            "capacityPct": 88.6,
+            "situation": "น้ำมาก",
+            "observedAt": "2026-11-04T08:00:00+07:00"
+          }
+        ]
+      },
+      "hatyai": {
+        "stations": 9,
+        "byAgencyPrefix": {
+          "hii": 4,
+          "rid": 5
+        },
+        "withBankLevel": 9,
+        "withCapacityPct": 9,
+        "situationCounts": {
+          "น้ำมาก": 1,
+          "น้ำปกติ": 7,
+          "น้ำน้อย": 1
+        },
+        "readingTimes": [
+          "2026-11-04T08:00:00+07:00",
+          "2026-11-04T08:40:00+07:00"
+        ],
+        "capacityPctVsPublishedStoragePercent": {
+          "checked": 9,
+          "maxAbsDiffPct": 0.071
+        },
+        "excluded": [],
+        "keyGauges": [
+          {
+            "id": "hii-ONE037",
+            "nameTh": "สะพานข้ามคลองอู่ตะเภา",
+            "waterway": "คลองอู่ตะเภา",
+            "waterLevel": 0.37,
+            "bankLevel": 0.84,
+            "capacityPct": 91.2,
+            "situation": "น้ำมาก",
+            "observedAt": "2026-11-04T08:40:00+07:00"
+          },
+          {
+            "id": "hii-SLA002",
+            "nameTh": "คลองหอยโข่ง",
+            "waterway": "คลองอู่ตะเภา",
+            "waterLevel": 2.24,
+            "bankLevel": 9.34,
+            "capacityPct": 31.4,
+            "situation": "น้ำปกติ",
+            "observedAt": "2026-11-04T08:40:00+07:00"
+          },
+          {
+            "id": "rid-X.181",
+            "nameTh": "บ้านคลองแห",
+            "waterway": "คลองอู่ตะเภา",
+            "waterLevel": 0.32,
+            "bankLevel": 5,
+            "capacityPct": 47.2,
+            "situation": "น้ำปกติ",
+            "observedAt": "2026-11-04T08:00:00+07:00"
+          },
+          {
+            "id": "rid-X.44",
+            "nameTh": "บ้านหาดใหญ่ใน",
+            "waterway": "คลองอู่ตะเภา",
+            "waterLevel": 0.62,
+            "bankLevel": 7.15,
+            "capacityPct": 30.2,
+            "situation": "น้ำปกติ",
+            "observedAt": "2026-11-04T08:00:00+07:00"
+          },
+          {
+            "id": "rid-X.90",
+            "nameTh": "บ้านบางศาลา",
+            "waterway": "คลองอู่ตะเภา",
+            "waterLevel": 2.37,
+            "bankLevel": 9.34,
+            "capacityPct": 31.8,
+            "situation": "น้ำปกติ",
+            "observedAt": "2026-11-04T08:00:00+07:00"
+          }
+        ]
+      }
+    }
+  },
+  "drainage": {
+    "summary": {
+      "pumpStations": {
+        "count": 201,
+        "withCapacity": 185,
+        "capacityM3sSum": 1800.11
+      },
+      "gates": {
+        "count": 237,
+        "withPumpCapacity": 84,
+        "capacityM3sSum": 118.72
+      },
+      "sumps2022": {
+        "count": 312,
+        "capacityM3sSum": 560.52
+      },
+      "tunnels": {
+        "count": 12,
+        "byStatus": {
+          "ก่อสร้างแล้วเสร็จ เปิดใช้งานแล้ว": {
+            "count": 4,
+            "capacityM3s": 195,
+            "lengthKm": 19.37
+          },
+          "อยู่ระหว่างก่อสร้าง": {
+            "count": 4,
+            "capacityM3s": 182,
+            "lengthKm": 28.73
+          },
+          "อยู่ระหว่างเตรียมของบประมาณ": {
+            "count": 3,
+            "capacityM3s": 122,
+            "lengthKm": 14.595
+          },
+          "อยู่ระหว่างศึกษาความเป็นไปได้": {
+            "count": 1,
+            "capacityM3s": 60,
+            "lengthKm": 6
+          }
+        }
+      },
+      "capacityCheck": {
+        "matchesBreakdown": 269,
+        "mismatchWithheld": 3,
+        "noBreakdown": 0,
+        "nonNumeric": 166
+      },
+      "noCoordinates": 9,
+      "caveat": "Sums of nominal installed capacities (m³/s) as published; they are not a simultaneous or effective citywide drainage capacity and must not be presented as one."
+    },
+    "added": 734,
+    "matchedToOsm": 7,
+    "outsideBbox": 0,
+    "osmKept": 173,
+    "crossChecks": {
+      "pumpStationGisRowsMatchedByName": "201/201",
+      "floodgateGisRowsMatchedByName": "237/237",
+      "gis2021RowsMatchedByName": "84/144"
+    },
+    "older2020SumpsNotMerged": 50,
+    "datumMedianM": 0.46006851182641945
+  },
+  "floods": {
+    "events": [
+      "bkk-flood-2011",
+      "bkk-flood-2022-05-17",
+      "bkk-flood-2026-09-25"
+    ],
+    "quoteChecks": "16/16 verbatim",
+    "failedQuotes": []
+  },
+  "hourly": [
+    {
+      "id": "hatyai-2025-11-18_2025-11-27",
+      "cityId": "hatyai",
+      "hours": 240,
+      "totalMm": 811,
+      "peakHour": {
+        "time": "2025-11-21T12:00:00+07:00",
+        "mm": 21.7
+      },
+      "nulls": 0
+    },
+    {
+      "id": "bangkok-heaviest-day-2026-09-26",
+      "cityId": "bangkok",
+      "hours": 72,
+      "totalMm": 197.1,
+      "peakHour": {
+        "time": "2026-09-25T12:00:00+07:00",
+        "mm": 7.7
+      },
+      "nulls": 0
+    }
+  ],
+  "fetchLog": [
+    {
+      "id": "thaiwater-public-waterlevel",
+      "url": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+      "from": "network",
+      "detail": "HTTP 200",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T02:00:22.170Z",
+      "bytes": 1403367,
+      "file": "data/raw/thaiwater/waterlevel/waterlevel_load.json"
+    },
+    {
+      "id": "thaiwater-public-canal-waterlevel",
+      "url": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/canal_waterlevel",
+      "from": "network",
+      "detail": "HTTP 200",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T02:00:22.839Z",
+      "bytes": 226128,
+      "file": "data/raw/thaiwater/waterlevel/canal_waterlevel.json"
+    },
+    {
+      "id": "bma-ckan-pkg-water-station",
+      "url": "https://data.bangkok.go.th/api/3/action/package_show?id=water-station",
+      "from": "cache",
+      "detail": "cache-first",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T01:46:18.430Z",
+      "bytes": 9068,
+      "file": "data/raw/bma-opendata/drainage/pkg_water-station.json"
+    },
+    {
+      "id": "bma-ckan-pkg-pumping-stations",
+      "url": "https://data.bangkok.go.th/api/3/action/package_show?id=pumping-stations",
+      "from": "cache",
+      "detail": "cache-first",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T01:46:21.080Z",
+      "bytes": 10912,
+      "file": "data/raw/bma-opendata/drainage/pkg_pumping-stations.json"
+    },
+    {
+      "id": "bma-ckan-pkg-water-drainage-tunnel",
+      "url": "https://data.bangkok.go.th/api/3/action/package_show?id=water-drainage-tunnel",
+      "from": "cache",
+      "detail": "cache-first",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T01:46:19.689Z",
+      "bytes": 8027,
+      "file": "data/raw/bma-opendata/drainage/pkg_water-drainage-tunnel.json"
+    },
+    {
+      "id": "bma-ckan-pkg-pumping-station",
+      "url": "https://data.bangkok.go.th/api/3/action/package_show?id=pumping-station",
+      "from": "cache",
+      "detail": "cache-first",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T01:46:24.915Z",
+      "bytes": 5166,
+      "file": "data/raw/bma-opendata/drainage/pkg_pumping-station.json"
+    },
+    {
+      "id": "bma-ckan-pkg-floodgate",
+      "url": "https://data.bangkok.go.th/api/3/action/package_show?id=floodgate",
+      "from": "cache",
+      "detail": "cache-first",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T01:46:23.662Z",
+      "bytes": 10868,
+      "file": "data/raw/bma-opendata/drainage/pkg_floodgate.json"
+    },
+    {
+      "id": "bma-ckan-pkg-pumpstation",
+      "url": "https://data.bangkok.go.th/api/3/action/package_show?id=pumpstation",
+      "from": "cache",
+      "detail": "cache-first",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T01:46:22.335Z",
+      "bytes": 12365,
+      "file": "data/raw/bma-opendata/drainage/pkg_pumpstation.json"
+    },
+    {
+      "id": "bma-ckan-csv-water-station",
+      "url": "https://data.bangkok.go.th/dataset/22475fbb-18ef-4705-9ce2-53f4907394e7/resource/0d645a7e-50f4-4c4f-ad1c-19db560b29c8/download/-.csv",
+      "from": "cache",
+      "detail": "cache-first",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T01:46:42.247Z",
+      "bytes": 97853,
+      "file": "data/raw/bma-opendata/drainage/water-station.csv"
+    },
+    {
+      "id": "bma-ckan-csv-pumping-stations",
+      "url": "https://data.bangkok.go.th/dataset/ad66374c-284d-4757-917a-84787194e81b/resource/f358429c-add1-4510-8720-472f3acefbd0/download/.csv",
+      "from": "cache",
+      "detail": "cache-first",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T01:46:44.901Z",
+      "bytes": 122991,
+      "file": "data/raw/bma-opendata/drainage/pumping-stations.csv"
+    },
+    {
+      "id": "bma-ckan-csv-water-drainage-tunnel",
+      "url": "https://data.bangkok.go.th/dataset/06de41a0-5b95-4575-a093-b2efeb965e31/resource/0ce8456f-d503-4d62-b7f0-df725048317e/download/.csv",
+      "from": "cache",
+      "detail": "cache-first",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T01:46:43.603Z",
+      "bytes": 5021,
+      "file": "data/raw/bma-opendata/drainage/water-drainage-tunnel.csv"
+    },
+    {
+      "id": "bma-ckan-csv-pumping-station",
+      "url": "https://data.bangkok.go.th/dataset/f482270f-04cf-4df1-a120-f808110a7a8a/resource/0a30a58c-213f-4aec-bf16-7dd7f61fb5fd/download/pump-station.csv",
+      "from": "cache",
+      "detail": "cache-first",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T01:46:46.265Z",
+      "bytes": 37952,
+      "file": "data/raw/bma-opendata/drainage/pump-station.csv"
+    },
+    {
+      "id": "bma-ckan-csv-floodgate",
+      "url": "https://data.bangkok.go.th/dataset/83ae5639-a37f-4e19-bd37-e1c97930f39d/resource/42948cf7-0759-4719-a32f-8eeabd89b8ee/download/floodgate.csv",
+      "from": "cache",
+      "detail": "cache-first",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T01:46:48.951Z",
+      "bytes": 52160,
+      "file": "data/raw/bma-opendata/drainage/floodgate.csv"
+    },
+    {
+      "id": "bma-ckan-csv-pumpstation",
+      "url": "https://data.bangkok.go.th/dataset/82cb9fcc-ddea-436a-abfa-eb5dc9fc85fc/resource/53205669-40f9-4cb6-b902-7b8fbc945919/download/water-pump-station.csv",
+      "from": "cache",
+      "detail": "cache-first",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T01:46:47.545Z",
+      "bytes": 29701,
+      "file": "data/raw/bma-opendata/drainage/water-pump-station.csv"
+    },
+    {
+      "id": "hii-flood-2011-record",
+      "url": "https://tiwrmdev.hii.or.th/current/menu.html",
+      "from": "cache",
+      "detail": "cache-first",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T01:50:44.462Z",
+      "bytes": 407240,
+      "file": "data/raw/flood-history/hii_flood2554_menu.html"
+    },
+    {
+      "id": "thaiwater-floodbkk-may2022",
+      "url": "https://www.thaiwater.net/uploads/contents/current/2022/FloodBKK_May2022/summary.html",
+      "from": "cache",
+      "detail": "cache-first",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T01:51:34.720Z",
+      "bytes": 15184,
+      "file": "data/raw/flood-history/thaiwater_FloodBKK_May2022_summary.html"
+    },
+    {
+      "id": "thaipbs-2026-09-26-bkk-50-districts",
+      "url": "https://www.thaipbs.or.th/news/content/558588",
+      "from": "cache",
+      "detail": "cache-first",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T01:52:07.040Z",
+      "bytes": 493303,
+      "file": "data/raw/flood-history/thaipbs_558588.html"
+    },
+    {
+      "id": "thaipbs-2026-09-26-bkk-48h-rain",
+      "url": "https://www.thaipbs.or.th/news/content/558595",
+      "from": "cache",
+      "detail": "cache-first",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T01:52:25.598Z",
+      "bytes": 492911,
+      "file": "data/raw/flood-history/thaipbs_558595.html"
+    },
+    {
+      "id": "thaipbs-2026-09-27-bkk-rain-report",
+      "url": "https://www.thaipbs.or.th/news/content/558661",
+      "from": "cache",
+      "detail": "cache-first",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T01:52:26.984Z",
+      "bytes": 482463,
+      "file": "data/raw/flood-history/thaipbs_558661.html"
+    },
+    {
+      "id": "worldbank-thai-flood-2011-overview",
+      "url": "https://data.opendevelopmentmekong.net/dataset/8853ede2-9c6f-4e5c-9b55-14bfb9a40071/resource/0b15648c-4e21-4240-97bb-385ac230f07f/download/698220wp0v10p106011020120box370022b.pdf",
+      "from": "cache",
+      "detail": "cache-first",
+      "httpStatus": 200,
+      "retrievedAt": "2026-11-04T01:49:21.934Z",
+      "bytes": 2169543,
+      "file": "data/raw/flood-history/worldbank_thai_flood_2011_overview.pdf"
+    },
+    {
+      "id": "worldbank-thai-flood-2011-full",
+      "url": "https://www.gfdrr.org/sites/default/files/publication/Thai_Flood_2011_2.pdf",
+      "from": "failed",
+      "detail": "HTTP 403",
+      "httpStatus": 403,
+      "retrievedAt": null,
+      "bytes": 0,
+      "file": "data/raw/flood-history/worldbank_thai_flood_2011_full.pdf"
+    }
+  ]
+}

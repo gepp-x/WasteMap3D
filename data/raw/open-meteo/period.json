@@ -1,0 +1,7 @@
+{
+  "start": "2024-01-01",
+  "end": "2026-11-03",
+  "determinedAt": "2026-11-03T18:35:15.059Z",
+  "rule": "Last local (Asia/Bangkok) date in [2026-10-25, 2026-11-03] whose 24 hourly precipitation values are all non-null at both city-centre points (models=best_match).",
+  "probe": "data/raw/open-meteo/period_probe_2026-11-04.json"
+}

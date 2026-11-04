@@ -1,0 +1,946 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="icon" href="file:///Macintosh%20HD/Art-work/App%20ขยะกรมควบคุม/favicon.ico">
+
+    <title>ระบบสารสนเทศด้านการจัดการขยะมูลฝอยชุมชน</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-desktop.css" rel="stylesheet">
+    <link href="css/style-mobile.css" rel="stylesheet">
+    <link href="css/style-tablets.css" rel="stylesheet">
+    <link rel="stylesheet" href="js/semantic/semantic.min.css">
+    <link href="css/jumbotron.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="example.js"></script>
+</head>
+<body>
+
+<!-- ============START NAV============= -->
+<nav class="navbar shadow_header">
+    <div class="container">
+        <div class="row">
+
+            <div class="navbar-header home-logo">
+                <div class="col-xs-12 col-sm-2 col-lg-2" align="center">
+                    <a href="index.html"><img src="images/logo-header.png" border="0"></a>
+                </div>
+                <div class="col-xs-12 col-sm-10 col-lg-10 logo-text ">
+                    <h1>ระบบสารสนเทศ<br>
+                        ด้านการจัดการขยะมูลฝอยชุมชน</h1>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="bs-example">
+    <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="col-xs-12 col-sm-12 col-lg-12 nopadding">
+                    <ul class="nav nav-justified">
+                        <li><a href="index.php" class="">หน้าหลัก</a>
+                        </li>
+                        <li class="dropdown">
+                            <button class="dropbtn ">รายงาน<b class="caret"></b></button>
+                            <div class="dropdown-content" style="width: 600px;">
+                                <a href="report_country.php">ข้อมูลสถานการณ์ขยะมูลฝอยของประเทศ</a>
+                                <a href="report_region.php">ข้อมูลสถานการณ์ขยะมูลฝอยของภูมิภาค</a>
+                                <a href="report_zone.php">ข้อมูลสถานการณ์ขยะมูลฝอยของสำนักงานสิ่งแวดล้อมและควบคุมมลพิษ</a>
+                                <a href="report_province.php">ข้อมูลสถานการณ์ขยะมูลฝอยของจังหวัด</a>
+                                <a href="search.php">ข้อมูลสถานที่กำจัดขยะมูลฝอย </a>
+                                <a href="report_pdf.php">ข้อมูลรายงานการติดตามตรวจสอบของ คพ.</a>
+                                <a href="report_country_dangerous_waste.php">ข้อมูลรายงานสถานการณ์ขยะอันตรายชุมชน</a>
+                            </div>
+                        </li>
+                        <li><a href="report_map.php" target="_blank">ระบบภูมิสารสนเทศ</a></li>
+                        <li class="dropdown">
+                            <button class="dropbtn ">ข่าวสาร<b class="caret"></b></button>
+                            <div class="dropdown-content">
+                                                                        <a href="news.php?id=2">ข่าวสารเกี่ยวกับขยะมูลฝอย</a>
+                                                                                <a href="news.php?id=1">ข่าวสารทั่วไป</a>
+                                                                    </div>
+                        </li>
+                        <li class="dropdown">
+                            <button class="dropbtn ">องค์ความรู้<b class="caret"></b>
+                            </button>
+                            <div class="dropdown-content">
+                                                                        <a href="article.php?id=5">พ.ร.บ. กฎหมาย และนโยบาย</a>
+                                                                                <a href="article.php?id=4">ประกาศกรมควบคุมมลพิษ</a>
+                                                                                <a href="article.php?id=6">รายงานสถานการณ์</a>
+                                                                                <a href="article.php?id=1">คู่มือ</a>
+                                                                                <a href="article.php?id=7">เอกสารประกอบการฝึกอบรม</a>
+                                                                                <a href="article.php?id=3">แผ่นพับ</a>
+                                                                    </div>
+                        </li>
+                        <li><a href="admin/login.php" target="_blank">ผู้ดูแลระบบ</a></li>
+                        <li><a href="contact-us.php" class="">ติดต่อเรา</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+</div>
+
+<img  src="images/black_ribbon_top_right.png" class="black-ribbon stick-top stick-right">
+<div class="container" style="margin-top:20px">
+    <div class="row">
+       
+        <div class="col-xs-12 col-sm-6 col-lg-8">
+            
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-4" style="display: flex;flex-direction: row;flex-wrap: nowrap;justify-content: space-evenly;align-items: center;">
+            <!-- <a href="../service/api/report-country/export?year=2561" target="_blank">
+                <button type="button" class="btn btn btn-default pull-right" ><i class="glyphicon glyphicon-file" aria-hidden="true"></i> Export PDF</button>
+            </a> -->
+
+            <button type="button" class="btn btn-info" onclick="printDiv('forpdf')">PDF</button>
+            <a href="../service/api/report-country/export?year=2561" target="_blank">
+                <button type="button" class="btn btn btn-default pull-right" ><i class="glyphicon glyphicon-cloud-download" data-toggle="tooltip" title="ดาวน์โหลด"></i>   Export</button>
+            </a>
+            
+        </div>
+        <div class="clear"></div>
+        <div class="box" id="forpdf">
+            <div class="box-header">
+                <div class="col-xs-12 col-sm-6 col-lg-8">
+                <h2 class="graph-title">ข้อมูลสถานการณ์ขยะมูลฝอยของประเทศ</h2>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4" style="display: flex;flex-direction: row;flex-wrap: nowrap;justify-content: space-evenly;align-items: center;">
+                 
+                </div>
+                <div class="clear"></div>
+            </div>
+            
+
+            <div class="box-content">
+                <div class="col-xs-12 col-sm-6 col-lg-6">
+                    <div class="box-content">
+                        <div class="col-xs-12 col-sm-12 col-lg-12 text-center img100" >
+                            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                            <script type="text/javascript">
+                                google.charts.load('current', {'packages':['corechart']});
+                                google.charts.setOnLoadCallback(drawChart);
+
+                                function drawChart() {
+                                    var data = google.visualization.arrayToDataTable([
+                                        ['Task', 'ตัน/ปี'],
+                                        ['นำไปใช้ประโยชน์', 9.76],
+                                        ['กำจัดถูกต้อง', 10.85],
+                                        ['กำจัดไม่ถูกต้อง', 7.32],
+                                    ]);
+                                    var options = {
+                                        colors: ['#67C2DF', '#68A649', '#D6313B'],
+                                        backgroundColor: '#F7F8F8',
+                                        height: 350,
+                                    };
+                                    var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+                                    chart.draw(data, options);
+                                }
+                            </script>
+                            <div id="piechart" style="width:100%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-lg-6">
+                <div class="form-group">
+                    <h1 class="text-box-title">ปี พ.ศ.<span class="medium-font pull-right"></span></h1>
+                    <br>
+                    <form action="report_country.php" method="get">
+                                                <select class="form-control" id="volume-year" name="year">
+                                                            <option value="2570" >2570</option>
+                                                                <option value="2569" >2569</option>
+                                                                <option value="2568" >2568</option>
+                                                                <option value="2567" >2567</option>
+                                                                <option value="2566" >2566</option>
+                                                                <option value="2565" >2565</option>
+                                                                <option value="2564" >2564</option>
+                                                                <option value="2563" >2563</option>
+                                                                <option value="2562" >2562</option>
+                                                                <option value="2561" selected>2561</option>
+                                                                <option value="2560" >2560</option>
+                                                                <option value="2559" >2559</option>
+                                                                <option value="2558" >2558</option>
+                                                                <option value="2557" >2557</option>
+                                                                <option value="2556" >2556</option>
+                                                        </select>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-lg-6">
+                <div class="text-box">
+                    <h1 class="text-box-title">
+                        ปริมาณขยะมูลฝอยปี
+                        <span class="medium-font pull-right">ปี 2561</span>
+                    </h1>
+                    <br>
+                    <div class="text-number">
+                        <strong class="lage-font">27.93 ล้านตัน</strong>
+                    </div>
+                </div>
+
+                <br><br>
+
+                <div class="clear"></div>
+                <div class="text-box">
+                    <br>
+
+                    <br>
+                </div>
+            </div>
+            <div class="clear"></div>
+
+            <div class="box-content">
+                <h1 class="text-box-title">ข้อมูลสรุป<span class="medium-font pull-right">ปี 2561</span></h1>
+                <div class="clear"></div>
+                <div class="col-xs-12 col-sm-12 col-lg-6">
+                    <ul class="list-info list-root">
+                        <li>ปริมาณขยะมูลฝอยที่เกิดขึ้น <span class="pull-right">27.93 ล้านตัน</span></li>
+							<ul>
+								<li>ปริมาณขยะมูลฝอยที่ถูกนำกลับมาใช้ประโยชน์ <span class="pull-right">9.76 ล้านตัน</span></li>
+								<li>ปริมาณขยะมูลฝอยที่ถูกกำจัดถูกต้อง <span class="pull-right">10.85 ล้านตัน</span></li>
+								<li>ปริมาณขยะมูลฝอยที่ถูกกำจัดไม่ถูกต้อง <span class="pull-right">7.32 ล้านตัน</span></li>
+							</ul>
+                    </ul>
+					<ul class="list-info extra">
+						<li>ปริมาณขยะมูลฝอยตกค้าง <span class="pull-right">4.52 ล้านตัน</span></li>
+					</ul>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-lg-6">
+                    <ul class="list-info" style="list-style: none">
+                        <li>สถานที่กำจัดขยะมูลฝอยที่ถูกต้อง<span class="pull-right">595 แห่ง</span></li>
+						<li>สถานที่กำจัดขยะมูลฝอยที่ไม่ถูกต้อง<span class="pull-right">2171 แห่ง</span></li>
+						<li>สถานีขนถ่ายขยะมูลฝอย <span class="pull-right">23 แห่ง</span></li>
+						<li>การฝังกลบถูกหลักวิชาการ <span class="pull-right">107 แห่ง</span></li>
+						<li>การหมักทำปุ๋ย<span class="pull-right">13 แห่ง</span></li>
+						<li>เตาเผาผลิตพลังงาน (WTE)<span class="pull-right">6 แห่ง</span></li>
+						<li>เตาเผามีระบบบำบัดมลพิษอากาศ <span class="pull-right">0 แห่ง</span></li>
+						<li>MBT<span class="pull-right">16 แห่ง</span></li>
+                        <li>RDF<span class="pull-right">14 แห่ง</span></li>
+						<li>ผสมผสาน<span class="pull-right">27 แห่ง</span></li>
+						<li>เทกองควบคุม (<50 ตัน/วัน)<span class="pull-right">412 แห่ง</span></li>
+						<li>เทกองควบคุม (>50 ตัน/วัน) <span class="pull-right">1 แห่ง</span></li>
+						<li>เตาเผาไม่มีระบบบำบัดมลพิษอากาศ <span class="pull-right">54 แห่ง</span></li>
+						<li>การเทกอง <span class="pull-right">2044 แห่ง</span></li>
+						<li>เผากำจัดกลางแจ้ง <span class="pull-right">72 แห่ง</span></li>
+						<li>อื่น ๆ ที่มีการเทกอง/เทกองควบคุมในสถานที่ <span class="pull-right">0 แห่ง</span></li>
+					</ul>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="clear"></div>
+            <div class="box-content">
+                <h1 class="text-box-title">ปริมาณขยะมูลฝอยจำแนกตามจังหวัด <span class="medium-font pull-right">ปี 2561</span></h1>
+                <div style="overflow-x:auto;">
+                    <table class="data-table4" style="margin-top:10px;" width="95%" align="center">
+                        <thead>
+                        <tr>
+                            <th class="text-center" style="width: 10%;">จังหวัด</th>
+                            <th class="text-center" style="width: 18%;">ขยะมูลฝอยที่เกิดขึ้น (ตัน/วัน)</th>
+                            <th class="text-center" style="width: 18%;">ขยะมูลฝอยที่ถูกนำกลับมาใช้ประโยชน์ (ตัน/วัน)</th>
+                            <th class="text-center" style="width: 18%;">ขยะมูลฝอยที่ถูกกำจัดถูกต้อง (ตัน/วัน)</th>
+                            <th class="text-center" style="width: 18%;">ขยะมูลฝอยที่ถูกกำจัดไม่ถูกต้อง (ตัน/วัน)</th>
+                            <th class="text-center" style="width: 18%;">ขยะมูลฝอยตกค้าง (ตัน)</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                                                            <tr>
+                                    <td>กระบี่</td>
+                                    <td style="text-align: right;">543.12</td>
+                                    <td style="text-align: right;">154.89</td>
+                                    <td style="text-align: right;">171.73</td>
+                                    <td style="text-align: right;">216.50</td>
+                                    <td style="text-align: right;">60,261.18</td>
+                                </tr>
+                                                                <tr>
+                                    <td>กรุงเทพมหานคร</td>
+                                    <td style="text-align: right;">13,240.49</td>
+                                    <td style="text-align: right;">2,521.87</td>
+                                    <td style="text-align: right;">10,718.62</td>
+                                    <td style="text-align: right;">0.00</td>
+                                    <td style="text-align: right;">0.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>กาญจนบุรี</td>
+                                    <td style="text-align: right;">822.49</td>
+                                    <td style="text-align: right;">470.14</td>
+                                    <td style="text-align: right;">107.97</td>
+                                    <td style="text-align: right;">244.38</td>
+                                    <td style="text-align: right;">63,067.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>กาฬสินธุ์</td>
+                                    <td style="text-align: right;">984.11</td>
+                                    <td style="text-align: right;">599.14</td>
+                                    <td style="text-align: right;">97.78</td>
+                                    <td style="text-align: right;">287.19</td>
+                                    <td style="text-align: right;">47,411.05</td>
+                                </tr>
+                                                                <tr>
+                                    <td>กำแพงเพชร</td>
+                                    <td style="text-align: right;">417.84</td>
+                                    <td style="text-align: right;">90.95</td>
+                                    <td style="text-align: right;">143.12</td>
+                                    <td style="text-align: right;">183.77</td>
+                                    <td style="text-align: right;">6,119.25</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ขอนแก่น</td>
+                                    <td style="text-align: right;">1,847.60</td>
+                                    <td style="text-align: right;">934.62</td>
+                                    <td style="text-align: right;">533.18</td>
+                                    <td style="text-align: right;">379.80</td>
+                                    <td style="text-align: right;">145,381.32</td>
+                                </tr>
+                                                                <tr>
+                                    <td>จันทบุรี</td>
+                                    <td style="text-align: right;">510.80</td>
+                                    <td style="text-align: right;">122.09</td>
+                                    <td style="text-align: right;">266.03</td>
+                                    <td style="text-align: right;">122.68</td>
+                                    <td style="text-align: right;">52,721.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ฉะเชิงเทรา</td>
+                                    <td style="text-align: right;">709.24</td>
+                                    <td style="text-align: right;">174.86</td>
+                                    <td style="text-align: right;">192.56</td>
+                                    <td style="text-align: right;">341.82</td>
+                                    <td style="text-align: right;">102,444.58</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ชลบุรี</td>
+                                    <td style="text-align: right;">2,591.03</td>
+                                    <td style="text-align: right;">280.90</td>
+                                    <td style="text-align: right;">1,154.68</td>
+                                    <td style="text-align: right;">1,155.45</td>
+                                    <td style="text-align: right;">119,611.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ชัยนาท</td>
+                                    <td style="text-align: right;">326.33</td>
+                                    <td style="text-align: right;">126.22</td>
+                                    <td style="text-align: right;">104.59</td>
+                                    <td style="text-align: right;">95.52</td>
+                                    <td style="text-align: right;">97.50</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ชัยภูมิ</td>
+                                    <td style="text-align: right;">1,074.62</td>
+                                    <td style="text-align: right;">679.46</td>
+                                    <td style="text-align: right;">141.99</td>
+                                    <td style="text-align: right;">253.17</td>
+                                    <td style="text-align: right;">14,012.66</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ชุมพร</td>
+                                    <td style="text-align: right;">366.92</td>
+                                    <td style="text-align: right;">177.23</td>
+                                    <td style="text-align: right;">26.40</td>
+                                    <td style="text-align: right;">163.29</td>
+                                    <td style="text-align: right;">19,538.45</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ตรัง</td>
+                                    <td style="text-align: right;">659.06</td>
+                                    <td style="text-align: right;">355.50</td>
+                                    <td style="text-align: right;">75.68</td>
+                                    <td style="text-align: right;">247.99</td>
+                                    <td style="text-align: right;">40,029.65</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ตราด</td>
+                                    <td style="text-align: right;">275.18</td>
+                                    <td style="text-align: right;">99.16</td>
+                                    <td style="text-align: right;">80.10</td>
+                                    <td style="text-align: right;">95.92</td>
+                                    <td style="text-align: right;">27,644.76</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ตาก</td>
+                                    <td style="text-align: right;">638.55</td>
+                                    <td style="text-align: right;">195.03</td>
+                                    <td style="text-align: right;">98.90</td>
+                                    <td style="text-align: right;">344.62</td>
+                                    <td style="text-align: right;">2,014.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>นครนายก</td>
+                                    <td style="text-align: right;">250.91</td>
+                                    <td style="text-align: right;">136.91</td>
+                                    <td style="text-align: right;">106.41</td>
+                                    <td style="text-align: right;">7.59</td>
+                                    <td style="text-align: right;">16,200.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>นครปฐม</td>
+                                    <td style="text-align: right;">1,263.91</td>
+                                    <td style="text-align: right;">310.23</td>
+                                    <td style="text-align: right;">652.16</td>
+                                    <td style="text-align: right;">301.52</td>
+                                    <td style="text-align: right;">90,379.60</td>
+                                </tr>
+                                                                <tr>
+                                    <td>นครพนม</td>
+                                    <td style="text-align: right;">673.35</td>
+                                    <td style="text-align: right;">266.98</td>
+                                    <td style="text-align: right;">32.23</td>
+                                    <td style="text-align: right;">374.14</td>
+                                    <td style="text-align: right;">26,305.91</td>
+                                </tr>
+                                                                <tr>
+                                    <td>นครราชสีมา</td>
+                                    <td style="text-align: right;">2,480.07</td>
+                                    <td style="text-align: right;">1,021.06</td>
+                                    <td style="text-align: right;">577.94</td>
+                                    <td style="text-align: right;">901.07</td>
+                                    <td style="text-align: right;">68,180.51</td>
+                                </tr>
+                                                                <tr>
+                                    <td>นครศรีธรรมราช</td>
+                                    <td style="text-align: right;">963.03</td>
+                                    <td style="text-align: right;">431.82</td>
+                                    <td style="text-align: right;">73.30</td>
+                                    <td style="text-align: right;">457.91</td>
+                                    <td style="text-align: right;">1,169,172.30</td>
+                                </tr>
+                                                                <tr>
+                                    <td>นครสวรรค์</td>
+                                    <td style="text-align: right;">894.00</td>
+                                    <td style="text-align: right;">122.01</td>
+                                    <td style="text-align: right;">418.91</td>
+                                    <td style="text-align: right;">353.08</td>
+                                    <td style="text-align: right;">11,109.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>นนทบุรี</td>
+                                    <td style="text-align: right;">1,691.45</td>
+                                    <td style="text-align: right;">386.17</td>
+                                    <td style="text-align: right;">1,305.28</td>
+                                    <td style="text-align: right;">0.00</td>
+                                    <td style="text-align: right;">0.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>นราธิวาส</td>
+                                    <td style="text-align: right;">745.29</td>
+                                    <td style="text-align: right;">275.25</td>
+                                    <td style="text-align: right;">108.81</td>
+                                    <td style="text-align: right;">361.23</td>
+                                    <td style="text-align: right;">57,957.75</td>
+                                </tr>
+                                                                <tr>
+                                    <td>น่าน</td>
+                                    <td style="text-align: right;">456.03</td>
+                                    <td style="text-align: right;">161.23</td>
+                                    <td style="text-align: right;">70.80</td>
+                                    <td style="text-align: right;">224.00</td>
+                                    <td style="text-align: right;">2,386.03</td>
+                                </tr>
+                                                                <tr>
+                                    <td>บึงกาฬ</td>
+                                    <td style="text-align: right;">393.71</td>
+                                    <td style="text-align: right;">214.79</td>
+                                    <td style="text-align: right;">33.10</td>
+                                    <td style="text-align: right;">145.82</td>
+                                    <td style="text-align: right;">15,314.97</td>
+                                </tr>
+                                                                <tr>
+                                    <td>บุรีรัมย์</td>
+                                    <td style="text-align: right;">1,571.73</td>
+                                    <td style="text-align: right;">598.57</td>
+                                    <td style="text-align: right;">176.52</td>
+                                    <td style="text-align: right;">796.64</td>
+                                    <td style="text-align: right;">11,047.49</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ปทุมธานี</td>
+                                    <td style="text-align: right;">1,690.24</td>
+                                    <td style="text-align: right;">508.24</td>
+                                    <td style="text-align: right;">341.06</td>
+                                    <td style="text-align: right;">840.94</td>
+                                    <td style="text-align: right;">38,272.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ประจวบคีรีขันธ์</td>
+                                    <td style="text-align: right;">593.38</td>
+                                    <td style="text-align: right;">159.15</td>
+                                    <td style="text-align: right;">228.35</td>
+                                    <td style="text-align: right;">205.88</td>
+                                    <td style="text-align: right;">19,588.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ปราจีนบุรี</td>
+                                    <td style="text-align: right;">520.09</td>
+                                    <td style="text-align: right;">242.77</td>
+                                    <td style="text-align: right;">112.60</td>
+                                    <td style="text-align: right;">164.72</td>
+                                    <td style="text-align: right;">105,855.45</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ปัตตานี</td>
+                                    <td style="text-align: right;">670.29</td>
+                                    <td style="text-align: right;">315.60</td>
+                                    <td style="text-align: right;">67.74</td>
+                                    <td style="text-align: right;">286.95</td>
+                                    <td style="text-align: right;">21,214.48</td>
+                                </tr>
+                                                                <tr>
+                                    <td>พระนครศรีอยุธยา</td>
+                                    <td style="text-align: right;">1,176.35</td>
+                                    <td style="text-align: right;">519.65</td>
+                                    <td style="text-align: right;">404.28</td>
+                                    <td style="text-align: right;">252.42</td>
+                                    <td style="text-align: right;">297,815.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>พะเยา</td>
+                                    <td style="text-align: right;">484.60</td>
+                                    <td style="text-align: right;">284.99</td>
+                                    <td style="text-align: right;">83.49</td>
+                                    <td style="text-align: right;">116.12</td>
+                                    <td style="text-align: right;">832.95</td>
+                                </tr>
+                                                                <tr>
+                                    <td>พังงา</td>
+                                    <td style="text-align: right;">305.60</td>
+                                    <td style="text-align: right;">108.83</td>
+                                    <td style="text-align: right;">83.63</td>
+                                    <td style="text-align: right;">113.14</td>
+                                    <td style="text-align: right;">132,533.94</td>
+                                </tr>
+                                                                <tr>
+                                    <td>พัทลุง</td>
+                                    <td style="text-align: right;">516.40</td>
+                                    <td style="text-align: right;">197.05</td>
+                                    <td style="text-align: right;">42.20</td>
+                                    <td style="text-align: right;">277.15</td>
+                                    <td style="text-align: right;">6,818.31</td>
+                                </tr>
+                                                                <tr>
+                                    <td>พิจิตร</td>
+                                    <td style="text-align: right;">652.55</td>
+                                    <td style="text-align: right;">142.59</td>
+                                    <td style="text-align: right;">113.40</td>
+                                    <td style="text-align: right;">396.56</td>
+                                    <td style="text-align: right;">78,856.50</td>
+                                </tr>
+                                                                <tr>
+                                    <td>พิษณุโลก</td>
+                                    <td style="text-align: right;">902.96</td>
+                                    <td style="text-align: right;">280.61</td>
+                                    <td style="text-align: right;">345.00</td>
+                                    <td style="text-align: right;">277.35</td>
+                                    <td style="text-align: right;">0.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ภูเก็ต</td>
+                                    <td style="text-align: right;">1,032.55</td>
+                                    <td style="text-align: right;">103.26</td>
+                                    <td style="text-align: right;">929.29</td>
+                                    <td style="text-align: right;">0.00</td>
+                                    <td style="text-align: right;">0.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>มหาสารคาม</td>
+                                    <td style="text-align: right;">904.62</td>
+                                    <td style="text-align: right;">515.42</td>
+                                    <td style="text-align: right;">84.43</td>
+                                    <td style="text-align: right;">304.77</td>
+                                    <td style="text-align: right;">7,452.20</td>
+                                </tr>
+                                                                <tr>
+                                    <td>มุกดาหาร</td>
+                                    <td style="text-align: right;">334.64</td>
+                                    <td style="text-align: right;">233.08</td>
+                                    <td style="text-align: right;">0.00</td>
+                                    <td style="text-align: right;">111.56</td>
+                                    <td style="text-align: right;">63.75</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ยะลา</td>
+                                    <td style="text-align: right;">557.81</td>
+                                    <td style="text-align: right;">295.42</td>
+                                    <td style="text-align: right;">180.46</td>
+                                    <td style="text-align: right;">81.93</td>
+                                    <td style="text-align: right;">0.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ยโสธร</td>
+                                    <td style="text-align: right;">512.56</td>
+                                    <td style="text-align: right;">355.73</td>
+                                    <td style="text-align: right;">75.35</td>
+                                    <td style="text-align: right;">81.48</td>
+                                    <td style="text-align: right;">9.95</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ระนอง</td>
+                                    <td style="text-align: right;">189.06</td>
+                                    <td style="text-align: right;">97.98</td>
+                                    <td style="text-align: right;">0.00</td>
+                                    <td style="text-align: right;">91.08</td>
+                                    <td style="text-align: right;">4,361.47</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ระยอง</td>
+                                    <td style="text-align: right;">967.80</td>
+                                    <td style="text-align: right;">207.00</td>
+                                    <td style="text-align: right;">537.77</td>
+                                    <td style="text-align: right;">223.03</td>
+                                    <td style="text-align: right;">253,046.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ราชบุรี</td>
+                                    <td style="text-align: right;">864.61</td>
+                                    <td style="text-align: right;">418.33</td>
+                                    <td style="text-align: right;">328.96</td>
+                                    <td style="text-align: right;">117.32</td>
+                                    <td style="text-align: right;">27,380.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ร้อยเอ็ด</td>
+                                    <td style="text-align: right;">1,314.54</td>
+                                    <td style="text-align: right;">685.19</td>
+                                    <td style="text-align: right;">171.00</td>
+                                    <td style="text-align: right;">458.35</td>
+                                    <td style="text-align: right;">9,283.76</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ลพบุรี</td>
+                                    <td style="text-align: right;">863.11</td>
+                                    <td style="text-align: right;">383.16</td>
+                                    <td style="text-align: right;">39.97</td>
+                                    <td style="text-align: right;">439.98</td>
+                                    <td style="text-align: right;">246,722.16</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ลำปาง</td>
+                                    <td style="text-align: right;">444.75</td>
+                                    <td style="text-align: right;">116.19</td>
+                                    <td style="text-align: right;">198.14</td>
+                                    <td style="text-align: right;">130.42</td>
+                                    <td style="text-align: right;">6,642.07</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ลำพูน</td>
+                                    <td style="text-align: right;">412.16</td>
+                                    <td style="text-align: right;">101.69</td>
+                                    <td style="text-align: right;">201.02</td>
+                                    <td style="text-align: right;">109.45</td>
+                                    <td style="text-align: right;">0.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>ศรีสะเกษ</td>
+                                    <td style="text-align: right;">1,358.24</td>
+                                    <td style="text-align: right;">447.07</td>
+                                    <td style="text-align: right;">122.00</td>
+                                    <td style="text-align: right;">789.17</td>
+                                    <td style="text-align: right;">72.37</td>
+                                </tr>
+                                                                <tr>
+                                    <td>สกลนคร</td>
+                                    <td style="text-align: right;">1,135.41</td>
+                                    <td style="text-align: right;">465.34</td>
+                                    <td style="text-align: right;">117.69</td>
+                                    <td style="text-align: right;">552.38</td>
+                                    <td style="text-align: right;">4,410.12</td>
+                                </tr>
+                                                                <tr>
+                                    <td>สงขลา</td>
+                                    <td style="text-align: right;">1,656.46</td>
+                                    <td style="text-align: right;">585.97</td>
+                                    <td style="text-align: right;">668.33</td>
+                                    <td style="text-align: right;">402.16</td>
+                                    <td style="text-align: right;">23,472.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>สตูล</td>
+                                    <td style="text-align: right;">310.82</td>
+                                    <td style="text-align: right;">182.58</td>
+                                    <td style="text-align: right;">86.69</td>
+                                    <td style="text-align: right;">41.55</td>
+                                    <td style="text-align: right;">22,255.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>สมุทรปราการ</td>
+                                    <td style="text-align: right;">2,449.77</td>
+                                    <td style="text-align: right;">507.47</td>
+                                    <td style="text-align: right;">1,927.30</td>
+                                    <td style="text-align: right;">15.00</td>
+                                    <td style="text-align: right;">0.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>สมุทรสงคราม</td>
+                                    <td style="text-align: right;">180.92</td>
+                                    <td style="text-align: right;">51.12</td>
+                                    <td style="text-align: right;">100.52</td>
+                                    <td style="text-align: right;">29.28</td>
+                                    <td style="text-align: right;">0.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>สมุทรสาคร</td>
+                                    <td style="text-align: right;">918.00</td>
+                                    <td style="text-align: right;">476.80</td>
+                                    <td style="text-align: right;">370.31</td>
+                                    <td style="text-align: right;">70.89</td>
+                                    <td style="text-align: right;">9,968.22</td>
+                                </tr>
+                                                                <tr>
+                                    <td>สระบุรี</td>
+                                    <td style="text-align: right;">677.42</td>
+                                    <td style="text-align: right;">258.93</td>
+                                    <td style="text-align: right;">313.13</td>
+                                    <td style="text-align: right;">105.36</td>
+                                    <td style="text-align: right;">366,014.30</td>
+                                </tr>
+                                                                <tr>
+                                    <td>สระแก้ว</td>
+                                    <td style="text-align: right;">593.65</td>
+                                    <td style="text-align: right;">327.92</td>
+                                    <td style="text-align: right;">23.47</td>
+                                    <td style="text-align: right;">242.26</td>
+                                    <td style="text-align: right;">167,642.43</td>
+                                </tr>
+                                                                <tr>
+                                    <td>สิงห์บุรี</td>
+                                    <td style="text-align: right;">244.37</td>
+                                    <td style="text-align: right;">105.60</td>
+                                    <td style="text-align: right;">69.58</td>
+                                    <td style="text-align: right;">69.19</td>
+                                    <td style="text-align: right;">7,250.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>สุพรรณบุรี</td>
+                                    <td style="text-align: right;">636.14</td>
+                                    <td style="text-align: right;">158.43</td>
+                                    <td style="text-align: right;">170.17</td>
+                                    <td style="text-align: right;">307.54</td>
+                                    <td style="text-align: right;">42,809.22</td>
+                                </tr>
+                                                                <tr>
+                                    <td>สุราษฎร์ธานี</td>
+                                    <td style="text-align: right;">1,088.27</td>
+                                    <td style="text-align: right;">477.30</td>
+                                    <td style="text-align: right;">478.00</td>
+                                    <td style="text-align: right;">132.97</td>
+                                    <td style="text-align: right;">116,210.10</td>
+                                </tr>
+                                                                <tr>
+                                    <td>สุรินทร์</td>
+                                    <td style="text-align: right;">1,278.50</td>
+                                    <td style="text-align: right;">478.14</td>
+                                    <td style="text-align: right;">82.40</td>
+                                    <td style="text-align: right;">717.96</td>
+                                    <td style="text-align: right;">4,209.45</td>
+                                </tr>
+                                                                <tr>
+                                    <td>สุโขทัย</td>
+                                    <td style="text-align: right;">581.24</td>
+                                    <td style="text-align: right;">376.57</td>
+                                    <td style="text-align: right;">128.21</td>
+                                    <td style="text-align: right;">76.46</td>
+                                    <td style="text-align: right;">0.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>หนองคาย</td>
+                                    <td style="text-align: right;">500.57</td>
+                                    <td style="text-align: right;">231.12</td>
+                                    <td style="text-align: right;">132.37</td>
+                                    <td style="text-align: right;">137.08</td>
+                                    <td style="text-align: right;">6,774.30</td>
+                                </tr>
+                                                                <tr>
+                                    <td>หนองบัวลำภู</td>
+                                    <td style="text-align: right;">496.62</td>
+                                    <td style="text-align: right;">290.01</td>
+                                    <td style="text-align: right;">86.90</td>
+                                    <td style="text-align: right;">119.71</td>
+                                    <td style="text-align: right;">498.72</td>
+                                </tr>
+                                                                <tr>
+                                    <td>อำนาจเจริญ</td>
+                                    <td style="text-align: right;">361.89</td>
+                                    <td style="text-align: right;">209.78</td>
+                                    <td style="text-align: right;">45.13</td>
+                                    <td style="text-align: right;">106.98</td>
+                                    <td style="text-align: right;">14.89</td>
+                                </tr>
+                                                                <tr>
+                                    <td>อุดรธานี</td>
+                                    <td style="text-align: right;">1,632.56</td>
+                                    <td style="text-align: right;">889.68</td>
+                                    <td style="text-align: right;">236.21</td>
+                                    <td style="text-align: right;">506.67</td>
+                                    <td style="text-align: right;">13,398.64</td>
+                                </tr>
+                                                                <tr>
+                                    <td>อุตรดิตถ์</td>
+                                    <td style="text-align: right;">439.14</td>
+                                    <td style="text-align: right;">155.29</td>
+                                    <td style="text-align: right;">76.67</td>
+                                    <td style="text-align: right;">207.18</td>
+                                    <td style="text-align: right;">3,728.25</td>
+                                </tr>
+                                                                <tr>
+                                    <td>อุทัยธานี</td>
+                                    <td style="text-align: right;">316.49</td>
+                                    <td style="text-align: right;">48.95</td>
+                                    <td style="text-align: right;">55.90</td>
+                                    <td style="text-align: right;">211.64</td>
+                                    <td style="text-align: right;">1,296.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>อุบลราชธานี</td>
+                                    <td style="text-align: right;">1,800.67</td>
+                                    <td style="text-align: right;">1,038.29</td>
+                                    <td style="text-align: right;">503.49</td>
+                                    <td style="text-align: right;">258.89</td>
+                                    <td style="text-align: right;">158.28</td>
+                                </tr>
+                                                                <tr>
+                                    <td>อ่างทอง</td>
+                                    <td style="text-align: right;">285.49</td>
+                                    <td style="text-align: right;">159.10</td>
+                                    <td style="text-align: right;">107.75</td>
+                                    <td style="text-align: right;">18.64</td>
+                                    <td style="text-align: right;">0.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>เชียงราย</td>
+                                    <td style="text-align: right;">972.54</td>
+                                    <td style="text-align: right;">248.61</td>
+                                    <td style="text-align: right;">407.13</td>
+                                    <td style="text-align: right;">316.80</td>
+                                    <td style="text-align: right;">812.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>เชียงใหม่</td>
+                                    <td style="text-align: right;">1,655.31</td>
+                                    <td style="text-align: right;">399.12</td>
+                                    <td style="text-align: right;">1,040.80</td>
+                                    <td style="text-align: right;">215.39</td>
+                                    <td style="text-align: right;">0.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>เพชรบุรี</td>
+                                    <td style="text-align: right;">461.77</td>
+                                    <td style="text-align: right;">174.64</td>
+                                    <td style="text-align: right;">103.54</td>
+                                    <td style="text-align: right;">183.59</td>
+                                    <td style="text-align: right;">127,130.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>เพชรบูรณ์</td>
+                                    <td style="text-align: right;">953.76</td>
+                                    <td style="text-align: right;">439.30</td>
+                                    <td style="text-align: right;">127.63</td>
+                                    <td style="text-align: right;">386.59</td>
+                                    <td style="text-align: right;">71,930.00</td>
+                                </tr>
+                                                                <tr>
+                                    <td>เลย</td>
+                                    <td style="text-align: right;">649.91</td>
+                                    <td style="text-align: right;">237.32</td>
+                                    <td style="text-align: right;">23.00</td>
+                                    <td style="text-align: right;">389.59</td>
+                                    <td style="text-align: right;">91,744.17</td>
+                                </tr>
+                                                                <tr>
+                                    <td>แพร่</td>
+                                    <td style="text-align: right;">423.16</td>
+                                    <td style="text-align: right;">121.87</td>
+                                    <td style="text-align: right;">86.94</td>
+                                    <td style="text-align: right;">214.35</td>
+                                    <td style="text-align: right;">17,895.76</td>
+                                </tr>
+                                                                <tr>
+                                    <td>แม่ฮ่องสอน</td>
+                                    <td style="text-align: right;">168.20</td>
+                                    <td style="text-align: right;">43.13</td>
+                                    <td style="text-align: right;">16.40</td>
+                                    <td style="text-align: right;">108.67</td>
+                                    <td style="text-align: right;">184.25</td>
+                                </tr>
+                                                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+    </div><!--div row-->
+</div><!--div container-->
+
+<!-- ============ FOOTER ============= -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="bg-footer">
+                <div class="col-xs-12 col-sm-2 col-lg-2" align="center">
+                    <a href="#"><img src="images/logo-header.png"></a>
+                </div>
+                                <div class="col-xs-12 col-sm-10 col-lg-10 logo-text ">
+                    <h1>ระบบสารสนเทศด้านการจัดการขยะมูลฝอยชุมชน</h1>
+
+                    
+                    <h4><p>จำนวนผู้ชม : 4,649,382</p></h4>                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right"></div>
+</footer>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
+<!-- InstanceEnd --></html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+<script>
+    jQuery(document).ready(function(){
+        $('select[name=year]').on('change', function(){
+            var year = $(this).val();
+
+            window.location = '../report_country.php?year='+year;
+        });
+    });
+
+    function printDiv(divName) {
+     var printContents = document.getElementById(divName).innerHTML;
+     var originalContents = document.body.innerHTML;
+    //  console.log(printContents);
+     document.body.innerHTML = printContents;
+
+     window.print();
+
+     document.body.innerHTML = originalContents;
+}
+</script>

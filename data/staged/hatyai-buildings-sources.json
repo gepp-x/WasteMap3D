@@ -1,0 +1,13 @@
+[
+  {
+    "id": "osm-overpass",
+    "nameTh": "OpenStreetMap (ผ่าน Overpass API) — อาคาร ถนน และแหล่งน้ำ",
+    "nameEn": "OpenStreetMap via Overpass API — buildings, roads and water",
+    "url": "https://www.openstreetmap.org/copyright",
+    "publisher": "OpenStreetMap contributors (queried through public Overpass API instances)",
+    "license": "ODbL-1.0 (https://opendatacommons.org/licenses/odbl/1-0/) — attribution “© OpenStreetMap contributors”",
+    "retrievedAt": "2026-11-03T23:43:06.440Z",
+    "accessStatus": "retrieved",
+    "notes": "Building footprints/heights, roads (motorway..residential) and water within ±450 m windows around one anchor per area (hatyai). Raw responses retrieved 2026-11-03T23:14:26.844Z .. 2026-11-03T23:43:06.440Z; OSM base timestamps 2026-07-15T15:22:01Z .. 2026-11-03T23:41:36Z. Heights: tagged height, building:levels × 3.2 m, or a deterministic estimate (not observed)."
+  }
+]

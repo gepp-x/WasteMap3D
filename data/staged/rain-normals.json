@@ -1,0 +1,223 @@
+{
+  "note": "TMD climatological normals and rainfall-intensity classes. Normals are station statistics (observed 30-year means), not city-wide averages.",
+  "source": {
+    "sourceId": "tmd-climate-normals-1991-2020",
+    "url": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+    "publisher": "Thai Meteorological Department (กรมอุตุนิยมวิทยา), 30 Year Period Climatological Data Working Group",
+    "title": "CLIMATOLOGICAL DATA OF THAILAND FOR 30 YEAR PERIOD (1991-2020)",
+    "reportNo": "551.586 - 13 -2023",
+    "hostedOn": "ubonmet.tmd.go.th (TMD Ubon Ratchathani Meteorological Station website)",
+    "retrievedAt": "2026-11-03T18:14:49.166Z",
+    "textExtraction": "re-used cached text extraction",
+    "definitionsFoundInPdf": true,
+    "definitionsQuote": "Daily rainfall is recorded from 0700 L.S.T. of the day to 0700 L.S.T. of the following day. A rainy day is a day with an amount of 0.1 mm. or more of rain.",
+    "license": "© Thai Meteorological Department; no open licence stated. Factual statistics cited with attribution."
+  },
+  "stations": [
+    {
+      "cityId": "bangkok",
+      "id": "tmd-48455",
+      "wmoIndex": "48455",
+      "nameEn": "BANGKOK METROPOLIS",
+      "nameTh": "กรุงเทพมหานคร",
+      "nameThSource": "Thai name as used in ThaiWater/TMD station metadata (the normals PDF lists English names only).",
+      "latDms": "13°43'N",
+      "lonDms": "100°33'E",
+      "lat": 13.7167,
+      "lon": 100.55,
+      "elevationM": 3,
+      "period": "1991-2020",
+      "pdfPage": 57,
+      "printedPage": "51",
+      "months": [
+        "JAN",
+        "FEB",
+        "MAR",
+        "APR",
+        "MAY",
+        "JUN",
+        "JUL",
+        "AUG",
+        "SEP",
+        "OCT",
+        "NOV",
+        "DEC"
+      ],
+      "annualRainfall": {
+        "value": 1702.2,
+        "unit": "mm/year",
+        "provenance": {
+          "status": "observed",
+          "sourceId": "tmd-climate-normals-1991-2020",
+          "sourceName": "TMD, Climatological Data of Thailand for 30 Year Period (1991-2020)",
+          "sourceUrl": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+          "observedFrom": "1991-01-01",
+          "observedTo": "2020-12-31",
+          "geographicScope": "TMD synoptic station BANGKOK METROPOLIS (index 48455, 13°43'N 100°33'E, 3 m MSL)",
+          "methodology": "Mean annual rainfall. Station climatological normal published by TMD (30-year mean, 1991-2020). Daily rainfall is recorded from 0700 L.S.T. to 0700 L.S.T. of the following day; a rainy day has >= 0.1 mm. Values transcribed by text extraction from PDF page 57 (printed page 51); monthly sums verified against the published annual value."
+        }
+      },
+      "annualRainyDays": {
+        "value": 128.3,
+        "unit": "days/year",
+        "provenance": {
+          "status": "observed",
+          "sourceId": "tmd-climate-normals-1991-2020",
+          "sourceName": "TMD, Climatological Data of Thailand for 30 Year Period (1991-2020)",
+          "sourceUrl": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+          "observedFrom": "1991-01-01",
+          "observedTo": "2020-12-31",
+          "geographicScope": "TMD synoptic station BANGKOK METROPOLIS (index 48455, 13°43'N 100°33'E, 3 m MSL)",
+          "methodology": "Mean number of rainy days per year. Station climatological normal published by TMD (30-year mean, 1991-2020). Daily rainfall is recorded from 0700 L.S.T. to 0700 L.S.T. of the following day; a rainy day has >= 0.1 mm. Values transcribed by text extraction from PDF page 57 (printed page 51); monthly sums verified against the published annual value."
+        }
+      },
+      "monthlyRainfallMm": [23.6, 21.4, 51, 93.3, 216.8, 198.5, 189.7, 227.1, 335.9, 288.7, 44.6, 11.6],
+      "monthlyRainyDays": [2.6, 2.5, 4.1, 6.5, 15, 16.4, 17.2, 19.1, 21.4, 17, 5, 1.5],
+      "monthlyDailyMaximumMm": [62.3, 56.4, 79.6, 216.8, 185.9, 174.3, 92.5, 130.7, 128.1, 188.3, 72.6, 37],
+      "recordDailyMaximumMm": 216.8,
+      "checks": {
+        "monthlyRainSum": 1702.2,
+        "publishedAnnual": 1702.2,
+        "monthlyRainyDaySum": 128.3,
+        "publishedAnnualRainyDays": 128.3
+      }
+    },
+    {
+      "cityId": "hatyai",
+      "id": "tmd-48569",
+      "wmoIndex": "48569",
+      "nameEn": "HAT YAI AIRPORT",
+      "nameTh": "หาดใหญ่ (สนามบินหาดใหญ่)",
+      "nameThSource": "Thai name as used in ThaiWater/TMD station metadata (the normals PDF lists English names only).",
+      "latDms": "06°55'N",
+      "lonDms": "100°26'E",
+      "lat": 6.9167,
+      "lon": 100.4333,
+      "elevationM": 27,
+      "period": "1991-2020",
+      "pdfPage": 82,
+      "printedPage": "76",
+      "months": [
+        "JAN",
+        "FEB",
+        "MAR",
+        "APR",
+        "MAY",
+        "JUN",
+        "JUL",
+        "AUG",
+        "SEP",
+        "OCT",
+        "NOV",
+        "DEC"
+      ],
+      "annualRainfall": {
+        "value": 1756,
+        "unit": "mm/year",
+        "provenance": {
+          "status": "observed",
+          "sourceId": "tmd-climate-normals-1991-2020",
+          "sourceName": "TMD, Climatological Data of Thailand for 30 Year Period (1991-2020)",
+          "sourceUrl": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+          "observedFrom": "1991-01-01",
+          "observedTo": "2020-12-31",
+          "geographicScope": "TMD synoptic station HAT YAI AIRPORT (index 48569, 06°55'N 100°26'E, 27 m MSL)",
+          "methodology": "Mean annual rainfall. Station climatological normal published by TMD (30-year mean, 1991-2020). Daily rainfall is recorded from 0700 L.S.T. to 0700 L.S.T. of the following day; a rainy day has >= 0.1 mm. Values transcribed by text extraction from PDF page 82 (printed page 76); monthly sums verified against the published annual value."
+        }
+      },
+      "annualRainyDays": {
+        "value": 162.6,
+        "unit": "days/year",
+        "provenance": {
+          "status": "observed",
+          "sourceId": "tmd-climate-normals-1991-2020",
+          "sourceName": "TMD, Climatological Data of Thailand for 30 Year Period (1991-2020)",
+          "sourceUrl": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+          "observedFrom": "1991-01-01",
+          "observedTo": "2020-12-31",
+          "geographicScope": "TMD synoptic station HAT YAI AIRPORT (index 48569, 06°55'N 100°26'E, 27 m MSL)",
+          "methodology": "Mean number of rainy days per year. Station climatological normal published by TMD (30-year mean, 1991-2020). Daily rainfall is recorded from 0700 L.S.T. to 0700 L.S.T. of the following day; a rainy day has >= 0.1 mm. Values transcribed by text extraction from PDF page 82 (printed page 76); monthly sums verified against the published annual value."
+        }
+      },
+      "monthlyRainfallMm": [88.1, 29.9, 77.4, 116.4, 128.5, 121, 100.5, 123.8, 146.8, 224.3, 324.3, 275],
+      "monthlyRainyDays": [8.7, 3.7, 6.4, 11.1, 14.3, 13, 14, 14.8, 16.6, 20.5, 21.1, 18.4],
+      "monthlyDailyMaximumMm": [99.2, 66.8, 87, 114.1, 89.9, 88.3, 78, 139.9, 105.6, 208, 219.4, 122],
+      "recordDailyMaximumMm": 219.4,
+      "checks": {
+        "monthlyRainSum": 1756,
+        "publishedAnnual": 1756,
+        "monthlyRainyDaySum": 162.6,
+        "publishedAnnualRainyDays": 162.6
+      }
+    }
+  ],
+  "intensityClasses24h": {
+    "sourceId": "tmd-weather-criteria",
+    "url": "https://www.tmd.go.th/info/%E0%B9%80%E0%B8%81%E0%B8%93%E0%B8%91%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+    "publisher": "Thai Meteorological Department – Weather Forecast Division (กองพยากรณ์อากาศ), page “เกณฑ์อากาศ”",
+    "retrievedAt": "2026-11-03T18:16:26.854Z",
+    "headingTh": "เกณฑ์ปริมาณฝน",
+    "classes": [
+      {
+        "id": "trace",
+        "labelTh": "ฝนน้อยกว่า 0.1 มม. (T)",
+        "labelEn": "Trace",
+        "minMm": 0,
+        "maxMm": 0.1,
+        "maxExclusive": true,
+        "quoteTh": "ฝนน้อยกว่า 0.1 มม. (T)",
+        "source": "TMD aeromet2 daily rainfall report legend (not on the criteria page)"
+      },
+      {
+        "id": "light-rain",
+        "labelTh": "ฝนเล็กน้อย",
+        "labelEn": "Light Rain",
+        "minMm": 0.1,
+        "maxMm": 10,
+        "quoteTh": "1. ฝนเล็กน้อย(Light Rain) ฝนตกมีปริมาณตั้งแต่ 0.1 มิลลิเมตร ถึง 10.0 มิลลิเมตร",
+        "source": "TMD criteria page"
+      },
+      {
+        "id": "moderate-rain",
+        "labelTh": "ฝนปานกลาง",
+        "labelEn": "Moderate Rain",
+        "minMm": 10.1,
+        "maxMm": 35,
+        "quoteTh": "2. ฝนปานกลาง(Moderate Rain) ฝนตกมีปริมาณตั้งแต่ 10.1 มิลลิเมตร ถึง 35.0 มิลลิเมตร",
+        "source": "TMD criteria page"
+      },
+      {
+        "id": "heavy-rain",
+        "labelTh": "ฝนหนัก",
+        "labelEn": "Heavy Rain",
+        "minMm": 35.1,
+        "maxMm": 90,
+        "quoteTh": "3. ฝนหนัก(Heavy Rain) ฝนตกมีปริมาณตั้งแต่ 35.1 มิลลิเมตร ถึง 90.0 มิลลิเมตร",
+        "source": "TMD criteria page"
+      },
+      {
+        "id": "very-heavy-rain",
+        "labelTh": "ฝนหนักมาก",
+        "labelEn": "Very Heavy Rain",
+        "minMm": 90.1,
+        "maxMm": null,
+        "quoteTh": "4. ฝนหนักมาก(Very Heavy Rain) ฝนตกมีปริมาณตั้งแต่ 90.1 มิลลิเมตร ขึ้นไป",
+        "source": "TMD criteria page"
+      }
+    ],
+    "accumulationWindow": "The criteria page states amounts without an explicit window. TMD's aeromet2 daily report applies the same bands to “ข้อมูลฝนสะสม 24 ชั่วโมง” over 07:00–07:00, and the TMD normals define the rainfall day as 0700–0700 L.S.T.",
+    "crossChecks": {
+      "aeromet2LegendTh": [
+        "ฝนน้อยกว่า 0.1 มม. (T)",
+        "ฝนเล็กน้อย 0.1–10.0 มม.",
+        "ฝนปานกลาง 10.1–35.0 มม.",
+        "ฝนหนัก 35.1–90.0 มม.",
+        "ฝนหนักมาก > 90.0 มม."
+      ],
+      "aeromet2LegendUrl": "https://aeromet2.tmd.go.th/reports/daily-rainfall",
+      "bmaWeatherBarSameThresholds": true,
+      "bmaWeatherBarNote": "weather.bangkok.go.th rain bar shows class breaks >0 / 10 / 35 / 90 mm (ฝนละออง, ฝนเล็กน้อย, ฝนปานกลาง, ฝนหนัก, ฝนหนักมาก)."
+    },
+    "license": "© Thai Meteorological Department; no open licence stated."
+  }
+}

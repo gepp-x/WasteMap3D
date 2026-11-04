@@ -1,0 +1,8 @@
+﻿dic_id,field_name,data_type,description_thai,description_en
+1,YEAR,text,ปี,Year
+2,PROVINCE,text,จังหวัด,Province
+3,DISTRIC,text,อำเภอ,Distric
+4,SEX,text,เพศ,Sex
+5,VALUE,numeric,จำนวนประชากรตามพื้นที่จากการทะเบียน,Value
+6,UNIT,text,หน่วยนับ,Unit
+7,SOURCE,text,ที่มา,"National Statistical Office"

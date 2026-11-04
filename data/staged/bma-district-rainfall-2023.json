@@ -1,0 +1,1126 @@
+{
+  "note": "Observed monthly accumulated rainfall per Bangkok district as published by the BMA Drainage and Sewerage Department on data.bangkok.go.th. PARTIAL YEAR — not an annual total. District names are Thai only in the source.",
+  "source": {
+    "sourceId": "bma-ckan-rainfall-district",
+    "datasetUrl": "https://data.bangkok.go.th/dataset/rainfall",
+    "packageApi": "https://data.bangkok.go.th/api/3/action/package_show?id=rainfall",
+    "resourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+    "title": "ข้อมูลปริมาณฝนรายเดือนในพื้นที่กรุงเทพมหานครจำแนกตามพื้นที่เขต",
+    "publisher": "สํานักการระบายน้ำ",
+    "license": "Creative Commons Attributions",
+    "metadataModified": "2023-10-03T04:26:37.332856",
+    "resourceLastModified": "2023-10-03T04:26:36.040942",
+    "retrievedAt": "2026-11-03T18:22:20.976Z",
+    "encoding": "TIS-620/Windows-874 (decoded with TextDecoder('windows-874'))",
+    "header": [
+      "District",
+      "rain_month",
+      "rain(mm)"
+    ]
+  },
+  "year": 2023,
+  "months": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "unit": "mm",
+  "districts": [
+    {
+      "nameTh": "คลองเตย",
+      "monthlyMm": [0, 65.8, 20, 24.5, 49, 103.5, 219, 184, 392.5],
+      "periodTotal": {
+        "value": 1058.3,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district คลองเตย (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "คลองสามวา",
+      "monthlyMm": [2, 19.5, 0.5, 35, 105.5, 81, 197.5, 217.5, 346.5],
+      "periodTotal": {
+        "value": 1005,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district คลองสามวา (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "คันนายาว",
+      "monthlyMm": [0, 18.5, 0.5, 19, 13, 92, 146.5, 174, 281.5],
+      "periodTotal": {
+        "value": 745,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district คันนายาว (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "จตุจักร",
+      "monthlyMm": [0, 32, 3, 47.5, 68.5, 108.6, 335, 215, 331],
+      "periodTotal": {
+        "value": 1140.6,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district จตุจักร (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "ดอนเมือง",
+      "monthlyMm": [0, 4, 3.5, 24, 34.5, 60, 151, 154.5, 180.5],
+      "periodTotal": {
+        "value": 612,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district ดอนเมือง (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "ดินแดง",
+      "monthlyMm": [0, 64.5, 15.5, 54.5, 55.5, 72.5, 281, 224, 400.5],
+      "periodTotal": {
+        "value": 1168,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district ดินแดง (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "ดุสิต",
+      "monthlyMm": [0.5, 82.5, 8, 9, 61.5, 101.5, 254, 246.5, 358],
+      "periodTotal": {
+        "value": 1121.5,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district ดุสิต (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "บางเขน",
+      "monthlyMm": [0, 8.5, 4.5, 15.5, 20.5, 106.5, 231.5, 153.5, 239.5],
+      "periodTotal": {
+        "value": 780,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district บางเขน (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "บางกะปิ",
+      "monthlyMm": [0, 66, 23.5, 25, 9.5, 128, 268, 186.5, 286],
+      "periodTotal": {
+        "value": 992.5,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district บางกะปิ (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "บางคอแหลม",
+      "monthlyMm": [0, 49, 38.5, 23, 41, 55.5, 177.5, 180, 341],
+      "periodTotal": {
+        "value": 905.5,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district บางคอแหลม (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "บางซื่อ",
+      "monthlyMm": [0, 59.5, 1.5, 48, 70, 95, 303, 199.5, 338],
+      "periodTotal": {
+        "value": 1114.5,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district บางซื่อ (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "บางนา",
+      "monthlyMm": [0.5, 90, 8.5, 55.5, 45.5, 155.5, 197.5, 154.5, 466.5],
+      "periodTotal": {
+        "value": 1174,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district บางนา (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "บางรัก",
+      "monthlyMm": [0, 55, 14, 11, 58, 103, 175.5, 220, 381.5],
+      "periodTotal": {
+        "value": 1018,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district บางรัก (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "บึงกุ่ม",
+      "monthlyMm": [0, 42.5, 0, 0, 14, 140, 151.5, 160.5, 280],
+      "periodTotal": {
+        "value": 788.5,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district บึงกุ่ม (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "ปทุมวัน",
+      "monthlyMm": [0, 82, 9, 19.5, 45, 106.5, 213, 228.5, 423.5],
+      "periodTotal": {
+        "value": 1127,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district ปทุมวัน (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "ประเวศ",
+      "monthlyMm": [0, 65, 12, 40, 82, 125, 203, 104, 293],
+      "periodTotal": {
+        "value": 924,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district ประเวศ (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "ป้อมปราบศัตรูพ่าย",
+      "monthlyMm": [0, 77.5, 16.5, 13, 44, 106, 226, 209, 376],
+      "periodTotal": {
+        "value": 1068,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district ป้อมปราบศัตรูพ่าย (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "พญาไท",
+      "monthlyMm": [0, 88, 11, 36, 87.5, 93, 364.5, 255.5, 427],
+      "periodTotal": {
+        "value": 1362.5,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district พญาไท (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "พระโขนง",
+      "monthlyMm": [0, 97, 1.5, 28.5, 23.5, 132, 243.5, 147.5, 441.5],
+      "periodTotal": {
+        "value": 1115,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district พระโขนง (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "พระนคร",
+      "monthlyMm": [0, 72.5, 8, 10, 57.5, 99, 216, 289.5, 303.5],
+      "periodTotal": {
+        "value": 1056,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district พระนคร (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "มีนบุรี",
+      "monthlyMm": [1.5, 41.5, 2.5, 23, 48, 151.5, 243, 224, 336],
+      "periodTotal": {
+        "value": 1071,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district มีนบุรี (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "ยานนาวา",
+      "monthlyMm": [0, 41, 30, 40.5, 26.5, 114.5, 189, 165.5, 381.8],
+      "periodTotal": {
+        "value": 988.8,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district ยานนาวา (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "ราชเทวี",
+      "monthlyMm": [0, 81.5, 17.5, 46.5, 49.5, 104.5, 251.2, 237.5, 421.5],
+      "periodTotal": {
+        "value": 1209.7,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district ราชเทวี (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "ลาดกระบัง",
+      "monthlyMm": [0, 81, 28, 63.5, 78.5, 118, 253, 95, 292.67],
+      "periodTotal": {
+        "value": 1009.7,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district ลาดกระบัง (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "ลาดพร้าว",
+      "monthlyMm": [0, 33.5, 6, 20, 35.5, 59.5, 146.5, 139, 240],
+      "periodTotal": {
+        "value": 680,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district ลาดพร้าว (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "วังทองหลาง",
+      "monthlyMm": [0.5, 51, 32.5, 48.5, 28.8, 72.89, 237.2, 185, 288.5],
+      "periodTotal": {
+        "value": 944.9,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district วังทองหลาง (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "วัฒนา",
+      "monthlyMm": [0, 104.5, 10.5, 8, 40, 107.5, 219.5, 193.5, 308],
+      "periodTotal": {
+        "value": 991.5,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district วัฒนา (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "สวนหลวง",
+      "monthlyMm": [0, 64, 23.5, 22.5, 42, 135.5, 254.5, 131.5, 235],
+      "periodTotal": {
+        "value": 908.5,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district สวนหลวง (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "สะพานสูง",
+      "monthlyMm": [0, 45.5, 14, 49, 25, 164.5, 290.5, 192, 339.5],
+      "periodTotal": {
+        "value": 1120,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district สะพานสูง (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "สัมพันธวงศ์",
+      "monthlyMm": [0, 60.5, 14.5, 10.5, 58.5, 101, 176, 211, 354],
+      "periodTotal": {
+        "value": 986,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district สัมพันธวงศ์ (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "สาทร",
+      "monthlyMm": [0, 46.5, 29, 15, 86, 68.5, 168.5, 177.5, 343],
+      "periodTotal": {
+        "value": 934,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district สาทร (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "สายไหม",
+      "monthlyMm": [0.5, 11.5, 9.5, 45.5, 48, 111.5, 205, 221.5, 327],
+      "periodTotal": {
+        "value": 980,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district สายไหม (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "หนองจอก",
+      "monthlyMm": [0.5, 34, 10, 37, 35.5, 148.5, 163, 284, 487.5],
+      "periodTotal": {
+        "value": 1200,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district หนองจอก (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "หลักสี่",
+      "monthlyMm": [0, 8.5, 9, 37.5, 41, 154.5, 263.5, 182, 222.5],
+      "periodTotal": {
+        "value": 918.5,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district หลักสี่ (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "ห้วยขวาง",
+      "monthlyMm": [0, 77.5, 25.5, 31.5, 35.5, 81, 227, 209.5, 319.5],
+      "periodTotal": {
+        "value": 1007,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district ห้วยขวาง (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "คลองสาน",
+      "monthlyMm": [0.5, 52.5, 15.5, 7.5, 61.5, 83, 159, 193, 312],
+      "periodTotal": {
+        "value": 884.5,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district คลองสาน (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "จอมทอง",
+      "monthlyMm": [0, 47.5, 20, 12, 39.5, 58.5, 124.5, 180, 229],
+      "periodTotal": {
+        "value": 711,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district จอมทอง (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "ตลิ่งชัน",
+      "monthlyMm": [0, 49.5, 10, 39.5, 65, 101.5, 189, 302, 302.5],
+      "periodTotal": {
+        "value": 1059,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district ตลิ่งชัน (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "ทวีวัฒนา",
+      "monthlyMm": [0.5, 46.5, 5, 31, 50.5, 144, 106, 182, 179.7],
+      "periodTotal": {
+        "value": 745.2,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district ทวีวัฒนา (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "ทุ่งครุ",
+      "monthlyMm": [7, 71, 1.5, 78, 7.5, 127, 134, 151, 216],
+      "periodTotal": {
+        "value": 793,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district ทุ่งครุ (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "ธนบุรี",
+      "monthlyMm": [0, 39.5, 8, 7, 38.5, 73, 116.5, 189, 280],
+      "periodTotal": {
+        "value": 751.5,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district ธนบุรี (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "บางแค",
+      "monthlyMm": [0, 32, 24, 34, 49.5, 106.5, 144.5, 161, 273.5],
+      "periodTotal": {
+        "value": 825,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district บางแค (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "บางกอกใหญ่",
+      "monthlyMm": [0, 77.5, 8.5, 17.5, 73, 96, 140.5, 236.5, 245],
+      "periodTotal": {
+        "value": 894.5,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district บางกอกใหญ่ (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "บางกอกน้อย",
+      "monthlyMm": [0, 73, 6.5, 23, 61, 102.5, 142.5, 287.5, 272],
+      "periodTotal": {
+        "value": 968,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district บางกอกน้อย (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "บางขุนเทียน",
+      "monthlyMm": [13.5, 50.5, 6, 43.5, 124, 94, 131.5, 97.5, 241.5],
+      "periodTotal": {
+        "value": 802,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district บางขุนเทียน (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "บางบอน",
+      "monthlyMm": [1, 23.5, 4.5, 12.5, 48, 155, 104.5, 107.5, 181.5],
+      "periodTotal": {
+        "value": 638,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district บางบอน (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "บางพลัด",
+      "monthlyMm": [0, 50.5, 0.5, 20.5, 70, 86, 248, 195, 276],
+      "periodTotal": {
+        "value": 946.5,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district บางพลัด (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "ภาษีเจริญ",
+      "monthlyMm": [0, 55, 15.5, 30.5, 68, 114.5, 138.5, 251.5, 280],
+      "periodTotal": {
+        "value": 953.5,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district ภาษีเจริญ (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "ราษฎร์บูรณะ",
+      "monthlyMm": [0, 64, 42, 30.5, 25, 56.5, 158, 151.5, 310],
+      "periodTotal": {
+        "value": 837.5,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district ราษฎร์บูรณะ (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    },
+    {
+      "nameTh": "หนองแขม",
+      "monthlyMm": [0.5, 37, 4, 24, 37, 110.85, 99, 141.5, 214.5],
+      "periodTotal": {
+        "value": 668.4,
+        "unit": "mm",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "bma-ckan-rainfall-district",
+          "sourceUrl": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "observedFrom": "2023-01-01",
+          "observedTo": "2023-09-30",
+          "referenceYear": 2023,
+          "geographicScope": "Bangkok district หนองแขม (one value per district as published)",
+          "methodology": "Sum of the published monthly accumulated rainfall for months 1,2,3,4,5,6,7,8,9 of 2023 (partial year).",
+          "limitations": [
+            "Partial year only (months listed)",
+            "Station-to-district assignment not published in the CSV"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "key": "bkk-chaophraya-water",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "httpStatus": 200,
+  "retrievedAt": "2026-11-03T19:29:54.589Z",
+  "osmBaseTimestamp": "2026-11-03T19:28:46Z",
+  "bytes": 777305,
+  "sha256": "d55a0d659477b2b87260ab0b33b899f093684f610ea725121572065a8b19b641",
+  "elementCount": 106,
+  "userAgent": "UrbanIntelligenceDemo/0.1 (research prototype)",
+  "query": "[out:json][timeout:240][bbox:13.49,100.32,13.96,100.94];\nway[\"waterway\"=\"river\"][\"name\"~\"^แม่น้ำเจ้าพระยา\"]->.c;\n(\n  way(around.c:400)[\"natural\"=\"water\"][\"water\"~\"^(river|riverbank)$\"];\n  rel(around.c:400)[\"natural\"=\"water\"][\"water\"~\"^(river|riverbank)$\"];\n  way(around.c:400)[\"waterway\"=\"riverbank\"];\n  rel(around.c:400)[\"waterway\"=\"riverbank\"];\n  way[\"natural\"=\"water\"][\"name\"~\"เจ้าพระยา\"];\n  rel[\"natural\"=\"water\"][\"name\"~\"เจ้าพระยา\"];\n)->.a;\n.a out body geom;\n.c out body geom;",
+  "attempts": [
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "startedAt": "2026-11-03T19:29:16.919Z",
+      "durationMs": 37670,
+      "httpStatus": 200,
+      "error": null
+    }
+  ]
+}

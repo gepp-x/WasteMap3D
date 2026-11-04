@@ -1,0 +1,21 @@
+{
+  "key": "hy-water-areas",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "httpStatus": 200,
+  "retrievedAt": "2026-11-03T18:54:19.842Z",
+  "osmBaseTimestamp": "2026-11-03T18:52:33Z",
+  "bytes": 166229,
+  "sha256": "0407885abe0c36023e5d64e047e3ee926c5ddb394dcd59cf7146dd04bdcf488b",
+  "elementCount": 16,
+  "userAgent": "UrbanIntelligenceDemo/0.1 (research prototype)",
+  "query": "[out:json][timeout:90][bbox:6.94,100.4,7.09,100.54];\n(\n  way[\"natural\"=\"water\"][\"water\"~\"^(river|riverbank|canal|stream)$\"];\n  rel[\"natural\"=\"water\"][\"water\"~\"^(river|riverbank|canal|stream)$\"];\n  way[\"waterway\"=\"riverbank\"];\n  rel[\"waterway\"=\"riverbank\"];\n);\nout body geom;",
+  "attempts": [
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "startedAt": "2026-11-03T18:53:44.162Z",
+      "durationMs": 35680,
+      "httpStatus": 200,
+      "error": null
+    }
+  ]
+}

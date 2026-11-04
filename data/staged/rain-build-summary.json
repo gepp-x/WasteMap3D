@@ -1,0 +1,630 @@
+{
+  "stations": {
+    "thaiwater": {
+      "ok": true,
+      "fromCache": true,
+      "retrievedAt": "2026-11-03T18:35:46.967Z",
+      "status": 200,
+      "records": 4787,
+      "error": "offline mode"
+    },
+    "bmaWeather": {
+      "ok": true,
+      "fromCache": true,
+      "retrievedAt": "2026-11-03T18:35:49.658Z",
+      "status": 200,
+      "stationsParsed": 124,
+      "error": "offline mode"
+    },
+    "aeromet2": {
+      "ok": true,
+      "fromCache": true,
+      "retrievedAt": "2026-11-03T18:35:49.752Z",
+      "status": 200,
+      "error": "offline mode",
+      "airports": 3,
+      "report": {
+        "date": "2026-11-02",
+        "periodStart": "2026-11-02",
+        "periodEnd": "2026-11-03",
+        "issuedAt": "2026-11-03T01:00:00.000Z",
+        "latestDate": "2026-11-02",
+        "stationCount": 34
+      }
+    },
+    "tmdOpenData": {
+      "ok": false,
+      "status": 200,
+      "attemptedAt": "2026-11-03T23:02:43.000Z",
+      "error": "offline mode and no cached file"
+    },
+    "cities": {
+      "bangkok": {
+        "count": 188,
+        "insideCoreBbox": 158,
+        "byAgency": {
+          "bma": 124,
+          "dwr": 7,
+          "hii": 40,
+          "rid": 8,
+          "tmd": 9
+        },
+        "excluded": {
+          "stale": 0,
+          "noCoords": 0,
+          "noValue": 0,
+          "bmaViaThaiwaterReplaced": 124
+        },
+        "stationBufferBbox": [100.17, 13.34, 101.09, 14.11],
+        "max24hMm": 17,
+        "top5": [
+          {
+            "id": "hii-THA009",
+            "nameEn": "Tha Chin 9",
+            "value": 17,
+            "observedAt": "2026-11-04T01:00:00+07:00"
+          },
+          {
+            "id": "bma-RF.TWW.01",
+            "nameEn": "Thawi Watthana District Office",
+            "value": 8.5,
+            "observedAt": "2026-11-04T01:35:00+07:00"
+          },
+          {
+            "id": "dwr-G09006-TA130203",
+            "nameEn": "DWR station G09006-TA130203 (Ban Ko, Mueang Samut Sakhon District, Samut Sakhon)",
+            "value": 8,
+            "observedAt": "2026-11-03T13:00:00+07:00"
+          },
+          {
+            "id": "hii-BKWN",
+            "nameEn": "Bang Khwan",
+            "value": 7.8,
+            "observedAt": "2026-11-04T01:00:00+07:00"
+          },
+          {
+            "id": "dwr-G09006-TA100220",
+            "nameEn": "DWR station G09006-TA100220 (Wat Kanlaya, Thon Buri District, Bangkok)",
+            "value": 5.5,
+            "observedAt": "2026-11-03T13:00:00+07:00"
+          }
+        ],
+        "observedAtRange": ["2026-11-03T13:00:00+07:00", "2026-11-04T01:35:00+07:00"]
+      },
+      "hatyai": {
+        "count": 36,
+        "insideCoreBbox": 5,
+        "byAgency": {
+          "disaster": 1,
+          "dwr": 18,
+          "hii": 6,
+          "rid": 8,
+          "tmd": 3
+        },
+        "excluded": {
+          "stale": 0,
+          "noCoords": 0,
+          "noValue": 0,
+          "bmaViaThaiwaterReplaced": 0
+        },
+        "stationBufferBbox": [100.28, 6.82, 100.66, 7.21],
+        "max24hMm": 25,
+        "top5": [
+          {
+            "id": "hii-ONE037",
+            "nameEn": "Khlong U Taphao Bridge",
+            "value": 25,
+            "observedAt": "2026-11-04T01:00:00+07:00"
+          },
+          {
+            "id": "rid-ridtele-STN03",
+            "nameEn": "RID station ridtele_STN03 (Khu Tao, Hat Yai District, Songkhla)",
+            "value": 24,
+            "observedAt": "2026-11-04T00:00:00+07:00"
+          },
+          {
+            "id": "hii-SLA007",
+            "nameEn": "Songkhla 7",
+            "value": 18.8,
+            "observedAt": "2026-11-04T01:00:00+07:00"
+          },
+          {
+            "id": "dwr-STN2214",
+            "nameEn": "DWR station STN2214 (Rattaphum, Khuan Niang District, Songkhla)",
+            "value": 15,
+            "observedAt": "2026-11-04T00:00:00+07:00"
+          },
+          {
+            "id": "tmd-48568",
+            "nameEn": "SONGKHLA",
+            "value": 11.2,
+            "observedAt": "2026-11-03T22:00:00+07:00"
+          }
+        ],
+        "observedAtRange": ["2026-11-03T13:00:00+07:00", "2026-11-04T01:00:00+07:00"]
+      }
+    },
+    "bmaVsThaiwater": {
+      "bmaPageStations": 124,
+      "thaiwaterBmaStations": 124,
+      "matchedCodes": 122,
+      "coordinateDifferences": 0,
+      "valueDifferencesOver0_05mm": 0,
+      "onlyOnBmaPage": [
+        "RF.BNA.01",
+        "RF.WTN.01"
+      ]
+    },
+    "usedBmaDirect": true
+  },
+  "normals": {
+    "pdf": {
+      "ok": true,
+      "fromCache": true,
+      "retrievedAt": "2026-11-03T18:14:49.166Z",
+      "bytes": 2891555
+    },
+    "textNote": "re-used cached text extraction",
+    "stations": [
+      {
+        "id": "tmd-48455",
+        "period": "1991-2020",
+        "annual": 1702.2,
+        "rainyDays": 128.3,
+        "pdfPage": 57,
+        "checks": {
+          "monthlyRainSum": 1702.2,
+          "publishedAnnual": 1702.2,
+          "monthlyRainyDaySum": 128.3,
+          "publishedAnnualRainyDays": 128.3
+        }
+      },
+      {
+        "id": "tmd-48569",
+        "period": "1991-2020",
+        "annual": 1756,
+        "rainyDays": 162.6,
+        "pdfPage": 82,
+        "checks": {
+          "monthlyRainSum": 1756,
+          "publishedAnnual": 1756,
+          "monthlyRainyDaySum": 162.6,
+          "publishedAnnualRainyDays": 162.6
+        }
+      }
+    ],
+    "classesParsed": 4,
+    "criteria": {
+      "ok": true,
+      "retrievedAt": "2026-11-03T18:16:26.854Z"
+    },
+    "aeromet2Legend": 5,
+    "bmaBar": true
+  },
+  "drainage": {
+    "statements": 17,
+    "verified": 17,
+    "unverified": [],
+    "pages": {
+      "thaipublica2025": {
+        "ok": true,
+        "retrievedAt": "2026-11-03T18:19:13.371Z"
+      },
+      "thaipbs2016": {
+        "ok": true,
+        "retrievedAt": "2026-11-03T18:19:11.410Z"
+      },
+      "thaipbs2026": {
+        "ok": true,
+        "retrievedAt": "2026-11-03T18:18:27.462Z"
+      },
+      "bmapr2025": {
+        "ok": true,
+        "retrievedAt": "2026-11-03T18:19:42.599Z"
+      },
+      "onep2020": {
+        "ok": true,
+        "retrievedAt": "2026-11-03T18:20:25.545Z"
+      },
+      "dailynews2026": {
+        "ok": true,
+        "retrievedAt": "2026-11-03T18:20:39.821Z"
+      }
+    },
+    "planHead": {
+      "url": "https://ebooks.dds.bangkok.go.th/ebook_files/2026/0000059_2.pdf",
+      "checkedAt": "2026-11-03T18:35:53Z",
+      "contentLength": 161119984,
+      "lastModified": "Thu, 28 May 2026 03:32:50 GMT",
+      "note": "HTTP HEAD only; file not downloaded"
+    }
+  },
+  "ckan": {
+    "year": 2023,
+    "months": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "districts": 50,
+    "license": "Creative Commons Attributions",
+    "retrievedAt": "2026-11-03T18:22:20.976Z",
+    "encoding": "TIS-620/Windows-874 (decoded with TextDecoder('windows-874'))"
+  },
+  "openmeteo": {
+    "model": "era5",
+    "modelDescription": {
+      "openMeteoParam": "models=era5",
+      "name": "ECMWF ERA5 reanalysis (Copernicus Climate Change Service, C3S)",
+      "resolution": "0.25° × 0.25° regular latitude/longitude grid (≈27–28 km), hourly",
+      "latency": "≈5 days behind real time on Open-Meteo (the most recent ~2–3 months are the preliminary ERA5T release)"
+    },
+    "sourceId": "open-meteo-archive-era5",
+    "comparisonModel": "best_match",
+    "era5LandPrecipitationAvailable": false,
+    "era5LandCheck": {
+      "ok": true,
+      "retrievedAt": "2026-11-03T18:35:13.729Z",
+      "cacheFile": "data/raw/open-meteo/check_era5_land_precip_2024-01.json"
+    },
+    "modelIdentityChecks": [
+      {
+        "window": {
+          "id": "bkk-2024-01",
+          "city": "bangkok",
+          "start": "2024-01-01",
+          "end": "2024-01-14"
+        },
+        "ok": true,
+        "retrievedAt": "2026-11-03T18:35:17.062Z",
+        "bestMatchEqualsEcmwfIfs": true,
+        "bestMatchEqualsEra5": false,
+        "sumBestMatch": 2.8,
+        "sumEcmwfIfs": 2.8,
+        "sumEra5": 1.6
+      },
+      {
+        "window": {
+          "id": "bkk-2025-06",
+          "city": "bangkok",
+          "start": "2025-06-01",
+          "end": "2025-06-14"
+        },
+        "ok": true,
+        "retrievedAt": "2026-11-03T18:35:19.057Z",
+        "bestMatchEqualsEcmwfIfs": true,
+        "bestMatchEqualsEra5": false,
+        "sumBestMatch": 83.1,
+        "sumEcmwfIfs": 83.1,
+        "sumEra5": 45.2
+      },
+      {
+        "window": {
+          "id": "hy-2025-11",
+          "city": "hatyai",
+          "start": "2025-11-18",
+          "end": "2025-11-27"
+        },
+        "ok": true,
+        "retrievedAt": "2026-11-03T18:35:21.056Z",
+        "bestMatchEqualsEcmwfIfs": true,
+        "bestMatchEqualsEra5": false,
+        "sumBestMatch": 566.5,
+        "sumEcmwfIfs": 566.5,
+        "sumEra5": 811
+      }
+    ],
+    "bestMatchIsEcmwfIfsOnAllChecks": true,
+    "aggregationCheck": {
+      "point": {
+        "lat": 7.015,
+        "lon": 100.47
+      },
+      "modelCell": {
+        "lat": 7,
+        "lon": 100.5
+      },
+      "days": [
+        {
+          "date": "2025-11-20",
+          "dailyEndpointMm": 135.9,
+          "sumOfHourly00to23Mm": 135.9,
+          "hours": 24,
+          "firstHour": "2025-11-20T00:00",
+          "lastHour": "2025-11-20T23:00"
+        },
+        {
+          "date": "2025-11-21",
+          "dailyEndpointMm": 240,
+          "sumOfHourly00to23Mm": 240,
+          "hours": 24,
+          "firstHour": "2025-11-21T00:00",
+          "lastHour": "2025-11-21T23:00"
+        }
+      ],
+      "matches": true,
+      "retrievedAt": "2026-11-03T22:59:29.550Z"
+    },
+    "period": {
+      "start": "2024-01-01",
+      "end": "2026-10-28",
+      "model": "era5",
+      "determinedAt": "2026-11-03T22:59:30.866Z",
+      "rule": "Last local (Asia/Bangkok) date in [2026-10-21, 2026-11-03] whose 24 hourly precipitation values are all non-null at both city-centre points (models=era5).",
+      "probe": "data/raw/open-meteo/period_probe_era5_2026-11-04.json",
+      "days": 1032
+    },
+    "retrievedRange": [
+      "2026-11-03T22:59:33.217Z",
+      "2026-11-03T23:01:43.974Z"
+    ],
+    "grids": {
+      "hatyai": {
+        "points": 25,
+        "distinctModelCells": 2,
+        "pointsVerifiedAgainstCellSeries": 25,
+        "annualTotalsDerived": {
+          "2024": {
+            "gridMeanMm": 2131.5,
+            "minMm": 2064.9,
+            "maxMm": 2148.2,
+            "complete": true,
+            "days": 366
+          },
+          "2025": {
+            "gridMeanMm": 2314.8,
+            "minMm": 2291.3,
+            "maxMm": 2320.7,
+            "complete": true,
+            "days": 365
+          },
+          "2026": {
+            "gridMeanMm": 1000.9,
+            "minMm": 877.4,
+            "maxMm": 1031.8,
+            "complete": false,
+            "days": 301
+          }
+        },
+        "heaviestDayGridMean": {
+          "date": "2025-11-21",
+          "gridMeanMm": 218.2
+        },
+        "maxCellDay": {
+          "id": "hy-g-6.925-100.375",
+          "date": "2025-11-21",
+          "mm": 240
+        }
+      },
+      "bangkok": {
+        "points": 42,
+        "distinctModelCells": 11,
+        "pointsVerifiedAgainstCellSeries": 42,
+        "annualTotalsDerived": {
+          "2024": {
+            "gridMeanMm": 1169.4,
+            "minMm": 1027.8,
+            "maxMm": 1361.5,
+            "complete": true,
+            "days": 366
+          },
+          "2025": {
+            "gridMeanMm": 1332.3,
+            "minMm": 1144.6,
+            "maxMm": 1572.8,
+            "complete": true,
+            "days": 365
+          },
+          "2026": {
+            "gridMeanMm": 1228.4,
+            "minMm": 1104.5,
+            "maxMm": 1507.5,
+            "complete": false,
+            "days": 301
+          }
+        },
+        "heaviestDayGridMean": {
+          "date": "2026-09-26",
+          "gridMeanMm": 103.1
+        },
+        "maxCellDay": {
+          "id": "bkk-g-13.450-100.550",
+          "date": "2026-09-26",
+          "mm": 136.3
+        }
+      }
+    },
+    "centreComparison": {
+      "bangkok": {
+        "point": {
+          "lat": 13.72639,
+          "lon": 100.56,
+          "definition": "TMD synoptic station 48455 “Bangkok Metropolis” coordinates as published in ThaiWater station metadata (TMD normals report: 13°43'N 100°33'E). Used as a citable city-centre reference point."
+        },
+        "modelCellEra5": {
+          "lat": 13.75,
+          "lon": 100.5
+        },
+        "annualTotals": {
+          "2024": {
+            "days": 366,
+            "era5Mm": 1111.5,
+            "bestMatchMm": 1753.3
+          },
+          "2025": {
+            "days": 365,
+            "era5Mm": 1257.7,
+            "bestMatchMm": 1757.4
+          },
+          "2026": {
+            "days": 301,
+            "era5Mm": 1147.9,
+            "bestMatchMm": 1715.2
+          }
+        },
+        "heaviestDay": {
+          "era5": {
+            "date": "2026-09-26",
+            "mm": 88
+          },
+          "bestMatch": {
+            "date": "2026-09-25",
+            "mm": 120.5
+          }
+        }
+      },
+      "hatyai": {
+        "point": {
+          "lat": 7.015,
+          "lon": 100.47,
+          "definition": "Midpoint of the Hat Yai Municipality analysis bbox [100.43, 6.97, 100.51, 7.06] (derived; not an official centroid)."
+        },
+        "modelCellEra5": {
+          "lat": 7,
+          "lon": 100.5
+        },
+        "annualTotals": {
+          "2024": {
+            "days": 366,
+            "era5Mm": 2148.2,
+            "bestMatchMm": 2569.5
+          },
+          "2025": {
+            "days": 365,
+            "era5Mm": 2320.7,
+            "bestMatchMm": 2225.6
+          },
+          "2026": {
+            "days": 301,
+            "era5Mm": 1031.8,
+            "bestMatchMm": 1276.6
+          }
+        },
+        "heaviestDay": {
+          "era5": {
+            "date": "2025-11-21",
+            "mm": 240
+          },
+          "bestMatch": {
+            "date": "2025-11-20",
+            "mm": 179.6
+          }
+        }
+      }
+    },
+    "events": [
+      {
+        "id": "hatyai-2025-11-18_2025-11-27",
+        "eventTotalMm": 811,
+        "peakHour": {
+          "time": "2025-11-21T12:00:00+07:00",
+          "mm": 21.7
+        },
+        "maxRolling24hMm": {
+          "endTime": "2025-11-22T01:00:00+07:00",
+          "mm": 245.6
+        },
+        "dailyTotals": [
+          {
+            "date": "2025-11-18",
+            "mm": 23.9,
+            "hours": 24,
+            "dailyEndpointMm": 23.9
+          },
+          {
+            "date": "2025-11-19",
+            "mm": 34.2,
+            "hours": 24,
+            "dailyEndpointMm": 34.2
+          },
+          {
+            "date": "2025-11-20",
+            "mm": 135.9,
+            "hours": 24,
+            "dailyEndpointMm": 135.9
+          },
+          {
+            "date": "2025-11-21",
+            "mm": 240,
+            "hours": 24,
+            "dailyEndpointMm": 240
+          },
+          {
+            "date": "2025-11-22",
+            "mm": 65.9,
+            "hours": 24,
+            "dailyEndpointMm": 65.9
+          },
+          {
+            "date": "2025-11-23",
+            "mm": 82.2,
+            "hours": 24,
+            "dailyEndpointMm": 82.2
+          },
+          {
+            "date": "2025-11-24",
+            "mm": 104,
+            "hours": 24,
+            "dailyEndpointMm": 104
+          },
+          {
+            "date": "2025-11-25",
+            "mm": 66.7,
+            "hours": 24,
+            "dailyEndpointMm": 66.7
+          },
+          {
+            "date": "2025-11-26",
+            "mm": 50.7,
+            "hours": 24,
+            "dailyEndpointMm": 50.7
+          },
+          {
+            "date": "2025-11-27",
+            "mm": 7.5,
+            "hours": 24,
+            "dailyEndpointMm": 7.5
+          }
+        ],
+        "dailyTotalsCheck": "sum of hourly values 00:00–23:00 equals the daily precipitation_sum endpoint (±0.05 mm) on every day",
+        "modelPoint": {
+          "lat": 7,
+          "lon": 100.5
+        }
+      },
+      {
+        "id": "bangkok-heaviest-day-2026-09-26",
+        "eventTotalMm": 197.1,
+        "peakHour": {
+          "time": "2026-09-25T12:00:00+07:00",
+          "mm": 7.7
+        },
+        "maxRolling24hMm": {
+          "endTime": "2026-09-26T18:00:00+07:00",
+          "mm": 92.3
+        },
+        "dailyTotals": [
+          {
+            "date": "2026-09-25",
+            "mm": 62.7,
+            "hours": 24,
+            "dailyEndpointMm": 62.7
+          },
+          {
+            "date": "2026-09-26",
+            "mm": 88,
+            "hours": 24,
+            "dailyEndpointMm": 88
+          },
+          {
+            "date": "2026-09-27",
+            "mm": 46.4,
+            "hours": 24,
+            "dailyEndpointMm": 46.4
+          }
+        ],
+        "dailyTotalsCheck": "sum of hourly values 00:00–23:00 equals the daily precipitation_sum endpoint (±0.05 mm) on every day",
+        "modelPoint": {
+          "lat": 13.75,
+          "lon": 100.5
+        }
+      }
+    ]
+  }
+}

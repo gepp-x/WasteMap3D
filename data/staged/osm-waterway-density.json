@@ -1,0 +1,503 @@
+{
+ "note": "Per-area OSM waterway inputs to the exposure (E) and obstruction (W) indices, computed by scripts/data/build-datasets.ts. share300 = share of the area's sample lattice points within 300 m of any mapped waterway (lines + water-area polygons); sharePrincipal = within 300 m of the principal channel (Hat Yai: Khlong U-Taphao; Bangkok: not used); lengthKm = mapped waterway LINE length inside the area (≤20 m pieces assigned by midpoint); lengthDensityKmPerKm2 = lengthKm ÷ polygon area.",
+ "sampleSpacingM": {
+  "bangkok": 100,
+  "hatyai": 20
+ },
+ "sourceIds": [
+  "osm-bkk-waterways",
+  "osm-bkk-chaophraya-water",
+  "osm-hy-waterways",
+  "osm-hy-water-areas"
+ ],
+ "bangkok": {
+  "bkk-1001": {
+   "samples": 534,
+   "within300": 494,
+   "withinPrincipal": 0,
+   "share300": 0.9251,
+   "sharePrincipal": 0,
+   "lengthKm": 11.321,
+   "lengthDensityKmPerKm2": 2.1035
+  },
+  "bkk-1002": {
+   "samples": 1133,
+   "within300": 960,
+   "withinPrincipal": 0,
+   "share300": 0.8473,
+   "sharePrincipal": 0,
+   "lengthKm": 25.204,
+   "lengthDensityKmPerKm2": 2.2161
+  },
+  "bkk-1003": {
+   "samples": 24039,
+   "within300": 12800,
+   "withinPrincipal": 0,
+   "share300": 0.5325,
+   "sharePrincipal": 0,
+   "lengthKm": 251.97,
+   "lengthDensityKmPerKm2": 1.0442
+  },
+  "bkk-1004": {
+   "samples": 402,
+   "within300": 309,
+   "withinPrincipal": 0,
+   "share300": 0.7687,
+   "sharePrincipal": 0,
+   "lengthKm": 5.162,
+   "lengthDensityKmPerKm2": 1.2816
+  },
+  "bkk-1005": {
+   "samples": 4082,
+   "within300": 2766,
+   "withinPrincipal": 0,
+   "share300": 0.6776,
+   "sharePrincipal": 0,
+   "lengthKm": 57.949,
+   "lengthDensityKmPerKm2": 1.4095
+  },
+  "bkk-1006": {
+   "samples": 2761,
+   "within300": 2162,
+   "withinPrincipal": 0,
+   "share300": 0.783,
+   "sharePrincipal": 0,
+   "lengthKm": 53.243,
+   "lengthDensityKmPerKm2": 1.9227
+  },
+  "bkk-1007": {
+   "samples": 806,
+   "within300": 638,
+   "withinPrincipal": 0,
+   "share300": 0.7916,
+   "sharePrincipal": 0,
+   "lengthKm": 13.045,
+   "lengthDensityKmPerKm2": 1.6176
+  },
+  "bkk-1008": {
+   "samples": 249,
+   "within300": 168,
+   "withinPrincipal": 0,
+   "share300": 0.6747,
+   "sharePrincipal": 0,
+   "lengthKm": 4.081,
+   "lengthDensityKmPerKm2": 1.6241
+  },
+  "bkk-1009": {
+   "samples": 1350,
+   "within300": 1088,
+   "withinPrincipal": 0,
+   "share300": 0.8059,
+   "sharePrincipal": 0,
+   "lengthKm": 22.722,
+   "lengthDensityKmPerKm2": 1.6671
+  },
+  "bkk-1010": {
+   "samples": 6120,
+   "within300": 3936,
+   "withinPrincipal": 0,
+   "share300": 0.6431,
+   "sharePrincipal": 0,
+   "lengthKm": 88.381,
+   "lengthDensityKmPerKm2": 1.4408
+  },
+  "bkk-1011": {
+   "samples": 12859,
+   "within300": 7784,
+   "withinPrincipal": 0,
+   "share300": 0.6053,
+   "sharePrincipal": 0,
+   "lengthKm": 174.816,
+   "lengthDensityKmPerKm2": 1.3542
+  },
+  "bkk-1012": {
+   "samples": 1253,
+   "within300": 1152,
+   "withinPrincipal": 0,
+   "share300": 0.9194,
+   "sharePrincipal": 0,
+   "lengthKm": 45.685,
+   "lengthDensityKmPerKm2": 3.6391
+  },
+  "bkk-1013": {
+   "samples": 138,
+   "within300": 108,
+   "withinPrincipal": 0,
+   "share300": 0.7826,
+   "sharePrincipal": 0,
+   "lengthKm": 1.247,
+   "lengthDensityKmPerKm2": 0.8913
+  },
+  "bkk-1014": {
+   "samples": 919,
+   "within300": 385,
+   "withinPrincipal": 0,
+   "share300": 0.4189,
+   "sharePrincipal": 0,
+   "lengthKm": 8.17,
+   "lengthDensityKmPerKm2": 0.8832
+  },
+  "bkk-1015": {
+   "samples": 849,
+   "within300": 836,
+   "withinPrincipal": 0,
+   "share300": 0.9847,
+   "sharePrincipal": 0,
+   "lengthKm": 31.252,
+   "lengthDensityKmPerKm2": 3.6789
+  },
+  "bkk-1016": {
+   "samples": 627,
+   "within300": 624,
+   "withinPrincipal": 0,
+   "share300": 0.9952,
+   "sharePrincipal": 0,
+   "lengthKm": 25.295,
+   "lengthDensityKmPerKm2": 4.0005
+  },
+  "bkk-1017": {
+   "samples": 1629,
+   "within300": 1235,
+   "withinPrincipal": 0,
+   "share300": 0.7581,
+   "sharePrincipal": 0,
+   "lengthKm": 29.269,
+   "lengthDensityKmPerKm2": 1.7867
+  },
+  "bkk-1018": {
+   "samples": 595,
+   "within300": 581,
+   "withinPrincipal": 0,
+   "share300": 0.9765,
+   "sharePrincipal": 0,
+   "lengthKm": 19.891,
+   "lengthDensityKmPerKm2": 3.3218
+  },
+  "bkk-1019": {
+   "samples": 3574,
+   "within300": 2873,
+   "withinPrincipal": 0,
+   "share300": 0.8039,
+   "sharePrincipal": 0,
+   "lengthKm": 80.86,
+   "lengthDensityKmPerKm2": 2.2519
+  },
+  "bkk-1020": {
+   "samples": 1234,
+   "within300": 1190,
+   "withinPrincipal": 0,
+   "share300": 0.9643,
+   "sharePrincipal": 0,
+   "lengthKm": 41.808,
+   "lengthDensityKmPerKm2": 3.3789
+  },
+  "bkk-1021": {
+   "samples": 12200,
+   "within300": 9142,
+   "withinPrincipal": 0,
+   "share300": 0.7493,
+   "sharePrincipal": 0,
+   "lengthKm": 232.43,
+   "lengthDensityKmPerKm2": 1.8944
+  },
+  "bkk-1022": {
+   "samples": 1917,
+   "within300": 1896,
+   "withinPrincipal": 0,
+   "share300": 0.989,
+   "sharePrincipal": 0,
+   "lengthKm": 85.497,
+   "lengthDensityKmPerKm2": 4.4393
+  },
+  "bkk-1023": {
+   "samples": 3622,
+   "within300": 2322,
+   "withinPrincipal": 0,
+   "share300": 0.6411,
+   "sharePrincipal": 0,
+   "lengthKm": 48.612,
+   "lengthDensityKmPerKm2": 1.3374
+  },
+  "bkk-1024": {
+   "samples": 1228,
+   "within300": 1099,
+   "withinPrincipal": 0,
+   "share300": 0.895,
+   "sharePrincipal": 0,
+   "lengthKm": 25.163,
+   "lengthDensityKmPerKm2": 2.0326
+  },
+  "bkk-1025": {
+   "samples": 1180,
+   "within300": 1094,
+   "withinPrincipal": 0,
+   "share300": 0.9271,
+   "sharePrincipal": 0,
+   "lengthKm": 34.658,
+   "lengthDensityKmPerKm2": 2.9245
+  },
+  "bkk-1026": {
+   "samples": 847,
+   "within300": 677,
+   "withinPrincipal": 0,
+   "share300": 0.7993,
+   "sharePrincipal": 0,
+   "lengthKm": 12.494,
+   "lengthDensityKmPerKm2": 1.4704
+  },
+  "bkk-1027": {
+   "samples": 2340,
+   "within300": 1949,
+   "withinPrincipal": 0,
+   "share300": 0.8329,
+   "sharePrincipal": 0,
+   "lengthKm": 50.985,
+   "lengthDensityKmPerKm2": 2.1702
+  },
+  "bkk-1028": {
+   "samples": 724,
+   "within300": 485,
+   "withinPrincipal": 0,
+   "share300": 0.6699,
+   "sharePrincipal": 0,
+   "lengthKm": 8.023,
+   "lengthDensityKmPerKm2": 1.101
+  },
+  "bkk-1029": {
+   "samples": 1289,
+   "within300": 1147,
+   "withinPrincipal": 0,
+   "share300": 0.8898,
+   "sharePrincipal": 0,
+   "lengthKm": 26.295,
+   "lengthDensityKmPerKm2": 2.0328
+  },
+  "bkk-1030": {
+   "samples": 3265,
+   "within300": 1315,
+   "withinPrincipal": 0,
+   "share300": 0.4028,
+   "sharePrincipal": 0,
+   "lengthKm": 27.315,
+   "lengthDensityKmPerKm2": 0.8332
+  },
+  "bkk-1031": {
+   "samples": 830,
+   "within300": 775,
+   "withinPrincipal": 0,
+   "share300": 0.9337,
+   "sharePrincipal": 0,
+   "lengthKm": 28.243,
+   "lengthDensityKmPerKm2": 3.3844
+  },
+  "bkk-1032": {
+   "samples": 5369,
+   "within300": 3567,
+   "withinPrincipal": 0,
+   "share300": 0.6644,
+   "sharePrincipal": 0,
+   "lengthKm": 67.781,
+   "lengthDensityKmPerKm2": 1.2569
+  },
+  "bkk-1033": {
+   "samples": 1324,
+   "within300": 822,
+   "withinPrincipal": 0,
+   "share300": 0.6208,
+   "sharePrincipal": 0,
+   "lengthKm": 14.609,
+   "lengthDensityKmPerKm2": 1.0992
+  },
+  "bkk-1034": {
+   "samples": 2409,
+   "within300": 1980,
+   "withinPrincipal": 0,
+   "share300": 0.8219,
+   "sharePrincipal": 0,
+   "lengthKm": 53.063,
+   "lengthDensityKmPerKm2": 2.1923
+  },
+  "bkk-1035": {
+   "samples": 2317,
+   "within300": 2198,
+   "withinPrincipal": 0,
+   "share300": 0.9486,
+   "sharePrincipal": 0,
+   "lengthKm": 66.707,
+   "lengthDensityKmPerKm2": 2.8681
+  },
+  "bkk-1036": {
+   "samples": 3671,
+   "within300": 1630,
+   "withinPrincipal": 0,
+   "share300": 0.444,
+   "sharePrincipal": 0,
+   "lengthKm": 30.44,
+   "lengthDensityKmPerKm2": 0.8265
+  },
+  "bkk-1037": {
+   "samples": 718,
+   "within300": 418,
+   "withinPrincipal": 0,
+   "share300": 0.5822,
+   "sharePrincipal": 0,
+   "lengthKm": 7.482,
+   "lengthDensityKmPerKm2": 1.0398
+  },
+  "bkk-1038": {
+   "samples": 2133,
+   "within300": 1135,
+   "withinPrincipal": 0,
+   "share300": 0.5321,
+   "sharePrincipal": 0,
+   "lengthKm": 21.188,
+   "lengthDensityKmPerKm2": 0.9925
+  },
+  "bkk-1039": {
+   "samples": 1295,
+   "within300": 731,
+   "withinPrincipal": 0,
+   "share300": 0.5645,
+   "sharePrincipal": 0,
+   "lengthKm": 20.746,
+   "lengthDensityKmPerKm2": 1.5902
+  },
+  "bkk-1040": {
+   "samples": 4792,
+   "within300": 3829,
+   "withinPrincipal": 0,
+   "share300": 0.799,
+   "sharePrincipal": 0,
+   "lengthKm": 117.256,
+   "lengthDensityKmPerKm2": 2.4387
+  },
+  "bkk-1041": {
+   "samples": 2265,
+   "within300": 1565,
+   "withinPrincipal": 0,
+   "share300": 0.6909,
+   "sharePrincipal": 0,
+   "lengthKm": 33.029,
+   "lengthDensityKmPerKm2": 1.4514
+  },
+  "bkk-1042": {
+   "samples": 4368,
+   "within300": 2897,
+   "withinPrincipal": 0,
+   "share300": 0.6632,
+   "sharePrincipal": 0,
+   "lengthKm": 62.473,
+   "lengthDensityKmPerKm2": 1.4271
+  },
+  "bkk-1043": {
+   "samples": 2532,
+   "within300": 2171,
+   "withinPrincipal": 0,
+   "share300": 0.8574,
+   "sharePrincipal": 0,
+   "lengthKm": 53.691,
+   "lengthDensityKmPerKm2": 2.1078
+  },
+  "bkk-1044": {
+   "samples": 2803,
+   "within300": 2066,
+   "withinPrincipal": 0,
+   "share300": 0.7371,
+   "sharePrincipal": 0,
+   "lengthKm": 48.272,
+   "lengthDensityKmPerKm2": 1.7134
+  },
+  "bkk-1045": {
+   "samples": 1707,
+   "within300": 1124,
+   "withinPrincipal": 0,
+   "share300": 0.6585,
+   "sharePrincipal": 0,
+   "lengthKm": 23.537,
+   "lengthDensityKmPerKm2": 1.3732
+  },
+  "bkk-1046": {
+   "samples": 12004,
+   "within300": 7073,
+   "withinPrincipal": 0,
+   "share300": 0.5892,
+   "sharePrincipal": 0,
+   "lengthKm": 140.322,
+   "lengthDensityKmPerKm2": 1.1634
+  },
+  "bkk-1047": {
+   "samples": 1904,
+   "within300": 1020,
+   "withinPrincipal": 0,
+   "share300": 0.5357,
+   "sharePrincipal": 0,
+   "lengthKm": 18.865,
+   "lengthDensityKmPerKm2": 0.9919
+  },
+  "bkk-1048": {
+   "samples": 5167,
+   "within300": 3973,
+   "withinPrincipal": 0,
+   "share300": 0.7689,
+   "sharePrincipal": 0,
+   "lengthKm": 94.408,
+   "lengthDensityKmPerKm2": 1.8177
+  },
+  "bkk-1049": {
+   "samples": 3300,
+   "within300": 2854,
+   "withinPrincipal": 0,
+   "share300": 0.8648,
+   "sharePrincipal": 0,
+   "lengthKm": 73.217,
+   "lengthDensityKmPerKm2": 2.2133
+  },
+  "bkk-1050": {
+   "samples": 3576,
+   "within300": 2779,
+   "withinPrincipal": 0,
+   "share300": 0.7771,
+   "sharePrincipal": 0,
+   "lengthKm": 65.579,
+   "lengthDensityKmPerKm2": 1.8216
+  }
+ },
+ "hatyai": {
+  "hy-z1": {
+   "samples": 12336,
+   "within300": 2530,
+   "withinPrincipal": 0,
+   "share300": 0.2051,
+   "sharePrincipal": 0,
+   "lengthKm": 2.888,
+   "lengthDensityKmPerKm2": 0.5829
+  },
+  "hy-z2": {
+   "samples": 16636,
+   "within300": 10256,
+   "withinPrincipal": 0,
+   "share300": 0.6165,
+   "sharePrincipal": 0,
+   "lengthKm": 10.343,
+   "lengthDensityKmPerKm2": 1.5475
+  },
+  "hy-z3": {
+   "samples": 12377,
+   "within300": 5845,
+   "withinPrincipal": 2220,
+   "share300": 0.4722,
+   "sharePrincipal": 0.1794,
+   "lengthKm": 4.713,
+   "lengthDensityKmPerKm2": 0.9471
+  },
+  "hy-z4": {
+   "samples": 10638,
+   "within300": 4030,
+   "withinPrincipal": 3165,
+   "share300": 0.3788,
+   "sharePrincipal": 0.2975,
+   "lengthKm": 4.261,
+   "lengthDensityKmPerKm2": 0.9979
+  }
+ }
+}

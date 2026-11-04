@@ -1,0 +1,130 @@
+[
+  {
+    "id": "hatyaicity-community-list",
+    "nameTh": "เทศบาลนครหาดใหญ่ — รายชื่อชุมชน / ข้อมูลประธานกรรมการชุมชน เขต 1-4",
+    "nameEn": "Hat Yai City Municipality — community list by zone (community-committee chairs, data as of 2026-10-01)",
+    "url": "https://www.hatyaicity.go.th/content/cate/258",
+    "publisher": "เทศบาลนครหาดใหญ่ (Hat Yai City Municipality)",
+    "license": "Government website; no open licence stated",
+    "accessStatus": "retrieved",
+    "retrievedAt": "2026-11-03T18:46:35.516Z",
+    "notes": "Community names and zone assignment only; personal data (names, phones) not reproduced. Names transcribed visually (data/manual/hatyai-communities-official-list.json) and verified against the PDF text layer after mapping Thai PUA glyph variants to Unicode: 103 of 103 exact matches."
+  },
+  {
+    "id": "hatyaicity-boundary-notices",
+    "nameTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน / แนวเขตชุมชน เขต 1-4 และแผนที่ชุมชน 103 ชุมชน",
+    "nameEn": "Hat Yai City Municipality — community boundary announcements (zones 1-4, Nov 2022 - May 2023) and 103-community map (rev. 2022-11-14)",
+    "url": "https://www.hatyaicity.go.th/content/cate/259",
+    "publisher": "เทศบาลนครหาดใหญ่ (Hat Yai City Municipality)",
+    "license": "Government website; no open licence stated",
+    "accessStatus": "retrieved",
+    "retrievedAt": "2026-11-03T18:46:30.599Z",
+    "notes": "Per-community area, population (male/female), households and boundary descriptions; zones 2 & 4 text layer, zone 1 & most of zone 3 scanned (manual transcription). Map used only as visual basis for the approximate zone partition."
+  },
+  {
+    "id": "hatyaicity-general",
+    "nameTh": "เทศบาลนครหาดใหญ่ — ข้อมูลพื้นฐาน",
+    "nameEn": "Hat Yai City Municipality — general information (area 21 km², history)",
+    "url": "https://www.hatyaicity.go.th/content/general",
+    "publisher": "เทศบาลนครหาดใหญ่",
+    "license": "Government website; no open licence stated",
+    "accessStatus": "retrieved",
+    "retrievedAt": "2026-11-03T18:46:32.170Z",
+    "notes": "Page marked 'อยู่ระหว่างปรับปรุงข้อมูล' (being updated). Area 21 km²; no current population figure."
+  },
+  {
+    "id": "osm-hatyai-municipality",
+    "nameEn": "OpenStreetMap relation 19981578 — เทศบาลนครหาดใหญ่ (admin_level 7)",
+    "url": "https://www.openstreetmap.org/relation/19981578",
+    "publisher": "OpenStreetMap contributors (via Overpass API)",
+    "license": "ODbL-1.0",
+    "accessStatus": "retrieved",
+    "retrievedAt": "2026-11-03T18:58:43.029Z",
+    "notes": "Tagged fixme='approximate please verify'; traced from the Royal Gazette (ratchakitcha.soc.go.th/documents/1658230.pdf)."
+  },
+  {
+    "id": "osm-hatyai-community-features",
+    "nameEn": "OpenStreetMap features with community (ชุมชน) names around Hat Yai municipality",
+    "url": "https://www.openstreetmap.org/",
+    "publisher": "OpenStreetMap contributors (via Overpass API)",
+    "license": "ODbL-1.0",
+    "accessStatus": "retrieved",
+    "retrievedAt": "2026-11-03T23:06:33.923Z",
+    "notes": "Used only for exact-name matches; see hatyai-communities.json."
+  },
+  {
+    "id": "hatyai-zones-approx",
+    "nameEn": "Approximate demonstration partition of Hat Yai municipality into zones 1-4 (derived)",
+    "url": "https://www.openstreetmap.org/",
+    "publisher": "Urban Intelligence demo (derived from OSM ways + municipal map)",
+    "license": "ODbL-1.0 (derived from OpenStreetMap)",
+    "accessStatus": "retrieved",
+    "retrievedAt": "2026-11-03T19:26:18.570Z",
+    "notes": "Not official boundaries. Method in zones.geojson properties.method."
+  },
+  {
+    "id": "dopa-stat-population",
+    "nameTh": "กรมการปกครอง — สถิติจำนวนประชากร (ระดับอำเภอ/สำนักทะเบียน)",
+    "nameEn": "Department of Provincial Administration — registered population by registration office (yearly files)",
+    "url": "https://stat.bora.dopa.go.th/new_stat/webPage/statByYear.php",
+    "publisher": "กรมการปกครอง กระทรวงมหาดไทย (DOPA)",
+    "license": "Government open statistics; no explicit licence",
+    "accessStatus": "retrieved",
+    "retrievedAt": "2026-11-03T19:26:24.204Z",
+    "notes": "Registration office 9098 ท้องถิ่นเทศบาลนครหาดใหญ่; year-end (December) counts."
+  },
+  {
+    "id": "datagoth-dataset_sw_02",
+    "nameTh": "ปริมาณขยะมูลฝอยขององค์กรปกครองส่วนท้องถิ่น (dataset_sw_02)",
+    "nameEn": "data.go.th dataset_sw_02 — LAO solid waste (Nakhon Si Thammarat province)",
+    "url": "https://data.go.th/api/3/action/package_show?id=dataset_sw_02",
+    "publisher": "สำนักงานจังหวัดนครศรีธรรมราช",
+    "license": "Open Data Common",
+    "accessStatus": "retrieved",
+    "retrievedAt": "2026-11-03T19:26:24.789Z",
+    "notes": "Scope is Nakhon Si Thammarat LAOs only; no Hat Yai data."
+  },
+  {
+    "id": "songkhla-gdcatalog-lao-waste",
+    "nameTh": "ข้อมูลปริมาณขยะมูลฝอยชุมชนที่เกิดขึ้น / ที่เก็บขนไปกำจัด / ที่ถูกนำไปใช้ประโยชน์ (อปท. จ.สงขลา)",
+    "nameEn": "Songkhla provincial data catalog — LAO municipal solid waste generated / collected / utilised (dataset_10_27, _33, _34)",
+    "url": "https://songkhla.gdcatalog.go.th/dataset/?q=ขยะ",
+    "publisher": "สำนักงานท้องถิ่นจังหวัดสงขลา (Songkhla Provincial Office of Local Administration)",
+    "license": "Open Data Common",
+    "accessStatus": "retrieved",
+    "retrievedAt": "2026-11-03T19:26:32.584Z",
+    "notes": "Fiscal years 2564-2567 (Hat Yai values present for FY2564-2565 only)."
+  },
+  {
+    "id": "songkhla-gdcatalog-pcd-province",
+    "nameTh": "ข้อมูลสถานการณ์ขยะมูลฝอยของจังหวัดสงขลา (dataset_10_37)",
+    "nameEn": "Songkhla province MSW situation 2563-2567 (PCD figures, province scope)",
+    "url": "https://songkhla.gdcatalog.go.th/dataset/ed53a742-d3c3-4606-9cea-934f2fe145c1",
+    "publisher": "กรมควบคุมมลพิษ (PCD) via Songkhla provincial catalog",
+    "license": "License not specified",
+    "accessStatus": "retrieved",
+    "retrievedAt": "2026-11-03T19:26:33.656Z",
+    "notes": "Province-level context only."
+  },
+  {
+    "id": "pmc-12247160",
+    "nameEn": "Thongham, Khongprom & Sangsubun (2025) Multiscale characterization of commercial and landfill-recovered plastics in Songkhla province, Thailand. RSC Advances 15(30):24424-24434",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12247160/",
+    "publisher": "Royal Society of Chemistry (via PubMed Central / NCBI E-utilities)",
+    "license": "CC BY 3.0",
+    "accessStatus": "retrieved",
+    "retrievedAt": "2026-11-03T19:26:35.100Z",
+    "notes": "Full text read via NCBI E-utilities efetch XML (cached). Article HTML: cached copy (no CAPTCHA) reused. 237.75 t/day is a secondary citation of 'Hat Yai Municipality, Annual Waste Management Report 2024' without stated reference period or method."
+  },
+  {
+    "id": "thaiwater-hatyai-nov2025",
+    "nameTh": "บันทึกเหตุการณ์น้ำท่วมอำเภอหาดใหญ่และพื้นที่ภาคใต้ตอนล่าง ช่วงเดือนพฤศจิกายน 2568",
+    "nameEn": "ThaiWater / HII — record of the Hat Yai and lower-south flood, November 2025",
+    "url": "https://www.thaiwater.net/uploads/contents/current/2025/hatyai_nov2025/summary.html",
+    "publisher": "NHCSOC / Hydro Informatics Institute (สสน.), ThaiWater",
+    "license": "No explicit licence stated on the page",
+    "accessStatus": "retrieved",
+    "retrievedAt": "2026-11-03T19:26:41.350Z",
+    "notes": "Compiles DDPM, RID, GISTDA, TMD, DWR and HII data."
+  }
+]

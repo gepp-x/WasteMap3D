@@ -1,0 +1,197 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-03T19:24:44Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1680665784,
+  "lat": 6.9990760,
+  "lon": 100.4863067,
+  "tags": {
+    "addr:country": "ไทย",
+    "addr:district": "Hat Yai",
+    "addr:postcode": "90110",
+    "addr:province": "Songkhla",
+    "addr:subdistrict": "หาดใหญ่",
+    "amenity": "place_of_worship",
+    "name": "วัดคลองเรียน",
+    "name:en": "Wat Klong Rian",
+    "name:th": "วัดคลองเรียน",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "node",
+  "id": 1680667266,
+  "lat": 7.0036419,
+  "lon": 100.4535953,
+  "tags": {
+    "addr:country": "ไทย",
+    "addr:district": "หาดใหญ่",
+    "addr:postcode": "90110",
+    "addr:province": "สงขลา",
+    "addr:subdistrict": "หาดใหญ่",
+    "amenity": "place_of_worship",
+    "name": "วัดหาดใหญ่ใน",
+    "name:es": "Wat Hat Yai Nai",
+    "name:th": "วัดหาดใหญ่ใน",
+    "official_name": "วัดมหัตตมังคลาราม",
+    "official_name:th": "วัดมหัตตมังคลาราม",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "node",
+  "id": 1743126086,
+  "lat": 7.0166654,
+  "lon": 100.4674503,
+  "tags": {
+    "addr:country": "ไทย",
+    "addr:district": "หาดใหญ่",
+    "addr:district:en": "Haadyai",
+    "addr:postcode": "90110",
+    "addr:province": "สงขลา",
+    "amenity": "hospital",
+    "contact:facebook": "https://www.facebook.com/Hatyaihospital.Songkhla/",
+    "emergency": "yes",
+    "healthcare": "hospital",
+    "name": "โรงพยาบาลหาดใหญ่",
+    "name:en": "Hatyai Hospital",
+    "website": "https://hatyaihospital.moph.go.th/",
+    "wikidata": "Q5682252"
+  }
+},
+{
+  "type": "node",
+  "id": 5873299478,
+  "lat": 7.0202421,
+  "lon": 100.4718443,
+  "tags": {
+    "addr:district": "หาดใหญ่",
+    "addr:postcode": "90110",
+    "addr:province": "สงขลา",
+    "addr:subdistrict": "หาดใหญ่",
+    "leisure": "stadium",
+    "name": "สนามกีฬาจิระนคร",
+    "name:en": "Chiranakhon Stadium",
+    "wikidata": "Q6202973"
+  }
+},
+{
+  "type": "node",
+  "id": 10243492709,
+  "lat": 7.0165472,
+  "lon": 100.4757077,
+  "tags": {
+    "amenity": "school",
+    "name": "โรงเรียนหาดใหญ่วิทยาลัย"
+  }
+},
+{
+  "type": "node",
+  "id": 14226852790,
+  "lat": 7.0088503,
+  "lon": 100.4641541,
+  "tags": {
+    "addr:country": "ไทย",
+    "addr:district": "หาดใหญ่",
+    "addr:postcode": "90110",
+    "addr:province": "สงขลา",
+    "addr:subdistrict": "หาดใหญ่",
+    "amenity": "place_of_worship",
+    "name": "วัดโคกสมานคุณ",
+    "name:th": "วัดโคกสมานคุณ",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 1454417618,
+  "center": {
+    "lat": 7.0083849,
+    "lon": 100.4698259
+  },
+  "tags": {
+    "addr:country": "Thailand",
+    "addr:district": "หาดใหญ่",
+    "addr:district:en": "Hat Yai",
+    "addr:postcode": "90110",
+    "addr:province": "สงขลา",
+    "addr:subdistrict": "หาดใหญ่",
+    "alt_name": "ตลาดนิวกิมหยง",
+    "amenity": "marketplace",
+    "building": "yes",
+    "country": "ไทย",
+    "description": "Kim Yong Market Hatyai food street",
+    "layer": "2",
+    "name": "ตลาดกิมหยง",
+    "name:en": "Kim Yong Market",
+    "name:th": "ตลาดกิมหยง",
+    "province": "สงขลา",
+    "source": "microsoft/BuildingFootprints"
+  }
+},
+{
+  "type": "way",
+  "id": 1536054084,
+  "center": {
+    "lat": 7.0168446,
+    "lon": 100.4688624
+  },
+  "tags": {
+    "addr:country": "Thailand",
+    "addr:district": "หาดใหญ่",
+    "addr:district:en": "Hatyai",
+    "addr:postcode": "90110",
+    "addr:province": "สงขลา",
+    "addr:province:en": "Songkhla",
+    "addr:street": "ถนนรัถการ",
+    "amenity": "hospital",
+    "contact:facebook": "https://www.facebook.com/Hatyaihospital.Songkhla/",
+    "country": "ไทย",
+    "description": "โรงพยาบาลหาดใหญ่ Hatyai hospital Songkhla",
+    "healthcare": "hospital",
+    "name": "โรงพยาบาลหาดใหญ่",
+    "name:en": "Hatyai Hospital",
+    "name:th": "โรงพยาบาลหาดใหญ่",
+    "opening_hours": "24/7",
+    "operator": "Ministry of Public Health",
+    "operator:short": "MOPH",
+    "operator:type": "government",
+    "operator:wikidata": "Q5970641",
+    "website": "https://hatyaihospital.moph.go.th/"
+  }
+},
+{
+  "type": "way",
+  "id": 1536063981,
+  "center": {
+    "lat": 7.0206684,
+    "lon": 100.4715379
+  },
+  "tags": {
+    "addr:country": "Thailand",
+    "addr:district": "หาดใหญ่",
+    "addr:district:en": "Hat Yai",
+    "addr:housenumber": "65/24",
+    "addr:postcode": "90110",
+    "addr:province": "สงขลา",
+    "addr:province:en": "Songkhla",
+    "addr:street": "ถนนนิพัทธ์สงเคราะห์ 2",
+    "addr:subdistrict": "หาดใหญ่",
+    "country": "ไทย",
+    "description": "Chiranakhon Stadium Hatyai",
+    "leisure": "sports_centre",
+    "name": "สนามกีฬาจิระนคร",
+    "name:en": "Chiranakhon Stadium",
+    "name:th": "สนามกีฬาจิระนคร"
+  }
+}
+
+  ]
+}

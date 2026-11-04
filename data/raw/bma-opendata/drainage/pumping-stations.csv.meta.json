@@ -1,0 +1,7 @@
+{
+  "url": "https://data.bangkok.go.th/dataset/ad66374c-284d-4757-917a-84787194e81b/resource/f358429c-add1-4510-8720-472f3acefbd0/download/.csv",
+  "httpStatus": 200,
+  "retrievedAt": "2026-11-04T01:46:44.901Z",
+  "bytes": 122991,
+  "note": "Initial download made manually with curl (same URL and User-Agent) while developing this script; retrievedAt = file modification time."
+}

@@ -1,0 +1,395 @@
+{
+  "generatedAt": "2026-11-04T01:54:07.752Z",
+  "runStarted": "2026-11-04T01:54:06.150Z",
+  "offline": true,
+  "inputs": [
+    "data/staged/hatyai-communities.json",
+    "public/data/hatyai/zones.geojson",
+    "public/data/hatyai/municipality.geojson"
+  ],
+  "queryBbox": {
+    "minLon": 100.4238,
+    "minLat": 6.9823,
+    "maxLon": 100.5112,
+    "maxLat": 7.0533
+  },
+  "overpass": {
+    "query": "[out:json][timeout:180];(nwr[\"name\"](6.9823,100.4238,7.0533,100.5112);nwr[\"name:th\"](6.9823,100.4238,7.0533,100.5112);nwr[\"official_name\"](6.9823,100.4238,7.0533,100.5112);nwr[\"alt_name\"](6.9823,100.4238,7.0533,100.5112);nwr[\"old_name\"](6.9823,100.4238,7.0533,100.5112);nwr[\"short_name\"](6.9823,100.4238,7.0533,100.5112);nwr[\"loc_name\"](6.9823,100.4238,7.0533,100.5112););out tags center bb;",
+    "elements": 2681,
+    "thaiNameVariants": 522,
+    "osmBase": "2026-11-04T01:49:58Z",
+    "fetch": {
+      "key": "overpass-named-features",
+      "url": "https://overpass-api.de/api/interpreter",
+      "file": "data/raw/hatyai-community-locations/overpass-named-features.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 888722,
+      "sha256": "088aa398e69bb266ed3e8f39b4a7bcab2cfcc969a89b0d40c07b60a3cfe1d77c",
+      "retrievedAt": "2026-11-04T01:50:12.089Z"
+    }
+  },
+  "nominatim": {
+    "queried": 103,
+    "ok": 103,
+    "failed": 0,
+    "results": 5,
+    "params": {
+      "format": "jsonv2",
+      "limit": 10,
+      "viewbox": "100.4238,7.0533,100.5112,6.9823",
+      "bounded": 1,
+      "countrycodes": "th",
+      "namedetails": 1,
+      "extratags": 1
+    }
+  },
+  "thresholds": {
+    "ZONE_TOLERANCE_M": 150,
+    "MAX_FEATURE_EXTENT_M": 800,
+    "AMBIGUITY_RADIUS_M": 300,
+    "LATTICE_STEP_M": 25,
+    "EDGE_MIN_M": 60,
+    "SPACING_MIN_M": 120,
+    "LLOYD_ITERATIONS": 12,
+    "JITTER_FRACTION": 0.12
+  },
+  "counts": {
+    "total": 103,
+    "verified": 1,
+    "illustrative": 102
+  },
+  "verified": [
+    {
+      "id": "hy-c-3-19",
+      "nameTh": "ชุมชนไทยโฮเต็ล",
+      "zoneNo": 3,
+      "osmId": "node/4367170491",
+      "osmName": "ศูนย์สาธารณสุขมูลฐานชุมชนชุมชนไทยโฮเต็ล",
+      "kind": "amenity=doctors",
+      "rule": "N3",
+      "confidence": "medium",
+      "zoneDistanceM": 0,
+      "lon": 100.4631368,
+      "lat": 6.9969764,
+      "decision": "single matching feature"
+    }
+  ],
+  "rejectedCandidates": [],
+  "nameRuleRejections": [
+    {
+      "community": "ชุมชนโรงปูน",
+      "communityId": "hy-c-1-11",
+      "osmId": "node/985092459",
+      "osmName": "แยกโรงปูน",
+      "origin": "overpass",
+      "kind": "named feature",
+      "reason": "only the bare place name \"โรงปูน\" occurs in a named feature name (\"แยกโรงปูน\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนสามัคคี",
+      "communityId": "hy-c-1-13",
+      "osmId": "node/4365589912",
+      "osmName": "โรงเรียนเทศบาล 1 (เอ็งเสียงสามัคคี)",
+      "origin": "overpass",
+      "kind": "amenity=school",
+      "reason": "only the bare place name \"สามัคคี\" occurs in a amenity=school name (\"โรงเรียนเทศบาล 1 (เอ็งเสียงสามัคคี)\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนเกาะเสือ",
+      "communityId": "hy-c-1-15",
+      "osmId": "node/2507401895",
+      "osmName": "วัดเกาะเสือ",
+      "origin": "overpass",
+      "kind": "amenity=place_of_worship",
+      "reason": "only the bare place name \"เกาะเสือ\" occurs in a amenity=place_of_worship name (\"วัดเกาะเสือ\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนศิครินทร์",
+      "communityId": "hy-c-1-23",
+      "osmId": "node/7856632135",
+      "osmName": "โรงพยาบาลศิครินทร์หาดใหญ่",
+      "origin": "overpass",
+      "kind": "amenity=hospital",
+      "reason": "only the bare place name \"ศิครินทร์\" occurs in a amenity=hospital name (\"โรงพยาบาลศิครินทร์หาดใหญ่\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนรัถการ",
+      "communityId": "hy-c-1-24",
+      "osmId": "node/4367210493",
+      "osmName": "ไปรษณีย์ รัถการ",
+      "origin": "overpass",
+      "kind": "amenity=post_office",
+      "reason": "only the bare place name \"รัถการ\" occurs in a amenity=post_office name (\"ไปรษณีย์ รัถการ\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนมุสลิม",
+      "communityId": "hy-c-1-26",
+      "osmId": "node/3615063054",
+      "osmName": "ปั๊มน้ำมันเชลล์ (ซอยมุสลิม)",
+      "origin": "overpass",
+      "kind": "amenity=fuel",
+      "reason": "only the bare place name \"มุสลิม\" occurs in a amenity=fuel name (\"ปั๊มน้ำมันเชลล์ (ซอยมุสลิม)\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนมุสลิม",
+      "communityId": "hy-c-1-26",
+      "osmId": "node/6021066685",
+      "osmName": "ร็อคกี้มุสลิม",
+      "origin": "overpass",
+      "kind": "amenity=restaurant",
+      "reason": "only the bare place name \"มุสลิม\" occurs in a amenity=restaurant name (\"ร็อคกี้มุสลิม\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนมุสลิม",
+      "communityId": "hy-c-1-26",
+      "osmId": "node/6023851285",
+      "osmName": "ริชากิรีน่ามุสลิม",
+      "origin": "overpass",
+      "kind": "amenity=restaurant",
+      "reason": "only the bare place name \"มุสลิม\" occurs in a amenity=restaurant name (\"ริชากิรีน่ามุสลิม\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนหอนาฬิกา",
+      "communityId": "hy-c-1-27",
+      "osmId": "node/5393991622",
+      "osmName": "ท่ารถหอนาฬิกาหาดใหญ่",
+      "origin": "overpass",
+      "kind": "amenity=bus_station",
+      "reason": "only the bare place name \"หอนาฬิกา\" occurs in a amenity=bus_station name (\"ท่ารถหอนาฬิกาหาดใหญ่\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนหอนาฬิกา",
+      "communityId": "hy-c-1-27",
+      "osmId": "node/14098375126",
+      "osmName": "หอนาฬิกา",
+      "origin": "overpass",
+      "kind": "named feature",
+      "reason": "only the bare place name \"หอนาฬิกา\" occurs in a named feature name (\"หอนาฬิกา\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนตลาดใหม่",
+      "communityId": "hy-c-2-03",
+      "osmId": "node/4481017792",
+      "osmName": "ข้าวมันไก่ ไก่ทอด ปลาทอด ตลาดใหม่ หาดใหญ่",
+      "origin": "overpass",
+      "kind": "amenity=restaurant",
+      "reason": "only the bare place name \"ตลาดใหม่\" occurs in a amenity=restaurant name (\"ข้าวมันไก่ ไก่ทอด ปลาทอด ตลาดใหม่ หาดใหญ่\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนจิระนคร",
+      "communityId": "hy-c-2-09",
+      "osmId": "node/1115561051",
+      "osmName": "แยกหน้าสนามกีฬาจิระนคร",
+      "origin": "overpass",
+      "kind": "named feature",
+      "reason": "only the bare place name \"จิระนคร\" occurs in a named feature name (\"แยกหน้าสนามกีฬาจิระนคร\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนจิระนคร",
+      "communityId": "hy-c-2-09",
+      "osmId": "node/5873299478",
+      "osmName": "สนามกีฬาจิระนคร",
+      "origin": "overpass",
+      "kind": "leisure=stadium",
+      "reason": "only the bare place name \"จิระนคร\" occurs in a leisure=stadium name (\"สนามกีฬาจิระนคร\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนคลองเรียน",
+      "communityId": "hy-c-2-23",
+      "osmId": "node/1680665784",
+      "osmName": "วัดคลองเรียน",
+      "origin": "overpass",
+      "kind": "amenity=place_of_worship",
+      "reason": "only the bare place name \"คลองเรียน\" occurs in a amenity=place_of_worship name (\"วัดคลองเรียน\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนคลองเรียน",
+      "communityId": "hy-c-2-23",
+      "osmId": "node/4365589721",
+      "osmName": "โรงเรียนเทศบาล 4 (วัดคลองเรียน)",
+      "origin": "overpass",
+      "kind": "amenity=school",
+      "reason": "only the bare place name \"คลองเรียน\" occurs in a amenity=school name (\"โรงเรียนเทศบาล 4 (วัดคลองเรียน)\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนคลองเรียน",
+      "communityId": "hy-c-2-23",
+      "osmId": "node/7649416981",
+      "osmName": "Otteri wash & dry สาขา คลองเรียน 2 หาดใหญ่",
+      "origin": "overpass",
+      "kind": "shop=laundry",
+      "reason": "only the bare place name \"คลองเรียน\" occurs in a shop=laundry name (\"Otteri wash & dry สาขา คลองเรียน 2 หาดใหญ่\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนตลาดพ่อพรหม",
+      "communityId": "hy-c-3-04",
+      "osmId": "node/4367171790",
+      "osmName": "ศูนย์บริการสาธารณสุขตลาดพ่อพรหม",
+      "origin": "overpass",
+      "kind": "amenity=doctors",
+      "reason": "only the bare place name \"ตลาดพ่อพรหม\" occurs in a amenity=doctors name (\"ศูนย์บริการสาธารณสุขตลาดพ่อพรหม\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนบ้านหาดใหญ่",
+      "communityId": "hy-c-3-07",
+      "osmId": "node/4365581814",
+      "osmName": "โรงเรียนเทศบาล 2 (บ้านหาดใหญ่)",
+      "origin": "overpass",
+      "kind": "amenity=school",
+      "reason": "only the bare place name \"บ้านหาดใหญ่\" occurs in a amenity=school name (\"โรงเรียนเทศบาล 2 (บ้านหาดใหญ่)\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนท่าเคียน",
+      "communityId": "hy-c-3-08",
+      "osmId": "node/1680665008",
+      "osmName": "วัดท่าเคียน",
+      "origin": "overpass",
+      "kind": "amenity=place_of_worship",
+      "reason": "only the bare place name \"ท่าเคียน\" occurs in a amenity=place_of_worship name (\"วัดท่าเคียน\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนท่าเคียน",
+      "communityId": "hy-c-3-08",
+      "osmId": "node/4367168697",
+      "osmName": "ศูนย์สุขภาพชุมชนวัดท่าเคียน",
+      "origin": "overpass",
+      "kind": "amenity=doctors",
+      "reason": "only the bare place name \"ท่าเคียน\" occurs in a amenity=doctors name (\"ศูนย์สุขภาพชุมชนวัดท่าเคียน\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนปลักกริม",
+      "communityId": "hy-c-3-10",
+      "osmId": "node/1680663071",
+      "osmName": "วัดปลักกริมนอก",
+      "origin": "overpass",
+      "kind": "amenity=place_of_worship",
+      "reason": "only the bare place name \"ปลักกริม\" occurs in a amenity=place_of_worship name (\"วัดปลักกริมนอก\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนปลักกริม",
+      "communityId": "hy-c-3-10",
+      "osmId": "node/1680664196",
+      "osmName": "วัดปลักกริมใน",
+      "origin": "overpass",
+      "kind": "amenity=place_of_worship",
+      "reason": "only the bare place name \"ปลักกริม\" occurs in a amenity=place_of_worship name (\"วัดปลักกริมใน\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนขนส่ง",
+      "communityId": "hy-c-3-17",
+      "osmId": "node/5393991822",
+      "osmName": "คิว รถตู้ขนส่งประจำทาง ตลาดเกษตร",
+      "origin": "overpass",
+      "kind": "amenity=bus_station",
+      "reason": "only the bare place name \"ขนส่ง\" occurs in a amenity=bus_station name (\"คิว รถตู้ขนส่งประจำทาง ตลาดเกษตร\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนท่าไทร",
+      "communityId": "hy-c-4-01",
+      "osmId": "node/4467282116",
+      "osmName": "บ้านท่าไทร",
+      "origin": "overpass",
+      "kind": "place=village",
+      "reason": "only the bare place name \"ท่าไทร\" occurs in a place=village name (\"บ้านท่าไทร\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนท่าไทร",
+      "communityId": "hy-c-4-01",
+      "osmId": "node/4467282118",
+      "osmName": "โรงเรียนบ้านท่าไทร",
+      "origin": "overpass",
+      "kind": "amenity=school",
+      "reason": "only the bare place name \"ท่าไทร\" occurs in a amenity=school name (\"โรงเรียนบ้านท่าไทร\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนวัดโคกสมานคุณ",
+      "communityId": "hy-c-4-18",
+      "osmId": "node/14226852790",
+      "osmName": "วัดโคกสมานคุณ",
+      "origin": "overpass",
+      "kind": "amenity=place_of_worship",
+      "reason": "only the bare place name \"วัดโคกสมานคุณ\" occurs in a amenity=place_of_worship name (\"วัดโคกสมานคุณ\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    },
+    {
+      "community": "ชุมชนวัดหาดใหญ่ใน",
+      "communityId": "hy-c-4-19",
+      "osmId": "node/1680667266",
+      "osmName": "วัดหาดใหญ่ใน",
+      "origin": "overpass",
+      "kind": "amenity=place_of_worship",
+      "reason": "only the bare place name \"วัดหาดใหญ่ใน\" occurs in a amenity=place_of_worship name (\"วัดหาดใหญ่ใน\"); a facility, temple, road or village named after the place is not evidence of the community's location"
+    }
+  ],
+  "illustrativePlacement": {
+    "zones": [
+      {
+        "zoneNo": 1,
+        "zoneAreaKm2": 4.932,
+        "latticeCandidates": 7069,
+        "illustrative": 28,
+        "verifiedFixedPointsNearZone": 0,
+        "nominalSpacingM": 420,
+        "maximinMinSpacingM": 300,
+        "relaxedMinSpacingM": 282,
+        "usedRelaxation": true
+      },
+      {
+        "zoneNo": 2,
+        "zoneAreaKm2": 6.654,
+        "latticeCandidates": 10872,
+        "illustrative": 29,
+        "verifiedFixedPointsNearZone": 0,
+        "nominalSpacingM": 479,
+        "maximinMinSpacingM": 361,
+        "relaxedMinSpacingM": 368,
+        "usedRelaxation": true
+      },
+      {
+        "zoneNo": 3,
+        "zoneAreaKm2": 4.953,
+        "latticeCandidates": 7073,
+        "illustrative": 24,
+        "verifiedFixedPointsNearZone": 1,
+        "nominalSpacingM": 445,
+        "maximinMinSpacingM": 336,
+        "relaxedMinSpacingM": 336,
+        "usedRelaxation": true
+      },
+      {
+        "zoneNo": 4,
+        "zoneAreaKm2": 4.251,
+        "latticeCandidates": 6354,
+        "illustrative": 21,
+        "verifiedFixedPointsNearZone": 0,
+        "nominalSpacingM": 450,
+        "maximinMinSpacingM": 328,
+        "relaxedMinSpacingM": 368,
+        "usedRelaxation": true
+      }
+    ]
+  },
+  "checks": {
+    "totalFeatures": 103,
+    "expectedTotal": 103,
+    "uniqueIds": true,
+    "perZone": {
+      "1": 28,
+      "2": 29,
+      "3": 25,
+      "4": 21
+    },
+    "perZoneExpected": {
+      "1": 28,
+      "2": 29,
+      "3": 25,
+      "4": 21
+    },
+    "illustrativeAllInOwnZone": true,
+    "illustrativeAllInMunicipality": true,
+    "illustrativeMinEdgeM": 87.6,
+    "minSpacingInvolvingIllustrativeM": 259.8,
+    "globalMinSpacingM": 259.8,
+    "spacingViolations": []
+  }
+}

@@ -1,0 +1,840 @@
+{
+  "note": "Supporting metadata for public/data/*/rain-grid.json and data/staged/rain-hourly-events.json (derived by scripts/data/fetch-rainfall.ts). Annual totals are derived sums of modelled daily values (grid mean = mean over lattice points, i.e. ERA5 cells weighted by how many lattice points they answer). modelCell = latitude/longitude returned by Open-Meteo (the ERA5 cell used). demElevationAtRequestedPointM = elevation Open-Meteo reports for the requested coordinate (its 90 m DEM; precipitation is not elevation-adjusted). centreComparison.bestMatchMm = models=best_match (= ECMWF IFS on the checked windows), comparison only.",
+  "model": "era5",
+  "modelDescription": {
+    "openMeteoParam": "models=era5",
+    "name": "ECMWF ERA5 reanalysis (Copernicus Climate Change Service, C3S)",
+    "resolution": "0.25° × 0.25° regular latitude/longitude grid (≈27–28 km), hourly",
+    "latency": "≈5 days behind real time on Open-Meteo (the most recent ~2–3 months are the preliminary ERA5T release)"
+  },
+  "era5LandPrecipitationAvailable": false,
+  "period": {
+    "start": "2024-01-01",
+    "end": "2026-10-28",
+    "model": "era5",
+    "determinedAt": "2026-11-03T22:59:30.866Z",
+    "rule": "Last local (Asia/Bangkok) date in [2026-10-21, 2026-11-03] whose 24 hourly precipitation values are all non-null at both city-centre points (models=era5).",
+    "probe": "data/raw/open-meteo/period_probe_era5_2026-11-04.json",
+    "days": 1032
+  },
+  "retrievedRange": [
+    "2026-11-03T22:59:33.217Z",
+    "2026-11-03T23:01:43.974Z"
+  ],
+  "aggregationCheck": {
+    "point": {
+      "lat": 7.015,
+      "lon": 100.47
+    },
+    "modelCell": {
+      "lat": 7,
+      "lon": 100.5
+    },
+    "days": [
+      {
+        "date": "2025-11-20",
+        "dailyEndpointMm": 135.9,
+        "sumOfHourly00to23Mm": 135.9,
+        "hours": 24,
+        "firstHour": "2025-11-20T00:00",
+        "lastHour": "2025-11-20T23:00"
+      },
+      {
+        "date": "2025-11-21",
+        "dailyEndpointMm": 240,
+        "sumOfHourly00to23Mm": 240,
+        "hours": 24,
+        "firstHour": "2025-11-21T00:00",
+        "lastHour": "2025-11-21T23:00"
+      }
+    ],
+    "matches": true,
+    "retrievedAt": "2026-11-03T22:59:29.550Z"
+  },
+  "modelIdentityChecks": [
+    {
+      "window": {
+        "id": "bkk-2024-01",
+        "city": "bangkok",
+        "start": "2024-01-01",
+        "end": "2024-01-14"
+      },
+      "ok": true,
+      "retrievedAt": "2026-11-03T18:35:17.062Z",
+      "bestMatchEqualsEcmwfIfs": true,
+      "bestMatchEqualsEra5": false,
+      "sumBestMatch": 2.8,
+      "sumEcmwfIfs": 2.8,
+      "sumEra5": 1.6
+    },
+    {
+      "window": {
+        "id": "bkk-2025-06",
+        "city": "bangkok",
+        "start": "2025-06-01",
+        "end": "2025-06-14"
+      },
+      "ok": true,
+      "retrievedAt": "2026-11-03T18:35:19.057Z",
+      "bestMatchEqualsEcmwfIfs": true,
+      "bestMatchEqualsEra5": false,
+      "sumBestMatch": 83.1,
+      "sumEcmwfIfs": 83.1,
+      "sumEra5": 45.2
+    },
+    {
+      "window": {
+        "id": "hy-2025-11",
+        "city": "hatyai",
+        "start": "2025-11-18",
+        "end": "2025-11-27"
+      },
+      "ok": true,
+      "retrievedAt": "2026-11-03T18:35:21.056Z",
+      "bestMatchEqualsEcmwfIfs": true,
+      "bestMatchEqualsEra5": false,
+      "sumBestMatch": 566.5,
+      "sumEcmwfIfs": 566.5,
+      "sumEra5": 811
+    }
+  ],
+  "cities": {
+    "hatyai": {
+      "grid": {
+        "step": 0.05,
+        "bufferDeg": 0.05,
+        "requestBbox": [100.38, 6.92, 100.56, 7.11],
+        "cellExtent": [100.35, 6.9, 100.6, 7.15],
+        "lats": [6.925, 6.975, 7.025, 7.075, 7.125],
+        "lons": [100.375, 100.425, 100.475, 100.525, 100.575],
+        "points": 25,
+        "cellBatchSize": 6,
+        "cellBatches": 1
+      },
+      "cellMapWindow": {
+        "start": "2025-11-18",
+        "end": "2025-11-27"
+      },
+      "distinctModelCells": 2,
+      "modelCells": [
+        {
+          "cell": [100.5, 7],
+          "representativePoint": [100.375, 6.925],
+          "pointIds": [
+            "hy-g-6.925-100.375",
+            "hy-g-6.925-100.425",
+            "hy-g-6.925-100.475",
+            "hy-g-6.925-100.525",
+            "hy-g-6.925-100.575",
+            "hy-g-6.975-100.375",
+            "hy-g-6.975-100.425",
+            "hy-g-6.975-100.475",
+            "hy-g-6.975-100.525",
+            "hy-g-6.975-100.575",
+            "hy-g-7.025-100.375",
+            "hy-g-7.025-100.425",
+            "hy-g-7.025-100.475",
+            "hy-g-7.025-100.525",
+            "hy-g-7.025-100.575",
+            "hy-g-7.075-100.375",
+            "hy-g-7.075-100.425",
+            "hy-g-7.075-100.475",
+            "hy-g-7.075-100.525",
+            "hy-g-7.075-100.575"
+          ]
+        },
+        {
+          "cell": [100.5, 7.25],
+          "representativePoint": [100.375, 7.125],
+          "pointIds": [
+            "hy-g-7.125-100.375",
+            "hy-g-7.125-100.425",
+            "hy-g-7.125-100.475",
+            "hy-g-7.125-100.525",
+            "hy-g-7.125-100.575"
+          ]
+        }
+      ],
+      "pointsVerifiedAgainstCellSeries": 25,
+      "points": [
+        {
+          "id": "hy-g-6.925-100.375",
+          "requested": [100.375, 6.925],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 25
+        },
+        {
+          "id": "hy-g-6.925-100.425",
+          "requested": [100.425, 6.925],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 18
+        },
+        {
+          "id": "hy-g-6.925-100.475",
+          "requested": [100.475, 6.925],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 26
+        },
+        {
+          "id": "hy-g-6.925-100.525",
+          "requested": [100.525, 6.925],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 161
+        },
+        {
+          "id": "hy-g-6.925-100.575",
+          "requested": [100.575, 6.925],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 106
+        },
+        {
+          "id": "hy-g-6.975-100.375",
+          "requested": [100.375, 6.975],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 21
+        },
+        {
+          "id": "hy-g-6.975-100.425",
+          "requested": [100.425, 6.975],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 28
+        },
+        {
+          "id": "hy-g-6.975-100.475",
+          "requested": [100.475, 6.975],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 12
+        },
+        {
+          "id": "hy-g-6.975-100.525",
+          "requested": [100.525, 6.975],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 35
+        },
+        {
+          "id": "hy-g-6.975-100.575",
+          "requested": [100.575, 6.975],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 31
+        },
+        {
+          "id": "hy-g-7.025-100.375",
+          "requested": [100.375, 7.025],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 68
+        },
+        {
+          "id": "hy-g-7.025-100.425",
+          "requested": [100.425, 7.025],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 18
+        },
+        {
+          "id": "hy-g-7.025-100.475",
+          "requested": [100.475, 7.025],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 8
+        },
+        {
+          "id": "hy-g-7.025-100.525",
+          "requested": [100.525, 7.025],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 127
+        },
+        {
+          "id": "hy-g-7.025-100.575",
+          "requested": [100.575, 7.025],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 31
+        },
+        {
+          "id": "hy-g-7.075-100.375",
+          "requested": [100.375, 7.075],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 49
+        },
+        {
+          "id": "hy-g-7.075-100.425",
+          "requested": [100.425, 7.075],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 1
+        },
+        {
+          "id": "hy-g-7.075-100.475",
+          "requested": [100.475, 7.075],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 6
+        },
+        {
+          "id": "hy-g-7.075-100.525",
+          "requested": [100.525, 7.075],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 36
+        },
+        {
+          "id": "hy-g-7.075-100.575",
+          "requested": [100.575, 7.075],
+          "modelCell": [100.5, 7],
+          "demElevationAtRequestedPointM": 11
+        },
+        {
+          "id": "hy-g-7.125-100.375",
+          "requested": [100.375, 7.125],
+          "modelCell": [100.5, 7.25],
+          "demElevationAtRequestedPointM": 20
+        },
+        {
+          "id": "hy-g-7.125-100.425",
+          "requested": [100.425, 7.125],
+          "modelCell": [100.5, 7.25],
+          "demElevationAtRequestedPointM": 4
+        },
+        {
+          "id": "hy-g-7.125-100.475",
+          "requested": [100.475, 7.125],
+          "modelCell": [100.5, 7.25],
+          "demElevationAtRequestedPointM": 1
+        },
+        {
+          "id": "hy-g-7.125-100.525",
+          "requested": [100.525, 7.125],
+          "modelCell": [100.5, 7.25],
+          "demElevationAtRequestedPointM": 4
+        },
+        {
+          "id": "hy-g-7.125-100.575",
+          "requested": [100.575, 7.125],
+          "modelCell": [100.5, 7.25],
+          "demElevationAtRequestedPointM": 8
+        }
+      ],
+      "nullValues": 0,
+      "annualTotalsDerived": {
+        "2024": {
+          "gridMeanMm": 2131.5,
+          "minMm": 2064.9,
+          "maxMm": 2148.2,
+          "complete": true,
+          "days": 366
+        },
+        "2025": {
+          "gridMeanMm": 2314.8,
+          "minMm": 2291.3,
+          "maxMm": 2320.7,
+          "complete": true,
+          "days": 365
+        },
+        "2026": {
+          "gridMeanMm": 1000.9,
+          "minMm": 877.4,
+          "maxMm": 1031.8,
+          "complete": false,
+          "days": 301
+        }
+      },
+      "heaviestDayGridMean": {
+        "date": "2025-11-21",
+        "gridMeanMm": 218.2
+      },
+      "maxCellDay": {
+        "id": "hy-g-6.925-100.375",
+        "date": "2025-11-21",
+        "mm": 240
+      }
+    },
+    "bangkok": {
+      "grid": {
+        "step": 0.1,
+        "bufferDeg": 0,
+        "requestBbox": [100.32, 13.49, 100.94, 13.96],
+        "cellExtent": [100.3, 13.4, 101, 14],
+        "lats": [13.45, 13.55, 13.65, 13.75, 13.85, 13.95],
+        "lons": [100.35, 100.45, 100.55, 100.65, 100.75, 100.85, 100.95],
+        "points": 42,
+        "cellBatchSize": 6,
+        "cellBatches": 2
+      },
+      "cellMapWindow": {
+        "start": "2024-09-01",
+        "end": "2024-09-14"
+      },
+      "distinctModelCells": 11,
+      "modelCells": [
+        {
+          "cell": [100.25, 13.5],
+          "representativePoint": [100.35, 13.45],
+          "pointIds": [
+            "bkk-g-13.450-100.350",
+            "bkk-g-13.450-100.450",
+            "bkk-g-13.550-100.350"
+          ]
+        },
+        {
+          "cell": [100.75, 13.5],
+          "representativePoint": [100.55, 13.45],
+          "pointIds": [
+            "bkk-g-13.450-100.550",
+            "bkk-g-13.450-100.650",
+            "bkk-g-13.450-100.750",
+            "bkk-g-13.450-100.850",
+            "bkk-g-13.550-100.650",
+            "bkk-g-13.550-100.750",
+            "bkk-g-13.550-100.850"
+          ]
+        },
+        {
+          "cell": [101, 13.5],
+          "representativePoint": [100.95, 13.45],
+          "pointIds": [
+            "bkk-g-13.450-100.950",
+            "bkk-g-13.550-100.950"
+          ]
+        },
+        {
+          "cell": [100.5, 13.75],
+          "representativePoint": [100.45, 13.55],
+          "pointIds": [
+            "bkk-g-13.550-100.450",
+            "bkk-g-13.550-100.550",
+            "bkk-g-13.650-100.450",
+            "bkk-g-13.650-100.550",
+            "bkk-g-13.750-100.450",
+            "bkk-g-13.750-100.550",
+            "bkk-g-13.850-100.450",
+            "bkk-g-13.850-100.550"
+          ]
+        },
+        {
+          "cell": [100.25, 13.75],
+          "representativePoint": [100.35, 13.65],
+          "pointIds": [
+            "bkk-g-13.650-100.350",
+            "bkk-g-13.750-100.350",
+            "bkk-g-13.850-100.350"
+          ]
+        },
+        {
+          "cell": [100.75, 13.75],
+          "representativePoint": [100.65, 13.65],
+          "pointIds": [
+            "bkk-g-13.650-100.650",
+            "bkk-g-13.650-100.750",
+            "bkk-g-13.650-100.850",
+            "bkk-g-13.750-100.650",
+            "bkk-g-13.750-100.750",
+            "bkk-g-13.750-100.850",
+            "bkk-g-13.850-100.650",
+            "bkk-g-13.850-100.750",
+            "bkk-g-13.850-100.850"
+          ]
+        },
+        {
+          "cell": [101, 13.75],
+          "representativePoint": [100.95, 13.65],
+          "pointIds": [
+            "bkk-g-13.650-100.950",
+            "bkk-g-13.750-100.950",
+            "bkk-g-13.850-100.950"
+          ]
+        },
+        {
+          "cell": [100.25, 14],
+          "representativePoint": [100.35, 13.95],
+          "pointIds": [
+            "bkk-g-13.950-100.350"
+          ]
+        },
+        {
+          "cell": [100.5, 14],
+          "representativePoint": [100.45, 13.95],
+          "pointIds": [
+            "bkk-g-13.950-100.450",
+            "bkk-g-13.950-100.550"
+          ]
+        },
+        {
+          "cell": [100.75, 14],
+          "representativePoint": [100.65, 13.95],
+          "pointIds": [
+            "bkk-g-13.950-100.650",
+            "bkk-g-13.950-100.750",
+            "bkk-g-13.950-100.850"
+          ]
+        },
+        {
+          "cell": [101, 14],
+          "representativePoint": [100.95, 13.95],
+          "pointIds": [
+            "bkk-g-13.950-100.950"
+          ]
+        }
+      ],
+      "pointsVerifiedAgainstCellSeries": 42,
+      "points": [
+        {
+          "id": "bkk-g-13.450-100.350",
+          "requested": [100.35, 13.45],
+          "modelCell": [100.25, 13.5],
+          "demElevationAtRequestedPointM": 0
+        },
+        {
+          "id": "bkk-g-13.450-100.450",
+          "requested": [100.45, 13.45],
+          "modelCell": [100.25, 13.5],
+          "demElevationAtRequestedPointM": 0
+        },
+        {
+          "id": "bkk-g-13.450-100.550",
+          "requested": [100.55, 13.45],
+          "modelCell": [100.75, 13.5],
+          "demElevationAtRequestedPointM": 0
+        },
+        {
+          "id": "bkk-g-13.450-100.650",
+          "requested": [100.65, 13.45],
+          "modelCell": [100.75, 13.5],
+          "demElevationAtRequestedPointM": 0
+        },
+        {
+          "id": "bkk-g-13.450-100.750",
+          "requested": [100.75, 13.45],
+          "modelCell": [100.75, 13.5],
+          "demElevationAtRequestedPointM": 0
+        },
+        {
+          "id": "bkk-g-13.450-100.850",
+          "requested": [100.85, 13.45],
+          "modelCell": [100.75, 13.5],
+          "demElevationAtRequestedPointM": 0
+        },
+        {
+          "id": "bkk-g-13.450-100.950",
+          "requested": [100.95, 13.45],
+          "modelCell": [101, 13.5],
+          "demElevationAtRequestedPointM": 0
+        },
+        {
+          "id": "bkk-g-13.550-100.350",
+          "requested": [100.35, 13.55],
+          "modelCell": [100.25, 13.5],
+          "demElevationAtRequestedPointM": 3
+        },
+        {
+          "id": "bkk-g-13.550-100.450",
+          "requested": [100.45, 13.55],
+          "modelCell": [100.5, 13.75],
+          "demElevationAtRequestedPointM": 1
+        },
+        {
+          "id": "bkk-g-13.550-100.550",
+          "requested": [100.55, 13.55],
+          "modelCell": [100.5, 13.75],
+          "demElevationAtRequestedPointM": 1
+        },
+        {
+          "id": "bkk-g-13.550-100.650",
+          "requested": [100.65, 13.55],
+          "modelCell": [100.75, 13.5],
+          "demElevationAtRequestedPointM": 2
+        },
+        {
+          "id": "bkk-g-13.550-100.750",
+          "requested": [100.75, 13.55],
+          "modelCell": [100.75, 13.5],
+          "demElevationAtRequestedPointM": 1
+        },
+        {
+          "id": "bkk-g-13.550-100.850",
+          "requested": [100.85, 13.55],
+          "modelCell": [100.75, 13.5],
+          "demElevationAtRequestedPointM": 0
+        },
+        {
+          "id": "bkk-g-13.550-100.950",
+          "requested": [100.95, 13.55],
+          "modelCell": [101, 13.5],
+          "demElevationAtRequestedPointM": 3
+        },
+        {
+          "id": "bkk-g-13.650-100.350",
+          "requested": [100.35, 13.65],
+          "modelCell": [100.25, 13.75],
+          "demElevationAtRequestedPointM": 3
+        },
+        {
+          "id": "bkk-g-13.650-100.450",
+          "requested": [100.45, 13.65],
+          "modelCell": [100.5, 13.75],
+          "demElevationAtRequestedPointM": 3
+        },
+        {
+          "id": "bkk-g-13.650-100.550",
+          "requested": [100.55, 13.65],
+          "modelCell": [100.5, 13.75],
+          "demElevationAtRequestedPointM": 5
+        },
+        {
+          "id": "bkk-g-13.650-100.650",
+          "requested": [100.65, 13.65],
+          "modelCell": [100.75, 13.75],
+          "demElevationAtRequestedPointM": 2
+        },
+        {
+          "id": "bkk-g-13.650-100.750",
+          "requested": [100.75, 13.65],
+          "modelCell": [100.75, 13.75],
+          "demElevationAtRequestedPointM": 1
+        },
+        {
+          "id": "bkk-g-13.650-100.850",
+          "requested": [100.85, 13.65],
+          "modelCell": [100.75, 13.75],
+          "demElevationAtRequestedPointM": 2
+        },
+        {
+          "id": "bkk-g-13.650-100.950",
+          "requested": [100.95, 13.65],
+          "modelCell": [101, 13.75],
+          "demElevationAtRequestedPointM": 1
+        },
+        {
+          "id": "bkk-g-13.750-100.350",
+          "requested": [100.35, 13.75],
+          "modelCell": [100.25, 13.75],
+          "demElevationAtRequestedPointM": 3
+        },
+        {
+          "id": "bkk-g-13.750-100.450",
+          "requested": [100.45, 13.75],
+          "modelCell": [100.5, 13.75],
+          "demElevationAtRequestedPointM": 4
+        },
+        {
+          "id": "bkk-g-13.750-100.550",
+          "requested": [100.55, 13.75],
+          "modelCell": [100.5, 13.75],
+          "demElevationAtRequestedPointM": 4
+        },
+        {
+          "id": "bkk-g-13.750-100.650",
+          "requested": [100.65, 13.75],
+          "modelCell": [100.75, 13.75],
+          "demElevationAtRequestedPointM": 2
+        },
+        {
+          "id": "bkk-g-13.750-100.750",
+          "requested": [100.75, 13.75],
+          "modelCell": [100.75, 13.75],
+          "demElevationAtRequestedPointM": 4
+        },
+        {
+          "id": "bkk-g-13.750-100.850",
+          "requested": [100.85, 13.75],
+          "modelCell": [100.75, 13.75],
+          "demElevationAtRequestedPointM": 1
+        },
+        {
+          "id": "bkk-g-13.750-100.950",
+          "requested": [100.95, 13.75],
+          "modelCell": [101, 13.75],
+          "demElevationAtRequestedPointM": 2
+        },
+        {
+          "id": "bkk-g-13.850-100.350",
+          "requested": [100.35, 13.85],
+          "modelCell": [100.25, 13.75],
+          "demElevationAtRequestedPointM": 1
+        },
+        {
+          "id": "bkk-g-13.850-100.450",
+          "requested": [100.45, 13.85],
+          "modelCell": [100.5, 13.75],
+          "demElevationAtRequestedPointM": 8
+        },
+        {
+          "id": "bkk-g-13.850-100.550",
+          "requested": [100.55, 13.85],
+          "modelCell": [100.5, 13.75],
+          "demElevationAtRequestedPointM": 5
+        },
+        {
+          "id": "bkk-g-13.850-100.650",
+          "requested": [100.65, 13.85],
+          "modelCell": [100.75, 13.75],
+          "demElevationAtRequestedPointM": 5
+        },
+        {
+          "id": "bkk-g-13.850-100.750",
+          "requested": [100.75, 13.85],
+          "modelCell": [100.75, 13.75],
+          "demElevationAtRequestedPointM": 2
+        },
+        {
+          "id": "bkk-g-13.850-100.850",
+          "requested": [100.85, 13.85],
+          "modelCell": [100.75, 13.75],
+          "demElevationAtRequestedPointM": 3
+        },
+        {
+          "id": "bkk-g-13.850-100.950",
+          "requested": [100.95, 13.85],
+          "modelCell": [101, 13.75],
+          "demElevationAtRequestedPointM": 2
+        },
+        {
+          "id": "bkk-g-13.950-100.350",
+          "requested": [100.35, 13.95],
+          "modelCell": [100.25, 14],
+          "demElevationAtRequestedPointM": 3
+        },
+        {
+          "id": "bkk-g-13.950-100.450",
+          "requested": [100.45, 13.95],
+          "modelCell": [100.5, 14],
+          "demElevationAtRequestedPointM": 2
+        },
+        {
+          "id": "bkk-g-13.950-100.550",
+          "requested": [100.55, 13.95],
+          "modelCell": [100.5, 14],
+          "demElevationAtRequestedPointM": 4
+        },
+        {
+          "id": "bkk-g-13.950-100.650",
+          "requested": [100.65, 13.95],
+          "modelCell": [100.75, 14],
+          "demElevationAtRequestedPointM": 5
+        },
+        {
+          "id": "bkk-g-13.950-100.750",
+          "requested": [100.75, 13.95],
+          "modelCell": [100.75, 14],
+          "demElevationAtRequestedPointM": 4
+        },
+        {
+          "id": "bkk-g-13.950-100.850",
+          "requested": [100.85, 13.95],
+          "modelCell": [100.75, 14],
+          "demElevationAtRequestedPointM": 3
+        },
+        {
+          "id": "bkk-g-13.950-100.950",
+          "requested": [100.95, 13.95],
+          "modelCell": [101, 14],
+          "demElevationAtRequestedPointM": 2
+        }
+      ],
+      "nullValues": 0,
+      "annualTotalsDerived": {
+        "2024": {
+          "gridMeanMm": 1169.4,
+          "minMm": 1027.8,
+          "maxMm": 1361.5,
+          "complete": true,
+          "days": 366
+        },
+        "2025": {
+          "gridMeanMm": 1332.3,
+          "minMm": 1144.6,
+          "maxMm": 1572.8,
+          "complete": true,
+          "days": 365
+        },
+        "2026": {
+          "gridMeanMm": 1228.4,
+          "minMm": 1104.5,
+          "maxMm": 1507.5,
+          "complete": false,
+          "days": 301
+        }
+      },
+      "heaviestDayGridMean": {
+        "date": "2026-09-26",
+        "gridMeanMm": 103.1
+      },
+      "maxCellDay": {
+        "id": "bkk-g-13.450-100.550",
+        "date": "2026-09-26",
+        "mm": 136.3
+      }
+    }
+  },
+  "centreComparison": {
+    "bangkok": {
+      "point": {
+        "lat": 13.72639,
+        "lon": 100.56,
+        "definition": "TMD synoptic station 48455 “Bangkok Metropolis” coordinates as published in ThaiWater station metadata (TMD normals report: 13°43'N 100°33'E). Used as a citable city-centre reference point."
+      },
+      "modelCellEra5": {
+        "lat": 13.75,
+        "lon": 100.5
+      },
+      "annualTotals": {
+        "2024": {
+          "days": 366,
+          "era5Mm": 1111.5,
+          "bestMatchMm": 1753.3
+        },
+        "2025": {
+          "days": 365,
+          "era5Mm": 1257.7,
+          "bestMatchMm": 1757.4
+        },
+        "2026": {
+          "days": 301,
+          "era5Mm": 1147.9,
+          "bestMatchMm": 1715.2
+        }
+      },
+      "heaviestDay": {
+        "era5": {
+          "date": "2026-09-26",
+          "mm": 88
+        },
+        "bestMatch": {
+          "date": "2026-09-25",
+          "mm": 120.5
+        }
+      }
+    },
+    "hatyai": {
+      "point": {
+        "lat": 7.015,
+        "lon": 100.47,
+        "definition": "Midpoint of the Hat Yai Municipality analysis bbox [100.43, 6.97, 100.51, 7.06] (derived; not an official centroid)."
+      },
+      "modelCellEra5": {
+        "lat": 7,
+        "lon": 100.5
+      },
+      "annualTotals": {
+        "2024": {
+          "days": 366,
+          "era5Mm": 2148.2,
+          "bestMatchMm": 2569.5
+        },
+        "2025": {
+          "days": 365,
+          "era5Mm": 2320.7,
+          "bestMatchMm": 2225.6
+        },
+        "2026": {
+          "days": 301,
+          "era5Mm": 1031.8,
+          "bestMatchMm": 1276.6
+        }
+      },
+      "heaviestDay": {
+        "era5": {
+          "date": "2025-11-21",
+          "mm": 240
+        },
+        "bestMatch": {
+          "date": "2025-11-20",
+          "mm": 179.6
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "generatedAt": "2026-11-03T23:06:51.404Z",
+  "municipality": {
+    "nameTh": "เทศบาลนครหาดใหญ่",
+    "nameEn": "Hat Yai City Municipality",
+    "latest": {
+      "value": 138582,
+      "unit": "persons",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "dopa-stat-population",
+        "sourceName": "Department of Provincial Administration (DOPA) — registered population by registration office",
+        "sourceUrl": "https://stat.bora.dopa.go.th/new_stat/file/68/stat_a68.txt",
+        "observedTo": "2025-12-31",
+        "referenceYear": 2025,
+        "geographicScope": "Registration office 9098 ท้องถิ่นเทศบาลนครหาดใหญ่ (Hat Yai City Municipality local registration office)",
+        "methodology": "Civil-registration count (persons with house registration in the municipality) at the end of the reference month (YYMM field).",
+        "limitations": [
+          "Registered (de jure) population; excludes unregistered residents, students, migrant workers and tourists."
+        ]
+      }
+    },
+    "timeSeries": [
+      {
+        "yymm": "6812",
+        "referenceDate": "2025-12-31",
+        "referenceYear": 2025,
+        "beYear": 2568,
+        "provinceTh": "จังหวัดสงขลา",
+        "registrationOfficeCode": "9098",
+        "registrationOfficeTh": "ท้องถิ่นเทศบาลนครหาดใหญ่",
+        "male": 63674,
+        "female": 74908,
+        "total": 138582,
+        "houses": 70982,
+        "sourceUrl": "https://stat.bora.dopa.go.th/new_stat/file/68/stat_a68.txt",
+        "retrievedAt": "2026-11-03T19:26:19.967Z"
+      },
+      {
+        "yymm": "6712",
+        "referenceDate": "2024-12-31",
+        "referenceYear": 2024,
+        "beYear": 2567,
+        "provinceTh": "จังหวัดสงขลา",
+        "registrationOfficeCode": "9098",
+        "registrationOfficeTh": "ท้องถิ่นเทศบาลนครหาดใหญ่",
+        "male": 64864,
+        "female": 75987,
+        "total": 140851,
+        "houses": 70703,
+        "sourceUrl": "https://stat.bora.dopa.go.th/new_stat/file/67/stat_a67.txt",
+        "retrievedAt": "2026-11-03T19:26:20.950Z"
+      },
+      {
+        "yymm": "6612",
+        "referenceDate": "2023-12-31",
+        "referenceYear": 2023,
+        "beYear": 2566,
+        "provinceTh": "จังหวัดสงขลา",
+        "registrationOfficeCode": "9098",
+        "registrationOfficeTh": "ท้องถิ่นเทศบาลนครหาดใหญ่",
+        "male": 66182,
+        "female": 77551,
+        "total": 143733,
+        "houses": 70431,
+        "sourceUrl": "https://stat.bora.dopa.go.th/new_stat/file/66/stat_a66.txt",
+        "retrievedAt": "2026-11-03T19:26:21.994Z"
+      },
+      {
+        "yymm": "6512",
+        "referenceDate": "2022-12-31",
+        "referenceYear": 2022,
+        "beYear": 2565,
+        "provinceTh": "จังหวัดสงขลา",
+        "registrationOfficeCode": "9098",
+        "registrationOfficeTh": "ท้องถิ่นเทศบาลนครหาดใหญ่",
+        "male": 67536,
+        "female": 78992,
+        "total": 146528,
+        "houses": 68976,
+        "sourceUrl": "https://stat.bora.dopa.go.th/new_stat/file/65/stat_a65.txt",
+        "retrievedAt": "2026-11-03T19:26:23.099Z"
+      },
+      {
+        "yymm": "6412",
+        "referenceDate": "2021-12-31",
+        "referenceYear": 2021,
+        "beYear": 2564,
+        "provinceTh": "จังหวัดสงขลา",
+        "registrationOfficeCode": "9098",
+        "registrationOfficeTh": "ท้องถิ่นเทศบาลนครหาดใหญ่",
+        "male": 68793,
+        "female": 80349,
+        "total": 149142,
+        "houses": 68701,
+        "sourceUrl": "https://stat.bora.dopa.go.th/new_stat/file/64/stat_a64.txt",
+        "retrievedAt": "2026-11-03T19:26:24.204Z"
+      }
+    ],
+    "density": {
+      "valuePerKm2OsmArea": 6636.1,
+      "valuePerKm2OfficialArea": 6599.1,
+      "unit": "persons/km²",
+      "status": "derived",
+      "method": "DOPA total (2025-12-31) / area; OSM polygon area 20.883 km² or official 21 km²"
+    },
+    "otherClaims": [
+      {
+        "value": 191696,
+        "unit": "persons",
+        "referenceYear": 2024,
+        "status": "estimated",
+        "source": "PMC12247160 (RSC Advances 2025) citing 'Department of Provincial Administration, Statistical Yearbook Thailand 2024'",
+        "assessment": "Inconsistent with DOPA registered population for the same registration office (140851 at 2024-12-31). Not used."
+      },
+      {
+        "value": null,
+        "unit": "persons/km²",
+        "status": "unavailable",
+        "source": "https://www.hatyaicity.go.th/content/general",
+        "assessment": "Municipality 'ข้อมูลพื้นฐาน' page (marked 'อยู่ระหว่างปรับปรุงข้อมูล') states ~20,000 persons/km² in the centre and ~7,542 persons/km² on average over 21 km² without a reference year; no population figure is given. Recorded as text only."
+      }
+    ]
+  },
+  "zones": [
+    {
+      "id": "hy-z1",
+      "zoneNo": 1,
+      "nameTh": "เขต 1",
+      "population": {
+        "value": 33852,
+        "unit": "persons",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "hatyaicity-boundary-notices",
+          "referenceYear": 2023,
+          "methodology": "Sum of the populations printed for 27 of 28 communities in the community-boundary announcement of เขต 1.",
+          "limitations": [
+            "Announcement figures, not DOPA registration counts; reference date not stated; some communities missing or malformed."
+          ]
+        }
+      },
+      "households": {
+        "value": 15921,
+        "unit": "households",
+        "communities": 28
+      }
+    },
+    {
+      "id": "hy-z2",
+      "zoneNo": 2,
+      "nameTh": "เขต 2",
+      "population": {
+        "value": 33896,
+        "unit": "persons",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "hatyaicity-boundary-notices",
+          "referenceYear": 2022,
+          "methodology": "Sum of the populations printed for 29 of 29 communities in the community-boundary announcement of เขต 2.",
+          "limitations": [
+            "Announcement figures, not DOPA registration counts; reference date not stated; some communities missing or malformed."
+          ]
+        }
+      },
+      "households": {
+        "value": 20856,
+        "unit": "households",
+        "communities": 29
+      }
+    },
+    {
+      "id": "hy-z3",
+      "zoneNo": 3,
+      "nameTh": "เขต 3",
+      "population": {
+        "value": 33498,
+        "unit": "persons",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "hatyaicity-boundary-notices",
+          "referenceYear": 2023,
+          "methodology": "Sum of the populations printed for 24 of 25 communities in the community-boundary announcement of เขต 3.",
+          "limitations": [
+            "Announcement figures, not DOPA registration counts; reference date not stated; some communities missing or malformed."
+          ]
+        }
+      },
+      "households": {
+        "value": 17142,
+        "unit": "households",
+        "communities": 24
+      }
+    },
+    {
+      "id": "hy-z4",
+      "zoneNo": 4,
+      "nameTh": "เขต 4",
+      "population": {
+        "value": 36800,
+        "unit": "persons",
+        "provenance": {
+          "status": "derived",
+          "sourceId": "hatyaicity-boundary-notices",
+          "referenceYear": 2023,
+          "methodology": "Sum of the populations printed for 21 of 21 communities in the community-boundary announcement of เขต 4.",
+          "limitations": [
+            "Announcement figures, not DOPA registration counts; reference date not stated; some communities missing or malformed."
+          ]
+        }
+      },
+      "households": {
+        "value": 14516,
+        "unit": "households",
+        "communities": 21
+      }
+    }
+  ],
+  "communityPopulationSum": {
+    "value": 138046,
+    "unit": "persons",
+    "status": "derived",
+    "note": "Sum over communities with a printed total. Compare DOPA registered population 146528 (2022-12-31) and 143733 (2023-12-31)."
+  },
+  "communities": "Per-community population/households: see data/staged/hatyai-communities.json (communities[].stats)."
+}

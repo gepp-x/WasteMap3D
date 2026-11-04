@@ -1,0 +1,652 @@
+[
+ {
+  "areaId": "bkk-1001",
+  "anchor": [
+   100.4988429,
+   13.7645817
+  ],
+  "anchorSource": "osm-townhall:way/206391339",
+  "buildingCount": 1041,
+  "taggedHeightCount": 1,
+  "levelsCount": 14,
+  "estimatedCount": 1026,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1002",
+  "anchor": [
+   100.5205495,
+   13.7770822
+  ],
+  "anchorSource": "osm-townhall:way/348423324",
+  "buildingCount": 1864,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 1864,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1003",
+  "anchor": [
+   100.8625714,
+   13.8557281
+  ],
+  "anchorSource": "osm-townhall:node/374115402",
+  "buildingCount": 474,
+  "taggedHeightCount": 0,
+  "levelsCount": 4,
+  "estimatedCount": 470,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1004",
+  "anchor": [
+   100.5236511,
+   13.7306491
+  ],
+  "anchorSource": "osm-townhall:way/1020471362",
+  "buildingCount": 1661,
+  "taggedHeightCount": 40,
+  "levelsCount": 735,
+  "estimatedCount": 886,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1005",
+  "anchor": [
+   100.636145,
+   13.871075
+  ],
+  "anchorSource": "point-on-surface",
+  "buildingCount": 0,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 0,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1006",
+  "anchor": [
+   100.6476922,
+   13.765588
+  ],
+  "anchorSource": "osm-townhall:node/374159601",
+  "buildingCount": 119,
+  "taggedHeightCount": 0,
+  "levelsCount": 5,
+  "estimatedCount": 114,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1007",
+  "anchor": [
+   100.522179,
+   13.74475
+  ],
+  "anchorSource": "osm-townhall:node/6224016652",
+  "buildingCount": 1020,
+  "taggedHeightCount": 2,
+  "levelsCount": 411,
+  "estimatedCount": 607,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1008",
+  "anchor": [
+   100.5131372,
+   13.7581757
+  ],
+  "anchorSource": "osm-townhall:node/359036660",
+  "buildingCount": 718,
+  "taggedHeightCount": 0,
+  "levelsCount": 33,
+  "estimatedCount": 685,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1009",
+  "anchor": [
+   100.6017684,
+   13.7020933
+  ],
+  "anchorSource": "osm-townhall:node/374151115",
+  "buildingCount": 1170,
+  "taggedHeightCount": 0,
+  "levelsCount": 24,
+  "estimatedCount": 1146,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1010",
+  "anchor": [
+   100.7316451,
+   13.813794
+  ],
+  "anchorSource": "osm-townhall:node/346246568",
+  "buildingCount": 135,
+  "taggedHeightCount": 0,
+  "levelsCount": 2,
+  "estimatedCount": 133,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1011",
+  "anchor": [
+   100.7839306,
+   13.7234464
+  ],
+  "anchorSource": "osm-townhall:node/374113072",
+  "buildingCount": 51,
+  "taggedHeightCount": 0,
+  "levelsCount": 2,
+  "estimatedCount": 49,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1012",
+  "anchor": [
+   100.5422988,
+   13.6961918
+  ],
+  "anchorSource": "osm-townhall:way/377295074",
+  "buildingCount": 1617,
+  "taggedHeightCount": 0,
+  "levelsCount": 123,
+  "estimatedCount": 1494,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1013",
+  "anchor": [
+   100.5137946,
+   13.7315635
+  ],
+  "anchorSource": "osm-townhall:way/1157161927",
+  "buildingCount": 1699,
+  "taggedHeightCount": 4,
+  "levelsCount": 726,
+  "estimatedCount": 969,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1014",
+  "anchor": [
+   100.5425224,
+   13.7798299
+  ],
+  "anchorSource": "osm-townhall:way/1416077466",
+  "buildingCount": 816,
+  "taggedHeightCount": 2,
+  "levelsCount": 136,
+  "estimatedCount": 678,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1015",
+  "anchor": [
+   100.4856766,
+   13.7249352
+  ],
+  "anchorSource": "osm-townhall:node/374411440",
+  "buildingCount": 10,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 10,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1016",
+  "anchor": [
+   100.4761943,
+   13.7233898
+  ],
+  "anchorSource": "osm-townhall:node/374408566",
+  "buildingCount": 734,
+  "taggedHeightCount": 0,
+  "levelsCount": 1,
+  "estimatedCount": 733,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1017",
+  "anchor": [
+   100.5794354,
+   13.7766764
+  ],
+  "anchorSource": "osm-townhall:node/374395739",
+  "buildingCount": 265,
+  "taggedHeightCount": 0,
+  "levelsCount": 3,
+  "estimatedCount": 262,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1018",
+  "anchor": [
+   100.5092047,
+   13.7306139
+  ],
+  "anchorSource": "osm-townhall:node/374423174",
+  "buildingCount": 665,
+  "taggedHeightCount": 3,
+  "levelsCount": 96,
+  "estimatedCount": 566,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1019",
+  "anchor": [
+   100.4563214,
+   13.7769458
+  ],
+  "anchorSource": "osm-townhall:node/374199084",
+  "buildingCount": 239,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 239,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1020",
+  "anchor": [
+   100.4781038,
+   13.7627778
+  ],
+  "anchorSource": "osm-townhall:node/2421218282",
+  "buildingCount": 840,
+  "taggedHeightCount": 1,
+  "levelsCount": 0,
+  "estimatedCount": 839,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1021",
+  "anchor": [
+   100.4354197,
+   13.6608964
+  ],
+  "anchorSource": "osm-townhall:way/101350400",
+  "buildingCount": 66,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 66,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1022",
+  "anchor": [
+   100.4369929,
+   13.7147127
+  ],
+  "anchorSource": "osm-townhall:node/374217209",
+  "buildingCount": 57,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 57,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1023",
+  "anchor": [
+   100.3491804,
+   13.705511
+  ],
+  "anchorSource": "osm-townhall:way/1344510500",
+  "buildingCount": 8,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 8,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1024",
+  "anchor": [
+   100.5056787,
+   13.6820624
+  ],
+  "anchorSource": "osm-townhall:node/2421218283",
+  "buildingCount": 1,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 1,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1025",
+  "anchor": [
+   100.504919,
+   13.7940492
+  ],
+  "anchorSource": "osm-townhall:node/374244083",
+  "buildingCount": 115,
+  "taggedHeightCount": 0,
+  "levelsCount": 3,
+  "estimatedCount": 112,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1026",
+  "anchor": [
+   100.55918,
+   13.77811
+  ],
+  "anchorSource": "point-on-surface",
+  "buildingCount": 1277,
+  "taggedHeightCount": 2,
+  "levelsCount": 303,
+  "estimatedCount": 972,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1027",
+  "anchor": [
+   100.6695236,
+   13.7854237
+  ],
+  "anchorSource": "osm-townhall:node/374162490",
+  "buildingCount": 883,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 883,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1028",
+  "anchor": [
+   100.5261649,
+   13.7080992
+  ],
+  "anchorSource": "osm-townhall:node/486112255",
+  "buildingCount": 1737,
+  "taggedHeightCount": 0,
+  "levelsCount": 3,
+  "estimatedCount": 1734,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1029",
+  "anchor": [
+   100.5373713,
+   13.809666
+  ],
+  "anchorSource": "osm-townhall:node/359917389",
+  "buildingCount": 13,
+  "taggedHeightCount": 0,
+  "levelsCount": 1,
+  "estimatedCount": 12,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1030",
+  "anchor": [
+   100.559936,
+   13.8287771
+  ],
+  "anchorSource": "osm-townhall:node/359917252",
+  "buildingCount": 149,
+  "taggedHeightCount": 0,
+  "levelsCount": 3,
+  "estimatedCount": 146,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1031",
+  "anchor": [
+   100.5023724,
+   13.6930179
+  ],
+  "anchorSource": "osm-townhall:node/374416205",
+  "buildingCount": 1858,
+  "taggedHeightCount": 0,
+  "levelsCount": 1,
+  "estimatedCount": 1857,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1032",
+  "anchor": [
+   100.6947199,
+   13.7170592
+  ],
+  "anchorSource": "osm-townhall:node/374107065",
+  "buildingCount": 4,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 4,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1033",
+  "anchor": [
+   100.5836087,
+   13.708097
+  ],
+  "anchorSource": "osm-townhall:way/685368976",
+  "buildingCount": 222,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 222,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1034",
+  "anchor": [
+   100.6514719,
+   13.7303867
+  ],
+  "anchorSource": "osm-townhall:node/374157456",
+  "buildingCount": 35,
+  "taggedHeightCount": 0,
+  "levelsCount": 4,
+  "estimatedCount": 31,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1035",
+  "anchor": [
+   100.4842216,
+   13.6774205
+  ],
+  "anchorSource": "osm-townhall:node/374221035",
+  "buildingCount": 13,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 13,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1036",
+  "anchor": [
+   100.5948579,
+   13.9102533
+  ],
+  "anchorSource": "osm-townhall:node/359938753",
+  "buildingCount": 43,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 43,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1037",
+  "anchor": [
+   100.5343459,
+   13.75903
+  ],
+  "anchorSource": "osm-townhall:node/359035706",
+  "buildingCount": 340,
+  "taggedHeightCount": 0,
+  "levelsCount": 8,
+  "estimatedCount": 332,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1038",
+  "anchor": [
+   100.6076177,
+   13.8035238
+  ],
+  "anchorSource": "osm-townhall:node/374167805",
+  "buildingCount": 19,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 19,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1039",
+  "anchor": [
+   100.5860216,
+   13.7424148
+  ],
+  "anchorSource": "osm-townhall:way/176298740",
+  "buildingCount": 661,
+  "taggedHeightCount": 0,
+  "levelsCount": 5,
+  "estimatedCount": 656,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1040",
+  "anchor": [
+   100.4092758,
+   13.695944
+  ],
+  "anchorSource": "osm-townhall:way/95946356",
+  "buildingCount": 77,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 77,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1041",
+  "anchor": [
+   100.5791206,
+   13.8874078
+  ],
+  "anchorSource": "osm-townhall:way/1464539842",
+  "buildingCount": 290,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 290,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1042",
+  "anchor": [
+   100.6608158,
+   13.8952435
+  ],
+  "anchorSource": "osm-townhall:way/637849080",
+  "buildingCount": 20,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 20,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1043",
+  "anchor": [
+   100.6827264,
+   13.7994056
+  ],
+  "anchorSource": "osm-townhall:way/1355646022",
+  "buildingCount": 620,
+  "taggedHeightCount": 0,
+  "levelsCount": 1,
+  "estimatedCount": 619,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1044",
+  "anchor": [
+   100.6857375,
+   13.7688604
+  ],
+  "anchorSource": "osm-townhall:node/374125572",
+  "buildingCount": 0,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 0,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1045",
+  "anchor": [
+   100.6096,
+   13.777035
+  ],
+  "anchorSource": "point-on-surface",
+  "buildingCount": 2,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 2,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1046",
+  "anchor": [
+   100.7041771,
+   13.859528
+  ],
+  "anchorSource": "osm-townhall:way/986167999",
+  "buildingCount": 6,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 6,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1047",
+  "anchor": [
+   100.6419331,
+   13.6675362
+  ],
+  "anchorSource": "osm-townhall:node/374149040",
+  "buildingCount": 8,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 8,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1048",
+  "anchor": [
+   100.3533409,
+   13.7729726
+  ],
+  "anchorSource": "osm-townhall:way/1487913453",
+  "buildingCount": 54,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 54,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1049",
+  "anchor": [
+   100.5085155,
+   13.6116465
+  ],
+  "anchorSource": "osm-townhall:way/1292903638",
+  "buildingCount": 141,
+  "taggedHeightCount": 0,
+  "levelsCount": 6,
+  "estimatedCount": 135,
+  "droppedCount": 0
+ },
+ {
+  "areaId": "bkk-1050",
+  "anchor": [
+   100.368741,
+   13.6340365
+  ],
+  "anchorSource": "osm-townhall:node/374181789",
+  "buildingCount": 1,
+  "taggedHeightCount": 0,
+  "levelsCount": 0,
+  "estimatedCount": 1,
+  "droppedCount": 0
+ }
+]

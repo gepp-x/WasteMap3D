@@ -1,0 +1,1073 @@
+[
+  {
+    "id": "disaster-TH26",
+    "nameTh": "โรงเรียนวัดบ่อทรัพย์  หมู่ 2",
+    "nameEn": "DISASTER station TH26 (Hua Khao, Singhanakhon District, Songkhla)",
+    "lon": 100.57474,
+    "lat": 7.19208,
+    "agency": "Department of Disaster Prevention and Mitigation (DISASTER; กรมป้องกันและบรรเทาสาธารณภัย)",
+    "rain24h": {
+      "value": 3.9,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-03",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DISASTER TH26) at Hua Khao, Singhanakhon District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-03 23:50\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Disaster Prevention and Mitigation (DISASTER; กรมป้องกันและบรรเทาสาธารณภัย); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-03T23:50:00+07:00"
+  },
+  {
+    "id": "dwr-G09006-TA200303",
+    "nameTh": "คลองอู่ตะเภาตอนบนทุ่งลาน",
+    "nameEn": "DWR station G09006-TA200303 (Phatong, Hat Yai District, Songkhla)",
+    "lon": 100.46416,
+    "lat": 6.856463,
+    "agency": "Department of Water Resources (DWR; กรมทรัพยากรน้ำ)",
+    "rain24h": {
+      "value": 0,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-03",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DWR G09006-TA200303) at Phatong, Hat Yai District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-03 13:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Water Resources (DWR; กรมทรัพยากรน้ำ); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-03T13:00:00+07:00"
+  },
+  {
+    "id": "dwr-STN0015",
+    "nameTh": "บ้านต้นปริง",
+    "nameEn": "DWR station STN0015 (Khlong Rang, Na Mom District, Songkhla)",
+    "lon": 100.574471,
+    "lat": 6.902962,
+    "agency": "Department of Water Resources (DWR; กรมทรัพยากรน้ำ)",
+    "rain24h": {
+      "value": 0,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DWR STN0015) at Khlong Rang, Na Mom District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Water Resources (DWR; กรมทรัพยากรน้ำ); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "dwr-STN0134",
+    "nameTh": "บ้านโคกทัง",
+    "nameEn": "DWR station STN0134 (Phichit, Na Mom District, Songkhla)",
+    "lon": 100.592958,
+    "lat": 6.981245,
+    "agency": "Department of Water Resources (DWR; กรมทรัพยากรน้ำ)",
+    "rain24h": {
+      "value": 4,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DWR STN0134) at Phichit, Na Mom District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Water Resources (DWR; กรมทรัพยากรน้ำ); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "dwr-STN0211",
+    "nameTh": "บ้านไร่",
+    "nameEn": "DWR station STN0211 (Thung Wang, Mueang Songkhla District, Songkhla)",
+    "lon": 100.629514,
+    "lat": 7.047374,
+    "agency": "Department of Water Resources (DWR; กรมทรัพยากรน้ำ)",
+    "rain24h": {
+      "value": 3,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DWR STN0211) at Thung Wang, Mueang Songkhla District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Water Resources (DWR; กรมทรัพยากรน้ำ); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "dwr-STN0212",
+    "nameTh": "บ้านควนไม้ไผ่",
+    "nameEn": "DWR station STN0212 (Na Wa, Chanae District, Songkhla)",
+    "lon": 100.643306,
+    "lat": 6.919856,
+    "agency": "Department of Water Resources (DWR; กรมทรัพยากรน้ำ)",
+    "rain24h": {
+      "value": 0,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DWR STN0212) at Na Wa, Chanae District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Water Resources (DWR; กรมทรัพยากรน้ำ); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "dwr-STN0220",
+    "nameTh": "บ้านคูนายสังข์",
+    "nameEn": "DWR station STN0220 (Khae, Chanae District, Songkhla)",
+    "lon": 100.617833,
+    "lat": 6.833787,
+    "agency": "Department of Water Resources (DWR; กรมทรัพยากรน้ำ)",
+    "rain24h": {
+      "value": 0,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DWR STN0220) at Khae, Chanae District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Water Resources (DWR; กรมทรัพยากรน้ำ); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "dwr-STN0580",
+    "nameTh": "บ้านพรุเตาะนอก",
+    "nameEn": "DWR station STN0580 (Thung Yai, Hat Yai District, Songkhla)",
+    "lon": 100.536696,
+    "lat": 7.040102,
+    "agency": "Department of Water Resources (DWR; กรมทรัพยากรน้ำ)",
+    "rain24h": {
+      "value": 4.5,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DWR STN0580) at Thung Yai, Hat Yai District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Water Resources (DWR; กรมทรัพยากรน้ำ); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "dwr-STN0707",
+    "nameTh": "บ้านเหล้า",
+    "nameEn": "DWR station STN0707 (Ko Taeo, Mueang Songkhla District, Songkhla)",
+    "lon": 100.625486,
+    "lat": 7.129909,
+    "agency": "Department of Water Resources (DWR; กรมทรัพยากรน้ำ)",
+    "rain24h": {
+      "value": 5.5,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DWR STN0707) at Ko Taeo, Mueang Songkhla District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Water Resources (DWR; กรมทรัพยากรน้ำ); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "dwr-STN0709",
+    "nameTh": "บ้านปากช่อง",
+    "nameEn": "DWR station STN0709 (Chanong, Chanae District, Songkhla)",
+    "lon": 100.644548,
+    "lat": 6.985409,
+    "agency": "Department of Water Resources (DWR; กรมทรัพยากรน้ำ)",
+    "rain24h": {
+      "value": 2.5,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DWR STN0709) at Chanong, Chanae District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Water Resources (DWR; กรมทรัพยากรน้ำ); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "dwr-STN0710",
+    "nameTh": "บ้านท่าจีน",
+    "nameEn": "DWR station STN0710 (Nam Noi, Hat Yai District, Songkhla)",
+    "lon": 100.537102,
+    "lat": 7.097187,
+    "agency": "Department of Water Resources (DWR; กรมทรัพยากรน้ำ)",
+    "rain24h": {
+      "value": 10,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DWR STN0710) at Nam Noi, Hat Yai District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Water Resources (DWR; กรมทรัพยากรน้ำ); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "dwr-STN1025",
+    "nameTh": "บ้านหูแร่",
+    "nameEn": "DWR station STN1025 (Thung Tam Sao, Hat Yai District, Songkhla)",
+    "lon": 100.328587,
+    "lat": 6.982842,
+    "agency": "Department of Water Resources (DWR; กรมทรัพยากรน้ำ)",
+    "rain24h": {
+      "value": 4,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DWR STN1025) at Thung Tam Sao, Hat Yai District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Water Resources (DWR; กรมทรัพยากรน้ำ); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "dwr-STN1026",
+    "nameTh": "บ้านโฮ๊ะ",
+    "nameEn": "DWR station STN1026 (Thung Tam Sao, Hat Yai District, Songkhla)",
+    "lon": 100.317857,
+    "lat": 6.961809,
+    "agency": "Department of Water Resources (DWR; กรมทรัพยากรน้ำ)",
+    "rain24h": {
+      "value": 10.5,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DWR STN1026) at Thung Tam Sao, Hat Yai District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Water Resources (DWR; กรมทรัพยากรน้ำ); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "dwr-STN1799",
+    "nameTh": "บ้านควนเนียง",
+    "nameEn": "DWR station STN1799 (Phatong, Hat Yai District, Songkhla)",
+    "lon": 100.498648,
+    "lat": 6.835284,
+    "agency": "Department of Water Resources (DWR; กรมทรัพยากรน้ำ)",
+    "rain24h": {
+      "value": 0,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DWR STN1799) at Phatong, Hat Yai District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Water Resources (DWR; กรมทรัพยากรน้ำ); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "dwr-STN2062",
+    "nameTh": "บ้านชายคลอง",
+    "nameEn": "DWR station STN2062 (Ban Phru, Hat Yai District, Songkhla)",
+    "lon": 100.458623,
+    "lat": 6.963151,
+    "agency": "Department of Water Resources (DWR; กรมทรัพยากรน้ำ)",
+    "rain24h": {
+      "value": 1,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DWR STN2062) at Ban Phru, Hat Yai District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Water Resources (DWR; กรมทรัพยากรน้ำ); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "dwr-STN2211",
+    "nameTh": "ชุมชนย่านยาวออก",
+    "nameEn": "DWR station STN2211 (Phatong, Hat Yai District, Songkhla)",
+    "lon": 100.456304,
+    "lat": 6.868006,
+    "agency": "Department of Water Resources (DWR; กรมทรัพยากรน้ำ)",
+    "rain24h": {
+      "value": 0,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DWR STN2211) at Phatong, Hat Yai District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Water Resources (DWR; กรมทรัพยากรน้ำ); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "dwr-STN2212",
+    "nameTh": "ชุมชนวัดเกาะ",
+    "nameEn": "DWR station STN2212 (Khuan Lang, Hat Yai District, Songkhla)",
+    "lon": 100.397919,
+    "lat": 6.974349,
+    "agency": "Department of Water Resources (DWR; กรมทรัพยากรน้ำ)",
+    "rain24h": {
+      "value": 0.5,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DWR STN2212) at Khuan Lang, Hat Yai District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Water Resources (DWR; กรมทรัพยากรน้ำ); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "dwr-STN2213",
+    "nameTh": "บ้านควนจง",
+    "nameEn": "DWR station STN2213 (Na Mom, Na Mom District, Songkhla)",
+    "lon": 100.51886,
+    "lat": 6.968613,
+    "agency": "Department of Water Resources (DWR; กรมทรัพยากรน้ำ)",
+    "rain24h": {
+      "value": 4.5,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DWR STN2213) at Na Mom, Na Mom District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Water Resources (DWR; กรมทรัพยากรน้ำ); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "dwr-STN2214",
+    "nameTh": "บ้านยางงาม (บ้านทุ่งปราบ)",
+    "nameEn": "DWR station STN2214 (Rattaphum, Khuan Niang District, Songkhla)",
+    "lon": 100.376721,
+    "lat": 7.160262,
+    "agency": "Department of Water Resources (DWR; กรมทรัพยากรน้ำ)",
+    "rain24h": {
+      "value": 15,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (DWR STN2214) at Rattaphum, Khuan Niang District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Department of Water Resources (DWR; กรมทรัพยากรน้ำ); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "hii-NPCT",
+    "nameTh": "อบต.พิจิตร",
+    "nameEn": "Phi Chit",
+    "lon": 100.57162,
+    "lat": 6.98768,
+    "agency": "Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน))",
+    "rain24h": {
+      "value": 0,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (HII NPCT) at Phichit, Na Mom District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 01:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน)); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project)."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T01:00:00+07:00"
+  },
+  {
+    "id": "hii-ONE037",
+    "nameTh": "สะพานข้ามคลองอู่ตะเภา",
+    "nameEn": "Khlong U Taphao Bridge",
+    "lon": 100.45321,
+    "lat": 7.134997,
+    "agency": "Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน))",
+    "rain24h": {
+      "value": 25,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (HII ONE037) at Khu Tao, Hat Yai District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 01:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน)); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project)."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T01:00:00+07:00"
+  },
+  {
+    "id": "hii-ONE038",
+    "nameTh": "สะพานสวนเฉลิมพระเกียรติ 72 พรรษามหาราชินี",
+    "nameEn": "Queen Bridge",
+    "lon": 100.59448,
+    "lat": 7.182746,
+    "agency": "Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน))",
+    "rain24h": {
+      "value": 3.6,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (HII ONE038) at Hua Khao, Singhanakhon District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 01:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน)); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project)."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T01:00:00+07:00"
+  },
+  {
+    "id": "hii-SLA001",
+    "nameTh": "หาดใหญ่",
+    "nameEn": "Songkhla Lake 1",
+    "lon": 100.46322,
+    "lat": 6.98013,
+    "agency": "Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน))",
+    "rain24h": {
+      "value": 0,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (HII SLA001) at Kho Hong, Hat Yai District, Songkhla; inside the Hat Yai Municipality analysis bbox.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 01:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน)); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project)."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T01:00:00+07:00"
+  },
+  {
+    "id": "hii-SLA002",
+    "nameTh": "คลองหอยโข่ง",
+    "nameEn": "Song Khla Lake 2",
+    "lon": 100.43985,
+    "lat": 6.931234,
+    "agency": "Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน))",
+    "rain24h": {
+      "value": 0,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (HII SLA002) at Thung Lan, Khlong Hoi Khong District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 01:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน)); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project)."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T01:00:00+07:00"
+  },
+  {
+    "id": "hii-SLA007",
+    "nameTh": "บางกล่ำ",
+    "nameEn": "Songkhla 7",
+    "lon": 100.42788,
+    "lat": 7.079418,
+    "agency": "Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน))",
+    "rain24h": {
+      "value": 18.8,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (HII SLA007) at Tha Chang, Bang Klam District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 01:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Hydro – Informatics Institute (Public Organization) (HII; สถาบันสารสนเทศทรัพยากรน้ำ (องค์การมหาชน)); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project)."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T01:00:00+07:00"
+  },
+  {
+    "id": "rid-ridtele-STN03",
+    "nameTh": "สถานี X.194",
+    "nameEn": "RID station ridtele_STN03 (Khu Tao, Hat Yai District, Songkhla)",
+    "lon": 100.467,
+    "lat": 7.1558,
+    "agency": "Royal Irrigation Department (RID; กรมชลประทาน)",
+    "rain24h": {
+      "value": 24,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (RID ridtele_STN03) at Khu Tao, Hat Yai District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Royal Irrigation Department (RID; กรมชลประทาน); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "rid-ridtele-STN04",
+    "nameTh": "สถานี X.44",
+    "nameEn": "RID station ridtele_STN04 (Hat Yai, Hat Yai District, Songkhla)",
+    "lon": 100.456236,
+    "lat": 7.000695,
+    "agency": "Royal Irrigation Department (RID; กรมชลประทาน)",
+    "rain24h": {
+      "value": 1,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (RID ridtele_STN04) at Hat Yai, Hat Yai District, Songkhla; inside the Hat Yai Municipality analysis bbox.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Royal Irrigation Department (RID; กรมชลประทาน); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "rid-ridtele-STN06",
+    "nameTh": "สถานี X.90",
+    "nameEn": "RID station ridtele_STN06 (Ban Phru, Hat Yai District, Songkhla)",
+    "lon": 100.439582,
+    "lat": 6.931008,
+    "agency": "Royal Irrigation Department (RID; กรมชลประทาน)",
+    "rain24h": {
+      "value": 0,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (RID ridtele_STN06) at Ban Phru, Hat Yai District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Royal Irrigation Department (RID; กรมชลประทาน); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "rid-ridtele-STN09",
+    "nameTh": "สถานี X.173A",
+    "nameEn": "RID station ridtele_STN09 (Phang La, Sadao District, Songkhla)",
+    "lon": 100.438339,
+    "lat": 6.823388,
+    "agency": "Royal Irrigation Department (RID; กรมชลประทาน)",
+    "rain24h": {
+      "value": 0,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (RID ridtele_STN09) at Phang La, Sadao District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Royal Irrigation Department (RID; กรมชลประทาน); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "rid-ridtele-TSL23",
+    "nameTh": "วัดควนเนียง",
+    "nameEn": "RID station ridtele_TSL23 (Phatong, Hat Yai District, Songkhla)",
+    "lon": 100.498853,
+    "lat": 6.833256,
+    "agency": "Royal Irrigation Department (RID; กรมชลประทาน)",
+    "rain24h": {
+      "value": 0,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (RID ridtele_TSL23) at Phatong, Hat Yai District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Royal Irrigation Department (RID; กรมชลประทาน); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "rid-ridtele-TSL25",
+    "nameTh": "ปตร.หน้าควน",
+    "nameEn": "RID station ridtele_TSL25 (Khuan Lang, Hat Yai District, Songkhla)",
+    "lon": 100.459,
+    "lat": 6.98573,
+    "agency": "Royal Irrigation Department (RID; กรมชลประทาน)",
+    "rain24h": {
+      "value": 1,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (RID ridtele_TSL25) at Khuan Lang, Hat Yai District, Songkhla; inside the Hat Yai Municipality analysis bbox.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Royal Irrigation Department (RID; กรมชลประทาน); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "rid-ridtele-TSL26",
+    "nameTh": "ปตร.คลอง ร6",
+    "nameEn": "RID station ridtele_TSL26 (Kho Hong, Hat Yai District, Songkhla)",
+    "lon": 100.501117,
+    "lat": 6.994865,
+    "agency": "Royal Irrigation Department (RID; กรมชลประทาน)",
+    "rain24h": {
+      "value": 0,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (RID ridtele_TSL26) at Kho Hong, Hat Yai District, Songkhla; inside the Hat Yai Municipality analysis bbox.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Royal Irrigation Department (RID; กรมชลประทาน); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "rid-ridtele-TSL30",
+    "nameTh": "คลองหลา",
+    "nameEn": "RID station ridtele_TSL30 (Khlong Hoi Khong, Khlong Hoi Khong District, Songkhla)",
+    "lon": 100.327591,
+    "lat": 6.864742,
+    "agency": "Royal Irrigation Department (RID; กรมชลประทาน)",
+    "rain24h": {
+      "value": 1,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-04",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (RID ridtele_TSL30) at Khlong Hoi Khong, Khlong Hoi Khong District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-04 00:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Royal Irrigation Department (RID; กรมชลประทาน); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project).",
+          "No English station name is published; nameEn is composed from the station code and the published sub-district/district/province names."
+        ]
+      }
+    },
+    "observedAt": "2026-11-04T00:00:00+07:00"
+  },
+  {
+    "id": "tmd-48568",
+    "nameTh": "สงขลา",
+    "nameEn": "SONGKHLA",
+    "lon": 100.60769,
+    "lat": 7.18211,
+    "agency": "Thai Meteorological Department (TMD; กรมอุตุนิยมวิทยา)",
+    "rain24h": {
+      "value": 11.2,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-03",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (TMD 48568) at Bo Yang, Mueang Songkhla District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-03 22:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Thai Meteorological Department (TMD; กรมอุตุนิยมวิทยา); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project)."
+        ]
+      }
+    },
+    "observedAt": "2026-11-03T22:00:00+07:00"
+  },
+  {
+    "id": "tmd-48569",
+    "nameTh": "หาดใหญ่",
+    "nameEn": "HAT YAI AIRPORT",
+    "lon": 100.43333,
+    "lat": 6.91667,
+    "agency": "Thai Meteorological Department (TMD; กรมอุตุนิยมวิทยา)",
+    "rain24h": {
+      "value": 0.6,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-03",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (TMD 48569) at Thung Lan, Khlong Hoi Khong District, Songkhla; outside the Hat Yai Municipality analysis bbox but within its 0.15° station buffer.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-03 22:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Thai Meteorological Department (TMD; กรมอุตุนิยมวิทยา); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project)."
+        ]
+      }
+    },
+    "observedAt": "2026-11-03T22:00:00+07:00"
+  },
+  {
+    "id": "tmd-48571",
+    "nameTh": "คอหงษ์ สกษ.",
+    "nameEn": "KHO HONG AGROMET.",
+    "lon": 100.5,
+    "lat": 7,
+    "agency": "Thai Meteorological Department (TMD; กรมอุตุนิยมวิทยา)",
+    "rain24h": {
+      "value": 3.2,
+      "unit": "mm",
+      "provenance": {
+        "status": "observed",
+        "sourceId": "thaiwater-public-rain24h",
+        "sourceName": "HII ThaiWater public API — rain_24h (ฝน 24 ชั่วโมง)",
+        "sourceUrl": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+        "observedTo": "2026-11-03",
+        "referenceYear": 2026,
+        "geographicScope": "Single gauge (TMD 48571) at Kho Hong, Hat Yai District, Songkhla; inside the Hat Yai Municipality analysis bbox.",
+        "methodology": "Near-real-time telemetry snapshot (not a climatological daily total). ThaiWater labels this product “ฝน 24 ชั่วโมง” and defines it as “ปริมาณฝนสะสมตั้งแต่เวลาปัจจุบันย้อนหลังไป 24 ชั่วโมง” (rainfall accumulated over the 24 hours up to the reading time). Reading time exactly as published: rainfall_datetime=\"2026-11-03 22:00\" (Thai local time, UTC+7 — inferred: ThaiWater publishes local timestamps). Originating agency: Thai Meteorological Department (TMD; กรมอุตุนิยมวิทยา); distributed by the Hydro-Informatics Institute (HII) ThaiWater public API. Snapshot retrieved 2026-11-03T18:35:46.967Z.",
+        "limitations": [
+          "Snapshot only: the value changes every few minutes as new telemetry arrives.",
+          "Unvalidated real-time telemetry; gauge faults, outages or zero-filled values are possible.",
+          "Rolling 24 h window; differs from the TMD climatological day (07:00–07:00 local).",
+          "Station coordinates are as published by the operating agency (no geocoding by this project)."
+        ]
+      }
+    },
+    "observedAt": "2026-11-03T22:00:00+07:00"
+  }
+]

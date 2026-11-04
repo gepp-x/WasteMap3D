@@ -1,0 +1,247 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-03T23:05:10Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 297328621,
+  "lat": 7.0074644,
+  "lon": 100.4689889,
+  "tags": {
+    "admin_level": "7",
+    "capital": "6",
+    "country": "Thailand",
+    "is_in": "Songkhla, Thailand",
+    "is_in:country": "Thailand",
+    "name": "หาดใหญ่",
+    "name:de": "Hat Yai",
+    "name:en": "Hat Yai",
+    "name:et": "Hat Yai",
+    "name:ja": "ハートヤイ",
+    "name:kn": "ಹಾತ್ ಯೈ",
+    "name:ru": "Хатъяй",
+    "name:th": "หาดใหญ่",
+    "name:uk": "Хатяй",
+    "name:zh": "合艾市",
+    "official_name": "เทศบาลนครหาดใหญ่",
+    "place": "city",
+    "population": "156802",
+    "website": "https://www.hatyaicity.go.th/",
+    "wikidata": "Q651286",
+    "wikipedia": "en:Hat Yai"
+  }
+},
+{
+  "type": "node",
+  "id": 4367168697,
+  "lat": 6.9972794,
+  "lon": 100.4566598,
+  "tags": {
+    "amenity": "doctors",
+    "name": "ศูนย์สุขภาพชุมชนวัดท่าเคียน",
+    "name:th": "ศูนย์สุขภาพชุมชนวัดท่าเคียน"
+  }
+},
+{
+  "type": "node",
+  "id": 4367170491,
+  "lat": 6.9969764,
+  "lon": 100.4631368,
+  "tags": {
+    "amenity": "doctors",
+    "name": "ศูนย์สาธารณสุขมูลฐานชุมชนชุมชนไทยโฮเต็ล",
+    "name:th": "ศูนย์สาธารณสุขมูลฐานชุมชนชุมชนไทยโฮเต็ล"
+  }
+},
+{
+  "type": "node",
+  "id": 4465620010,
+  "lat": 6.9954691,
+  "lon": 100.4460018,
+  "tags": {
+    "name": "บ้านหน้าควน",
+    "name:en": "Ban Nakuan",
+    "place": "village",
+    "source": "https://data.go.th"
+  }
+},
+{
+  "type": "node",
+  "id": 4465649858,
+  "lat": 7.0448027,
+  "lon": 100.5014048,
+  "tags": {
+    "name": "บ้านคลองเปล",
+    "name:en": "Ban Khlong Ple",
+    "place": "village",
+    "source": "https://data.go.th"
+  }
+},
+{
+  "type": "node",
+  "id": 4466209889,
+  "lat": 7.0459902,
+  "lon": 100.4767981,
+  "tags": {
+    "name": "บ้านคลองแห",
+    "name:en": "Ban Klong Hae",
+    "place": "village",
+    "source": "https://data.go.th"
+  }
+},
+{
+  "type": "node",
+  "id": 4467282116,
+  "lat": 7.0405448,
+  "lon": 100.4539412,
+  "tags": {
+    "name": "บ้านท่าไทร",
+    "name:en": "Ban Ta Sai",
+    "place": "village",
+    "source": "https://data.go.th"
+  }
+},
+{
+  "type": "node",
+  "id": 4469522820,
+  "lat": 7.0118146,
+  "lon": 100.4411855,
+  "tags": {
+    "name": "บ้านบางแฟบ",
+    "name:en": "Ban Bang Faep",
+    "place": "village",
+    "source": "https://data.go.th"
+  }
+},
+{
+  "type": "node",
+  "id": 4506591356,
+  "lat": 7.0318229,
+  "lon": 100.4408950,
+  "tags": {
+    "name": "บ้านโคกเมา",
+    "name:en": "Ban Kok Mao",
+    "place": "village",
+    "source": "https://data.go.th"
+  }
+},
+{
+  "type": "node",
+  "id": 4508486337,
+  "lat": 7.0440490,
+  "lon": 100.4316596,
+  "tags": {
+    "name": "บ้านดินลาน",
+    "name:en": "Ban Din Lan",
+    "place": "village",
+    "source": "https://data.go.th"
+  }
+},
+{
+  "type": "node",
+  "id": 5016120326,
+  "lat": 7.0105978,
+  "lon": 100.4856934,
+  "tags": {
+    "addr:housenumber": "soi 4",
+    "addr:postcode": "90110",
+    "addr:street": "ถนนคลองเรียน 1",
+    "amenity": "community_centre",
+    "name": "ศูนย์ปฏิบัติธรรมหาดใหญ่",
+    "name:en": "hatyai meditation center"
+  }
+},
+{
+  "type": "node",
+  "id": 7366568632,
+  "lat": 7.0450206,
+  "lon": 100.4752632,
+  "tags": {
+    "admin_level": "7",
+    "name": "คลองแห",
+    "name:en": "Khlong Hae",
+    "official_name": "เทศบาลเมืองคลองแห",
+    "place": "town"
+  }
+},
+{
+  "type": "node",
+  "id": 7366568635,
+  "lat": 7.0292423,
+  "lon": 100.4914663,
+  "tags": {
+    "admin_level": "7",
+    "name": "คอหงส์",
+    "name:en": "Kho Hong",
+    "official_name": "เทศบาลเมืองคอหงส์",
+    "place": "municipality",
+    "wikidata": "Q28779287"
+  }
+},
+{
+  "type": "node",
+  "id": 14344315857,
+  "lat": 7.0229981,
+  "lon": 100.4951099,
+  "tags": {
+    "name": "Suchada A-Town 4",
+    "name:th": "สุชาดา เอ ทาวน์ 4",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "way",
+  "id": 243188793,
+  "center": {
+    "lat": 7.0142199,
+    "lon": 100.4518841
+  },
+  "tags": {
+    "place": "islet"
+  }
+},
+{
+  "type": "way",
+  "id": 858854603,
+  "center": {
+    "lat": 7.0070815,
+    "lon": 100.4994632
+  },
+  "tags": {
+    "name": "Banburi squre",
+    "name:th": "ลานบานบุรี",
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 860359360,
+  "center": {
+    "lat": 7.0075047,
+    "lon": 100.4995081
+  },
+  "tags": {
+    "place": "square"
+  }
+},
+{
+  "type": "way",
+  "id": 1533149184,
+  "center": {
+    "lat": 7.0527088,
+    "lon": 100.4620416
+  },
+  "tags": {
+    "name": "เดอะคีย์ คลองแห",
+    "name:en": "The Key Khlong Hae",
+    "place": "neighbourhood"
+  }
+}
+
+  ]
+}

@@ -1,0 +1,161 @@
+[
+  {
+    "id": "bma-dds-drainage-tunnels",
+    "nameTh": "ข้อมูลทางกายภาพและตำแหน่งของอุโมงค์ระบายน้ำ",
+    "nameEn": "BMA open data (CKAN) dataset “water-drainage-tunnel”",
+    "url": "https://data.bangkok.go.th/dataset/water-drainage-tunnel",
+    "publisher": "กรุงเทพมหานคร — สํานักการระบายน้ำ",
+    "license": "License not specified",
+    "retrievedAt": "2026-11-04T01:46:43.603Z",
+    "accessStatus": "retrieved",
+    "notes": "DDS drainage tunnels: capacity, diameter, length, service area, districts, status. No coordinates published → staged only. CKAN metadata_modified 2023-10-05T02:43:09.496782; CSV resource https://data.bangkok.go.th/dataset/06de41a0-5b95-4575-a093-b2efeb965e31/resource/0ce8456f-d503-4d62-b7f0-df725048317e/download/.csv."
+  },
+  {
+    "id": "bma-dds-pump-sumps",
+    "nameTh": "ข้อมูลทางกายภาพและตำแหน่งของบ่อสูบน้ำ",
+    "nameEn": "BMA open data (CKAN) dataset “pumping-stations”",
+    "url": "https://data.bangkok.go.th/dataset/pumping-stations",
+    "publisher": "กรุงเทพมหานคร — สํานักการระบายน้ำ",
+    "license": "License not specified",
+    "retrievedAt": "2026-11-04T01:46:44.901Z",
+    "accessStatus": "retrieved",
+    "notes": "DDS drainage pump sumps (บ่อสูบน้ำ) with capacity (sump_capacity, m³/s inferred) and coordinates. Contains two releases: 2022-04-30 (WGS84 lat/long, 312 rows, used) and 2020-05-25 (UTM 47N metres in the lat/long columns, not merged). CKAN metadata_modified 2023-10-05T02:49:48.978249; CSV resource https://data.bangkok.go.th/dataset/ad66374c-284d-4757-917a-84787194e81b/resource/f358429c-add1-4510-8720-472f3acefbd0/download/.csv."
+  },
+  {
+    "id": "bma-dds-water-station",
+    "nameTh": "ข้อมูลทางกายภาพและตำแหน่งของสถานีสูบน้ำและประตูระบายน้ำ",
+    "nameEn": "BMA open data (CKAN) dataset “water-station”",
+    "url": "https://data.bangkok.go.th/dataset/water-station",
+    "publisher": "กรุงเทพมหานคร — สํานักการระบายน้ำ",
+    "license": "License not specified",
+    "retrievedAt": "2026-11-04T01:46:42.247Z",
+    "accessStatus": "retrieved",
+    "notes": "DDS inventory of pump stations (gp_type 'บ่อสูบน้ำ') and floodgates ('ประตูระบายน้ำ') with coordinates. Column gp_gate holds the total pumping capacity (m³/s) — inferred: equals Σ(count×unit capacity) of the gp_pump breakdown in nearly all rows (see report). CKAN metadata_modified 2023-10-05T03:02:07.770109; CSV resource https://data.bangkok.go.th/dataset/22475fbb-18ef-4705-9ce2-53f4907394e7/resource/0d645a7e-50f4-4c4f-ad1c-19db560b29c8/download/-.csv."
+  },
+  {
+    "id": "bma-gis-floodgate",
+    "nameTh": "ที่ตั้งประตูระบายน้ำในพื้นที่กรุงเทพมหานคร",
+    "nameEn": "BMA open data (CKAN) dataset “floodgate”",
+    "url": "https://data.bangkok.go.th/dataset/floodgate",
+    "publisher": "กรุงเทพมหานคร — กองยุทธศาสตร์ดิจิทัล",
+    "license": "License not specified",
+    "retrievedAt": "2026-11-04T01:46:48.951Z",
+    "accessStatus": "retrieved",
+    "notes": "Same 237 floodgates as bma-dds-water-station (all names match). Cross-check only. CKAN metadata_modified 2024-06-07T21:02:56.841722; CSV resource https://data.bangkok.go.th/dataset/83ae5639-a37f-4e19-bd37-e1c97930f39d/resource/42948cf7-0759-4719-a32f-8eeabd89b8ee/download/floodgate.csv."
+  },
+  {
+    "id": "bma-gis-pump-station",
+    "nameTh": "ข้อมูลสถานีสูบน้ำ",
+    "nameEn": "BMA open data (CKAN) dataset “pumping-station”",
+    "url": "https://data.bangkok.go.th/dataset/pumping-station",
+    "publisher": "กรุงเทพมหานคร — กองยุทธศาสตร์ดิจิทัล",
+    "license": "License not specified",
+    "retrievedAt": "2026-11-04T01:46:46.265Z",
+    "accessStatus": "retrieved",
+    "notes": "Same 201 pump stations as bma-dds-water-station (all names match) republished by the BMA Digital Strategy Division (GIS portal). Cross-check only. CKAN metadata_modified 2024-06-07T21:04:50.472695; CSV resource https://data.bangkok.go.th/dataset/f482270f-04cf-4df1-a120-f808110a7a8a/resource/0a30a58c-213f-4aec-bf16-7dd7f61fb5fd/download/pump-station.csv."
+  },
+  {
+    "id": "bma-gis-pumpstation-2021",
+    "nameTh": "ที่ตั้งบ่อสูบน้ำในพื้นที่กรุงเทพมหานคร",
+    "nameEn": "BMA open data (CKAN) dataset “pumpstation”",
+    "url": "https://data.bangkok.go.th/dataset/pumpstation",
+    "publisher": "กรุงเทพมหานคร — กองยุทธศาสตร์ดิจิทัล",
+    "license": "License not specified",
+    "retrievedAt": "2026-11-04T01:46:47.545Z",
+    "accessStatus": "retrieved",
+    "notes": "Older (2021) GIS layer of 144 pump stations; superseded by the 2023 DDS inventory. Not merged. CKAN metadata_modified 2024-06-07T20:52:14.930544; CSV resource https://data.bangkok.go.th/dataset/82cb9fcc-ddea-436a-abfa-eb5dc9fc85fc/resource/53205669-40f9-4cb6-b902-7b8fbc945919/download/water-pump-station.csv."
+  },
+  {
+    "id": "hii-flood-2011-record",
+    "nameEn": "HII — Record of the great flood of 2011 (บันทึกเหตุการณ์มหาอุทกภัยปี 2554)",
+    "nameTh": "บันทึกเหตุการณ์มหาอุทกภัยปี 2554",
+    "url": "https://tiwrmdev.hii.or.th/current/menu.html",
+    "publisher": "Hydro-Informatics Institute (HII, สสน.)",
+    "license": "No licence stated; cite HII.",
+    "retrievedAt": "2026-11-04T01:50:44.462Z",
+    "accessStatus": "retrieved",
+    "notes": "Official HII event record. Bangkok facts quoted: rainfall (BMA DDS gauges), DDPM affected-area reports, Royal Thai Navy Hydrographic Department tide levels."
+  },
+  {
+    "id": "thaipbs-2026-09-26-bkk-48h-rain",
+    "nameEn": "Thai PBS, 26 Sep 2026 — Bangkok 48-hour rainfall nearly 300 mm; full pumping",
+    "url": "https://www.thaipbs.or.th/news/content/558595",
+    "publisher": "Thai PBS (reporting statements of the BMA governor)",
+    "license": "© Thai PBS; short quotations for citation only.",
+    "retrievedAt": "2026-11-04T01:52:25.598Z",
+    "accessStatus": "retrieved",
+    "notes": "Governor's statement at the BMA flood-control centre, 26 Sep 2026 06:30."
+  },
+  {
+    "id": "thaipbs-2026-09-26-bkk-50-districts",
+    "nameEn": "Thai PBS, 26 Sep 2026 — BMA extends the disaster-area declaration to all 50 districts",
+    "url": "https://www.thaipbs.or.th/news/content/558588",
+    "publisher": "Thai PBS (reporting a BMA announcement)",
+    "license": "© Thai PBS; short quotations for citation only.",
+    "retrievedAt": "2026-11-04T01:52:07.040Z",
+    "accessStatus": "retrieved",
+    "notes": "News report of the BMA Disaster Prevention and Mitigation Directorate announcement signed 26 Sep 2026, effective 25 Sep 2026."
+  },
+  {
+    "id": "thaipbs-2026-09-27-bkk-rain-report",
+    "nameEn": "Thai PBS, 27 Sep 2026 — BMA rainfall report 25–27 Sep 2026",
+    "url": "https://www.thaipbs.or.th/news/content/558661",
+    "publisher": "Thai PBS (reporting BMA DDS gauge rainfall)",
+    "license": "© Thai PBS; short quotations for citation only.",
+    "retrievedAt": "2026-11-04T01:52:26.984Z",
+    "accessStatus": "retrieved",
+    "notes": "BMA 24-hour (07:00–07:00) gauge maxima for 25→26 and 26→27 Sep 2026."
+  },
+  {
+    "id": "thaiwater-floodbkk-may2022",
+    "nameEn": "ThaiWater/HII — Flooding in Bangkok, 17–18 May 2022 (event summary)",
+    "nameTh": "บันทึกเหตุการณ์น้ำท่วมบริเวณกรุงเทพมหานคร ช่วงวันที่ 17-18 พฤษภาคม 2565",
+    "url": "https://www.thaiwater.net/uploads/contents/current/2022/FloodBKK_May2022/summary.html",
+    "publisher": "Hydro-Informatics Institute (HII) — Hydro DataSci Section",
+    "license": "No licence stated; cite ThaiWater/HII.",
+    "retrievedAt": "2026-11-04T01:51:34.720Z",
+    "accessStatus": "retrieved",
+    "notes": "Rainfall from BMA DDS daily gauges (07:00–07:00). The English paragraph states the window as 17 May 07:00 to 19 May 07:00 while the Thai paragraph says 17 May 07:00 to 18 May 07:00 (one day); the Thai original is used."
+  },
+  {
+    "id": "thaiwater-public-canal-waterlevel",
+    "nameTh": "คลังข้อมูลน้ำแห่งชาติ — ระดับน้ำคลอง สำนักการระบายน้ำ กทม. (canal_waterlevel)",
+    "nameEn": "HII ThaiWater public API — BMA canal water levels (canal_waterlevel)",
+    "url": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/canal_waterlevel",
+    "publisher": "Hydro-Informatics Institute (HII); originating agency: Drainage and Sewerage Department, Bangkok Metropolitan Administration (สำนักการระบายน้ำ กทม.)",
+    "license": "No licence stated on the public API or front-end; attribute ThaiWater/HII and BMA DDS.",
+    "retrievedAt": "2026-11-04T02:00:22.839Z",
+    "accessStatus": "retrieved",
+    "notes": "Public endpoint used by the www.thaiwater.net map ('ระดับน้ำคลอง'). canal_value = water level inside the canal / gate ('ระดับน้ำใน'), unit m MSL ('หน่วย : (ม.รทก.)' in the front-end popup). Snapshot fetched (HTTP 200)."
+  },
+  {
+    "id": "thaiwater-public-waterlevel",
+    "nameTh": "คลังข้อมูลน้ำแห่งชาติ (สสน.) — ระดับน้ำโทรมาตร (waterlevel_load)",
+    "nameEn": "HII ThaiWater public API — telemetered water levels (waterlevel_load)",
+    "url": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/waterlevel_load",
+    "publisher": "Hydro-Informatics Institute (HII, สสน.) — National Hydroinformatics Data Center; originating agencies HII, RID, etc.",
+    "license": "No licence stated on the public API or front-end; attribute ThaiWater/HII and the originating agency.",
+    "retrievedAt": "2026-11-04T02:00:22.170Z",
+    "accessStatus": "retrieved",
+    "notes": "Public, unauthenticated endpoint used by the www.thaiwater.net front-end (found in its JS bundle, cached at data/raw/thaiwater/app.chunk.js.txt). Latest reading per station, nationwide. Snapshot fetched (HTTP 200)."
+  },
+  {
+    "id": "worldbank-thai-flood-2011-full",
+    "nameEn": "World Bank (2012) — Thai Flood 2011 Rapid Assessment (full report, GFDRR)",
+    "url": "https://www.gfdrr.org/sites/default/files/publication/Thai_Flood_2011_2.pdf",
+    "publisher": "The World Bank / GFDRR",
+    "license": "World Bank copyright.",
+    "accessStatus": "failed",
+    "notes": "FAILED: HTTP 403. Full report PDF on gfdrr.org returned an HTTP 403 (bot protection) to the script's User-Agent; not bypassed. The overview edition is used instead."
+  },
+  {
+    "id": "worldbank-thai-flood-2011-overview",
+    "nameEn": "World Bank (2012) — Thai Flood 2011: Rapid Assessment for Resilient Recovery and Reconstruction Planning (Overview)",
+    "url": "https://data.opendevelopmentmekong.net/dataset/8853ede2-9c6f-4e5c-9b55-14bfb9a40071/resource/0b15648c-4e21-4240-97bb-385ac230f07f/download/698220wp0v10p106011020120box370022b.pdf",
+    "publisher": "The World Bank / GFDRR with the Royal Thai Government",
+    "license": "World Bank copyright; non-commercial use with attribution permitted.",
+    "retrievedAt": "2026-11-04T01:49:21.934Z",
+    "accessStatus": "retrieved",
+    "notes": "Overview edition (24 pp) downloaded from the Open Development Mekong library mirror; national scope."
+  }
+]

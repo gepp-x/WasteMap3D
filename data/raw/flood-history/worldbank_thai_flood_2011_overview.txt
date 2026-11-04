@@ -1,0 +1,984 @@
+=====PAGE 1=====
+Public Disclosure Authorized
+Public Disclosure Authorized Public Disclosure Authorized
+Public Disclosure Authorized
+Public Disclosure Authorized
+Public Disclosure Authorized
+Public Disclosure Authorized
+Public Disclosure Authorized
+Reconstruction Planning
+for Resilient Recovery and
+Rapid Assessment
+OVERVIEW
+=====PAGE 2=====
+undefined
+=====PAGE 3=====
+OVERVIEW
+Rapid Assessment
+for Resilient Recovery and
+Reconstruction Planning
+=====PAGE 4=====
+©2012 The World Bank
+The World Bank
+30th Floor, Siam Tower
+989 Rama 1 Road, Pathumwan
+Bangkok 10330, Thailand
+(66) 0-2686-8300
+www.worldbank.org/th
+This volume is a product of the staff of the World Bank with external contributions. The
+findings, interpretations, and conclusions expressed in this volume do not necessarily
+reflect the views of The World Bank, its Board of Executive Directors, or the
+governments they represent.
+The World Bank does not guarantee the accuracy of the data included in this work. The
+boundaries, colors, denominations, and other information shown on any map in this
+work do not imply any judgement on the part of The World Bank concerning the legal
+status of any territory or the endorsement or acceptance of such boundaries.
+Rights and Permissions
+The material in this publication is copyrighted. Copying and/or transmitting portions or
+all of this work without permission may be a violation of applicable law. The International
+Bank for Reconstruction and Development/The World Bank encourages dissemination of
+its work and will normally grant permission to reproduce portions of the work promptly.
+For permission to photocopy or reprint any part of this work, please send a request with
+complete information to the Copyright Clearance Center, Inc., 222 Rosewood Drive,
+Danvers, MA 01923, USA, telephone 978-750-8400, fax 978-750-4470,
+www.copyright.com.
+All other queries on rights and licenses, including subsidiary rights, should be addressed
+to the Office of the Publisher, The World Bank, 1818 H Street NW, Washington, DC
+20433, USA, fax 202-522-2422, e-mail pubrights@worldbank.org.
+Cover Photographer: Chaiwat Subprasom/Reuters
+=====PAGE 5=====
+FOREWORD
+In 2011, Thailand suffered its worst floods in more than half a century. Caused by
+excessive and continuous rainfall from successive, powerful monsoons and subsequent,
+numerous dam breaches, the floods inundated more than six million hectares of land in
+66 of the country’s 77 provinces, and affected more than 13 million people from July
+through December 2011.
+In response to the disaster, the Royal Thai Government established centralized flood
+monitoring and relief operations in mid-August, allocated extra flood-relief financial
+support to the affected provinces, and pledged investment in resilient recovery and
+reconstruction for all impacted sectors.
+In October, the Royal Thai Government, led by the Ministry of Finance, initiated an
+exercise to assess the economic and social impact of the floods and prepare recovery
+and reconstruction plans. This exercise was done in collaboration with the World Bank
+and various development partners. This Rapid Assessment for Resilient Recovery and
+Reconstruction Planning report is the result of the exercise which took place from
+November 4-25, 2011. Twenty-six of the country’s 66 affected provinces were included in
+the assessment, which examines 18 main sectors and used a comprehensive and
+internationally established methodology looking at damage and losses caused by the
+disaster. The report determines the country’s needs for post-disaster recovery and
+reconstruction and proposes short-, medium-, and long-term measures in each of the 18
+sectors for a sustainable post-disaster reconstruction program. Drawing on global good
+practices for disaster risk management and building-back-better strategies, the report
+also gives suggestions on how to improve the resilience of the country’s infrastructure
+and its communities to the impacts of disasters.
+This report was made possible through the concerted efforts of government agencies,
+private sector partners, civil society organizations, and development partners. The speed
+with which such a comprehensive report was prepared is testimony to the remarkable
+dedication of a broad range of agencies and individuals, who came together as a team
+with one serious task at hand; to help the government of Thailand and its people form a
+full picture of the situation and the challenges ahead. There are many agencies and
+individuals whose great contributions deserve acknowledgement. This report, and the
+experience of producing it, will provide a strong foundation for the continued efforts of
+the government to develop a framework for strategic and rapid responses to future
+disasters and the integration of disaster prevention and mitigation efforts into a range of
+development activities for the benefit of the people of Thailand and the country’s future
+economic growth and prosperity.
+Areepong Bhoocha-oom Annette Dixon
+Permanent Secretary Country Director, Thailand
+Ministry of Finance The World Bank
+On behalf of the International
+Development Partners
+THAI FlOOD 2011 RAPID ASSESSMENT FOR RESIlIENT RECOvERy AND RECONSTRUCTION PlANNING – ovERvIEW
+i
+=====PAGE 6=====
+Christophe Archambault/AFP/Getty Images
+=====PAGE 7=====
+CONTENTS
+Foreword i
+Acronyms iv
+The Disaster 01
+Economic and Social Impacts 02
+Damage, Losses and Needs Assessment 04
+Recovery and Reconstruction Strategy 05
+I Provide support to the affected population with a particular focus on 06
+vulnerable groups
+II Invest in a more climate resilient Thailand 08
+III Invest in the competitiveness of the country to support resilient recovery 09
+Acknowledgements 10
+=====PAGE 8=====
+ACRONyms
+BBB Build-Back-Better
+CSOs Civil Society Organizations
+DALA Damage, Losses and Needs Assessment
+EWS Early Warning System
+Fy Fiscal Year
+GDP Gross Domestic Product
+GPP Gross Provincial Product
+IWRM Integrated Water Resources Management
+NESDB National Economic and Social Development Board
+NGO Non-Governmental Organization
+THB Thai Baht
+USD United States Dollar
+iv THAI FlOOD 2011 RAPID ASSESSMENT FOR RESIlIENT RECOvERy AND RECONSTRUCTION PlANNING – ovERvIEW
+=====PAGE 9=====
+Figure 1.
+Map of the maximum
+extent of the floods:
+September – November
+2011
+OVERVIEW
+In response to the prolonged and
+widespread flooding throughout Thailand
+in 2011, the Royal Thai Government, in
+conjunction with the World Bank and
+other development partners, undertook
+this rapid assessment of the impact of the
+floods in 26 of the 66 affected provinces.
+This report outlines these findings,
+including damage and loss estimates,
+social and economic impacts, and
+proposes strategies for resilient recovery
+and reconstruction planning.
+The Disaster
+Heavy rain combined with multiple
+tropical storms throughout the extended
+rainy season played a large part in the
+extensive flooding. Flash floods were
+reported in several areas in the north in
+May, and tropical depression Haima
+arrived in June followed by Nock-Ten in
+July, the combination of which caused
+widespread flooding. The southwest
+monsoon in August-September and the
+northeast monsoon in October added to
+the flooding, which was making its way
+into the central plains, filling many major
+dams to capacity and causing breaches in
+10 major flood control structures. Some
+66 provinces were affected by severe,
+record-high flooding, including the
+Bangkok metropolitan area and its
+surrounding areas.1 By November more
+than 5.5 percent of the total landmass in
+the country had been inundated, and at
+the time of writing, approximately 11.2
+million rai (18,000 km2) of farmland
+Layer Sources: Admin. Boundaries (DIVA-GIS), Flood Extent Layers (GISTDA).
+Disclaimer: The borders and coutry names used are indicative and do not represent the views of The World Bank Group.
+1
+From Thailand’s Meteorological Department (http://www.tmd.go.th/en/event/flood_in_2011.pdf).
+THAI FlOOD 2011 RAPID ASSESSMENT FOR RESIlIENT RECOvERy AND RECONSTRUCTION PlANNING – ovERvIEW
+01
+=====PAGE 10=====
+Christophe Archambault/AFP/Getty Images
+remained under water.2 Overall, the floods
+affected more than 13 million people and
+resulted in more than 680 deaths.
+Economic and Social Impacts
+The total damage and losses from the
+2011 floods in Thailand amounted to
+THB 1.43 trillion (USD 46.5 billion), with
+losses accounting for 56 percent of the
+total. The manufacturing sector bore
+roughly 70 percent of the total damage
+and losses due to the flooding of six
+industrial estates in Ayuthaya and Pathum
+Thani from mid-October to November
+2011. Overall, approximately 90 percent
+of the damage and losses from the 2011
+floods were borne by the private sector.
+Rehabilitation and reconstruction needs3
+over the next two years and beyond are
+estimated at THB 1.5 trillion (USD 50
+billion). Approximately three-quarters of
+the needs will be borne by the private
+sector. The manufacturing sector’s needs
+account for 80 percent of the private
+sector needs. As for the government, the
+majority of needs are estimated to be for
+water resources management and for the
+rehabilitation of transportation facilities
+such as roads and bridges. Both
+commercial financial institutions and the
+government’s specialized financial
+institutions require approximately THB 411
+billion (USD 14 billion) in loans for
+rehabilitation and reconstruction.
+Based on the DALA methodology, it is
+estimated that the floods will reduce real
+GDP growth in 2011 by 1.1 percent from
+pre-flood projections. But the
+reconstruction that started in 2012 and
+will largely be completed by year-end is
+expected to increase real GDP growth in
+2012 by 1.7 percent. That is, real GDP
+growth in 2011 would fall from the
+NESDB’s pre-flood projection of 4.0
+percent to 2.9 percent. However, if
+reconstruction did not take place,
+projected real GDP would fall by THB 50
+billion (USD 1.7 billion) in 2012.
+2
+3
+UN Situation Report 14, dated December 8, 2011.
+Needs include not only building back a part or all of the damage in each sector, but reconstructing to a higher quality
+that is more weather resilient and/or has better technology.
+02
+THAI FlOOD 2011 RAPID ASSESSMENT FOR RESIlIENT RECOvERy AND RECONSTRUCTION PlANNING – ovERvIEW
+=====PAGE 11=====
+Figure 2.
+Methodology of study
+Damage, Losses and Needs Assessment (DALA) methodology
+Damage
+Losses
+•
+•
+•
+•
+•
+Destruction of physical assets
+Occurs immediately and can be built back
+Foregone production/income
+Higher expenditures
+Occurs over a period of time and cannot be recovered
+Total Effect = Damage + Losses
+The floods will negatively affect the
+current account in 2011 and 2012. In
+2011, exports fell by an estimated USD
+7.9 billion due to the floods hampering
+manufacturing firms’ production in the
+last quarter of 2011. The reduction in
+manufacturing, coupled with a significant
+fall in tourism revenues, meant the current
+account in 2011 was USD 11.9 billion,
+compared to a projected USD 20.6 billion
+had the floods not occurred. In 2012, the
+current account balance is estimated to
+be USD 12.4 billion, down from an earlier
+projection of USD 22.2 billion, mainly due
+to the increase in imports for
+reconstruction, estimated at USD 7.5
+billion, and a shrinking of exports by
+roughly USD 1.9 billion.
+Government revenue will be negatively
+affected most in 2011 due to
+interruptions in manufacturing and
+reduced consumption in the last quarter
+of the year. The estimated tax revenue
+loss is around THB 66.5 billion, or 3.7
+percent of the estimated pre-flood
+revenues. In 2012, the projected revenue
+losses of THB 52.6 billion – or 2.6 percent
+of pre-flood projected revenues – are
+mainly due to the continued low levels of
+manufacturing plus import tariff
+exemptions on capital goods for the
+replacement of manufacturing production
+machinery damaged by the floods.
+The government’s fiscal stance will allow
+it to meet rehabilitation and
+reconstruction needs. The government’s
+flood rehabilitation and reconstruction
+expenditure could amount to THB 389
+billion (USD 13 billion). The bulk of the
+needs will be in the period of 6-24 months
+after the floods have receded, when most
+of the reconstruction is expected to take
+place. In FY 2013, government
+expenditure could amount to almost 11
+percent of its revenue. To be able to
+finance such expenditure, the government
+will need to both prioritize spending and
+borrow additional resources to fund the
+required reconstruction needs. It should
+be noted that, under the current public
+debt law, the government still has enough
+headroom to fund these additional
+expenditures.
+Poor and marginalized households were
+heavily affected and livelihoods severely
+disrupted. At least THB 110 billion in
+wages have been lost due to the floods
+and a large proportion of these losses
+occurred within vulnerable populations
+with limited social protection. Total income
+loss from the beginning of the flood to
+2014 is estimated to be around THB 129
+billion. Highly affected wage-paying
+sectors are wholesale and retail trade and
+repairs, hotels and restaurants, and
+financial intermediation, which are all
+labor-intensive sectors, with losses
+totaling THB 25 billion.
+Livelihoods have been severely
+disrupted in both rural and urban areas.
+Urban poor groups and tree crop farmers
+in rural areas emerged as some of the
+most affected groups. Agricultural
+laborers and daily wage earners in urban
+poor areas have been severely affected
+with their income generation activities
+THAI FlOOD 2011 RAPID ASSESSMENT FOR RESIlIENT RECOvERy AND RECONSTRUCTION PlANNING – ovERvIEW
+03
+=====PAGE 12=====
+Disaster Effects Ownership
+Sub Sector Damage Losses Total Public Private
+Table 1.
+Summary of damage
+and losses by sector in
+Thai baht, millions
+Infrastructure
+Water Resources Management 8,715
+–
+8,715 Transport 23,538 6,938 30,476 Telecommunication 1,290 2,558 3,848 Electricity 3,186 5,716 8,901 Water Supply and Sanitation 3,497 1,984 5,481 8,715
+–
+30,326 150
+1,597 2,251
+5,385 3,517
+5,481
+Production
+Agriculture, Livestock and Fishery 5,666 34,715 40,381
+Manufacturing 513,881 493,258 1,007,139
+Tourism 5,134 89,673 94,808 Finance and Banking
+–
+115,276 115,276 –
+40,381
+–
+1,007,139
+403 94,405
+74,076 41,200
+Social
+Health 1,684 2,133 3,817 Education 13,051 1,798 14,849 Housing 45,908 37,889 83,797
+Cultural Heritage 4,429 3,076 7,505 1,627 2,190
+10,614 4,235
+–
+83,797
+3,041 4,463
+Cross Cutting
+Environment 375 176 551 212 339
+TOTAL 630,354 795,191 1,425,544 141,477 1,284,066
+Source: DALA estimates, NESDB, and Ministry of Industry.
+Note: losses for each sector include higher expenditures due to floods.
+temporarily suspended. In addition,
+alternative, short-term, informal work
+opportunities are difficult to find.
+Resorting to borrowing both for basic
+expenditures seems, therefore, to have
+been a widespread coping strategy in
+both rural and urban areas. The majority
+of rural farming households have loans
+with the Bank for Agriculture and
+Agricultural Cooperatives. With harvests
+lost and significant additional investments
+required to re-establish their livelihoods,
+farmers are concerned that they will
+default on their loans and thus will not be
+able to borrow further. For the urban poor,
+loss of earning opportunities has been
+compounded by limited access to formal
+sources of credit due to collateral
+requirements and a lack of steady income.
+The only sources of funds available to
+these groups are informal lenders, who
+charge extremely high interest rates (as
+much as 20 percent daily).
+Damage, Losses and Needs
+Assessment
+The rapid assessment estimated
+damage, losses and needs for
+reconstruction and recovery. Damage
+refers to direct impacts on physical
+assets, products, raw materials,
+machinery, and properties. Losses refer to
+reduced or lost production opportunities,
+i.e. loss of income, reduced production
+efficiency, and increasing expenditures
+over a period of time. Reconstruction and
+recovery needs are projected from the
+damage estimates, and are counted as
+additional economic activities in the
+macroeconomic assessment. The
+estimated damage and losses total
+approximately THB 1.43 trillion (USD 46.5
+billion – Table 1). The damage to physical
+assets amount to THB 630.3 billion (USD
+21 billion), where associated losses in
+economic activities add up to about THB
+795 billion (USD 26.5 billion). It should be
+04
+THAI FlOOD 2011 RAPID ASSESSMENT FOR RESIlIENT RECOvERy AND RECONSTRUCTION PlANNING – ovERvIEW
+=====PAGE 13=====
+noted that these estimates assume losses
+will occur over the three-year period of
+2011-2013.
+The floods impacted heavily on the
+private sector, particularly manufacturing.
+Manufacturing makes up about 38.5
+percent of Thailand’s GDP and is one of
+the main drivers of Thailand’s exports. The
+majority (around 70 percent in GPP values)
+of manufacturers are located in five
+flood-affected provinces, namely Bangkok,
+Ayuthaya, Nakhon Sawan, Pathum Thani,
+and Samut Sakhon. Tourism, housing and
+the financial sector were also heavily
+affected. Though there was some
+damage to tourism infrastructure, the
+greatest impact came from losses in
+revenue from accommodation,
+transportation, shopping, food and
+beverages, entertainment and
+sightseeing. In housing, some 1.9 million
+houses were affected with about 19,000
+homes destroyed. But the greatest
+damage was to household goods.
+Damage in the housing sector were the
+second largest – after manufacturing –
+with comparable losses as a proportion of
+damage. The financial sector incurred
+very little damage, but will be heavily
+impacted by losses during the
+reconstruction period in which there will
+be a substantial need for the extension of
+credit repayment plans, and new credit
+line extensions.
+Recovery and reconstruction needs are
+estimated to be THB 1.5 trillion (USD 50
+billion) over a five-year period. THB 413
+billion (USD 13.7 billion) is needed for
+immediate recovery, whilst more than half
+of the total needs (THB 927 billion or
+USD 31 billion) will be spent in the
+medium-term. More than 70 percent of
+needs (THB 1.1 trillion or USD 37 billion)
+are in the private sector. Within the private
+sector, the manufacturing sector accounts
+for around 77 percent of the rehabilitation
+needs as it incurred most of the damage.
+Recovery and Reconstruction
+Strategy
+The 2011 floods were a powerful and
+intense force of nature that had a huge
+impact on the lives of many. The floods
+caused widespread damage and losses
+World Bank
+=====PAGE 14=====
+that have contributed to a decline in
+productivity; but they also offer
+opportunities for advancement and
+growth. If planned effectively, the recovery
+and reconstruction program could offer
+opportunities to rebuild better, taking
+advantage of economically productive
+options. Below, recommendations from
+the sectoral assessment teams have been
+grouped into three overarching areas that
+broadly encompass the findings and
+recommendations of the rapid assessment.
+Detailed recommendations by sector can
+be found in the sectoral chapters.
+I Provide support to the affected
+population with a particular focus on
+vulnerable groups
+Providing support to the affected
+populations (and to vulnerable groups in
+particular) to help prevent further
+indebtedness and allow people to resume
+normal livelihood activities is the
+immediate priority. Key guiding principles
+of equity, beneficiary/community
+participation, transparency and
+accountability should inform the
+implementation of these recovery
+programs. The development of a robust
+monitoring and evaluation system will be
+essential to assess progress and take
+corrective action where needed. The
+proposed rapid response is expected to
+cover vulnerable and marginalized
+households with limited sources of
+income and no ability to participate in
+Table 2.
+Total public and private
+needs for rehabilitation
+and reconstruction in
+Thai baht, millions
+Needs Needs
+Sub Sector Public Private Total ~6 mths 6-24 mths > 24 mths Total
+Infrastructure
+Water Resources Management 54,075 15,000 69,075 Transport 23,583
+–
+Telecommunication 2,026 2,052 4,078 Electricity 5,625
+–
+Water Supply and Sanitation 5,633
+–
+23,538 5,625 5,633 3,023 15,462 50,590 69,075
+6,866 14,376 2,296 23,538
+1,675 1,422 980 4,078
+899 3,037 1,689 5,625
+2,997 2,635
+–
+5,633
+Productive
+Agriculture, Livestock and Fishery 4,570
+–
+4,570 Manufacturing
+–
+854,356 854,356 Tourism 3,218 2,186 5,466 Finance and Banking 234,520 176,919 411,439 3,425 1,125 20 4,570
+172,640 668,045 13,671 854,356
+4,343 1,123
+–
+5,466
+170,140 187,907 53,392 411,439
+Social
+Health 2,318
+–
+2,318 Social 20,700
+–
+20,700 Education 13,343
+–
+13,343 Housing 5,110 46,870 51,980 Cultural Heritage 7,514 2,640 10,153 1,128 870 319 2,318
+13,300 7,400
+–
+8,045 5,298
+–
+14,990 12,510 24,480 51,980
+6,183 3,971
+–
+20,700
+13,343
+10,153
+Cross Cutting
+Environment 6,181 2,004 8,184 3,724 1,619 2,841 8,184
+TOTAL 388,431 1,102,027 1,490,458 413,378 926,801 150,278 1,490,458
+Private needs Public needs as % post-flood revenues 304,012 681,587 116,428 1,102,027
+109,366 245,214 33,850 388,431
+5.5 10.8 1.4
+Source: DALA.
+Note: The needs of the manufacturing sector include loans from the finance and banking sector of around THB 160 billion. Similarly, the needs of the agricultural sector will be
+mostly financed through loans from the Bank for Agriculture and Agricultural Cooperatives (BAAC). The needs of these two sectors are also included in the finance and banking
+sector needs. Loan needs of the other sectors are not included in their respective sectors, but are only counted in the finance and banking sector’s needs.
+06
+THAI FlOOD 2011 RAPID ASSESSMENT FOR RESIlIENT RECOvERy AND RECONSTRUCTION PlANNING – ovERvIEW
+=====PAGE 15=====
+Figure 3.
+Deriving needs from
+damage and losses Damage Reconstruction Strategy
+Quality/Techno Improvement
+Mitigation Costs
+Relocation Costs
+Multi-Annual Inflation
+Reconstruction Program
+Financing Needs
+Reconstruction priorities:
+•
+Sector
+•
+Geographical
+•
+Population groups
+labor-based recovery and reconstruction
+intervention (including the elderly, sick,
+people with disabilities and children).
+It would also address the needs of those
+in both urban and rural areas that suffered
+heavy losses during the flooding.
+Additional social assistance should be put
+in place to: i) provide one-off
+supplemental cash transfers to poor
+affected households (THB 4,000 per
+household); and ii) provide additional
+income support for the elderly and people
+with disabilities for approximately three
+months (increase from THB 500 to 1,000).
+In addition, labor-intensive public works
+programs with a strong community
+participation component would provide
+much-needed additional income for those
+able to work; priority would be given to
+vulnerable and marginalized groups
+including migrant workers. Finally,
+addressing the need for credit at
+specialized financial institution (SFI) rates
+for the urban and rural poor will be critical
+in the recovery process to prevent
+escalating levels of debt (particularly for
+those borrowing from informal money
+lenders). This could be achieved through
+non-profit organizations and by expanding
+the membership of community-based
+savings groups.
+Providing recovery assistance to the
+recovering productive sectors such as
+agriculture, SMEs and other businesses
+will facilitate the rapid restoration of
+business. The cash-for-work programs
+mentioned above can couple the
+compensation with employment
+opportunities, benefit communities and
+businesses with cleanup and restoration
+of infrastructure. In the agriculture sector,
+equitable compensation to affected
+farmers and the rapid distribution of
+quality inputs, while closely monitoring the
+effectiveness of the distribution
+system, along with the alleviation of
+financial pressures through debt
+suspensions and extending loans, can
+support heavily-affected families and
+facilitate the resumption of profitable
+activities in this principal productive
+sector. Repairing damaged infrastructure
+would be a pre-condition for resuming
+activities in the productive sectors, for
+which access to financial services will
+be required.
+Ensure a comprehensive social
+accountability framework is in place for
+the recovery effort, particularly given the
+emerging tensions observed in
+communities (THB 0.1 billion). Some key
+features of the proposed system include:
+i) ensuring information on available
+programs, resources and levels of
+assistance are made public and
+accessible to beneficiaries on a timely
+basis through appropriate channels and
+that a complaints mechanism is
+established; ii) that stringent community
+validation processes are used to confirm
+lists of eligible beneficiaries for the
+measures proposed above (in particular
+for the targeting of cash transfers and
+selection of participants in public work
+schemes); and iii) that partnerships with
+civil society organizations, research
+institutions and the media are established
+for effective third party monitoring of the
+recovery effort.
+A strong communications strategy
+with clear lines of communication and
+timely information dissemination is a vital
+component in any effective recovery and
+reconstruction strategy. Strong
+communications, itself, is a form of aid in
+that it helps people understand who, what,
+how and where to access the support
+available to help get their lives back on
+track. Strategic communication also helps
+build consensus among major
+stakeholders, including different levels of
+THAI FlOOD 2011 RAPID ASSESSMENT FOR RESIlIENT RECOvERy AND RECONSTRUCTION PlANNING – ovERvIEW
+07
+=====PAGE 16=====
+government, communities, and the private
+sector; this will take mere ideas related
+to recovery support programs, policy
+initiatives, financial access, and technical
+assistance to the next level of successful
+implementation with widespread coverage
+and support.
+II Invest in a more climate resilient
+Thailand
+Creating a more climate resilient Thailand
+will require a range of measures, only
+some of which are highlighted here.
+Strengthen flood management through
+integrated water resources management
+as a key step towards water management
+for consumption, productive use and
+disaster risk management related to
+droughts, floods and tropical storms. The
+concept of integrated water resources
+management (IWRM), founded on the river
+basin model, exists in the Thai framework,
+but would benefit from improvements,
+and strengthening and streamlining IWRM
+throughout sectoral planning and
+programming. A panel of local and
+international flood experts could: i) review
+and analyze the 2011 flood event; and
+ii) provide recommendations to the
+Strategic Committee on Water
+Management to ensure that lessons learnt
+in 2011 are integrated into any strategic
+plans going forward. In addition, reviewing
+and passing the pending water bill and
+appointing a high-level ‘champion’ for
+the IWRM model would give it the political
+power required to effectively
+institutionalize IWRM throughout
+development planning.
+Key structural recommendations for flood
+management prioritize the immediate
+rehabilitation of hydraulic assets and an
+increase in drainage capacity. Ensuring
+regular maintenance of these assets in
+the future will improve the efficiency and
+extend the life of flood management
+infrastructure. Undertaking a design
+review of critical flood embankments,
+and carrying out dam safety reviews
+immediately are integral to ensuring the
+safety of flood control structures going
+into the next rainy season. The Royal
+Initiative for Flood Management suggests
+a rethink on flood barriers that would
+allow more space for water and rivers to
+expand during peak water periods – a
+measure that must carefully consider
+social impacts and land use
+compensation. Investment in small- and
+medium-sized water reservoirs upstream
+and implementing community watershed
+management programs would also
+improve flood management capacity.
+Understanding the nature of disaster
+risks through hazard mapping is of
+paramount importance for disaster risk
+management and disaster resilient
+development planning, and requires a
+detailed mapping and modeling exercise
+that includes climate change projections.
+The key is really to understand the nature
+and geographical distribution of risk and
+expected damage and to incorporate
+these risks into planning, design, and
+specifications of infrastructure assets.
+Making these risk maps available to the
+public in conjunction with training can
+improve general understanding and is the
+first step towards planning a strong
+disaster risk management strategy.
+Establishing an effective early warning
+system (EWS) is a vital tool for mitigating
+the impacts of disasters. An effective
+EWS must be based on high-quality,
+real-time data gathered from detailed
+hazard mapping that takes into account
+geographic and infrastructure
+characteristics, and historical disaster
+information. An EWS can be established
+over time, starting with the most deadly or
+costly disasters before integrating all
+other disasters. This comprehensive
+approach will ensure an effective, efficient
+system that provides clear messaging
+that the public can trust.
+Infrastructure should be built-back-
+better (BBB), stronger and safer than it
+was before the flood in order to ensure
+households and businesses are more
+resilient to future disasters. The housing
+and heritage sector assessments
+highlighted useful lessons from traditional
+houses and structures that fared better in
+this flood than some of the more modern
+homes, whilst the flood control chapter
+highlighted the need for stronger dikes
+around the industrial estates that will be
+08
+THAI FlOOD 2011 RAPID ASSESSMENT FOR RESIlIENT RECOvERy AND RECONSTRUCTION PlANNING – ovERvIEW
+=====PAGE 17=====
+integral to mitigating such severe losses
+in this sector in the future. The BBB
+principle holds true for all sectors that
+have damaged infrastructure.
+Disseminating targeted, technical
+information to community groups, CSOs,
+businesses, industry, the public and
+individual home owners will help people
+understand best practice, and what can
+feasibly be done with the support the
+government is offering and with their
+limited means. If any hazard mapping
+information is made available during this
+reconstruction phase, these inputs
+should be included as an integral part of
+this process.
+III Invest in the competitiveness
+of the country to support resilient
+recovery
+Take advantage of the opportunities the
+reconstruction period presents. Despite
+its negative impacts on loss of lives and
+the economy, this reconstruction-planning
+period also represents a strategic
+opportunity for the country to rethink
+development priorities and create
+momentum to address some of the
+long-standing structural issues that may
+have remained unaddressed. This turns
+crisis into opportunity, and paves the way
+for a range of improvements to the legal
+framework and economic options for the
+country. Some of these opportunities
+include reviewing land use planning,
+which has the potential to improve
+Thailand’s economic planning,
+development strategies and
+environmental management, thereby
+reducing vulnerability to hazards and
+mitigating social conflict. The tourism
+industry has the potential to come back
+stronger than before with strong
+promotional campaigns, refurbishment
+and regeneration of cultural heritage
+attractions, and the opportunity to
+re-examine priorities for strategic
+positioning and future growth. In the
+agriculture sector, investing in research
+and development (R&D) to improve yield
+and quality of floating rice – which is less
+vulnerable to flood risk than
+short-duration rice – and intensification of
+crop varieties could improve overall
+competitiveness of farmers in
+flood-prone areas. Climate-friendly
+investments through BBB strategies could
+improve energy-efficient equipment and
+technologies which could reduce energy
+consumption and operating costs in the
+long run. Finally, the insurance sector has
+an opportunity to profit from the current
+situation through expanding its insurance
+products, including weather insurance
+and agricultural insurance products.
+THAI FlOOD 2011 RAPID ASSESSMENT FOR RESIlIENT RECOvERy AND RECONSTRUCTION PlANNING – ovERvIEW
+09
+=====PAGE 18=====
+AckNOWLEDgemENTS
+This Rapid Assessment was conducted by a multi-partner team that was led by the
+Ministry of Finance of the Royal Thai Government and the World Bank. Special thanks
+go to GFDRR, the Grand Duchy of Luxembourg and the World Bank for their financial
+assistance that enabled the Rapid Assessment to take place.
+The Ministry of Finance coordination team consisted of Areepong Bhoocha-oom,
+Pongpanu Svetarundra, Amnuay Preemanawong, Chor. Nan Phetpaisit, Churarat
+Suthithorn, Kulit Sombatsiri, Krissada Uthayanin, Prasit Suebchana, Suwit
+Rojanavanich, Sirisak Harabutra, Panadda Puangrub, Chunhachit Sungmai, Kulasake
+Limpiyakorn, Seksun Ngawsuwan, Upama Jaihong, Komanwan Sirlup, Trilada
+Thamadisai and Benjarat Tanongsakmontri. Special thanks to a coordinator team from
+the Comptroller General’s Department which includes Apilarp Hengprasert, Chalermrat
+Ruangwarakom, Chanin Kurin, Chayanit Kongdang, Jirapa Sa-nguanpong, Nachapa
+Phuttarudeesuk, Namphet Wongpratheep, Napapun Ketnin, Nattasoonthorn
+Nilthongkum, Nitiyaporn Imjai, Papasinee Klowutthisatern, Phanumet Pornsrianan,
+Pornrudee Wuttipanyarattanakul, Raticha Chartapichai, Rungnapa Suteebut, Saree
+Kaewmet, Sawitree Petchrak, Sinchai Ngampichaya, Somphol Limpamalaiphorn, Somsri
+Pherngpha, Sujera Khamkhar, Sunisa Sapsart, Suthisa Jarumethavit, Suttirat
+Rattanachot, Thanachoke Rungthipanon, Theerawadee Chomputtha, Wanwisa
+Wisetchatkul, Worasit Prachanpol, and Yupaporn Kultangwatana.
+The World Bank coordination team consisted of Annette Dixon, Jeeva
+Perumalpillai-Essex, Julia M. Fraser, Abhas Jha, Waraporn Hirunwatsiri (Task Team
+Leader), Henrike Brecht, Kirida Bhaopichitr, Chanin Manopiniwes, Chutima
+Lowattanakarn, Pajnapa Peamsilpakulchorn, Rachel Cipryk, and Vachraras Pasuksuwan.
+The report was compiled and edited by Rachel Cipryk. Roberto Jovel, Ahmad Zaki
+Fahmi, and Rami Quttaineh gave guidance on the DALA methodology.
+The Rapid Assessment teams comprised members from line ministries in the Royal Thai
+Government and the international and local organizations in which their names are listed
+here according to the sector teams.
+Agriculture Sector comprised Bank for Agriculture and Agricultural Cooperatives (BAAC),
+Food and Agriculture Organization of the United Nations (FAO), Geo-Informatics and
+Space Technology Development Agency (GISTDA), Kasetsart University, Office of
+Agricultural Economics (OAE), and Thailand Development Research Institute (TDRI) as a
+team leader.
+Cultural Heritage Sector comprised Asian Disaster Preparedness Center (ADPC),
+Geo-Informatics and Space Technology Development Agency (GISTDA), International
+Council on Monuments and Sites (ICOMOS), United Nations Educational, Scientific and
+Cultural Organization (UNESCO), and the World Bank as a team leader.
+Disaster Risk Management Sector comprised Department of Disaster Prevention and
+Mitigation (DDPM), and United Nations Development Programme (UNDP) and the World
+Bank as joint team leaders.
+Education Sector comprised Bangkok Metropolitan Administration (BMA), Ministry of
+Education (MOE), SEAMEO Regional Center for Higher Education Development, United
+Nations Children’s Fund (UNICEF), and the World Bank as a team leader.
+10 THAI FlOOD 2011 RAPID ASSESSMENT FOR RESIlIENT RECOvERy AND RECONSTRUCTION PlANNING – ovERvIEW
+=====PAGE 19=====
+Energy Sector comprised Electricity Generating Authority of Thailand (EGAT), Energy
+Policy and Planning Office (EPPO), Metropolitan Electricity Authority (MEA), Provincial
+Electricity Authority (PEA), and the World Bank as a team leader.
+Environment Sector comprised Ministry of Natural Resources and Environment (MNRE),
+Bangkok Metropolitan Administration (BMA), Department of National Parks, Wildlife and
+Plant Conservation (DNP), Mahidol University, Office of Natural Resources and
+Environment Policy and Planning (ONEP), Pollution Control Department (PCD), Thailand
+Development Research Institute (TDRI), United Nations Environment Program (UNEP),
+and the World Bank as a team leader.
+Financial Sector comprised Bank for Agriculture and Agricultural Cooperatives (BAAC),
+Bangkok Bank, Bank of Thailand (BOT), Cooperative Promotion Department, Fiscal
+Policy Office (FPO), Government Housing Bank (GHB), Government Saving Bank (GSB),
+National Village and Urban Community Fund Office, Office of Insurance Commission
+(OIC), Public Debt Management Office (PDMO), Securities and Exchange Commission
+(SEC), Stock Exchange of Thailand (SET), Small and Medium Enterprises Development
+Bank of Thailand (SME Bank), Thai Bankers’ Association, Thai Bond Market Association,
+Thai Chamber of Commerce (TCC), Thai Credit Guarantee Corporation (TCG), Thai
+General Insurance Association, and the World Bank as a team leader.
+Flood Control, Drainage and Irrigation Sector comprised Royal Irrigation Department
+(RID), Hydro and Agro Informatics Institute (HAII), Geo-Informatics and Space
+Technology Development Agency (GISTDA), Marine Department, Department of
+Groundwater Resources (DGR), Food and Agriculture Organization of the United Nations
+(FAO), Japan International Cooperation Agency (JICA), and the World Bank as a
+team leader.
+Health Sector comprised Faculty of Medicine, Chulalongkorn University, Health
+Insurance System Research Office (HISRO), Ministry of Public Health (MOPH), National
+Economic and Social Development Board (NESDB), National Health Security Office
+(NHSO), and the World Bank as a team leader.
+Housing Sector comprised Asian Coalition for Housing Rights (ACHR), Asian Disaster
+Preparedness Center (ADPC), Community Organizations Development Institute (CODI),
+Department of Disaster Risk Management (DDRM), Department of Public Works and
+Town Planning (DPT), Geo-Informatics and Space Technology Development Agency
+(GISTDA), United Nations Economic and Social Commission for Asia and the Pacific
+(UNESCAP), and the World Bank as a team leader.
+Industry Sector comprised Department of Industrial Works (DIW), Federation of Thai
+Industry (FTI), International Finance Corporation (IFC), Ministry of Industry, and the
+United Nations Industrial Development Organization (UNIDO) as a team leader.
+Livelihoods and Employment Sector comprised International Labor Organization (ILO),
+Mahidol Migration Center, Ministry of Labor (MOL), and the International Organization for
+Migration (IOM) as a team leader.
+Macroeconomic Sector comprised National Economic and Social Development Board
+(NESDB), Food and Agriculture Organization of the United Nations (FPO), United Nations
+Economic and Social Commission for Asia and the Pacific (UNESCAP), and the World
+Bank as a team leader.
+Social Impacts Assessment comprised and was led by members from the World Bank.
+THAI FlOOD 2011 RAPID ASSESSMENT FOR RESIlIENT RECOvERy AND RECONSTRUCTION PlANNING – ovERvIEW
+11
+=====PAGE 20=====
+Social Protection Sector comprised Community Organizations Development Institute
+(CODI), Ministry of Labor (MOL), Ministry of Social Development and Human Security
+(MSDHS), National Economic and Social Development Board (NESDB), Social Security
+Office (SSO), and the World Bank as a team leader.
+Telecommunications Sector comprised CAT Telecom Public Company Limited (CAT),
+National Broadcast and Telecommunications Commission (NBTC), Public Relations
+Department (PRD), Thailand Post, Telecom of Thailand Public Company Limited (TOT),
+True Corporation, International Telecommunication Union (ITU), and the United Nations
+Economic and Social Commission for Asia and the Pacific (UNESCAP) as a team leader.
+Tourism Sector comprised Tourism Authority of Thailand (TAT), Tourism Council of
+Thailand (TCT), Thai Travel Agents Association (TTAA), and the World Bank as a
+team leader.
+Transport Sector comprised Airports of Thailand (AOT), Department of Highways (DOH),
+Department of Rural Roads (DRR), Marine Department, Office of Transport and Traffic
+Policy and Planning (OTP), State Railway of Thailand (SRT), United Nations Economic
+and Social Commission for Asia and the Pacific (UNESCAP), and the World Bank as a
+team leader.
+Water Supply and Sanitation Sector comprised Department of Groundwater Resources
+(DGR), Department of Water Resources (DWR), Geo-Informatics and Space Technology
+Development Agency (GISTDA), Metropolitan Waterworks Authority (MWA), Pollution
+Control Department (PCD), Provincial Waterworks Authority (PWA), United Nations
+Economic and Social Commission for Asia and the Pacific (UNESCAP), Wastewater
+Management Authority (WMA), and the World Bank as a team leader.
+A full list of acknowledgements can be found in the main report.
+12
+THAI FlOOD 2011 RAPID ASSESSMENT FOR RESIlIENT RECOvERy AND RECONSTRUCTION PlANNING – ovERvIEW
+=====PAGE 21=====
+World Bank
+=====PAGE 22=====
+undefined
+=====PAGE 23=====
+undefined
+=====PAGE 24=====
+THE WORLD BANK
+30th Floor, Siam Tower,
+989 Rama 1 Road, Pathumwan,
+Bangkok 10330
+Tel: (66) 0-2686-8300
+Fax: (66) 0-2686-8301
+E-mail: thailand@worldbank.org
+www.worldbank.org/th

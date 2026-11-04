@@ -1,0 +1,163 @@
+[
+  {
+    "id": "bma-env-composition-fy2563",
+    "nameEn": "BMA physical composition of Bangkok municipal solid waste, fiscal year BE 2563",
+    "url": "https://webportal.bangkok.go.th/environmentbma/page/sub/20995",
+    "publisher": "กรุงเทพมหานคร — สำนักสิ่งแวดล้อม (กลุ่มงานวิจัยและพัฒนา สำนักงานจัดการมูลฝอยและสิ่งปฏิกูล)",
+    "accessStatus": "retrieved",
+    "notes": "Registered in bangkok-sources.json (fetch-bangkok.ts) with the PDF URL. FY2563/FY2564 per-disposal-centre columns transcribed here from the cached scanned PDFs (data/raw/bma-environment/composition/)."
+  },
+  {
+    "id": "bma-env-composition-fy2564",
+    "nameEn": "BMA physical composition of Bangkok municipal solid waste, fiscal year BE 2564",
+    "url": "https://webportal.bangkok.go.th/environmentbma/page/sub/20995",
+    "publisher": "กรุงเทพมหานคร — สำนักสิ่งแวดล้อม (กลุ่มงานวิจัยและพัฒนา สำนักงานจัดการมูลฝอยและสิ่งปฏิกูล)",
+    "accessStatus": "retrieved",
+    "notes": "Registered in bangkok-sources.json (fetch-bangkok.ts) with the PDF URL. FY2563/FY2564 per-disposal-centre columns transcribed here from the cached scanned PDFs (data/raw/bma-environment/composition/)."
+  },
+  {
+    "id": "bma-env-composition-fy2565",
+    "nameEn": "BMA physical composition of Bangkok municipal solid waste, fiscal year BE 2565",
+    "url": "https://webportal.bangkok.go.th/environmentbma/page/sub/20995",
+    "publisher": "กรุงเทพมหานคร — สำนักสิ่งแวดล้อม (กลุ่มงานวิจัยและพัฒนา สำนักงานจัดการมูลฝอยและสิ่งปฏิกูล)",
+    "accessStatus": "retrieved",
+    "notes": "Registered in bangkok-sources.json (fetch-bangkok.ts) with the PDF URL. FY2563/FY2564 per-disposal-centre columns transcribed here from the cached scanned PDFs (data/raw/bma-environment/composition/)."
+  },
+  {
+    "id": "bma-env-waste-fy2562",
+    "nameEn": "BMA Environment Department collected waste by district, fiscal year BE 2562",
+    "url": "https://webportal.bangkok.go.th/environmentbma/page/sub/28229",
+    "publisher": "กรุงเทพมหานคร — สำนักสิ่งแวดล้อม",
+    "accessStatus": "retrieved",
+    "notes": "Registered in bangkok-sources.json (fetch-bangkok.ts); re-used here via data/staged/bangkok-waste.json as allocation weights. Same id, see that registry for full metadata."
+  },
+  {
+    "id": "bma-env-waste-fy2563",
+    "nameEn": "BMA Environment Department collected waste by district, fiscal year BE 2563",
+    "url": "https://webportal.bangkok.go.th/environmentbma/page/sub/28229",
+    "publisher": "กรุงเทพมหานคร — สำนักสิ่งแวดล้อม",
+    "accessStatus": "retrieved",
+    "notes": "Registered in bangkok-sources.json (fetch-bangkok.ts); re-used here via data/staged/bangkok-waste.json as allocation weights. Same id, see that registry for full metadata."
+  },
+  {
+    "id": "bma-env-waste-fy2564",
+    "nameEn": "BMA Environment Department collected waste by district, fiscal year BE 2564",
+    "url": "https://webportal.bangkok.go.th/environmentbma/page/sub/28229",
+    "publisher": "กรุงเทพมหานคร — สำนักสิ่งแวดล้อม",
+    "accessStatus": "retrieved",
+    "notes": "Registered in bangkok-sources.json (fetch-bangkok.ts); re-used here via data/staged/bangkok-waste.json as allocation weights. Same id, see that registry for full metadata."
+  },
+  {
+    "id": "bma-env-waste-fy2565",
+    "nameEn": "BMA Environment Department collected waste by district, fiscal year BE 2565",
+    "url": "https://webportal.bangkok.go.th/environmentbma/page/sub/28229",
+    "publisher": "กรุงเทพมหานคร — สำนักสิ่งแวดล้อม",
+    "accessStatus": "retrieved",
+    "notes": "Registered in bangkok-sources.json (fetch-bangkok.ts); re-used here via data/staged/bangkok-waste.json as allocation weights. Same id, see that registry for full metadata."
+  },
+  {
+    "id": "bma-env-waste-fy2566",
+    "nameEn": "BMA Environment Department collected waste by district, fiscal year BE 2566",
+    "url": "https://webportal.bangkok.go.th/environmentbma/page/sub/28229",
+    "publisher": "กรุงเทพมหานคร — สำนักสิ่งแวดล้อม",
+    "accessStatus": "retrieved",
+    "notes": "Registered in bangkok-sources.json (fetch-bangkok.ts); re-used here via data/staged/bangkok-waste.json as allocation weights. Same id, see that registry for full metadata."
+  },
+  {
+    "id": "bma-env-waste-fy2567",
+    "nameEn": "BMA Environment Department collected waste by district, fiscal year BE 2567",
+    "url": "https://webportal.bangkok.go.th/environmentbma/page/sub/28229",
+    "publisher": "กรุงเทพมหานคร — สำนักสิ่งแวดล้อม",
+    "accessStatus": "retrieved",
+    "notes": "Registered in bangkok-sources.json (fetch-bangkok.ts); re-used here via data/staged/bangkok-waste.json as allocation weights. Same id, see that registry for full metadata."
+  },
+  {
+    "id": "bma-env-waste-fy2568",
+    "nameEn": "BMA Environment Department collected waste by district, fiscal year BE 2568",
+    "url": "https://webportal.bangkok.go.th/environmentbma/page/sub/28229",
+    "publisher": "กรุงเทพมหานคร — สำนักสิ่งแวดล้อม",
+    "accessStatus": "retrieved",
+    "notes": "Registered in bangkok-sources.json (fetch-bangkok.ts); re-used here via data/staged/bangkok-waste.json as allocation weights. Same id, see that registry for full metadata."
+  },
+  {
+    "id": "bma-env-waste-fy2569",
+    "nameEn": "BMA Environment Department collected waste by district, fiscal year BE 2569",
+    "url": "https://webportal.bangkok.go.th/environmentbma/page/sub/28229",
+    "publisher": "กรุงเทพมหานคร — สำนักสิ่งแวดล้อม",
+    "accessStatus": "retrieved",
+    "notes": "Registered in bangkok-sources.json (fetch-bangkok.ts); re-used here via data/staged/bangkok-waste.json as allocation weights. Same id, see that registry for full metadata."
+  },
+  {
+    "id": "pcd-disposal-report-2564",
+    "nameTh": "รายงานสถานการณ์สถานที่กำจัดขยะมูลฝอยชุมชนของประเทศไทย ปี พ.ศ. 2564",
+    "nameEn": "Situation report on community solid-waste disposal sites of Thailand, BE 2564 (2021)",
+    "url": "https://www.pcd.go.th/wp-content/uploads/2022/08/pcdnew-2022-08-18_03-17-27_336926.pdf",
+    "publisher": "กรมควบคุมมลพิษ (Pollution Control Department, PCD)",
+    "license": "Not stated (Thai government publication)",
+    "retrievedAt": "2026-11-04T01:47:44Z",
+    "accessStatus": "retrieved",
+    "notes": "Used only to cross-check the thaimsw.pcd.go.th Bangkok figure for BE 2564. Text via cached text layer. The PDF (45825656 bytes, sha256 7908d5a6f98f677e3eed4d33f1c0b974c3763992709a0dd13fe9f81beae95181) is not kept in data/raw because of its size; its text layer is cached under data/raw/pcd/text/."
+  },
+  {
+    "id": "pcd-disposal-report-2565",
+    "nameTh": "รายงานสถานการณ์สถานที่กำจัดขยะมูลฝอยชุมชนของประเทศไทย ปี พ.ศ. 2565 (สันนิษฐาน)",
+    "nameEn": "PCD disposal-site situation report (assumed BE 2565 edition)",
+    "url": "https://www.pcd.go.th/wp-content/uploads/2023/04/pcdnew-2023-05-23_07-53-42_299799.pdf",
+    "publisher": "กรมควบคุมมลพิษ (Pollution Control Department, PCD)",
+    "retrievedAt": "2026-11-04T01:47:11Z",
+    "accessStatus": "failed",
+    "notes": "HTTP 200, 58,888,943 bytes, 226 pages, sha256 434a53bbba84c42c26613fa82e1ae8649a72ee4e7458a196ed1ce18a78392fde — scanned images without a text layer, so it was not parsed (no OCR) and its edition year could not be confirmed. Deleted from data/raw because of size; not needed (BE 2564 and BE 2566 editions cross-check the web system)."
+  },
+  {
+    "id": "pcd-disposal-report-2566",
+    "nameTh": "รายงานสถานการณ์สถานที่กำจัดขยะมูลฝอยชุมชนของประเทศไทย ปี พ.ศ. 2566",
+    "nameEn": "Situation report on community solid-waste disposal sites of Thailand, BE 2566 (2023)",
+    "url": "https://www.pcd.go.th/wp-content/uploads/2024/05/pcdnew-2024-05-09_07-53-50_682275.pdf",
+    "publisher": "กรมควบคุมมลพิษ (Pollution Control Department, PCD)",
+    "license": "Not stated (Thai government publication)",
+    "retrievedAt": "2026-11-04T01:46:30Z",
+    "accessStatus": "retrieved",
+    "notes": "Used only to cross-check the thaimsw.pcd.go.th Bangkok figure for BE 2566. Text via cached text layer. The PDF (51103094 bytes, sha256 c66abe6cdccd4e28b3246ea5aced7e305559361465202c6b2a691f235692dd74) is not kept in data/raw because of its size; its text layer is cached under data/raw/pcd/text/."
+  },
+  {
+    "id": "pcd-thaimsw-report-country",
+    "nameTh": "ระบบสารสนเทศด้านการจัดการขยะมูลฝอยชุมชน — ข้อมูลสถานการณ์ขยะมูลฝอยของประเทศ (ปริมาณขยะมูลฝอยจำแนกตามจังหวัด)",
+    "nameEn": "PCD community solid-waste information system — national MSW situation, waste by province (t/day)",
+    "url": "https://thaimsw.pcd.go.th/report_country.php",
+    "publisher": "กรมควบคุมมลพิษ (Pollution Control Department, PCD)",
+    "license": "Not stated (Thai government web system, publicly accessible, no login)",
+    "retrievedAt": "2026-11-04T01:56:29.696Z",
+    "accessStatus": "retrieved",
+    "notes": "Pages report_country.php?year=<BE> cached for BE 2556, 2557, 2558, 2559, 2560, 2561, 2562, 2563, 2564, 2565, 2566, 2567, 2568, 2569, 2570. Bangkok row parsed for 2556, 2557, 2558, 2559, 2560, 2561, 2562, 2563, 2564, 2565, 2566, 2567, 2568; BE 2569, 2570 show all-zero rows (not yet reported). A one-page PDF export (service/api/report-country/export?year=2568) was also saved for reference."
+  },
+  {
+    "id": "pcd-thaimsw-report-province-bkk",
+    "nameTh": "ข้อมูลสถานการณ์ขยะมูลฝอยของจังหวัด — กรุงเทพมหานคร",
+    "nameEn": "PCD community solid-waste information system — province report, Bangkok (annual million tonnes)",
+    "url": "https://thaimsw.pcd.go.th/report_province.php?province=1",
+    "publisher": "กรมควบคุมมลพิษ (Pollution Control Department, PCD)",
+    "license": "Not stated (Thai government web system, publicly accessible, no login)",
+    "retrievedAt": "2026-11-04T01:56:30.962Z",
+    "accessStatus": "retrieved",
+    "notes": "Used to cross-check t/day × 365 against the published annual million tonnes."
+  },
+  {
+    "id": "pmc-12247160",
+    "nameEn": "PMC12247160 — plastic waste properties study, Songkhla (cited in hatyai-waste.json)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12247160/",
+    "publisher": "PubMed Central",
+    "accessStatus": "retrieved",
+    "notes": "Registered in hatyai-sources.json. Re-checked from the cached HTML: no Hat Yai composition table."
+  },
+  {
+    "id": "psu-tsri-env6405051s-hatyai",
+    "nameTh": "รายงานวิจัยฉบับสมบูรณ์ การศึกษาแนวทางการสร้างชุมชนขยะเป็นศูนย์ ด้วยการแปลงขยะเป็นพลังงาน (ENV6405051S)",
+    "nameEn": "Final research report ENV6405051S: Feasibility Study of Waste to Energy for Sustainable Zero Waste Community (Hat Yai Municipality)",
+    "url": "https://kb.psu.ac.th/psukb/bitstream/2016/19489/1/64052245_400371.pdf",
+    "publisher": "Prince of Songkla University, Faculty of Environmental Management (PSU Knowledge Bank; via Thai National Research Repository); funded by TSRI FY2564",
+    "license": "Not stated (institutional repository document)",
+    "retrievedAt": "2026-11-04T01:57:45.756Z",
+    "accessStatus": "retrieved",
+    "notes": "PDF 2992818 bytes, sha256 7e15288e989504922d88552d5bac022b99391a8b2d7d5c97ecf8a0499d698f4c; text via cached text layer. Composition sentence on report pp. 3 and 27 (executive summary and section 1.6). Also states ~200 t/day generated (Aug 2564) and ~190 t/day collected (2564, weighed) — context only, not used."
+  }
+]

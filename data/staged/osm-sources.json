@@ -1,0 +1,68 @@
+[
+  {
+    "id": "osm-bkk-waterways",
+    "nameTh": "เส้นทางน้ำ OpenStreetMap — กรุงเทพมหานคร",
+    "nameEn": "OpenStreetMap waterway centrelines — Bangkok bbox (Overpass API)",
+    "url": "https://overpass-api.de/api/interpreter",
+    "publisher": "OpenStreetMap contributors (OpenStreetMap Foundation); served via the public Overpass API",
+    "license": "ODbL-1.0 — © OpenStreetMap contributors (https://www.openstreetmap.org/copyright)",
+    "retrievedAt": "2026-11-03T19:20:18.004Z",
+    "accessStatus": "retrieved",
+    "notes": "Overpass QL query (POST to https://overpass-api.de/api/interpreter):\n[out:json][timeout:240][bbox:13.49,100.32,13.96,100.94];\n(\n  way[\"waterway\"~\"^(river|canal|stream|drain|ditch)$\"][\"name\"];\n  way[\"waterway\"~\"^(river|canal|stream|drain|ditch)$\"][\"name:th\"];\n  way[\"waterway\"~\"^(river|canal|stream|drain|ditch)$\"][\"name:en\"];\n  way[\"waterway\"~\"^(river|canal)$\"];\n)->.w;\n.w out body geom;\nrel(bw.w)[\"waterway\"];\nout body;\nOSM base timestamp 2026-11-03T19:18:43Z; 5551 elements; 7199405 bytes; sha256 a2aea5b36acd05b704a0e14ab86605454e6b4d2cb0de0e75fcb7164484936b84; cached raw file data/raw/osm/infra/bkk-waterways.json.\nStatus of derived features: observed (mapped OSM features); waterway names/classes follow OSM tagging, and many river/canal segments are unnamed in OSM."
+  },
+  {
+    "id": "osm-bkk-chaophraya-water",
+    "nameTh": "พื้นที่ผิวน้ำแม่น้ำเจ้าพระยา OpenStreetMap — กรุงเทพมหานคร",
+    "nameEn": "OpenStreetMap Chao Phraya River water-area polygons — Bangkok bbox (Overpass API)",
+    "url": "https://overpass-api.de/api/interpreter",
+    "publisher": "OpenStreetMap contributors (OpenStreetMap Foundation); served via the public Overpass API",
+    "license": "ODbL-1.0 — © OpenStreetMap contributors (https://www.openstreetmap.org/copyright)",
+    "retrievedAt": "2026-11-03T19:29:54.589Z",
+    "accessStatus": "retrieved",
+    "notes": "Overpass QL query (POST to https://overpass-api.de/api/interpreter):\n[out:json][timeout:240][bbox:13.49,100.32,13.96,100.94];\nway[\"waterway\"=\"river\"][\"name\"~\"^แม่น้ำเจ้าพระยา\"]->.c;\n(\n  way(around.c:400)[\"natural\"=\"water\"][\"water\"~\"^(river|riverbank)$\"];\n  rel(around.c:400)[\"natural\"=\"water\"][\"water\"~\"^(river|riverbank)$\"];\n  way(around.c:400)[\"waterway\"=\"riverbank\"];\n  rel(around.c:400)[\"waterway\"=\"riverbank\"];\n  way[\"natural\"=\"water\"][\"name\"~\"เจ้าพระยา\"];\n  rel[\"natural\"=\"water\"][\"name\"~\"เจ้าพระยา\"];\n)->.a;\n.a out body geom;\n.c out body geom;\nOSM base timestamp 2026-11-03T19:28:46Z; 106 elements; 777305 bytes; sha256 d55a0d659477b2b87260ab0b33b899f093684f610ea725121572065a8b19b641; cached raw file data/raw/osm/infra/bkk-chaophraya-water.json.\nStatus of derived features: observed (mapped OSM features); waterway names/classes follow OSM tagging, and many river/canal segments are unnamed in OSM."
+  },
+  {
+    "id": "osm-bkk-drainage",
+    "nameTh": "โครงสร้างระบายน้ำ OpenStreetMap — กรุงเทพมหานคร",
+    "nameEn": "OpenStreetMap drainage infrastructure (pumps, gates, gauges, retention) — Bangkok bbox (Overpass API)",
+    "url": "https://overpass-api.de/api/interpreter",
+    "publisher": "OpenStreetMap contributors (OpenStreetMap Foundation); served via the public Overpass API",
+    "license": "ODbL-1.0 — © OpenStreetMap contributors (https://www.openstreetmap.org/copyright)",
+    "retrievedAt": "2026-11-03T19:08:47.777Z",
+    "accessStatus": "retrieved",
+    "notes": "Overpass QL query (POST to https://overpass-api.de/api/interpreter):\n[out:json][timeout:180][bbox:13.49,100.32,13.96,100.94];\n(\n  nwr[\"man_made\"=\"pumping_station\"];\n  nwr[\"pumping_station\"];\n  nwr[\"waterway\"~\"^(sluice_gate|lock_gate|weir|dam|floodgate|flood_gate)$\"];\n  nwr[\"man_made\"=\"monitoring_station\"][\"monitoring:water_level\"=\"yes\"];\n  nwr[\"basin\"~\"retention|detention\"];\n  nwr[\"name\"~\"แก้มลิง|สถานีสูบน้ำ|บ่อสูบน้ำ|ประตูระบายน้ำ|บ่อหน่วงน้ำ|อุโมงค์ระบายน้ำ|วัดระดับน้ำ\"];\n  nwr[\"name:th\"~\"แก้มลิง|สถานีสูบน้ำ|บ่อสูบน้ำ|ประตูระบายน้ำ|บ่อหน่วงน้ำ|อุโมงค์ระบายน้ำ|วัดระดับน้ำ\"];\n  nwr[\"name:en\"~\"pump(ing)? station|sluice|flood ?gate|retention pond|detention pond|monkey cheek|kaem ?ling|keam ?ling|water level station|drainage tunnel\",i];\n);\nout body geom;\nnwr[\"flood_prone\"=\"yes\"];\nout count;\nOSM base timestamp 2026-11-03T19:06:39Z; 179 elements; 108557 bytes; sha256 243a24061fbcc569afd1488574bc38169282058669f3388b2a7586bbf2135272; cached raw file data/raw/osm/infra/bkk-drainage.json.\nStatus of derived features: observed (mapped OSM features); OSM coverage of drainage infrastructure is very incomplete, so point counts are not an inventory. Pump-station points tagged pumping_station=wastewater or named สถานีสูบน้ำเสีย (if any) are sewage/wastewater pumping stations, kept as tagged."
+  },
+  {
+    "id": "osm-hy-waterways",
+    "nameTh": "เส้นทางน้ำ OpenStreetMap — หาดใหญ่",
+    "nameEn": "OpenStreetMap waterway centrelines — Hat Yai buffered bbox (Overpass API)",
+    "url": "https://overpass-api.de/api/interpreter",
+    "publisher": "OpenStreetMap contributors (OpenStreetMap Foundation); served via the public Overpass API",
+    "license": "ODbL-1.0 — © OpenStreetMap contributors (https://www.openstreetmap.org/copyright)",
+    "retrievedAt": "2026-11-03T18:53:41.655Z",
+    "accessStatus": "retrieved",
+    "notes": "Overpass QL query (POST to https://overpass-api.de/api/interpreter):\n[out:json][timeout:90][bbox:6.94,100.4,7.09,100.54];\n(\n  way[\"waterway\"~\"^(river|canal|stream|drain|ditch)$\"][\"name\"];\n  way[\"waterway\"~\"^(river|canal|stream|drain|ditch)$\"][\"name:th\"];\n  way[\"waterway\"~\"^(river|canal|stream|drain|ditch)$\"][\"name:en\"];\n  way[\"waterway\"~\"^(river|canal)$\"];\n)->.w;\n.w out body geom;\nrel(bw.w)[\"waterway\"];\nout body;\nOSM base timestamp 2026-11-03T18:52:33Z; 81 elements; 242935 bytes; sha256 a75e593b88cfe0682e93cefcf356f2143677951579bf7f4845a9b7db2d435b70; cached raw file data/raw/osm/infra/hy-waterways.json.\nStatus of derived features: observed (mapped OSM features); waterway names/classes follow OSM tagging, and many river/canal segments are unnamed in OSM."
+  },
+  {
+    "id": "osm-hy-water-areas",
+    "nameTh": "พื้นที่ผิวน้ำลำน้ำ/คลอง OpenStreetMap — หาดใหญ่",
+    "nameEn": "OpenStreetMap river/canal water-area polygons — Hat Yai buffered bbox (Overpass API)",
+    "url": "https://overpass-api.de/api/interpreter",
+    "publisher": "OpenStreetMap contributors (OpenStreetMap Foundation); served via the public Overpass API",
+    "license": "ODbL-1.0 — © OpenStreetMap contributors (https://www.openstreetmap.org/copyright)",
+    "retrievedAt": "2026-11-03T18:54:19.842Z",
+    "accessStatus": "retrieved",
+    "notes": "Overpass QL query (POST to https://overpass-api.de/api/interpreter):\n[out:json][timeout:90][bbox:6.94,100.4,7.09,100.54];\n(\n  way[\"natural\"=\"water\"][\"water\"~\"^(river|riverbank|canal|stream)$\"];\n  rel[\"natural\"=\"water\"][\"water\"~\"^(river|riverbank|canal|stream)$\"];\n  way[\"waterway\"=\"riverbank\"];\n  rel[\"waterway\"=\"riverbank\"];\n);\nout body geom;\nOSM base timestamp 2026-11-03T18:52:33Z; 16 elements; 166229 bytes; sha256 0407885abe0c36023e5d64e047e3ee926c5ddb394dcd59cf7146dd04bdcf488b; cached raw file data/raw/osm/infra/hy-water-areas.json.\nStatus of derived features: observed (mapped OSM features); waterway names/classes follow OSM tagging, and many river/canal segments are unnamed in OSM."
+  },
+  {
+    "id": "osm-hy-drainage",
+    "nameTh": "โครงสร้างระบายน้ำ OpenStreetMap — หาดใหญ่",
+    "nameEn": "OpenStreetMap drainage infrastructure (pumps, gates, gauges, retention) — Hat Yai buffered bbox (Overpass API)",
+    "url": "https://overpass-api.de/api/interpreter",
+    "publisher": "OpenStreetMap contributors (OpenStreetMap Foundation); served via the public Overpass API",
+    "license": "ODbL-1.0 — © OpenStreetMap contributors (https://www.openstreetmap.org/copyright)",
+    "retrievedAt": "2026-11-03T18:55:00.631Z",
+    "accessStatus": "retrieved",
+    "notes": "Overpass QL query (POST to https://overpass-api.de/api/interpreter):\n[out:json][timeout:90][bbox:6.94,100.4,7.09,100.54];\n(\n  nwr[\"man_made\"=\"pumping_station\"];\n  nwr[\"pumping_station\"];\n  nwr[\"waterway\"~\"^(sluice_gate|lock_gate|weir|dam|floodgate|flood_gate)$\"];\n  nwr[\"man_made\"=\"monitoring_station\"][\"monitoring:water_level\"=\"yes\"];\n  nwr[\"basin\"~\"retention|detention\"];\n  nwr[\"name\"~\"แก้มลิง|สถานีสูบน้ำ|บ่อสูบน้ำ|ประตูระบายน้ำ|บ่อหน่วงน้ำ|อุโมงค์ระบายน้ำ|วัดระดับน้ำ\"];\n  nwr[\"name:th\"~\"แก้มลิง|สถานีสูบน้ำ|บ่อสูบน้ำ|ประตูระบายน้ำ|บ่อหน่วงน้ำ|อุโมงค์ระบายน้ำ|วัดระดับน้ำ\"];\n  nwr[\"name:en\"~\"pump(ing)? station|sluice|flood ?gate|retention pond|detention pond|monkey cheek|kaem ?ling|keam ?ling|water level station|drainage tunnel\",i];\n);\nout body geom;\nnwr[\"flood_prone\"=\"yes\"];\nout count;\nOSM base timestamp 2026-11-03T18:53:35Z; 4 elements; 3056 bytes; sha256 98aa9dabe746019ef5bb25b36292becdac9bb4b2659f74edd89b9da1388e1236; cached raw file data/raw/osm/infra/hy-drainage.json.\nStatus of derived features: observed (mapped OSM features); OSM coverage of drainage infrastructure is very incomplete, so point counts are not an inventory. Pump-station points tagged pumping_station=wastewater or named สถานีสูบน้ำเสีย (if any) are sewage/wastewater pumping stations, kept as tagged."
+  }
+]

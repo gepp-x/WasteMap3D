@@ -1,0 +1,348 @@
+{
+  "outputs": [
+    {
+      "file": "public/data/bangkok/waterways.geojson",
+      "bytes": 1439869,
+      "features": 3049
+    },
+    {
+      "file": "public/data/bangkok/drainage.geojson",
+      "bytes": 58552,
+      "features": 173
+    },
+    {
+      "file": "public/data/hatyai/waterways.geojson",
+      "bytes": 67845,
+      "features": 52
+    },
+    {
+      "file": "public/data/hatyai/drainage.geojson",
+      "bytes": 3357,
+      "features": 3
+    }
+  ],
+  "report": {
+    "bangkok-waterways": {
+      "waysIn": 5486,
+      "waysUsed": 5486,
+      "waysNamedViaRelation": 2,
+      "waysNamedViaSibling": 4,
+      "waysUnnamedKept": 2591,
+      "waysDroppedUnnamedSmall": 0,
+      "areasIn": 22,
+      "areasUsed": 8,
+      "areasDropped": [
+        "relation/10888393 (unnamed, does not intersect the แม่น้ำเจ้าพระยา centreline)",
+        "relation/18828111 (unnamed, does not intersect the แม่น้ำเจ้าพระยา centreline)",
+        "way/23482543 (named \"คลองบางกอกใหญ่\", not Chao Phraya)",
+        "way/40348364 (unnamed, does not intersect the แม่น้ำเจ้าพระยา centreline)",
+        "way/40349266 (unnamed, does not intersect the แม่น้ำเจ้าพระยา centreline)",
+        "way/40350000 (unnamed, does not intersect the แม่น้ำเจ้าพระยา centreline)",
+        "way/158320276 (unnamed, does not intersect the แม่น้ำเจ้าพระยา centreline)",
+        "way/159187796 (unnamed, does not intersect the แม่น้ำเจ้าพระยา centreline)",
+        "way/200337693 (unnamed, does not intersect the แม่น้ำเจ้าพระยา centreline)",
+        "way/403140641 (unnamed, does not intersect the แม่น้ำเจ้าพระยา centreline)",
+        "way/484744403 (unnamed, does not intersect the แม่น้ำเจ้าพระยา centreline)",
+        "way/1125096388 (unnamed, does not intersect the แม่น้ำเจ้าพระยา centreline)",
+        "way/1332823729 (unnamed, does not intersect the แม่น้ำเจ้าพระยา centreline)",
+        "way/1463474793 (unnamed, does not intersect the แม่น้ำเจ้าพระยา centreline)"
+      ],
+      "openRings": 0,
+      "featuresOut": {
+        "water-area": 1,
+        "river": 396,
+        "canal": 2599,
+        "stream": 1,
+        "drain": 52
+      },
+      "namedGroups": 1167,
+      "bytes": 1439869,
+      "majorCanals": [
+        "คลองกันยา",
+        "คลองเก้า",
+        "คลองขวาง",
+        "คลองข้างวัดอนงคาราม",
+        "คลองขุดใหม่",
+        "คลองขุนราชพินิจใจ",
+        "คลองควาย",
+        "คลองจระเข้ใหญ่",
+        "คลองเจ๊ก",
+        "คลองเจ็ด",
+        "คลองชวดพร้าว",
+        "คลองด่าน",
+        "คลองดาวคะนอง",
+        "คลองต้นไทร",
+        "คลองตาชม",
+        "คลองถนน",
+        "คลองทวีวัฒนา",
+        "คลองท้องคุ้ง",
+        "คลองนา",
+        "คลองบางกระบือ",
+        "คลองบางกร่าง",
+        "คลองบางขุนเทียน",
+        "คลองบางเขน",
+        "คลองบางแค",
+        "คลองบางโคลัด",
+        "คลองบางจาก",
+        "คลองบางโฉลง",
+        "คลองบางชัน",
+        "คลองบางเชือกหนัง",
+        "คลองบางซื่อ",
+        "คลองบางเซา",
+        "คลองบางตลาด",
+        "คลองบางตะนาวศรี",
+        "คลองบางน้อย",
+        "คลองบางนา",
+        "คลองบางน้ำจืด",
+        "คลองบางน้ำชน",
+        "คลองบางบอน",
+        "คลองบางปลา",
+        "คลองบางปลากด",
+        "คลองบางปิ้ง",
+        "คลองบางไผ่",
+        "คลองบางพรม",
+        "คลองบางพลี",
+        "คลองบางพัง",
+        "คลองบางพูด",
+        "คลองบางแพรก",
+        "คลองบางระมาด",
+        "คลองบางแวก",
+        "คลองบางสีทอง",
+        "คลองบางเสาธง",
+        "คลองบางใหญ่",
+        "คลองบ้านเก่า",
+        "คลองบ้านใหม่",
+        "คลองบึงฝรั่ง",
+        "คลองประปา",
+        "คลองประปาตะวันตก",
+        "คลองประเวศบุรีรมย์",
+        "คลองปลัดเปรียง",
+        "คลองเปรมประชากร",
+        "คลองแปด",
+        "คลองพระโขนง",
+        "คลองพระพิมล",
+        "คลองพระยาสุเรนทร์",
+        "คลองพระองค์เจ้าไชยานุชิต",
+        "คลองพิทยาลงกรณ์",
+        "คลองภาษีเจริญ",
+        "คลองมหาสวัสดิ์",
+        "คลองมอญ",
+        "คลองระบายน้ำสุวรรณภูมิ",
+        "คลองราชมนตรี",
+        "คลองลาดกระบัง",
+        "คลองลาดพร้าว",
+        "คลองลำปลาทิว",
+        "คลองลำผักชี",
+        "คลองวัดแดงประชาราษฎร์",
+        "คลองวัดสนามนอก",
+        "คลองวาเดียว",
+        "คลองสนามชัย",
+        "คลองสรรพสามิต",
+        "คลองสวน",
+        "คลองส่วย",
+        "คลองสหกรณ์",
+        "คลองสอง",
+        "คลองสองต้นนุ่น",
+        "คลองสาทร",
+        "คลองสาม",
+        "คลองสามประเวศ",
+        "คลองสามวา",
+        "คลองสามเสน",
+        "คลองสำโรง",
+        "คลองสำเหร่",
+        "คลองสิบ",
+        "คลองสิบสอง",
+        "คลองสิบสาม",
+        "คลองสิบสี่",
+        "คลองสิบห้า",
+        "คลองสี่",
+        "คลองสี่ประเวศ",
+        "คลองแสนแสบ",
+        "คลองหก",
+        "คลองหกวา",
+        "คลองหนองคา",
+        "คลองหนองงูเห่า",
+        "คลองหนองตะกร้า",
+        "คลองหนามแดง",
+        "คลองหนึ่ง",
+        "คลองหลวงแพ่ง",
+        "คลองหัวตะเข้",
+        "คลองหัวหมาก",
+        "คลองห้า",
+        "คลองใหม่",
+        "คลองอ้อตัน",
+        "คลองอ้อมนนท์",
+        "คลองอุดมชลจร",
+        "คลองเเคราย"
+      ],
+      "requiredNames": [
+        {
+          "pattern": "เจ้าพระยา",
+          "found": [
+            "คลองสมเด็จเจ้าพระยา [canal]",
+            "แม่น้ำเจ้าพระยา [river]",
+            "แม่น้ำเจ้าพระยา [water-area]"
+          ]
+        },
+        {
+          "pattern": "แสนแสบ",
+          "found": [
+            "คลองแสนแสบ [canal]"
+          ]
+        },
+        {
+          "pattern": "พระโขนง",
+          "found": [
+            "คลองพระโขนง [river]",
+            "คลองพระโขนงเก่า [river]"
+          ]
+        },
+        {
+          "pattern": "บางกอกน้อย",
+          "found": [
+            "คลองบางกอกน้อย [river]"
+          ]
+        },
+        {
+          "pattern": "บางกอกใหญ่",
+          "found": [
+            "คลองบางกอกใหญ่ [river]"
+          ]
+        },
+        {
+          "pattern": "ลาดพร้าว",
+          "found": [
+            "คลองลาดพร้าว [canal]",
+            "ลำรางแยกคลองลาดพร้าว [canal]",
+            "ลำรางแยกคลองลาดพร้าวบน [canal]",
+            "ลำรางแยกคลองลาดพร้าวล่าง [canal]",
+            "ลำรางแยกซอยลาดพร้าว 112 [drain]"
+          ]
+        },
+        {
+          "pattern": "เปรมประชากร",
+          "found": [
+            "คลองเปรมประชากร [canal]"
+          ]
+        },
+        {
+          "pattern": "ภาษีเจริญ",
+          "found": [
+            "คลองภาษีเจริญ [canal]"
+          ]
+        }
+      ]
+    },
+    "bangkok-drainage": {
+      "elementsIn": 178,
+      "floodProneCount": "nodes=0, ways=1, relations=0, total=1",
+      "kept": {
+        "pump-station": 14,
+        "gate": 78,
+        "retention": 80,
+        "monitoring": 1
+      },
+      "excluded": [
+        "way/1095836249 \"สถานีสูบน้ำดิบบางซื่อ\" — water-supply facility, not drainage (pumping_station=-, operator=การประปานครหลวง)",
+        "way/1549322268 \"สำนักงานควบคุมโครงการก่อสร้างอุโมงค์ระบายน้ำคลองทวีวัฒนา บริเวณคอขวด\" — name match but tagged office=yes (not infrastructure)",
+        "node/13159566902 \"กปน. (สถานีสูบน้ำพลหฯ)\" — name match but tagged highway=bus_stop (not infrastructure)"
+      ],
+      "duplicatesMerged": [
+        "node/485570612 -> way/665081966 (\"ประตูระบายน้ำคลองลัดโพธิ์\")",
+        "way/702624332 -> relation/9766898 (\"สถานีสูบน้ำกรุงเกษม\")"
+      ],
+      "noGeometry": [],
+      "methods": {
+        "relation-member-vertex-mean": 1,
+        "polygon-centre-of-mass": 88,
+        "line-midpoint": 26,
+        "polygon-point-on-surface": 6,
+        "node": 52
+      },
+      "airportRetention": 72,
+      "bytes": 58552
+    },
+    "hatyai-waterways": {
+      "waysIn": 81,
+      "waysUsed": 81,
+      "waysNamedViaRelation": 0,
+      "waysNamedViaSibling": 1,
+      "waysUnnamedKept": 38,
+      "waysDroppedUnnamedSmall": 0,
+      "areasIn": 16,
+      "areasUsed": 16,
+      "areasDropped": [],
+      "openRings": 0,
+      "featuresOut": {
+        "water-area": 16,
+        "river": 9,
+        "canal": 25,
+        "stream": 2
+      },
+      "namedGroups": 14,
+      "bytes": 67845,
+      "majorCanals": [
+        "คลองเตย",
+        "คลอง ร.1",
+        "คลอง ร.4",
+        "คลอง ร.5",
+        "คลองเรียน",
+        "คลองวาด",
+        "คลองสามสิบเมตร",
+        "คลองหวะ"
+      ],
+      "requiredNames": [
+        {
+          "pattern": "อู่ตะเภา|อุ่ตะเภา|U-?Ta ?Phao",
+          "found": [
+            "คลองอุ่ตะเภา [stream]",
+            "คลองอู่ตะเภา [river]"
+          ]
+        },
+        {
+          "pattern": "ร\\.?\\s?1|Ror Nueng",
+          "found": [
+            "คลอง ร.1 [canal]",
+            "คลอง ร.1 [water-area]"
+          ]
+        },
+        {
+          "pattern": "ร\\.?\\s?6|Ror Hok",
+          "found": [
+            "คลอง ร6 [canal]"
+          ]
+        },
+        {
+          "pattern": "คลองเตย|Klong Toei",
+          "found": [
+            "คลองเตย [canal]",
+            "คลองเตย [river]"
+          ]
+        },
+        {
+          "pattern": "คลองวาด|Klong Wat",
+          "found": [
+            "คลองวาด [canal]"
+          ]
+        }
+      ]
+    },
+    "hatyai-drainage": {
+      "elementsIn": 3,
+      "floodProneCount": "nodes=0, ways=0, relations=0, total=0",
+      "kept": {
+        "gate": 2,
+        "retention": 1
+      },
+      "excluded": [],
+      "duplicatesMerged": [],
+      "noGeometry": [],
+      "methods": {
+        "node": 2,
+        "polygon-centre-of-mass": 1
+      },
+      "airportRetention": 0,
+      "bytes": 3357
+    }
+  }
+}

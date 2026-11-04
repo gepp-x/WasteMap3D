@@ -1,0 +1,771 @@
+{
+  "runStartedAt": "2026-11-03T23:06:51.404Z",
+  "offline": true,
+  "refreshAll": false,
+  "checks": {
+    "officialNamesVsChairmenTextLayer": [
+      {
+        "zoneNo": 1,
+        "extraction": "PDFKit text layer (osascript JXA), Thai PUA glyphs mapped to Unicode",
+        "listed": 28,
+        "textLayerRows": 28,
+        "mismatches": []
+      },
+      {
+        "zoneNo": 2,
+        "extraction": "PDFKit text layer (osascript JXA), Thai PUA glyphs mapped to Unicode",
+        "listed": 29,
+        "textLayerRows": 29,
+        "mismatches": []
+      },
+      {
+        "zoneNo": 3,
+        "extraction": "PDFKit text layer (osascript JXA), Thai PUA glyphs mapped to Unicode",
+        "listed": 25,
+        "textLayerRows": 25,
+        "mismatches": []
+      },
+      {
+        "zoneNo": 4,
+        "extraction": "PDFKit text layer (osascript JXA), Thai PUA glyphs mapped to Unicode",
+        "listed": 21,
+        "textLayerRows": 21,
+        "mismatches": []
+      }
+    ],
+    "communityCount": {
+      "listedInChairmenPdfs": 103,
+      "statedInMapTitle": 103,
+      "perZone": {
+        "1": 28,
+        "2": 29,
+        "3": 25,
+        "4": 21
+      }
+    },
+    "boundaryNoticeText": {
+      "1": {
+        "extraction": "PDFKit text layer (osascript JXA), Thai PUA glyphs mapped to Unicode",
+        "pagesWithInfoText": 0
+      },
+      "2": {
+        "extraction": "PDFKit text layer (osascript JXA), Thai PUA glyphs mapped to Unicode",
+        "pagesWithInfoText": 29
+      },
+      "3": {
+        "extraction": "PDFKit text layer (osascript JXA), Thai PUA glyphs mapped to Unicode",
+        "pagesWithInfoText": 1
+      },
+      "4": {
+        "extraction": "PDFKit text layer (osascript JXA), Thai PUA glyphs mapped to Unicode",
+        "pagesWithInfoText": 21
+      }
+    },
+    "unmatchedNoticeRows": [],
+    "municipality": {
+      "relationId": 19981578,
+      "candidates": [
+        {
+          "id": 18959634,
+          "adminLevel": "6",
+          "name": "อำเภอบางกล่ำ",
+          "nameEn": "Bang Klam District"
+        },
+        {
+          "id": 18959810,
+          "adminLevel": "6",
+          "name": "อำเภอหาดใหญ่",
+          "nameEn": "Hat Yai District"
+        },
+        {
+          "id": 18960181,
+          "adminLevel": "6",
+          "name": "อำเภอนาหม่อม",
+          "nameEn": "Na Mom District"
+        },
+        {
+          "id": 19981578,
+          "adminLevel": "7",
+          "name": "เทศบาลนครหาดใหญ่",
+          "nameEn": "Hatyai city municipality"
+        }
+      ],
+      "areaKm2": 20.883,
+      "outerRings": 1,
+      "innerRings": 0
+    },
+    "zones": {
+      "railPathPts": 123,
+      "phetPathPts": 271,
+      "sriPathPts": 61,
+      "kanPathPts": 94,
+      "sriToKanSnapM": 16.8,
+      "phetEndOnKanchanawanit": true,
+      "sliversMerged": [],
+      "tiling": {
+        "municipalityAreaM2": 20882972.2,
+        "sumZoneAreaM2": 20882972.1,
+        "pairwiseOverlapM2": 0,
+        "gapM2": 0.118,
+        "outsideMunicipalityM2": 0.022,
+        "partsPerZone": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1
+        }
+      },
+      "tilingWritten": {
+        "note": "Same checks on the published (rounded) coordinates; residual gap/outside areas are rounding slivers along shared edges.",
+        "sumZoneAreaM2": 20882970.8,
+        "pairwiseOverlapM2": 0,
+        "gapM2": 1.967,
+        "outsideMunicipalityM2": 0.582,
+        "anchorsInside": true
+      }
+    },
+    "communityPoints": {
+      "candidatesReturned": 18,
+      "matchedInside": 1,
+      "rejected": [
+        {
+          "osmId": "node/4367168697",
+          "osmName": "ศูนย์สุขภาพชุมชนวัดท่าเคียน",
+          "tags": {
+            "place": null,
+            "amenity": "doctors"
+          },
+          "nearCommunity": "ชุมชนท่าเคียน",
+          "insideMunicipality": false,
+          "reason": "name only shares the bare place name (no 'ชุมชน…' match); a village/facility name is not evidence of the community's location"
+        },
+        {
+          "osmId": "node/4467282116",
+          "osmName": "บ้านท่าไทร",
+          "tags": {
+            "place": "village",
+            "amenity": null
+          },
+          "nearCommunity": "ชุมชนท่าไทร",
+          "insideMunicipality": false,
+          "reason": "name only shares the bare place name (no 'ชุมชน…' match); a village/facility name is not evidence of the community's location"
+        }
+      ]
+    },
+    "zoneLandmarkValidation": {
+      "note": "Landmarks are NOT used to build the zones; they only test the approximate partition against labels on the official 103-community map.",
+      "results": [
+        {
+          "osmId": "way/1454417618",
+          "name": "ตลาดกิมหยง",
+          "lon": 100.4698259,
+          "lat": 7.0083849,
+          "approxZone": 2,
+          "expectedZone": 2,
+          "why": "ชุมชนกิมหยงสันติสุข / ชุมชนซีกิมหยง are in เขต 2",
+          "agrees": true
+        },
+        {
+          "osmId": "node/1743126086",
+          "name": "โรงพยาบาลหาดใหญ่",
+          "lon": 100.4674503,
+          "lat": 7.0166654,
+          "approxZone": 1,
+          "expectedZone": 1,
+          "why": "label 'ร.พ.หาดใหญ่' inside map polygon 20 ชุมชนป้อม 6 (เขต 1)",
+          "agrees": true
+        },
+        {
+          "osmId": "way/1536054084",
+          "name": "โรงพยาบาลหาดใหญ่",
+          "lon": 100.4688624,
+          "lat": 7.0168446,
+          "approxZone": 1,
+          "expectedZone": 1,
+          "why": "label 'ร.พ.หาดใหญ่' inside map polygon 20 ชุมชนป้อม 6 (เขต 1)",
+          "agrees": true
+        },
+        {
+          "osmId": "node/10243492709",
+          "name": "โรงเรียนหาดใหญ่วิทยาลัย",
+          "lon": 100.4757077,
+          "lat": 7.0165472,
+          "approxZone": 1,
+          "expectedZone": 1,
+          "why": "label inside map polygon 17 (เขต 1)",
+          "agrees": true
+        },
+        {
+          "osmId": "node/1680665784",
+          "name": "วัดคลองเรียน",
+          "lon": 100.4863067,
+          "lat": 6.999076,
+          "approxZone": 2,
+          "expectedZone": 2,
+          "why": "label inside map polygon 53 ชุมชนทุ่งคลองเรียน (เขต 2)",
+          "agrees": true
+        },
+        {
+          "osmId": "node/14226852790",
+          "name": "วัดโคกสมานคุณ",
+          "lon": 100.4641541,
+          "lat": 7.0088503,
+          "approxZone": 4,
+          "expectedZone": 4,
+          "why": "inside map polygon 100 ชุมชนวัดโคกสมานคุณ (เขต 4)",
+          "agrees": true
+        },
+        {
+          "osmId": "node/1680667266",
+          "name": "วัดหาดใหญ่ใน",
+          "lon": 100.4535953,
+          "lat": 7.0036419,
+          "approxZone": 4,
+          "expectedZone": 4,
+          "why": "label inside map polygon 101 ชุมชนวัดหาดใหญ่ใน (เขต 4)",
+          "agrees": true
+        },
+        {
+          "osmId": "node/5873299478",
+          "name": "สนามกีฬาจิระนคร",
+          "lon": 100.4718443,
+          "lat": 7.0202421,
+          "approxZone": 1,
+          "expectedZone": 1,
+          "why": "label inside map polygon 16 ชุมชนหลังสนามกีฬากลาง (เขต 1)",
+          "agrees": true
+        },
+        {
+          "osmId": "way/1536063981",
+          "name": "สนามกีฬาจิระนคร",
+          "lon": 100.4715379,
+          "lat": 7.0206684,
+          "approxZone": 1,
+          "expectedZone": 1,
+          "why": "label inside map polygon 16 ชุมชนหลังสนามกีฬากลาง (เขต 1)",
+          "agrees": true
+        }
+      ],
+      "agree": 9,
+      "disagree": 0
+    }
+  },
+  "warnings": [],
+  "fetch": [
+    {
+      "key": "hyc-cate-258",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://www.hatyaicity.go.th/content/cate/258",
+      "file": "data/raw/hatyaicity/cate-258.html",
+      "bytes": 185478,
+      "retrievedAt": "2026-11-03T18:46:29.152Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "hyc-cate-259",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://www.hatyaicity.go.th/content/cate/259",
+      "file": "data/raw/hatyaicity/cate-259.html",
+      "bytes": 186574,
+      "retrievedAt": "2026-11-03T18:46:30.599Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "hyc-general",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://www.hatyaicity.go.th/content/general",
+      "file": "data/raw/hatyaicity/general.html",
+      "bytes": 193025,
+      "retrievedAt": "2026-11-03T18:46:32.170Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "hyc-chairmen-z1",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://www.hatyaicity.go.th/files/com_content/2026-10_52b9459ea4a7422.pdf",
+      "file": "data/raw/hatyaicity/chairmen-zone1.pdf",
+      "bytes": 32142,
+      "retrievedAt": "2026-11-03T18:46:32.200Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "hyc-chairmen-z2",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://www.hatyaicity.go.th/files/com_content/2026-10_88f95045c1f09cf.pdf",
+      "file": "data/raw/hatyaicity/chairmen-zone2.pdf",
+      "bytes": 31069,
+      "retrievedAt": "2026-11-03T18:46:33.309Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "hyc-chairmen-z3",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://www.hatyaicity.go.th/files/com_content/2026-10_c4082307b7aa624.pdf",
+      "file": "data/raw/hatyaicity/chairmen-zone3.pdf",
+      "bytes": 30698,
+      "retrievedAt": "2026-11-03T18:46:34.408Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "hyc-chairmen-z4",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://www.hatyaicity.go.th/files/com_content/2026-10_d3574032c938eaf.pdf",
+      "file": "data/raw/hatyaicity/chairmen-zone4.pdf",
+      "bytes": 30262,
+      "retrievedAt": "2026-11-03T18:46:35.516Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "hyc-notice-z1",
+      "status": "cached",
+      "httpStatus": null,
+      "url": "https://www.hatyaicity.go.th/files/com_content/2025-12_b669812ea1f62f5.pdf",
+      "file": "data/raw/hatyaicity/boundary-notice-zone1.pdf",
+      "bytes": 22516356,
+      "retrievedAt": "2026-11-03T18:24:24.405Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "hyc-notice-z2",
+      "status": "cached",
+      "httpStatus": null,
+      "url": "https://www.hatyaicity.go.th/files/com_content/2025-12_24c7a280a9922fb.pdf",
+      "file": "data/raw/hatyaicity/boundary-notice-zone2.pdf",
+      "bytes": 23167989,
+      "retrievedAt": "2026-11-03T18:24:30.989Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "hyc-notice-z3",
+      "status": "cached",
+      "httpStatus": null,
+      "url": "https://www.hatyaicity.go.th/files/com_content/2025-12_a1c71e6b5ecf923.pdf",
+      "file": "data/raw/hatyaicity/boundary-notice-zone3.pdf",
+      "bytes": 13226222,
+      "retrievedAt": "2026-11-03T18:24:33.924Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "hyc-notice-z4",
+      "status": "cached",
+      "httpStatus": null,
+      "url": "https://www.hatyaicity.go.th/files/com_content/2025-12_daa83b95e68ae8f.pdf",
+      "file": "data/raw/hatyaicity/boundary-notice-zone4.pdf",
+      "bytes": 11595385,
+      "retrievedAt": "2026-11-03T18:24:05.488Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "hyc-map-103",
+      "status": "cached",
+      "httpStatus": null,
+      "url": "https://www.hatyaicity.go.th/files/com_content/2025-12_025a423a70b78d4.pdf",
+      "file": "data/raw/hatyaicity/map-103-communities.pdf",
+      "bytes": 1687608,
+      "retrievedAt": "2026-11-03T18:08:33.784Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "boundary-candidates",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://overpass-api.de/api/interpreter",
+      "file": "data/raw/osm/hatyai/boundary-candidates.json",
+      "bytes": 1769,
+      "retrievedAt": "2026-11-03T18:53:10.973Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "offline; query: [out:json][timeout:60];(relation[\"boundary\"=\"administrative\"](6.95,100.40,7.08,100.55);relation[\"boundary\"=\"local_authority\"](6.95,100.40,7.08,100.55););out tags;"
+    },
+    {
+      "key": "relation-19981578-geom",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://overpass-api.de/api/interpreter",
+      "file": "data/raw/osm/hatyai/relation-19981578-geom.json",
+      "bytes": 23987,
+      "retrievedAt": "2026-11-03T18:58:43.029Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "offline; query: [out:json][timeout:90];relation(19981578);out geom;"
+    },
+    {
+      "key": "zone-lines",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://overpass-api.de/api/interpreter",
+      "file": "data/raw/osm/hatyai/zone-lines.json",
+      "bytes": 307589,
+      "retrievedAt": "2026-11-03T18:59:27.100Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "offline; query: [out:json][timeout:180];(way[\"railway\"=\"rail\"](6.97,100.41,7.06,100.52);way[\"highway\"][\"name\"~\"^(ถนนเพชรเกษม|ถนนศรีภูวนารถ|ถนนกาญจนวณิชย์)$\"](6.97,100.41,7.06,100.52););out body geom;"
+    },
+    {
+      "key": "community-candidates",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://overpass-api.de/api/interpreter",
+      "file": "data/raw/osm/hatyai/community-candidates.json",
+      "bytes": 5415,
+      "retrievedAt": "2026-11-03T23:06:33.923Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "offline; query: [out:json][timeout:120];(nwr[\"name\"~\"ชุมชน\"](6.9822534,100.42378570000001,7.0533019999999995,100.51118559999999);nwr[\"place\"](6.9822534,100.42378570000001,7.0533019999999995,100.51118559999999);nwr[\"amenity\"=\"community_centre\"](6.9822534,100.42378570000001,7.0533019999999995,100.51118559999999););out tags center;"
+    },
+    {
+      "key": "zone-validation-pois",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://overpass-api.de/api/interpreter",
+      "file": "data/raw/osm/hatyai/zone-validation-pois.json",
+      "bytes": 5742,
+      "retrievedAt": "2026-11-03T19:26:18.570Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "offline; query: [out:json][timeout:120];nwr[\"name\"~\"^(วัดโคกสมานคุณ|วัดหาดใหญ่ใน|วัดคลองเรียน|วัดปลักกริม|สนามกีฬาจิระนคร|โรงเรียนหาดใหญ่วิทยาลัย|โรงพยาบาลหาดใหญ่|สำนักงานเทศบาลนครหาดใหญ่|ตลาดกิมหยง)$\"](6.9872534,100.4287857,7.048302,100.5061856);out tags center;"
+    },
+    {
+      "key": "dopa-index",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://stat.bora.dopa.go.th/new_stat/webPage/statByYear.php",
+      "file": "data/raw/dopa/hatyai/stat_index.html",
+      "bytes": 45308,
+      "retrievedAt": "2026-11-03T19:26:18.875Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "dopa-stat_a68",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://stat.bora.dopa.go.th/new_stat/file/68/stat_a68.txt",
+      "file": "data/raw/dopa/hatyai/stat_a68.txt",
+      "bytes": 396965,
+      "retrievedAt": "2026-11-03T19:26:19.967Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "dopa-stat_a67",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://stat.bora.dopa.go.th/new_stat/file/67/stat_a67.txt",
+      "file": "data/raw/dopa/hatyai/stat_a67.txt",
+      "bytes": 395227,
+      "retrievedAt": "2026-11-03T19:26:20.950Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "dopa-stat_a66",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://stat.bora.dopa.go.th/new_stat/file/66/stat_a66.txt",
+      "file": "data/raw/dopa/hatyai/stat_a66.txt",
+      "bytes": 394819,
+      "retrievedAt": "2026-11-03T19:26:21.994Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "dopa-stat_a65",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://stat.bora.dopa.go.th/new_stat/file/65/stat_a65.txt",
+      "file": "data/raw/dopa/hatyai/stat_a65.txt",
+      "bytes": 394627,
+      "retrievedAt": "2026-11-03T19:26:23.099Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "dopa-stat_a64",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://stat.bora.dopa.go.th/new_stat/file/64/stat_a64.txt",
+      "file": "data/raw/dopa/hatyai/stat_a64.txt",
+      "bytes": 394581,
+      "retrievedAt": "2026-11-03T19:26:24.204Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "datagoth-dataset_sw_02",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://data.go.th/api/3/action/package_show?id=dataset_sw_02",
+      "file": "data/raw/datagoth/hatyai/pkg-dataset_sw_02.json",
+      "bytes": 12681,
+      "retrievedAt": "2026-11-03T19:26:24.647Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "datagoth-dataset_sw_02-csv",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://nakhonsithammarat.gdcatalog.go.th/dataset/49b250a2-4780-4e89-b5b8-73cb7745e63f/resource/52b471af-f3c8-467a-a723-bce890f263b2/download/dataset_sw_02.csv",
+      "file": "data/raw/datagoth/hatyai/nst-dataset_sw_02.csv",
+      "bytes": 27777,
+      "retrievedAt": "2026-11-03T19:26:24.789Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "songkhla-dataset_sw_02",
+      "status": "failed",
+      "httpStatus": 404,
+      "url": "https://songkhla.gdcatalog.go.th/api/3/action/package_show?id=dataset_sw_02",
+      "file": null,
+      "bytes": null,
+      "retrievedAt": null,
+      "attemptedAt": "2026-11-03T23:06:34.055Z",
+      "error": "HTTP 404",
+      "note": "offline run; no cached file — failure record of the last online attempt kept"
+    },
+    {
+      "key": "songkhla-dataset_10_27",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://songkhla.gdcatalog.go.th/api/3/action/package_show?id=dataset_10_27",
+      "file": "data/raw/datagoth/hatyai/songkhla-pkg-dataset_10_27.json",
+      "bytes": 9957,
+      "retrievedAt": "2026-11-03T19:26:25.936Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "songkhla-dataset_10_33",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://songkhla.gdcatalog.go.th/api/3/action/package_show?id=dataset_10_33",
+      "file": "data/raw/datagoth/hatyai/songkhla-pkg-dataset_10_33.json",
+      "bytes": 18516,
+      "retrievedAt": "2026-11-03T19:26:27.047Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "songkhla-dataset_10_34",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://songkhla.gdcatalog.go.th/api/3/action/package_show?id=dataset_10_34",
+      "file": "data/raw/datagoth/hatyai/songkhla-pkg-dataset_10_34.json",
+      "bytes": 9388,
+      "retrievedAt": "2026-11-03T19:26:28.224Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "songkhla-dataset_10_37",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://songkhla.gdcatalog.go.th/api/3/action/package_show?id=dataset_10_37",
+      "file": "data/raw/datagoth/hatyai/songkhla-pkg-dataset_10_37.json",
+      "bytes": 7424,
+      "retrievedAt": "2026-11-03T19:26:29.302Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "songkhla-dataset_10_27-csv",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://songkhla.gdcatalog.go.th/dataset/60342451-0da6-49f5-bcc6-aec5a2718590/resource/437f6ccb-3dd7-47ad-a921-2c0af1babb4b/download/waste.happen.csv",
+      "file": "data/raw/datagoth/hatyai/songkhla-waste-happen.csv",
+      "bytes": 83588,
+      "retrievedAt": "2026-11-03T19:26:30.389Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "songkhla-dataset_10_33-csv",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://songkhla.gdcatalog.go.th/dataset/b7ddcc41-80ff-48c1-8aca-e7b4a295e26c/resource/0ba29841-bc8d-4d7d-85ec-e292544cc531/download/waste.remove.csv",
+      "file": "data/raw/datagoth/hatyai/songkhla-waste-remove-2564-2567.csv",
+      "bytes": 341632,
+      "retrievedAt": "2026-11-03T19:26:31.592Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "songkhla-dataset_10_34-csv",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://songkhla.gdcatalog.go.th/dataset/6d87a941-36e5-4406-8422-f2d7496ad8da/resource/c70d1b44-975e-4143-bf29-35296c9150d5/download/recycle.csv",
+      "file": "data/raw/datagoth/hatyai/songkhla-recycle.csv",
+      "bytes": 83958,
+      "retrievedAt": "2026-11-03T19:26:32.584Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "songkhla-dataset_10_37-csv",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://songkhla.gdcatalog.go.th/dataset/ed53a742-d3c3-4606-9cea-934f2fe145c1/resource/cef85076-4bf1-4172-9dea-b1157689d31e/download/status.waste-.csv",
+      "file": "data/raw/datagoth/hatyai/songkhla-status-waste.csv",
+      "bytes": 3849,
+      "retrievedAt": "2026-11-03T19:26:33.656Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "pmc-efetch",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12247160&retmode=xml",
+      "file": "data/raw/pmc/hatyai/PMC12247160-efetch.xml",
+      "bytes": 103986,
+      "retrievedAt": "2026-11-03T19:26:35.100Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "pmc-html",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12247160/",
+      "file": "data/raw/pmc/hatyai/PMC12247160.html",
+      "bytes": 183591,
+      "retrievedAt": "2026-11-03T23:06:34.746Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "thaiwater-summary",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://www.thaiwater.net/uploads/contents/current/2025/hatyai_nov2025/summary.html",
+      "file": "data/raw/thaiwater/hatyai_nov2025/hatyai_nov2025_summary.html",
+      "bytes": 73956,
+      "retrievedAt": "2026-11-03T19:26:35.809Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "thaiwater-rain_tele",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://www.thaiwater.net/uploads/contents/current/2025/hatyai_nov2025/rain_tele.html",
+      "file": "data/raw/thaiwater/hatyai_nov2025/hatyai_nov2025_rain_tele.html",
+      "bytes": 720207,
+      "retrievedAt": "2026-11-03T19:26:36.873Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "thaiwater-waterlevel",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://www.thaiwater.net/uploads/contents/current/2025/hatyai_nov2025/waterlevel.html",
+      "file": "data/raw/thaiwater/hatyai_nov2025/hatyai_nov2025_waterlevel.html",
+      "bytes": 50811,
+      "retrievedAt": "2026-11-03T19:26:37.957Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "thaiwater-waterlevel_songkhla",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://www.thaiwater.net/uploads/contents/current/2025/hatyai_nov2025/waterlevel_songkhla.html",
+      "file": "data/raw/thaiwater/hatyai_nov2025/hatyai_nov2025_waterlevel_songkhla.html",
+      "bytes": 17735,
+      "retrievedAt": "2026-11-03T19:26:39.051Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "thaiwater-flood_area",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://www.thaiwater.net/uploads/contents/current/2025/hatyai_nov2025/flood_area.html",
+      "file": "data/raw/thaiwater/hatyai_nov2025/hatyai_nov2025_flood_area.html",
+      "bytes": 46569,
+      "retrievedAt": "2026-11-03T19:26:40.158Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    },
+    {
+      "key": "thaiwater-damage",
+      "status": "cached",
+      "httpStatus": 200,
+      "url": "https://www.thaiwater.net/uploads/contents/current/2025/hatyai_nov2025/damage.html",
+      "file": "data/raw/thaiwater/hatyai_nov2025/hatyai_nov2025_damage.html",
+      "bytes": 61792,
+      "retrievedAt": "2026-11-03T19:26:41.350Z",
+      "attemptedAt": null,
+      "error": null,
+      "note": "cache-first policy (or --offline); cached raw file reused"
+    }
+  ],
+  "outputs": [
+    "public/data/hatyai/municipality.geojson",
+    "public/data/hatyai/zones.geojson",
+    "public/data/hatyai/communities.geojson",
+    "data/staged/hatyai-communities.json",
+    "data/staged/hatyai-population.json",
+    "data/staged/hatyai-waste.json",
+    "data/staged/hatyai-flood.json",
+    "data/staged/hatyai-sources.json"
+  ],
+  "zoneMethodOk": true
+}

@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hatyai_Nov2025</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- MORRIS CHART STYLES-->
+    <link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
+    <!-- CUSTOM STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <!-- GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans%7CPrompt%7CAthiti%7CBai+Jamjuree%7CKanit%7CKodchasan" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse"> <span class="sr-only">Toggle
+              navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span> </button> </div>
+        <div style="color: black; padding: 15px 50px 5px 50px; float: right; " align="right"><span class="Prompt2">บันทึกเหตุการณ์น้ำท่วมอำเภอหาดใหญ่และพื้นที่ภาคใต้ตอนล่าง</span><br />
+          <span class="Prompt1">ช่วงเดือนพฤศจิกายน 2568</span> </div>
+        <br />
+        <br />
+      </nav>
+      <!-- /. NAV TOP  -->
+      <nav class="navbar-default navbar-side" role="navigation">
+        <div class="sidebar-collapse">
+          <ul class="nav" id="main-menu">
+            <li class="BaiJamjuree1" style="background: #F5F5F5">  Contents</li>
+            <li> <a class="active-menu" href="https://forms.gle/uNsA32agoqsgvD5CA" target="_blank">&nbsp;&nbsp;<i class="fa fa-file-text-o fa-2x"></i><span class="Athiti4">&nbsp;ประเมินความพึงพอใจ</span></a> </li>
+            <li><i class="fas fa-cloud-drizzle"></i> <a class="active-menu" href="summary.html">  <i class="fa fa-star-o fa-2x"></i><span class="Athiti4"> สรุปสถานการณ์</span></a> </li>
+            <li> <a class="active-menu" href="storm.html">  <i class="fa fa-bolt fa-2x"></i><span class="Athiti4"> เส้นทางพายุ</span></a> </li>
+            <li> <a class="active-menu" href="satellite.html">  <i class="fa fa-globe fa-2x"></i><span class="Athiti4"> ภาพถ่ายดาวเทียม</span></a> </li>
+            <li> <a href="#">  <i class="fa fa-map-marker fa-2x"></i><span class="Athiti4">แผนที่อากาศ</span><span class="fa arrow"></span></a>
+              <ul class="nav nav-second-level">
+                <li> <a href="weathermap.html"><span class="Athiti4">แผนที่อากาศ</span></a> </li>
+                <li> <a href="pressure.html"><span class="Athiti4">แผนที่ความกดอากาศ</span></a> </li>
+              </ul>
+            </li>
+            <li> <a href="#">  <i class="fa fa-tachometer fa-2x"></i><span class="Athiti4">แผนที่ลม</span><span class="fa arrow"></span></a>
+              <ul class="nav nav-second-level">
+                <li> <a href="wind.html"><span class="Athiti4">แผนที่ความเร็วลม</span></a>
+                </li>
+               <!-- <li> <a href="wind_vertical.html"><span class="Athiti4">แผนที่ลมแนวดิ่ง</span></a> </li>-->
+              </ul>
+            </li>
+            <li> <a class="active-menu" href="wave.html">  <i class="fa fa-anchor fa-2x"></i><span class="Athiti4"> คลื่นทะเล</span></a> </li>
+            <li> <a href="#">  <i class="fa fa-umbrella fa-2x"></i><span class="Athiti4">ปริมาณฝน</span><span class="fa arrow"></span></a>
+              <ul class="nav nav-second-level">
+                <li> <a href="rain_tele.html"><span class="Athiti4">สถานีโทรมาตร</span></a> </li>
+                <li> <a href="rain_radar.html"><span class="Athiti4">เรดาร์ตรวจอากาศ</span></a> </li>
+                <li> <a href="rain_sat.html"><span class="Athiti4">ดาวเทียม</span></a>
+                </li>
+              </ul>
+            </li>
+            <li> <a href="dam.html">  <i class="fa fa fa-maxcdn fa-2x"></i><span class="Athiti4">น้ำในเขื่อน</span></a> </li>
+            
+            <li> <a href="#">  <i class="fa fa-bars fa-2x"></i><span class="Athiti4">ระดับน้ำ</span><span class="fa arrow"></span></a>
+              <ul class="nav nav-second-level">
+                <li> <a href="waterlevel.html"><span class="Athiti4">ระดับน้ำในแม่น้ำลำคลอง</span></a> </li>
+                <li> <a href="waterlevel_songkhla.html"><span class="Athiti4">วิเคราะห์ระดับน้ำบริเวณ อ.หาดใหญ่</span></a> </li>
+                <li> <a href="waterlevel_sealevel.html"><span class="Athiti4">วิเคราะห์ระดับน้ำและระดับน้ำทะเล</span></a>
+                </li>
+              </ul>
+            </li>             
+
+            <li> <a href="flood_area.html">  <i class="fa fa-exclamation-circle fa-2x"></i><span class="Athiti4">พื้นที่น้ำท่วม</span></a> </li>
+            <li> <a href="damage.html">  <i class="fa fa fa-plus-square fa-2x"></i><span class="Athiti4">ความเสียหาย</span></a> </li>
+            <li> <a href="news.html">  <i class="fa fa-bullhorn fa-2x"></i><span class="Athiti4">ข่าว</span></a> </li>
+            <li style="background: #F5F5F5; text-align: center; "><br />
+              <img src="hatyai_nov2025/hii-logo1.png" width="15%" />  
+               <img src="hatyai_nov2025/NHCSOC_logo1.png" width="18%" />
+              <br />
+              <span class="BaiJamjuree3">Provided by<br />
+                NHC Steering and Operations Center (NHCSOC)</span><br />
+              <span class="BaiJamjuree2"> Hydro Informatics Institute </span><br />
+              <br />
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- /. NAV SIDE  -->
+      <div id="page-wrapper">
+        <div id="page-inner">
+          
+          
+          <!-- /. ROW  -->
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="panel panel-default">
+                <div class="panel-heading"><span class="Prompt2">ระดับน้ำในแม่น้ำลำคลอง</span><br />
+                  <span class="Prompt3">ที่มา : คลังข้อมูลน้ำแห่งชาติ</span> </div>
+                <br />
+                <div class="panel-body">
+                  <div class="table-responsive">
+                    
+                    <div class="table">
+                      <div class="tr">
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+                            
+ฝนที่ตกหนักจากอิทธิพลของมรสุมตะวันออกเฉียงเหนือที่พัดปกคลุมอ่าวไทย ภาคใต้ และทะเลอันดามัน รวมถึงอิทธิพลจากหย่อมความกดอากาศต่ำและร่องมรสุมที่พาดผ่านทะเลอันดามัน ช่องแคบมะละกา แหลมมาลายูและอ่าวไทย ในช่วงกลางเดือนถึงปลายเดือนพฤศจิกายน 2568 ส่งผลทำให้ลำน้ำสายหลักเกิดน้ำล้นตลิ่งเข้าท่วมในหลายพื้นที่ ทั้งนี้สถานีโทรมาตรตรวจวัดระดับน้ำของคลังข้อมูลน้ำแห่งชาติ ตรวจพบน้ำท่วม น้ำล้นตลิ่ง ดังนี้
+<br />
+<br /><span class="Athiti3-bold">-แม่น้ำตาปี</span> บริเวณ อ.พิปูน จ.นครศรีธรรมราช อ.เวียงสระ จ.สุราษฎร์ธานี 
+<br /><span class="Athiti3-bold">-คลองท่าดี</span> บริเวณ อ.ลานสกา อ.เมืองนครศรีธรรมราช จ.นครศรีธรรมราช 
+<br /><span class="Athiti3-bold">-คลองสินปุน</span> บริเวณ อ.ทุ่งใหญ่ จ.นครศรีธรรมราช อ.พระแสง จ.สุราษฎร์ธานี
+<br /><span class="Athiti3-bold">-คลองปากนคร</span> บริเวณ อ.เมืองนครศรีธรรมราช จ.นครศรีธรรมราช
+<br /><span class="Athiti3-bold">-คลองวังเคียน</span> บริเวณ อ.ชะอวด จ.นครศรีธรรมราช
+<br /><span class="Athiti3-bold">-คลองเสาธง</span> บริเวณ อ.ร่อนพิบูลย์ จ.นครศรีธรรมราช
+
+
+                        </p></div>
+                        <div class="td" style="width:2%;text-align: left;"></div>
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+<span class="Athiti3-bold">-คลองอิปัน</span> บริเวณ อ.พระแสง จ.สุราษฎร์ธานี
+<br /><span class="Athiti3-bold">-คลองท่าชนะ</span> บริเวณ อ.ท่าชนะ จ.สุราษฎร์ธานี                            
+<br /><span class="Athiti3-bold">-คลองเทพา</span> บริเวณ อ.สะบ้าย้อย อ.เทพา จ.สงขลา
+<br /><span class="Athiti3-bold">-คลองอู่ตะเภา</span> บริเวณ อ.หาดใหญ่ อ.คลองหอยโข่ง อ.สะเดา จ.สงขลา
+<br /><span class="Athiti3-bold">-ทะเลสาบสงขลา</span> บริเวณ อ.สิงหนคร จ.สงขลา
+<br /><span class="Athiti3-bold">-คลองปากรอ</span> บริเวณ อ.สิงหนคร จ.สงขลา
+<br /><span class="Athiti3-bold">-คลองระโนด</span> บริเวณ อ.ระโนด จ.สงขลา
+<br /><span class="Athiti3-bold">-คลองปากแตระ </span>บริเวณ อ.ระโนด จ.สงขลา
+<br /><span class="Athiti3-bold">-คลองหวะ</span> บริเวณ อ.หาดใหญ่ จ.สงขลา
+<br /><span class="Athiti3-bold">-คลองต่ำ </span>บริเวณ อ.หาดใหญ่ จ.สงขลา
+<br /><span class="Athiti3-bold">-คลองรัตภูมิ</span> บริเวณ อ.รัตภูมิ จ.สงขลา
+<br /><span class="Athiti3-bold">-คลองบางกล่ำ </span>บริเวณ อ.บางกล่ำ จ.สงขลา
+<br /><span class="Athiti3-bold">-คลองเล็ก </span>บริเวณ อ.จะนะ จ.สงขลา
+<br /><span class="Athiti3-bold">-คลองนาทวี </span>บริเวณ อ.นาทวี จ.สงขลา
+<br /><span class="Athiti3-bold">-คลองใหญ่ </span>บริเวณ อ.ศรีบรรพต จ.พัทลุง
+<br /><span class="Athiti3-bold">-คลองคุ้ง</span> บริเวณ อ.ควนขนุน จ.พัทลุง
+<br /><span class="Athiti3-bold">-คลองท่าแค</span> บริเวณ อ.เมืองพัทลุง จ.พัทลุง
+                          </p>
+                        </div>
+                        <div class="td" style="width:2%;text-align: left;"></div>
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+                            
+
+<br /><span class="Athiti3-bold">-คลองปากประ</span> บริเวณ อ.เมืองพัทลุง จ.พัทลุง
+<br /><span class="Athiti3-bold">-คลองลำปำ</span> บริเวณ อ.เมืองพัทลุง จ.พัทลุง
+<br /><span class="Athiti3-bold">-คลองอ้ายโต</span> บริเวณ อ.บางแก้ว จ.พัทลุง
+<br /><span class="Athiti3-bold">-คลองลำสิน</span> บริเวณ อ.กงหรา จ.พัทลุง
+<br /><span class="Athiti3-bold">-ทะเลหลวง</span> บริเวณ อ.ปากพะยูน จ.พัทลุง
+<br /><span class="Athiti3-bold">-แม่น้ำปัตตานี</span> บริเวณ อ.ยะรัง อ.เมืองปัตตานี จ.ปัตตานี  อ.เมืองยะลา จ.ยะลา
+<br /><span class="Athiti3-bold">-แม่น้ำสายบุรี</span> บริเวณ อ.รามัน จ.ยะลา อ.สุคิริน จ.นราธิวาส
+<br /><span class="Athiti3-bold">-คลองสุหงาบารู</span> บริเวณ อ.ยะรัง จ.ปัตตานี อ.ระแงะ จ.นราธิวาส
+<br /><span class="Athiti3-bold">-แม่น้ำตรัง</span> บริเวณ อ.วังวิเศษ อ.รัษฎา อ.ห้วยยอด อ.เมืองตรัง จ.ตรัง 
+<br /><span class="Athiti3-bold">-คลองปะเหลียน </span>บริเวณ อ.ปะเหลียน จ.ตรัง 
+<br /><span class="Athiti3-bold">-คลองบางน้อย </span>บริเวณ อ.เมืองตรัง จ.ตรัง
+<br /><span class="Athiti3-bold">-คลองยวนปลา</span> บริเวณ อ.วังวิเศษ จ.ตรัง
+<br /><span class="Athiti3-bold">-คลองดุสน</span> บริเวณ อ.ควนโดน จ.สตูล
+<br /><span class="Athiti3-bold">-คลองน้ำพระ</span> บริเวณ อ.เมืองสตูล จ.สตูล
+<br /><span class="Athiti3-bold">-คลองละงู </span>บริเวณ อ.ละงู อ.มะนัง จ.สตูล
+<br /><span class="Athiti3-bold">-คลองลำโลน </span>บริเวณ อ.ควนกาหลง จ.สตูล
+
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+<hr align="left" width="30%" />                    
+<div class="Prompt2">แม่น้ำตาปี</div>
+<br />
+                    
+<div class="table-wrapper" style="width:100%; text-align:center;">
+<div class="box a1" align="left">
+<span class="Athiti3-bold">แม่น้ำตาปี สถานี  X.243 - บ้านควนกลาง (1) </span><br />
+<span class="Athiti3">ต.กะทูน อ.พิปูน จ.นครศรีธรรมราช</span> 
+<img src="hatyai_nov2025/waterlevel_X243.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>
+
+<div class="box b1" align="left">
+<span class="Athiti3-bold">แม่น้ำตาปี สถานี  TPI005 - เวียงสระ </span><br />
+<span class="Athiti3">ต.ทุ่งหลวง อ.เวียงสระ จ.สุราษฎร์ธานี</span> 
+<img src="hatyai_nov2025/waterlevel_TPI005.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>  
+</div>  
+
+<br /> 
+<hr align="left" width="30%" />                    
+<div class="Prompt2">คลองท่าดี</div>
+<br />                    
+<div class="table-wrapper" style="width:100%; text-align:center;">  
+<div class="box a1" align="left">
+<span class="Athiti3-bold">คลองท่าดี สถานี  X.55 - บ้านท่าใหญ่ </span><br />
+<span class="Athiti3">อ.ลานสกา จ.นครศรีธรรมราช</span>    
+<img src="hatyai_nov2025/waterlevel_X55.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                    
+                    
+<div class="box b1" align="left">
+<span class="Athiti3-bold">คลองท่าดี สถานี  X.203 - บ้านนาป่า </span><br />
+<span class="Athiti3">ต.ไชยมนตรี อ.เมืองนครศรีธรรมราช จ.นครศรีธรรมราช</span>    
+<img src="hatyai_nov2025/waterlevel_X203.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                      
+</div>   
+
+    
+<br /> 
+<hr align="left" width="30%" />                      
+<div class="Prompt2">คลองสินปุน</div>                    
+ <br />
+                    
+<div class="table-wrapper" style="width:100%; text-align:center;">  
+<div class="box a1" align="left">
+<span class="Athiti3-bold">คลองสินปุน สถานี  NKO004 - ทุ่งใหญ่  </span><br />
+<span class="Athiti3">ต.บางรูป อ.ทุ่งใหญ่ จ.นครศรีธรรมราช </span>    
+<img src="hatyai_nov2025/waterlevel_FOP035.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box b1" align="left">
+<span class="Athiti3-bold">คลองสินปุน สถานี  X.198 - บ้านบางรูป  </span><br />
+<span class="Athiti3">ต.สินเจริญ อ.พระแสง จ.สุราษฎร์ธานี</span>    
+<img src="hatyai_nov2025/waterlevel_X198.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+</div> 
+<br /> 
+<hr align="left" width="30%" />                                         
+<div class="Prompt2">คลองเสาธง คลองปากนคร คลองวังเคียน</div>                    
+<br />                  
+<div class="table-wrapper" style="width:100%; text-align:center;">    
+<div class="box a1" align="left">
+<span class="Athiti3-bold">คลองปากนคร สถานี  PTT003 - สะพานนางพระยา-บางหลวง ชุมชนปากนคร  </span><br />
+<span class="Athiti3">ต.ท่าไร่ อ.เมืองนครศรีธรรมราช จ.นครศรีธรรมราช</span>    
+<img src="hatyai_nov2025/waterlevel_PTT003.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                      
+  
+<div class="box b1" align="left">
+<span class="Athiti3-bold">คลองวังเคียน สถานี  FOP035 - สะพานข้ามคลองวังเคียน </span><br />
+<span class="Athiti3">ต.วังอ่าง อ.ชะอวด จ.นครศรีธรรมราช </span>    
+<img src="hatyai_nov2025/waterlevel_FOP035.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                       
+
+<div class="box k1" align="left">
+<span class="Athiti3-bold">คลองเสาธง  สถานี  X.289 - วัดถลุงทอง</span><br />
+<span class="Athiti3">ต.หินตก อ.ร่อนพิบูลย์ จ.นครศรีธรรมราช</span>    
+<img src="hatyai_nov2025/waterlevel_X289.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>
+                                        
+</div> 
+                    
+<br /> 
+<hr align="left" width="30%" />                      
+<div class="Prompt2">คลองอิปัน คลองท่าชนะ</div>                    
+ <br />
+                    
+<div class="table-wrapper" style="width:100%; text-align:center;">  
+<div class="box a1" align="left">
+<span class="Athiti3-bold">คลองอิปัน สถานี  TPI006 - พระแสง  </span><br />
+<span class="Athiti3">ต.ไทรขึง อ.พระแสง จ.สุราษฎร์ธานี </span>    
+<img src="hatyai_nov2025/waterlevel_TPI006.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box b1" align="left">
+<span class="Athiti3-bold">คลองท่าชนะ สถานี  PTT004 - สะพานคลองท่าชนะ ชุมชนบ้านหาดสมบูรณ์  </span><br />
+<span class="Athiti3">ต.วัง อ.ท่าชนะ จ.สุราษฎร์ธานี</span>    
+<img src="hatyai_nov2025/waterlevel_PTT004.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+</div> 
+<br />                     
+                    
+<br /> 
+<hr align="left" width="30%" />                      
+<div class="Prompt2">คลองเทพา</div>                    
+ <br />
+                    
+<div class="table-wrapper" style="width:100%; text-align:center;">  
+<div class="box a1" align="left">
+<span class="Athiti3-bold">คลองเทพา สถานี  ONE035 - สะพานข้ามคลองเทพา </span><br />
+<span class="Athiti3">ต.จะแหน อ.สะบ้าย้อย จ.สงขลา  </span>    
+<img src="hatyai_nov2025/waterlevel_ONE035.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box b1" align="left">
+<span class="Athiti3-bold">คลองเทพา สถานี  ONE036 - สะพานเทพาสันติสุข   </span><br />
+<span class="Athiti3">ต.เทพา อ.เทพา จ.สงขลา</span>    
+<img src="hatyai_nov2025/waterlevel_ONE036.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+</div> 
+<br />    
+                    
+<br /> 
+<hr align="left" width="30%" />                      
+<div class="Prompt2">คลองอู่ตะเภา</div>                    
+ <br />
+                    
+<div class="table-wrapper" style="width:100%; text-align:center;">  
+<div class="box a1" align="left">
+<span class="Athiti3-bold">คลองอู่ตะเภา สถานี  ONE037 - สะพานข้ามคลองอู่ตะเภา </span><br />
+<span class="Athiti3">ต.คูเต่า อ.หาดใหญ่ จ.สงขลา  </span>    
+<img src="hatyai_nov2025/waterlevel_ONE037.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box b1" align="left">
+<span class="Athiti3-bold">คลองอู่ตะเภา สถานี  SLA001 - หาดใหญ่    </span><br />
+<span class="Athiti3">ต.คอหงส์ อ.หาดใหญ่ จ.สงขลา</span>    
+<img src="hatyai_nov2025/waterlevel_SLA001.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+<div class="box k1" align="left">
+<span class="Athiti3-bold">คลองอู่ตะเภา สถานี  SLA002 - คลองหอยโข่ง  </span><br />
+<span class="Athiti3">ต.ทุ่งลาน อ.คลองหอยโข่ง จ.สงขลา  </span>    
+<img src="hatyai_nov2025/waterlevel_SLA002.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box l1" align="left">
+<span class="Athiti3-bold">คลองอู่ตะเภา สถานี  SLA003 - สะเดา   </span><br />
+<span class="Athiti3">ต.ท่าโพธิ์ อ.สะเดา จ.สงขลา</span>    
+<img src="hatyai_nov2025/waterlevel_SLA003.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+<div class="box a2" align="left">
+<span class="Athiti3-bold">คลองอู่ตะเภา สถานี  X.44 - บ้านหาดใหญ่ใน   </span><br />
+<span class="Athiti3">ต.หาดใหญ่ อ.หาดใหญ่ จ.สงขลา</span>    
+<img src="hatyai_nov2025/waterlevel_X44.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+<div class="box b2" align="left">
+<span class="Athiti3-bold">คลองอู่ตะเภา สถานี  X.90 - บ้านบางศาลา    </span><br />
+<span class="Athiti3">ต.บ้านพรุ อ.หาดใหญ่ จ.สงขลา</span>    
+<img src="hatyai_nov2025/waterlevel_X90.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+   
+<div class="box k2" align="left">
+<span class="Athiti3-bold">คลองอู่ตะเภา สถานี  X.173A - บ้านม่วงก็อง    </span><br />
+<span class="Athiti3">ต.พังลา อ.สะเดา จ.สงขลา</span>    
+<img src="hatyai_nov2025/waterlevel_X173A.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+                    </div>  
+  
+<br /> 
+<hr align="left" width="30%" />                      
+<div class="Prompt2">ทะเลสาบสงขลา คลองปากรอ คลองระโนด คลองปากแตระ</div>                    
+ <br />
+                    
+<div class="table-wrapper" style="width:100%; text-align:center;">  
+<div class="box a1" align="left">
+<span class="Athiti3-bold">ทะเลสาบสงขลา สถานี  ONE038 - สะพานสวนเฉลิมพระเกียรติ 72 พรรษามหาราชินี </span><br />
+<span class="Athiti3">ต.หัวเขา อ.สิงหนคร จ.สงขลา  </span>    
+<img src="hatyai_nov2025/waterlevel_ONE038.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box b1" align="left">
+<span class="Athiti3-bold">คลองปากรอ สถานี  SLA005 - ปากรอ    </span><br />
+<span class="Athiti3">ต.ปากรอ อ.สิงหนคร จ.สงขลา</span>    
+<img src="hatyai_nov2025/waterlevel_SLA005.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+<div class="box k1" align="left">
+<span class="Athiti3-bold">คลองระโนด สถานี  ONE039 - สะพานข้ามคลองระโนด </span><br />
+<span class="Athiti3">ต.ระโนด อ.ระโนด จ.สงขลา  </span>    
+<img src="hatyai_nov2025/waterlevel_ONE039.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box l1" align="left">
+<span class="Athiti3-bold">คลองปากแตระ สถานี  PTT001 - สะพานคลองปากแตระ ชุมชนทะเลสาบสงขลา    </span><br />
+<span class="Athiti3">ต.ปากแตระ อ.ระโนด จ.สงขลา</span>    
+<img src="hatyai_nov2025/waterlevel_PTT001.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                            
+  
+</div> 
+<br />                     
+                    
+<br /> 
+<hr align="left" width="30%" />                      
+<div class="Prompt2">คลองหวะ คลองต่ำ</div>                    
+ <br />
+                    
+<div class="table-wrapper" style="width:100%; text-align:center;">  
+<div class="box a1" align="left">
+<span class="Athiti3-bold">คลองหวะ สถานี  X.174 - บ้านคลองหวะ </span><br />
+<span class="Athiti3">ต.คอหงส์ อ.หาดใหญ่ จ.สงขลา </span>    
+<img src="hatyai_nov2025/waterlevel_X174.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box b1" align="left">
+<span class="Athiti3-bold">คลองต่ำ สถานี  X.71B - บ้านควนลัง </span><br />
+<span class="Athiti3">ต.ควนลัง อ.หาดใหญ จ.สงขลา </span>    
+<img src="hatyai_nov2025/waterlevel_X71B.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+</div> 
+<br />  
+                    
+<br /> 
+<hr align="left" width="30%" />                      
+<div class="Prompt2">คลองรัตภูมิ คลองบางกล่ำ คลองเล็ก คลองนาทวี</div>                    
+ <br />
+                    
+<div class="table-wrapper" style="width:100%; text-align:center;">  
+<div class="box a1" align="left">
+<span class="Athiti3-bold">คลองรัตภูมิ สถานี  X.67A - บ้านนาสีทอง </span><br />
+<span class="Athiti3">ต.เขาพระ อ.รัตภูมิ จ.สงขลา </span>    
+<img src="hatyai_nov2025/waterlevel_X67A.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box b1" align="left">
+<span class="Athiti3-bold">คลองบางกล่ำ สถานี  SLA007 - บางกล่ำ  </span><br />
+<span class="Athiti3">ต.ท่าช้าง อ.บางกล่ำ จ.สงขลา </span>    
+<img src="hatyai_nov2025/waterlevel_SLA007.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+<div class="box k1" align="left">
+<span class="Athiti3-bold">คลองเล็ก สถานี  JNA001 - จะนะ   </span><br />
+<span class="Athiti3">ต.บ้านนา อ.จะนะ จ.สงขลา</span>    
+<img src="hatyai_nov2025/waterlevel_JNA001.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+   
+<div class="box l1" align="left">
+<span class="Athiti3-bold">คลองนาทวี สถานี  JNA002 - นาทวี  </span><br />
+<span class="Athiti3">ต.นาทวี อ.นาทวี จ.สงขลา </span>    
+<img src="hatyai_nov2025/waterlevel_JNA002.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+  
+</div> 
+<br />                     
+                    
+<br /> 
+<hr align="left" width="30%" />                      
+<div class="Prompt2">คลองใหญ่ คลองคุ้ง คลองท่าแค คลองปากประ คลองลำปำ คลองอ้ายโต คลองลำสิน ทะเลหลวง</div>                    
+ <br />
+                    
+<div class="table-wrapper" style="width:100%; text-align:center;">  
+<div class="box a1" align="left">
+<span class="Athiti3-bold">คลองใหญ่ สถานี  X.276 - บ้านเขาปู่ </span><br />
+<span class="Athiti3">ต.เขาปู่ อ.ศรีบรรพต จ.พัทลุง  </span>    
+<img src="hatyai_nov2025/waterlevel_X276.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box b1" align="left">
+<span class="Athiti3-bold">คลองคุ้ง สถานี  FOP038 - สะพานบ้านแหลมโตนด </span><br />
+<span class="Athiti3">ต.แหลมโตนด อ.ควนขนุน จ.พัทลุง  </span>    
+<img src="hatyai_nov2025/waterlevel_FOP038.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+<div class="box k1" align="left">
+<span class="Athiti3-bold">คลองท่าแค สถานี  X.68 - บ้านท่าแค </span><br />
+<span class="Athiti3">ต.ท่าแค อ.เมืองพัทลุง จ.พัทลุง  </span>    
+<img src="hatyai_nov2025/waterlevel_X68.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+<div class="box l1" align="left">
+<span class="Athiti3-bold">คลองปากประ สถานี  FOP039 - สะพานท่าสำเภา </span><br />
+<span class="Athiti3">ต.ชัยบุรี อ.เมืองพัทลุง จ.พัทลุง  </span>    
+<img src="hatyai_nov2025/waterlevel_FOP039.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+<div class="box a2" align="left">
+<span class="Athiti3-bold">คลองลำปำ สถานี  ONE025 - สะพานข้ามคลองลำปำ </span><br />
+<span class="Athiti3">ต.ลำปำ อ.เมืองพัทลุง จ.พัทลุง</span>    
+<img src="hatyai_nov2025/waterlevel_ONE025.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+
+<div class="box b2" align="left">
+<span class="Athiti3-bold">คลองอ้ายโต สถานี  PLG001 - สะพานข้ามคลองบ้านท่าวัง  </span><br />
+<span class="Athiti3">ต.โคกสัก อ.บางแก้ว จ.พัทลุง</span>    
+<img src="hatyai_nov2025/waterlevel_PLG001.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+<div class="box k2" align="left">
+<span class="Athiti3-bold">ตลองลำสิน สถานี  MOU510 - น้ำตกโตนแพรทอง  </span><br />
+<span class="Athiti3">ต.กงหรา อ.กงหรา จ.พัทลุง </span>    
+<img src="hatyai_nov2025/waterlevel_MOU510.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+
+<div class="box l2" align="left">
+<span class="Athiti3-bold">ทะเลหลวง สถานี  ONE024 - สะพานข้ามคลองบางม่วง </span><br />
+<span class="Athiti3">ต.ฝาละมี อ.ปากพะยูน จ.พัทลุง </span>    
+<img src="hatyai_nov2025/waterlevel_ONE024.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+  
+  
+</div> 
+<br />                     
+                    
+  
+<br /> 
+<hr align="left" width="30%" />                      
+<div class="Prompt2">แม่น้ำปัตตานี     </div>                    
+ <br />
+                    
+<div class="table-wrapper" style="width:100%; text-align:center;">  
+<div class="box a1" align="left">
+<span class="Athiti3-bold">แม่น้ำปัตตานี สถานี  X.10A - สะพานเดชานุชิต </span><br />
+<span class="Athiti3">ต.อาเนาะรู อ.เมืองปัตตานี จ.ปัตตานี </span>    
+<img src="hatyai_nov2025/waterlevel_X10A.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box b1" align="left">
+<span class="Athiti3-bold">แม่น้ำปัตตานี สถานี  X.275 - บ้านบริดอ </span><br />
+<span class="Athiti3">ต.บาราเฮาะ อ.เมืองปัตตานี จ.ปัตตานี  </span>    
+<img src="hatyai_nov2025/waterlevel_X275.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+<div class="box k1" align="left">
+<span class="Athiti3-bold">แม่น้ำปัตตานี สถานี  X.283 - บ้านปรีกี    </span><br />
+<span class="Athiti3">ต.กระโด อ.ยะรัง จ.ปัตตานี</span>    
+<img src="hatyai_nov2025/waterlevel_X283.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+   
+<div class="box l1" align="left">
+<span class="Athiti3-bold">แม่น้ำปัตตานี สถานี  PAT002 - เมืองยะลา </span><br />
+<span class="Athiti3">ต.ตาเซะ อ.เมืองยะลา จ.ยะลา</span>    
+<img src="hatyai_nov2025/waterlevel_PAT002.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+
+<div class="box a2" align="left">
+<span class="Athiti3-bold">แม่น้ำปัตตานี สถานี  X.40A - บ้านท่าสาบ </span><br />
+<span class="Athiti3">ต.สะเตง อ.เมืองยะลา จ.ยะลา </span>    
+<img src="hatyai_nov2025/waterlevel_X40A.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                             
+  
+</div> 
+<br />                     
+                    
+                    
+                    
+  
+<br /> 
+<hr align="left" width="30%" />                      
+<div class="Prompt2">แม่น้ำสายบุรี </div>                    
+ <br />
+                    
+<div class="table-wrapper" style="width:100%; text-align:center;">  
+<div class="box a1" align="left">
+<span class="Athiti3-bold">แม่น้ำสายบุรี สถานี  X.273 - บ้านปายอยือนิ  </span><br />
+<span class="Athiti3">ต.ตะโล๊ะหะลอ อ.รามัน จ.ยะลา </span>    
+<img src="hatyai_nov2025/waterlevel_X273.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box b1" align="left">
+<span class="Athiti3-bold">แม่น้ำสายบุรี สถานี  SAY001 - สุคิริน </span><br />
+<span class="Athiti3">ต.สุคิริน อ.สุคิริน จ.นราธิวาส  </span>    
+<img src="hatyai_nov2025/waterlevel_SAY001.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+
+</div> 
+<br />                     
+                    
+                    
+<br /> 
+<hr align="left" width="30%" />                      
+<div class="Prompt2">คลองสุหงาบารู คลองตันหยงมัส </div>                    
+ <br />
+                    
+<div class="table-wrapper" style="width:100%; text-align:center;">  
+<div class="box a1" align="left">
+<span class="Athiti3-bold">คลองสุหงาบารู สถานี  FOP041 - คลองสุหงาบารู หมู่ที่ 4 </span><br />
+<span class="Athiti3">ต.คลองใหม่ อ.ยะรัง จ.ปัตตานี </span>    
+<img src="hatyai_nov2025/waterlevel_FOP041.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box b1" align="left">
+<span class="Athiti3-bold">คลองตันหยงมัส สถานี  X.73 - บ้านตันหยงมัส  </span><br />
+<span class="Athiti3">ต.ตันหยงมัส อ.ระแงะ จ.นราธิวาส </span>    
+<img src="hatyai_nov2025/waterlevel_X73.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+
+</div> 
+<br />                     
+                    
+                    
+<br /> 
+<hr align="left" width="30%" />                      
+<div class="Prompt2">แม่น้ำตรัง </div>                    
+ <br />
+                    
+<div class="table-wrapper" style="width:100%; text-align:center;">  
+<div class="box a1" align="left">
+<span class="Athiti3-bold">แม่น้ำตรัง สถานี  TNG001 - ท่าสะบ้า  </span><br />
+<span class="Athiti3">ต.ท่าสะบ้า อ.วังวิเศษ จ.ตรัง</span>    
+<img src="hatyai_nov2025/waterlevel_TNG001.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box b1" align="left">
+<span class="Athiti3-bold">แม่น้ำตรัง สถานี  TNG002 - เมืองตรัง  </span><br />
+<span class="Athiti3">ต.บางรัก อ.เมืองตรัง จ.ตรัง  </span>    
+<img src="hatyai_nov2025/waterlevel_TNG002.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+ 
+<div class="box k1" align="left">
+<span class="Athiti3-bold">แม่น้ำตรัง สถานี  TNG006 - รัษฎา </span><br />
+<span class="Athiti3">ต.ควนเมา อ.รัษฎา จ.ตรัง  </span>    
+<img src="hatyai_nov2025/waterlevel_TNG006.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+  
+<div class="box l1" align="left">
+<span class="Athiti3-bold">แม่น้ำตรัง สถานี  X.233 - บ้านไสหาร  </span><br />
+<span class="Athiti3">ต.ห้วยนาง อ.ห้วยยอด จ.ตรัง  </span>    
+<img src="hatyai_nov2025/waterlevel_X233.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+   
+
+</div> 
+<br />                      
+                    
+ 
+<br /> 
+<hr align="left" width="30%" />                      
+<div class="Prompt2">คลองปะเหลียน </div>                    
+ <br />
+                    
+<div class="table-wrapper" style="width:100%; text-align:center;">  
+<div class="box k1" align="left">
+<span class="Athiti3-bold">คลองปะเหลียน สถานี  TNG004 - ปะเหลียน  </span><br />
+<span class="Athiti3">ต.ท่าพญา อ.ปะเหลียน จ.ตรัง </span>    
+<img src="hatyai_nov2025/waterlevel_TNG004.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box b1" align="left">
+<span class="Athiti3-bold">คลองปะเหลียน สถานี  X.139 - บ้านปะเหลียนใน   </span><br />
+<span class="Athiti3">ต.ปะเหลียน อ.ปะเหลียน จ.ตรัง  </span>    
+<img src="hatyai_nov2025/waterlevel_X139.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+ 
+<div class="box a1" align="left">
+<span class="Athiti3-bold">คลองปะเหลียน สถานี  X.236 - บ้านย่านตาขาว  </span><br />
+<span class="Athiti3">ต.ท่าพญา อ.ปะเหลียน จ.ตรัง </span>    
+<img src="hatyai_nov2025/waterlevel_X236.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                            
+  
+
+</div> 
+<br />                     
+                    
+ 
+<br /> 
+<hr align="left" width="30%" />                      
+<div class="Prompt2">คลองบางน้อย คลองยวนปลา </div>                    
+ <br />
+                    
+<div class="table-wrapper" style="width:100%; text-align:center;">  
+<div class="box a1" align="left">
+<span class="Athiti3-bold">คลองบางน้อย สถานี  TNG003 - คลองนางน้อย </span><br />
+<span class="Athiti3">ต.นาโยงใต้ อ.เมืองตรัง จ.ตรัง </span>    
+<img src="hatyai_nov2025/waterlevel_TNG003.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box b1" align="left">
+<span class="Athiti3-bold">คลองยวนปลา สถานี  TNG005 - วังวิเศษ    </span><br />
+<span class="Athiti3">ต.เขาวิเศษ อ.วังวิเศษ จ.ตรัง </span>    
+<img src="hatyai_nov2025/waterlevel_TNG005.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+   
+</div> 
+<br />                     
+
+                    
+<br /> 
+<hr align="left" width="30%" />                      
+<div class="Prompt2">คลองดุสน</div>                    
+ <br />                    
+<div class="table-wrapper" style="width:100%; text-align:center;">  
+<div class="box a1" align="left">
+<span class="Athiti3-bold">คลองดุสน สถานี  X.279 - บ้านปันจอร์ </span><br />
+<span class="Athiti3">ต.ย่านซื่อ อ.ควนโดน จ.สตูล </span>    
+<img src="hatyai_nov2025/waterlevel_X279.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box b1" align="left">
+<span class="Athiti3-bold">คลองดุสน สถานี  X.281 - ฝายดุสน บ้านดุสน  </span><br />
+<span class="Athiti3">อ.ควนโดน จ.สตูล </span>    
+<img src="hatyai_nov2025/waterlevel_X281.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+   
+</div> 
+<br />                     
+                    
+     
+                    
+<br /> 
+<hr align="left" width="30%" />                      
+<div class="Prompt2">คลองน้ำพระ</div>                    
+ <br />                    
+<div class="table-wrapper" style="width:100%; text-align:center;">  
+<div class="box a1" align="left">
+<span class="Athiti3-bold">คลองน้ำพระ สถานี  STU001 - เมืองสตูล  </span><br />
+<span class="Athiti3">ต.ฉลุง อ.เมืองสตูล จ.สตูล </span>    
+<img src="hatyai_nov2025/waterlevel_STU001.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box b1" align="left">
+<span class="Athiti3-bold">คลองน้ำพระ สถานี  X.239 - บ้านฉลุงเหนือ   </span><br />
+<span class="Athiti3">ต.ฉลุง อ.เมืองสตูล จ.สตูล </span>    
+<img src="hatyai_nov2025/waterlevel_X239.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+   
+</div> 
+<br />                     
+                    
+                    
+<br /> 
+<hr align="left" width="30%" />                      
+<div class="Prompt2">คลองละงู คลองลำโลน</div>                    
+ <br />                    
+<div class="table-wrapper" style="width:100%; text-align:center;">  
+<div class="box a1" align="left">
+<span class="Athiti3-bold">คลองละงู สถานี  STU002 - ละงู   </span><br />
+<span class="Athiti3">ต.ละงู อ.ละงู จ.สตูล </span>    
+<img src="hatyai_nov2025/waterlevel_STU002.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                        
+  
+<div class="box b1" align="left">
+<span class="Athiti3-bold">คลองละงู สถานี  STU003 - มะนัง </span><br />
+<span class="Athiti3">ต.นิคมพัฒนา อ.มะนัง จ.สตูล</span>    
+<img src="hatyai_nov2025/waterlevel_STU003.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                          
+   
+<div class="box k1" align="left">
+<span class="Athiti3-bold">คลองละงู สถานี  X.231 - ชุมชนประชาบำรุง </span><br />
+<span class="Athiti3">ต.ละงู อ.ละงู จ.สตูล</span>    
+<img src="hatyai_nov2025/waterlevel_X231.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                            
+  
+<div class="box l1" align="left">
+<span class="Athiti3-bold">คลองลำโลน สถานี  STU004 - ควนกาหลง </span><br />
+<span class="Athiti3">ต.อุใดเจริญ อ.ควนกาหลง จ.สตูล </span>    
+<img src="hatyai_nov2025/waterlevel_STU004.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%" /></div>                              
+  
+</div> 
+<br />                      
+                    
+                    
+    <br /><br />                
+                 
+                  
+                    
+                    
+                    
+                    
+                
+                    
+ 
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+  
+
+                      </div>
+                    </div>
+
+ 
+  
+                    </div>
+
+                  
+                  
+                  
+                  
+
+
+                  </div>
+                  <br />
+                </div>
+          
+                   
+          
+          
+          
+              </div>
+            </div>
+          </div>
+        
+      
+    
+    <!-- /. PAGE WRAPPER  -->
+    <!-- /. WRAPPER  -->
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+    <!-- MORRIS CHART SCRIPTS -->
+    <script src="assets/js/morris/raphael-2.1.0.min.js"></script>
+    <script src="assets/js/morris/morris.js"></script>
+    <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+</body></html>

@@ -1,0 +1,7 @@
+{
+  "url": "https://data.bangkok.go.th/api/3/action/package_show?id=water-drainage-tunnel",
+  "httpStatus": 200,
+  "retrievedAt": "2026-11-04T01:46:19.689Z",
+  "bytes": 8027,
+  "note": "Initial download made manually with curl (same URL and User-Agent) while developing this script; retrievedAt = file modification time."
+}

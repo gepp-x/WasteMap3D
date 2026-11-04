@@ -1,0 +1,7 @@
+{
+  "url": "https://data.bangkok.go.th/dataset/f482270f-04cf-4df1-a120-f808110a7a8a/resource/0a30a58c-213f-4aec-bf16-7dd7f61fb5fd/download/pump-station.csv",
+  "httpStatus": 200,
+  "retrievedAt": "2026-11-04T01:46:46.265Z",
+  "bytes": 37952,
+  "note": "Initial download made manually with curl (same URL and User-Agent) while developing this script; retrievedAt = file modification time."
+}

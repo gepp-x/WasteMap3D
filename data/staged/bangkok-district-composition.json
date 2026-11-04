@@ -1,0 +1,1854 @@
+{
+  "cityId": "bangkok",
+  "method": "city composition applied; district surveys unavailable",
+  "status": "estimated",
+  "baseComposition": {
+    "fiscalYearBE": 2565,
+    "referenceYear": 2022,
+    "sourceId": "bma-env-composition-fy2565",
+    "shares": {
+      "organic": 54.1,
+      "plastic": 21,
+      "paper": 11.6,
+      "glassMetal": 3.1,
+      "hazardous": 0,
+      "other": 10.2
+    },
+    "sharesSum": 100,
+    "sampleScope": "Bangkok municipal solid waste (city level; not national). Sampling locations/number of samples not stated on the FY2565 table; previous years' tables report sampling at BMA's three disposal centres (On Nut, Nong Khaem, Sai Mai).",
+    "mappingRationale": [
+      "organic = food waste + wood/branches/leaves (biodegradable organics).",
+      "plastic = recyclable + non-recyclable plastic + foam (expanded polystyrene is a plastic).",
+      "paper = recyclable + non-recyclable paper.",
+      "glassMetal = glass + metal.",
+      "hazardous = 0.0: the BMA physical-composition table has NO hazardous category (household hazardous waste is collected and reported separately). 0.0 means 'not reported as a separate category', not a measured zero.",
+      "other = leather & rubber + textiles + stone & ceramics + bones & shells + disposable diapers (bones/shells treated as inert, not readily biodegradable)."
+    ]
+  },
+  "zoneResearch": {
+    "question": "Does BMA publish waste composition by district group (กลุ่มเขต) or by district?",
+    "answer": "No (as of retrieval). BMA Environment Department composition pages (webportal.bangkok.go.th/environmentbma/page/sub/20995 and /28232) publish citywide tables for FY2563, FY2564 and FY2565 only; the FY2563 and FY2564 tables also give one column per disposal centre (On Nut, Nong Khaem, Sai Mai). No กลุ่มเขต breakdown and no district → disposal-centre assignment table was found on BMA pages, data.bangkok.go.th or by web search.",
+    "consequence": "Per-zone ('derived') composition is not possible; the citywide FY2565 composition is applied to each district ('estimated').",
+    "disposalCentreTables": [
+      {
+        "fiscalYearBE": 2563,
+        "referenceYear": 2020,
+        "period": {
+          "from": "2019-10-01",
+          "to": "2020-09-30"
+        },
+        "sourceId": "bma-env-composition-fy2563",
+        "unit": "% by weight (ร้อยละโดยน้ำหนัก)",
+        "footnote": null,
+        "transcription": "Manual transcription of every column of the scanned table (no text layer); each column verified to sum to 100.00.",
+        "avgMatchesStagedCityHistory": true,
+        "centres": [
+          {
+            "nameTh": "ศูนย์กำจัดมูลฝอยอ่อนนุช",
+            "nameEn": "On Nut disposal centre",
+            "columnSum": 100,
+            "sharesUnrounded": {
+              "organic": 48.03,
+              "plastic": 25.32,
+              "paper": 15.93,
+              "glassMetal": 2.64,
+              "hazardous": 0,
+              "other": 8.08
+            },
+            "shares": {
+              "organic": 48,
+              "plastic": 25.3,
+              "paper": 15.9,
+              "glassMetal": 2.7,
+              "hazardous": 0,
+              "other": 8.1
+            },
+            "status": "derived"
+          },
+          {
+            "nameTh": "ศูนย์กำจัดมูลฝอยหนองแขม",
+            "nameEn": "Nong Khaem disposal centre",
+            "columnSum": 100,
+            "sharesUnrounded": {
+              "organic": 53,
+              "plastic": 20.77,
+              "paper": 13.56,
+              "glassMetal": 4.59,
+              "hazardous": 0,
+              "other": 8.08
+            },
+            "shares": {
+              "organic": 53,
+              "plastic": 20.8,
+              "paper": 13.5,
+              "glassMetal": 4.6,
+              "hazardous": 0,
+              "other": 8.1
+            },
+            "status": "derived"
+          },
+          {
+            "nameTh": "ศูนย์กำจัดมูลฝอยสายไหม",
+            "nameEn": "Sai Mai disposal centre",
+            "columnSum": 100,
+            "sharesUnrounded": {
+              "organic": 52.48,
+              "plastic": 21.65,
+              "paper": 12.56,
+              "glassMetal": 3.8,
+              "hazardous": 0,
+              "other": 9.51
+            },
+            "shares": {
+              "organic": 52.5,
+              "plastic": 21.6,
+              "paper": 12.6,
+              "glassMetal": 3.8,
+              "hazardous": 0,
+              "other": 9.5
+            },
+            "status": "derived"
+          }
+        ]
+      },
+      {
+        "fiscalYearBE": 2564,
+        "referenceYear": 2021,
+        "period": {
+          "from": "2020-10-01",
+          "to": "2021-09-30"
+        },
+        "sourceId": "bma-env-composition-fy2564",
+        "unit": "% by weight (ร้อยละโดยน้ำหนัก)",
+        "footnote": "Because of COVID-19, in July and August 2564 samples were taken only at the On Nut transfer station (PDF footnote).",
+        "transcription": "Manual transcription of every column of the scanned table (no text layer); each column verified to sum to 100.00.",
+        "avgMatchesStagedCityHistory": true,
+        "centres": [
+          {
+            "nameTh": "ศูนย์กำจัดมูลฝอยอ่อนนุช",
+            "nameEn": "On Nut disposal centre",
+            "columnSum": 100,
+            "sharesUnrounded": {
+              "organic": 50.49,
+              "plastic": 22.75,
+              "paper": 13.48,
+              "glassMetal": 3.52,
+              "hazardous": 0,
+              "other": 9.76
+            },
+            "shares": {
+              "organic": 50.5,
+              "plastic": 22.7,
+              "paper": 13.5,
+              "glassMetal": 3.5,
+              "hazardous": 0,
+              "other": 9.8
+            },
+            "status": "derived"
+          },
+          {
+            "nameTh": "ศูนย์กำจัดมูลฝอยสายไหม",
+            "nameEn": "Sai Mai disposal centre",
+            "columnSum": 100,
+            "sharesUnrounded": {
+              "organic": 51.29,
+              "plastic": 23.65,
+              "paper": 12.19,
+              "glassMetal": 3.39,
+              "hazardous": 0,
+              "other": 9.48
+            },
+            "shares": {
+              "organic": 51.3,
+              "plastic": 23.6,
+              "paper": 12.2,
+              "glassMetal": 3.4,
+              "hazardous": 0,
+              "other": 9.5
+            },
+            "status": "derived"
+          },
+          {
+            "nameTh": "ศูนย์กำจัดมูลฝอยหนองแขม",
+            "nameEn": "Nong Khaem disposal centre",
+            "columnSum": 100,
+            "sharesUnrounded": {
+              "organic": 55.95,
+              "plastic": 22.27,
+              "paper": 10.53,
+              "glassMetal": 2.4,
+              "hazardous": 0,
+              "other": 8.85
+            },
+            "shares": {
+              "organic": 56,
+              "plastic": 22.3,
+              "paper": 10.5,
+              "glassMetal": 2.4,
+              "hazardous": 0,
+              "other": 8.8
+            },
+            "status": "derived"
+          }
+        ]
+      }
+    ]
+  },
+  "districts": [
+    {
+      "code": "1001",
+      "areaId": "bkk-1001",
+      "nameTh": "พระนคร",
+      "nameEn": "Phra Nakhon",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1001 Phra Nakhon",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1002",
+      "areaId": "bkk-1002",
+      "nameTh": "ดุสิต",
+      "nameEn": "Dusit",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1002 Dusit",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1003",
+      "areaId": "bkk-1003",
+      "nameTh": "หนองจอก",
+      "nameEn": "Nong Chok",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1003 Nong Chok",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1004",
+      "areaId": "bkk-1004",
+      "nameTh": "บางรัก",
+      "nameEn": "Bang Rak",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1004 Bang Rak",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1005",
+      "areaId": "bkk-1005",
+      "nameTh": "บางเขน",
+      "nameEn": "Bang Khen",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1005 Bang Khen",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1006",
+      "areaId": "bkk-1006",
+      "nameTh": "บางกะปิ",
+      "nameEn": "Bang Kapi",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1006 Bang Kapi",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1007",
+      "areaId": "bkk-1007",
+      "nameTh": "ปทุมวัน",
+      "nameEn": "Pathum Wan",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1007 Pathum Wan",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1008",
+      "areaId": "bkk-1008",
+      "nameTh": "ป้อมปราบศัตรูพ่าย",
+      "nameEn": "Pom Prap Sattru Phai",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1008 Pom Prap Sattru Phai",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1009",
+      "areaId": "bkk-1009",
+      "nameTh": "พระโขนง",
+      "nameEn": "Phra Khanong",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1009 Phra Khanong",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1010",
+      "areaId": "bkk-1010",
+      "nameTh": "มีนบุรี",
+      "nameEn": "Min Buri",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1010 Min Buri",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1011",
+      "areaId": "bkk-1011",
+      "nameTh": "ลาดกระบัง",
+      "nameEn": "Lat Krabang",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1011 Lat Krabang",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1012",
+      "areaId": "bkk-1012",
+      "nameTh": "ยานนาวา",
+      "nameEn": "Yan Nawa",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1012 Yan Nawa",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1013",
+      "areaId": "bkk-1013",
+      "nameTh": "สัมพันธวงศ์",
+      "nameEn": "Samphanthawong",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1013 Samphanthawong",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1014",
+      "areaId": "bkk-1014",
+      "nameTh": "พญาไท",
+      "nameEn": "Phaya Thai",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1014 Phaya Thai",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1015",
+      "areaId": "bkk-1015",
+      "nameTh": "ธนบุรี",
+      "nameEn": "Thon Buri",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1015 Thon Buri",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1016",
+      "areaId": "bkk-1016",
+      "nameTh": "บางกอกใหญ่",
+      "nameEn": "Bangkok Yai",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1016 Bangkok Yai",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1017",
+      "areaId": "bkk-1017",
+      "nameTh": "ห้วยขวาง",
+      "nameEn": "Huai Khwang",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1017 Huai Khwang",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1018",
+      "areaId": "bkk-1018",
+      "nameTh": "คลองสาน",
+      "nameEn": "Khlong San",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1018 Khlong San",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1019",
+      "areaId": "bkk-1019",
+      "nameTh": "ตลิ่งชัน",
+      "nameEn": "Taling Chan",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1019 Taling Chan",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1020",
+      "areaId": "bkk-1020",
+      "nameTh": "บางกอกน้อย",
+      "nameEn": "Bangkok Noi",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1020 Bangkok Noi",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1021",
+      "areaId": "bkk-1021",
+      "nameTh": "บางขุนเทียน",
+      "nameEn": "Bang Khun Thian",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1021 Bang Khun Thian",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1022",
+      "areaId": "bkk-1022",
+      "nameTh": "ภาษีเจริญ",
+      "nameEn": "Phasi Charoen",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1022 Phasi Charoen",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1023",
+      "areaId": "bkk-1023",
+      "nameTh": "หนองแขม",
+      "nameEn": "Nong Khaem",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1023 Nong Khaem",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1024",
+      "areaId": "bkk-1024",
+      "nameTh": "ราษฎร์บูรณะ",
+      "nameEn": "Rat Burana",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1024 Rat Burana",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1025",
+      "areaId": "bkk-1025",
+      "nameTh": "บางพลัด",
+      "nameEn": "Bang Phlat",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1025 Bang Phlat",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1026",
+      "areaId": "bkk-1026",
+      "nameTh": "ดินแดง",
+      "nameEn": "Din Daeng",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1026 Din Daeng",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1027",
+      "areaId": "bkk-1027",
+      "nameTh": "บึงกุ่ม",
+      "nameEn": "Bueng Kum",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1027 Bueng Kum",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1028",
+      "areaId": "bkk-1028",
+      "nameTh": "สาทร",
+      "nameEn": "Sathon",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1028 Sathon",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1029",
+      "areaId": "bkk-1029",
+      "nameTh": "บางซื่อ",
+      "nameEn": "Bang Sue",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1029 Bang Sue",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1030",
+      "areaId": "bkk-1030",
+      "nameTh": "จตุจักร",
+      "nameEn": "Chatuchak",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1030 Chatuchak",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1031",
+      "areaId": "bkk-1031",
+      "nameTh": "บางคอแหลม",
+      "nameEn": "Bang Kho Laem",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1031 Bang Kho Laem",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1032",
+      "areaId": "bkk-1032",
+      "nameTh": "ประเวศ",
+      "nameEn": "Prawet",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1032 Prawet",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1033",
+      "areaId": "bkk-1033",
+      "nameTh": "คลองเตย",
+      "nameEn": "Khlong Toei",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1033 Khlong Toei",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1034",
+      "areaId": "bkk-1034",
+      "nameTh": "สวนหลวง",
+      "nameEn": "Suan Luang",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1034 Suan Luang",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1035",
+      "areaId": "bkk-1035",
+      "nameTh": "จอมทอง",
+      "nameEn": "Chom Thong",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1035 Chom Thong",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1036",
+      "areaId": "bkk-1036",
+      "nameTh": "ดอนเมือง",
+      "nameEn": "Don Mueang",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1036 Don Mueang",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1037",
+      "areaId": "bkk-1037",
+      "nameTh": "ราชเทวี",
+      "nameEn": "Ratchathewi",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1037 Ratchathewi",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1038",
+      "areaId": "bkk-1038",
+      "nameTh": "ลาดพร้าว",
+      "nameEn": "Lat Phrao",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1038 Lat Phrao",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1039",
+      "areaId": "bkk-1039",
+      "nameTh": "วัฒนา",
+      "nameEn": "Watthana",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1039 Watthana",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1040",
+      "areaId": "bkk-1040",
+      "nameTh": "บางแค",
+      "nameEn": "Bang Khae",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1040 Bang Khae",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1041",
+      "areaId": "bkk-1041",
+      "nameTh": "หลักสี่",
+      "nameEn": "Lak Si",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1041 Lak Si",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1042",
+      "areaId": "bkk-1042",
+      "nameTh": "สายไหม",
+      "nameEn": "Sai Mai",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1042 Sai Mai",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1043",
+      "areaId": "bkk-1043",
+      "nameTh": "คันนายาว",
+      "nameEn": "Khan Na Yao",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1043 Khan Na Yao",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1044",
+      "areaId": "bkk-1044",
+      "nameTh": "สะพานสูง",
+      "nameEn": "Saphan Sung",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1044 Saphan Sung",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1045",
+      "areaId": "bkk-1045",
+      "nameTh": "วังทองหลาง",
+      "nameEn": "Wang Thonglang",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1045 Wang Thonglang",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1046",
+      "areaId": "bkk-1046",
+      "nameTh": "คลองสามวา",
+      "nameEn": "Khlong Sam Wa",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1046 Khlong Sam Wa",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1047",
+      "areaId": "bkk-1047",
+      "nameTh": "บางนา",
+      "nameEn": "Bang Na",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1047 Bang Na",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1048",
+      "areaId": "bkk-1048",
+      "nameTh": "ทวีวัฒนา",
+      "nameEn": "Thawi Watthana",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1048 Thawi Watthana",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1049",
+      "areaId": "bkk-1049",
+      "nameTh": "ทุ่งครุ",
+      "nameEn": "Thung Khru",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1049 Thung Khru",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    },
+    {
+      "code": "1050",
+      "areaId": "bkk-1050",
+      "nameTh": "บางบอน",
+      "nameEn": "Bang Bon",
+      "composition": {
+        "shares": {
+          "organic": 54.1,
+          "plastic": 21,
+          "paper": 11.6,
+          "glassMetal": 3.1,
+          "hazardous": 0,
+          "other": 10.2
+        },
+        "provenance": {
+          "status": "estimated",
+          "sourceId": "bma-env-composition-fy2565",
+          "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+          "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+          "observedFrom": "2021-10-01",
+          "observedTo": "2022-09-30",
+          "referenceYear": 2022,
+          "geographicScope": "Bangkok citywide composition applied to district 1050 Bang Bon",
+          "methodology": "City composition applied; district surveys unavailable. Every district receives the BMA citywide physical composition for fiscal year BE 2565 (2021-10-01 → 2022-09-30), mapped to the 6 app categories and rounded to 0.1 (largest remainder) exactly as in bangkok-composition.json.",
+          "limitations": [
+            "Not a district measurement: identical shares in all 50 districts. Real composition differs by land use (markets, offices, housing).",
+            "BMA does not publish composition by district or by district group (กลุ่มเขต). It publishes composition by disposal centre (On Nut / Nong Khaem / Sai Mai) for FY2563 and FY2564 only; no official district → disposal-centre assignment was found (and assignments change, e.g. temporary diversions to On Nut), so per-centre values are NOT applied to districts.",
+            "Hazardous 0.0 = no hazardous category in the BMA table (household hazardous waste is reported separately); not a measured zero.",
+            "Composition is of collected waste sampled at BMA disposal facilities, not of waste generated at source."
+          ]
+        }
+      }
+    }
+  ],
+  "checks": {
+    "districtCount": 50,
+    "everyDistrictSumsTo100": true,
+    "fy2565RemappingMatchesStagedCityComposition": true
+  }
+}

@@ -1,0 +1,761 @@
+{
+  "cityId": "bangkok",
+  "dataRetrievedAt": "2026-11-03T18:35:15.513Z",
+  "categories": [
+    "organic",
+    "plastic",
+    "paper",
+    "glassMetal",
+    "hazardous",
+    "other"
+  ],
+  "composition": {
+    "shares": {
+      "organic": 54.1,
+      "plastic": 21,
+      "paper": 11.6,
+      "glassMetal": 3.1,
+      "hazardous": 0,
+      "other": 10.2
+    },
+    "provenance": {
+      "status": "derived",
+      "sourceId": "bma-env-composition-fy2565",
+      "sourceName": "องค์ประกอบมูลฝอยของกรุงเทพมหานคร (BMA Environment Department, Research & Development Group, Solid Waste and Sewage Management Office)",
+      "sourceUrl": "https://webportal.bangkok.go.th/public/user_files_editor/231/WasteData/2565/WasteComp%202565.pdf",
+      "observedFrom": "2021-10-01",
+      "observedTo": "2022-09-30",
+      "referenceYear": 2022,
+      "geographicScope": "Bangkok (BMA) municipal solid waste — city level, not national",
+      "methodology": "Published physical composition (% by weight, 14 categories) aggregated into 6 app categories (mapping below) and rounded to 0.1 with the largest-remainder method so shares sum to exactly 100.0.",
+      "limitations": [
+        "Composition of collected waste arriving at BMA disposal facilities; not district-specific.",
+        "Hazardous waste is not a category in the source table; hazardous share shown as 0.0 = not reported.",
+        "The BMA open-data CSV labelled 2565 (garbage_element.csv) has different values from the FY2565 PDF; the PDF was preferred (explicit fiscal-year title and author unit). Both are recorded."
+      ]
+    }
+  },
+  "primary": {
+    "fiscalYearBE": 2565,
+    "referenceYear": 2022,
+    "observedFrom": "2021-10-01",
+    "observedTo": "2022-09-30",
+    "sourceId": "bma-env-composition-fy2565",
+    "sampleScope": "Bangkok municipal solid waste (city level; not national). Sampling locations/number of samples not stated on the FY2565 table; previous years' tables report sampling at BMA's three disposal centres (On Nut, Nong Khaem, Sai Mai).",
+    "method": "Parsed from the PDF text layer; 14 categories, sum 100.00.",
+    "sourceCategories": [
+      {
+        "th": "เศษอาหาร",
+        "en": "Food waste",
+        "percent": 49.04,
+        "mappedTo": "organic"
+      },
+      {
+        "th": "ไม้และใบไม้",
+        "en": "Wood, branches and leaves",
+        "percent": 5.02,
+        "mappedTo": "organic"
+      },
+      {
+        "th": "กระดาษ recycle",
+        "en": "Paper, recyclable",
+        "percent": 2.3,
+        "mappedTo": "paper"
+      },
+      {
+        "th": "กระดาษ non recycle",
+        "en": "Paper, non-recyclable",
+        "percent": 9.3,
+        "mappedTo": "paper"
+      },
+      {
+        "th": "พลาสติก recycle",
+        "en": "Plastic, recyclable",
+        "percent": 1.76,
+        "mappedTo": "plastic"
+      },
+      {
+        "th": "พลาสติก non recycle",
+        "en": "Plastic, non-recyclable",
+        "percent": 17.7,
+        "mappedTo": "plastic"
+      },
+      {
+        "th": "โฟม",
+        "en": "Foam (expanded polystyrene)",
+        "percent": 1.51,
+        "mappedTo": "plastic"
+      },
+      {
+        "th": "แก้ว",
+        "en": "Glass",
+        "percent": 1.52,
+        "mappedTo": "glassMetal"
+      },
+      {
+        "th": "โลหะ",
+        "en": "Metal",
+        "percent": 1.6,
+        "mappedTo": "glassMetal"
+      },
+      {
+        "th": "หนังและยาง",
+        "en": "Leather and rubber",
+        "percent": 1.57,
+        "mappedTo": "other"
+      },
+      {
+        "th": "ผ้าและสิ่งทอ",
+        "en": "Textiles",
+        "percent": 5.08,
+        "mappedTo": "other"
+      },
+      {
+        "th": "หินและเซรามิค",
+        "en": "Stone and ceramics",
+        "percent": 1.09,
+        "mappedTo": "other"
+      },
+      {
+        "th": "กระดูกและเปลือกหอย",
+        "en": "Bones and shells",
+        "percent": 1.68,
+        "mappedTo": "other"
+      },
+      {
+        "th": "ผ้าอ้อมสำเร็จรูป",
+        "en": "Disposable diapers",
+        "percent": 0.83,
+        "mappedTo": "other"
+      }
+    ],
+    "sourceSum": 100,
+    "sharesUnrounded": {
+      "organic": 54.06,
+      "plastic": 20.97,
+      "paper": 11.6,
+      "glassMetal": 3.12,
+      "hazardous": 0,
+      "other": 10.25
+    },
+    "shares": {
+      "organic": 54.1,
+      "plastic": 21,
+      "paper": 11.6,
+      "glassMetal": 3.1,
+      "hazardous": 0,
+      "other": 10.2
+    },
+    "sharesSum": 100
+  },
+  "history": [
+    {
+      "fiscalYearBE": 2563,
+      "referenceYear": 2020,
+      "observedFrom": "2019-10-01",
+      "observedTo": "2020-09-30",
+      "sourceId": "bma-env-composition-fy2563",
+      "sampleScope": "Average of samples at BMA's three disposal centres (On Nut, Nong Khaem, Sai Mai); unit '% by weight' (ร้อยละโดยน้ำหนัก).",
+      "method": "Manual transcription of the 'average' column of a scanned PDF table (no text layer); verified to sum to 100.00.",
+      "sourceCategories": [
+        {
+          "th": "เศษอาหาร",
+          "en": "Food waste",
+          "percent": 45.41,
+          "mappedTo": "organic"
+        },
+        {
+          "th": "ไม้และใบไม้",
+          "en": "Wood, branches and leaves",
+          "percent": 5.76,
+          "mappedTo": "organic"
+        },
+        {
+          "th": "กระดาษ recycle",
+          "en": "Paper, recyclable",
+          "percent": 2.71,
+          "mappedTo": "paper"
+        },
+        {
+          "th": "กระดาษ non recycle",
+          "en": "Paper, non-recyclable",
+          "percent": 11.31,
+          "mappedTo": "paper"
+        },
+        {
+          "th": "พลาสติก recycle",
+          "en": "Plastic, recyclable",
+          "percent": 4.94,
+          "mappedTo": "plastic"
+        },
+        {
+          "th": "พลาสติก non recycle",
+          "en": "Plastic, non-recyclable",
+          "percent": 16.3,
+          "mappedTo": "plastic"
+        },
+        {
+          "th": "โฟม",
+          "en": "Foam (expanded polystyrene)",
+          "percent": 1.34,
+          "mappedTo": "plastic"
+        },
+        {
+          "th": "แก้ว",
+          "en": "Glass",
+          "percent": 2.3,
+          "mappedTo": "glassMetal"
+        },
+        {
+          "th": "โลหะ",
+          "en": "Metal",
+          "percent": 1.38,
+          "mappedTo": "glassMetal"
+        },
+        {
+          "th": "หนังและยาง",
+          "en": "Leather and rubber",
+          "percent": 1.05,
+          "mappedTo": "other"
+        },
+        {
+          "th": "ผ้าและสิ่งทอ",
+          "en": "Textiles",
+          "percent": 4.15,
+          "mappedTo": "other"
+        },
+        {
+          "th": "หินและเซรามิค",
+          "en": "Stone and ceramics",
+          "percent": 0.25,
+          "mappedTo": "other"
+        },
+        {
+          "th": "กระดูกและเปลือกหอย",
+          "en": "Bones and shells",
+          "percent": 1.1,
+          "mappedTo": "other"
+        },
+        {
+          "th": "ผ้าอ้อมสำเร็จรูป",
+          "en": "Disposable diapers",
+          "percent": 2,
+          "mappedTo": "other"
+        }
+      ],
+      "sourceSum": 100,
+      "sharesUnrounded": {
+        "organic": 51.17,
+        "plastic": 22.58,
+        "paper": 14.02,
+        "glassMetal": 3.68,
+        "hazardous": 0,
+        "other": 8.55
+      },
+      "shares": {
+        "organic": 51.2,
+        "plastic": 22.6,
+        "paper": 14,
+        "glassMetal": 3.7,
+        "hazardous": 0,
+        "other": 8.5
+      },
+      "sharesSum": 100
+    },
+    {
+      "fiscalYearBE": 2564,
+      "referenceYear": 2021,
+      "observedFrom": "2020-10-01",
+      "observedTo": "2021-09-30",
+      "sourceId": "bma-env-composition-fy2564",
+      "sampleScope": "Average of samples at BMA's three disposal centres (On Nut, Sai Mai, Nong Khaem). Footnote: because of COVID-19, in July and August 2564 samples were taken only at the On Nut transfer station.",
+      "method": "Manual transcription of the 'average' column of a scanned PDF table (no text layer); verified to sum to 100.00.",
+      "sourceCategories": [
+        {
+          "th": "เศษอาหาร",
+          "en": "Food waste",
+          "percent": 46.21,
+          "mappedTo": "organic"
+        },
+        {
+          "th": "ไม้และใบไม้",
+          "en": "Wood, branches and leaves",
+          "percent": 6.36,
+          "mappedTo": "organic"
+        },
+        {
+          "th": "กระดาษ recycle",
+          "en": "Paper, recyclable",
+          "percent": 2.43,
+          "mappedTo": "paper"
+        },
+        {
+          "th": "กระดาษ non recycle",
+          "en": "Paper, non-recyclable",
+          "percent": 9.63,
+          "mappedTo": "paper"
+        },
+        {
+          "th": "พลาสติก recycle",
+          "en": "Plastic, recyclable",
+          "percent": 2.15,
+          "mappedTo": "plastic"
+        },
+        {
+          "th": "พลาสติก non recycle",
+          "en": "Plastic, non-recyclable",
+          "percent": 19.36,
+          "mappedTo": "plastic"
+        },
+        {
+          "th": "โฟม",
+          "en": "Foam (expanded polystyrene)",
+          "percent": 1.38,
+          "mappedTo": "plastic"
+        },
+        {
+          "th": "แก้ว",
+          "en": "Glass",
+          "percent": 1.92,
+          "mappedTo": "glassMetal"
+        },
+        {
+          "th": "โลหะ",
+          "en": "Metal",
+          "percent": 1.18,
+          "mappedTo": "glassMetal"
+        },
+        {
+          "th": "หนังและยาง",
+          "en": "Leather and rubber",
+          "percent": 1,
+          "mappedTo": "other"
+        },
+        {
+          "th": "ผ้าและสิ่งทอ",
+          "en": "Textiles",
+          "percent": 5.49,
+          "mappedTo": "other"
+        },
+        {
+          "th": "หินและเซรามิค",
+          "en": "Stone and ceramics",
+          "percent": 0.46,
+          "mappedTo": "other"
+        },
+        {
+          "th": "กระดูกและเปลือกหอย",
+          "en": "Bones and shells",
+          "percent": 1.2,
+          "mappedTo": "other"
+        },
+        {
+          "th": "ผ้าอ้อมสำเร็จรูป",
+          "en": "Disposable diapers",
+          "percent": 1.23,
+          "mappedTo": "other"
+        }
+      ],
+      "sourceSum": 100,
+      "sharesUnrounded": {
+        "organic": 52.57,
+        "plastic": 22.89,
+        "paper": 12.06,
+        "glassMetal": 3.1,
+        "hazardous": 0,
+        "other": 9.38
+      },
+      "shares": {
+        "organic": 52.6,
+        "plastic": 22.9,
+        "paper": 12,
+        "glassMetal": 3.1,
+        "hazardous": 0,
+        "other": 9.4
+      },
+      "sharesSum": 100
+    },
+    {
+      "fiscalYearBE": 2565,
+      "referenceYear": 2022,
+      "observedFrom": "2021-10-01",
+      "observedTo": "2022-09-30",
+      "sourceId": "bma-env-composition-fy2565",
+      "sampleScope": "Bangkok municipal solid waste (city level; not national). Sampling locations/number of samples not stated on the FY2565 table; previous years' tables report sampling at BMA's three disposal centres (On Nut, Nong Khaem, Sai Mai).",
+      "method": "Parsed from the PDF text layer; 14 categories, sum 100.00.",
+      "sourceCategories": [
+        {
+          "th": "เศษอาหาร",
+          "en": "Food waste",
+          "percent": 49.04,
+          "mappedTo": "organic"
+        },
+        {
+          "th": "ไม้และใบไม้",
+          "en": "Wood, branches and leaves",
+          "percent": 5.02,
+          "mappedTo": "organic"
+        },
+        {
+          "th": "กระดาษ recycle",
+          "en": "Paper, recyclable",
+          "percent": 2.3,
+          "mappedTo": "paper"
+        },
+        {
+          "th": "กระดาษ non recycle",
+          "en": "Paper, non-recyclable",
+          "percent": 9.3,
+          "mappedTo": "paper"
+        },
+        {
+          "th": "พลาสติก recycle",
+          "en": "Plastic, recyclable",
+          "percent": 1.76,
+          "mappedTo": "plastic"
+        },
+        {
+          "th": "พลาสติก non recycle",
+          "en": "Plastic, non-recyclable",
+          "percent": 17.7,
+          "mappedTo": "plastic"
+        },
+        {
+          "th": "โฟม",
+          "en": "Foam (expanded polystyrene)",
+          "percent": 1.51,
+          "mappedTo": "plastic"
+        },
+        {
+          "th": "แก้ว",
+          "en": "Glass",
+          "percent": 1.52,
+          "mappedTo": "glassMetal"
+        },
+        {
+          "th": "โลหะ",
+          "en": "Metal",
+          "percent": 1.6,
+          "mappedTo": "glassMetal"
+        },
+        {
+          "th": "หนังและยาง",
+          "en": "Leather and rubber",
+          "percent": 1.57,
+          "mappedTo": "other"
+        },
+        {
+          "th": "ผ้าและสิ่งทอ",
+          "en": "Textiles",
+          "percent": 5.08,
+          "mappedTo": "other"
+        },
+        {
+          "th": "หินและเซรามิค",
+          "en": "Stone and ceramics",
+          "percent": 1.09,
+          "mappedTo": "other"
+        },
+        {
+          "th": "กระดูกและเปลือกหอย",
+          "en": "Bones and shells",
+          "percent": 1.68,
+          "mappedTo": "other"
+        },
+        {
+          "th": "ผ้าอ้อมสำเร็จรูป",
+          "en": "Disposable diapers",
+          "percent": 0.83,
+          "mappedTo": "other"
+        }
+      ],
+      "sourceSum": 100,
+      "sharesUnrounded": {
+        "organic": 54.06,
+        "plastic": 20.97,
+        "paper": 11.6,
+        "glassMetal": 3.12,
+        "hazardous": 0,
+        "other": 10.25
+      },
+      "shares": {
+        "organic": 54.1,
+        "plastic": 21,
+        "paper": 11.6,
+        "glassMetal": 3.1,
+        "hazardous": 0,
+        "other": 10.2
+      },
+      "sharesSum": 100
+    }
+  ],
+  "mapping": [
+    {
+      "sourceCategoryTh": "เศษอาหาร",
+      "sourceCategoryEn": "Food waste",
+      "mappedTo": "organic"
+    },
+    {
+      "sourceCategoryTh": "ไม้และใบไม้",
+      "sourceCategoryEn": "Wood, branches and leaves",
+      "mappedTo": "organic"
+    },
+    {
+      "sourceCategoryTh": "กระดาษ recycle",
+      "sourceCategoryEn": "Paper, recyclable",
+      "mappedTo": "paper"
+    },
+    {
+      "sourceCategoryTh": "กระดาษ non recycle",
+      "sourceCategoryEn": "Paper, non-recyclable",
+      "mappedTo": "paper"
+    },
+    {
+      "sourceCategoryTh": "พลาสติก recycle",
+      "sourceCategoryEn": "Plastic, recyclable",
+      "mappedTo": "plastic"
+    },
+    {
+      "sourceCategoryTh": "พลาสติก non recycle",
+      "sourceCategoryEn": "Plastic, non-recyclable",
+      "mappedTo": "plastic"
+    },
+    {
+      "sourceCategoryTh": "โฟม",
+      "sourceCategoryEn": "Foam (expanded polystyrene)",
+      "mappedTo": "plastic"
+    },
+    {
+      "sourceCategoryTh": "แก้ว",
+      "sourceCategoryEn": "Glass",
+      "mappedTo": "glassMetal"
+    },
+    {
+      "sourceCategoryTh": "โลหะ",
+      "sourceCategoryEn": "Metal",
+      "mappedTo": "glassMetal"
+    },
+    {
+      "sourceCategoryTh": "หนังและยาง",
+      "sourceCategoryEn": "Leather and rubber",
+      "mappedTo": "other"
+    },
+    {
+      "sourceCategoryTh": "ผ้าและสิ่งทอ",
+      "sourceCategoryEn": "Textiles",
+      "mappedTo": "other"
+    },
+    {
+      "sourceCategoryTh": "หินและเซรามิค",
+      "sourceCategoryEn": "Stone and ceramics",
+      "mappedTo": "other"
+    },
+    {
+      "sourceCategoryTh": "กระดูกและเปลือกหอย",
+      "sourceCategoryEn": "Bones and shells",
+      "mappedTo": "other"
+    },
+    {
+      "sourceCategoryTh": "ผ้าอ้อมสำเร็จรูป",
+      "sourceCategoryEn": "Disposable diapers",
+      "mappedTo": "other"
+    }
+  ],
+  "mappingRationale": [
+    "organic = food waste + wood/branches/leaves (biodegradable organics).",
+    "plastic = recyclable + non-recyclable plastic + foam (expanded polystyrene is a plastic).",
+    "paper = recyclable + non-recyclable paper.",
+    "glassMetal = glass + metal.",
+    "hazardous = 0.0: the BMA physical-composition table has NO hazardous category (household hazardous waste is collected and reported separately). 0.0 means 'not reported as a separate category', not a measured zero.",
+    "other = leather & rubber + textiles + stone & ceramics + bones & shells + disposable diapers (bones/shells treated as inert, not readily biodegradable)."
+  ],
+  "roundingMethod": "Largest remainder on 0.1-percent units: floor each share×10, then add 0.1 to the shares with the largest remainders (ties by category order) until the total is 100.0.",
+  "alternateOpenDataCsv": {
+    "fiscalYearBE": 2565,
+    "referenceYear": 2022,
+    "observedFrom": "2021-10-01",
+    "observedTo": "2022-09-30",
+    "sourceId": "bma-opendata-garbage-element",
+    "sampleScope": "Unstated (BMA open-data CSV, no sampling description).",
+    "method": "Parsed from CSV.",
+    "sourceCategories": [
+      {
+        "th": "เศษอาหาร",
+        "en": "Food waste",
+        "percent": 49.83,
+        "mappedTo": "organic"
+      },
+      {
+        "th": "ไม้และใบไม้",
+        "en": "Wood, branches and leaves",
+        "percent": 4.79,
+        "mappedTo": "organic"
+      },
+      {
+        "th": "กระดาษ recycle",
+        "en": "Paper, recyclable",
+        "percent": 1.94,
+        "mappedTo": "paper"
+      },
+      {
+        "th": "กระดาษ non recycle",
+        "en": "Paper, non-recyclable",
+        "percent": 9.34,
+        "mappedTo": "paper"
+      },
+      {
+        "th": "พลาสติก recycle",
+        "en": "Plastic, recyclable",
+        "percent": 1.62,
+        "mappedTo": "plastic"
+      },
+      {
+        "th": "พลาสติก non recycle",
+        "en": "Plastic, non-recyclable",
+        "percent": 18.19,
+        "mappedTo": "plastic"
+      },
+      {
+        "th": "โฟม",
+        "en": "Foam (expanded polystyrene)",
+        "percent": 1.45,
+        "mappedTo": "plastic"
+      },
+      {
+        "th": "แก้ว",
+        "en": "Glass",
+        "percent": 1.5,
+        "mappedTo": "glassMetal"
+      },
+      {
+        "th": "โลหะ",
+        "en": "Metal",
+        "percent": 1.34,
+        "mappedTo": "glassMetal"
+      },
+      {
+        "th": "หนังและยาง",
+        "en": "Leather and rubber",
+        "percent": 1.43,
+        "mappedTo": "other"
+      },
+      {
+        "th": "ผ้าและสิ่งทอ",
+        "en": "Textiles",
+        "percent": 5.48,
+        "mappedTo": "other"
+      },
+      {
+        "th": "หินและเซรามิค",
+        "en": "Stone and ceramics",
+        "percent": 0.91,
+        "mappedTo": "other"
+      },
+      {
+        "th": "กระดูกและเปลือกหอย",
+        "en": "Bones and shells",
+        "percent": 1.47,
+        "mappedTo": "other"
+      },
+      {
+        "th": "ผ้าอ้อมสำเร็จรูป",
+        "en": "Disposable diapers",
+        "percent": 0.71,
+        "mappedTo": "other"
+      }
+    ],
+    "sourceSum": 100,
+    "sharesUnrounded": {
+      "organic": 54.62,
+      "plastic": 21.26,
+      "paper": 11.28,
+      "glassMetal": 2.84,
+      "hazardous": 0,
+      "other": 10
+    },
+    "shares": {
+      "organic": 54.6,
+      "plastic": 21.3,
+      "paper": 11.3,
+      "glassMetal": 2.8,
+      "hazardous": 0,
+      "other": 10
+    },
+    "sharesSum": 100,
+    "conflict": [
+      {
+        "category": "เศษอาหาร",
+        "pdf": 49.04,
+        "csv": 49.83
+      },
+      {
+        "category": "ไม้และใบไม้",
+        "pdf": 5.02,
+        "csv": 4.79
+      },
+      {
+        "category": "กระดาษ recycle",
+        "pdf": 2.3,
+        "csv": 1.94
+      },
+      {
+        "category": "กระดาษ non recycle",
+        "pdf": 9.3,
+        "csv": 9.34
+      },
+      {
+        "category": "พลาสติก recycle",
+        "pdf": 1.76,
+        "csv": 1.62
+      },
+      {
+        "category": "พลาสติก non recycle",
+        "pdf": 17.7,
+        "csv": 18.19
+      },
+      {
+        "category": "โฟม",
+        "pdf": 1.51,
+        "csv": 1.45
+      },
+      {
+        "category": "แก้ว",
+        "pdf": 1.52,
+        "csv": 1.5
+      },
+      {
+        "category": "โลหะ",
+        "pdf": 1.6,
+        "csv": 1.34
+      },
+      {
+        "category": "หนังและยาง",
+        "pdf": 1.57,
+        "csv": 1.43
+      },
+      {
+        "category": "ผ้าและสิ่งทอ",
+        "pdf": 5.08,
+        "csv": 5.48
+      },
+      {
+        "category": "หินและเซรามิค",
+        "pdf": 1.09,
+        "csv": 0.91
+      },
+      {
+        "category": "กระดูกและเปลือกหอย",
+        "pdf": 1.68,
+        "csv": 1.47
+      },
+      {
+        "category": "ผ้าอ้อมสำเร็จรูป",
+        "pdf": 0.83,
+        "csv": 0.71
+      }
+    ]
+  },
+  "parseNotes": [
+    "FY2565 PDF text via cached text layer"
+  ]
+}

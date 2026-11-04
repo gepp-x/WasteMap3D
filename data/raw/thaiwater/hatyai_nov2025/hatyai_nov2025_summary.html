@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hatyai_Nov2025</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- MORRIS CHART STYLES-->
+    <link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet">
+    <!-- CUSTOM STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <!-- GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans%7CPrompt%7CAthiti%7CBai+Jamjuree%7CKanit%7CKodchasan" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse"> <span class="sr-only">Toggle
+              navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span> </button> </div>
+        <div style="color: black; padding: 15px 50px 5px 50px; float: right; " align="right"><span class="Prompt2">บันทึกเหตุการณ์น้ำท่วมอำเภอหาดใหญ่และพื้นที่ภาคใต้ตอนล่าง</span><br>
+          <span class="Prompt1">ช่วงเดือนพฤศจิกายน 2568</span>
+        </div>
+
+        
+      </nav>
+      <!-- /. NAV TOP  -->
+      <nav class="navbar-default navbar-side" role="navigation">
+        <div class="sidebar-collapse">
+          <ul class="nav" id="main-menu">
+            <li class="BaiJamjuree1" style="background: #F5F5F5">&nbsp;&nbsp;Contents </li>
+            <li> <a class="active-menu" href="https://forms.gle/uNsA32agoqsgvD5CA" target="_blank">&nbsp;&nbsp;<i class="fa fa-file-text-o fa-2x"></i><span class="Athiti4">&nbsp;ประเมินความพึงพอใจ</span></a> </li>
+            <li><i class="fas fa-cloud-drizzle"></i> <a class="active-menu" href="summary.html">&nbsp;&nbsp;<i class="fa fa-star-o fa-2x"></i><span class="Athiti4">&nbsp;สรุปสถานการณ์</span></a> </li>
+            <li> <a class="active-menu" href="storm.html">&nbsp;&nbsp;<i class="fa fa-bolt fa-2x"></i><span class="Athiti4">&nbsp;เส้นทางพายุ</span></a> </li>
+            <li> <a class="active-menu" href="satellite.html">&nbsp;&nbsp;<i class="fa fa-globe fa-2x"></i><span class="Athiti4">&nbsp;ภาพถ่ายดาวเทียม</span></a> </li>
+            <li> <a href="#">&nbsp;&nbsp;<i class="fa fa-map-marker fa-2x"></i><span class="Athiti4">แผนที่อากาศ</span><span class="fa arrow"></span></a>
+              <ul class="nav nav-second-level">
+                <li> <a href="weathermap.html"><span class="Athiti4">แผนที่อากาศ</span></a> </li>
+                <li> <a href="pressure.html"><span class="Athiti4">แผนที่ความกดอากาศ</span></a> </li>
+              </ul>
+            </li>
+            <li> <a href="#">&nbsp;&nbsp;<i class="fa fa-tachometer fa-2x"></i><span class="Athiti4">แผนที่ลม</span><span class="fa arrow"></span></a>
+              <ul class="nav nav-second-level">
+                <li> <a href="wind.html"><span class="Athiti4">แผนที่ความเร็วลม</span></a>
+                </li>
+               <!-- <li> <a href="wind_vertical.html"><span class="Athiti4">แผนที่ลมแนวดิ่ง</span></a> </li>-->
+              </ul>
+            </li>
+            <li> <a class="active-menu" href="wave.html">&nbsp;&nbsp;<i class="fa fa-anchor fa-2x"></i><span class="Athiti4">&nbsp;คลื่นทะเล</span></a> </li>
+            <li> <a href="#">&nbsp;&nbsp;<i class="fa fa-umbrella fa-2x"></i><span class="Athiti4">ปริมาณฝน</span><span class="fa arrow"></span></a>
+              <ul class="nav nav-second-level">
+                <li> <a href="rain_tele.html"><span class="Athiti4">สถานีโทรมาตร</span></a> </li>
+                <li> <a href="rain_radar.html"><span class="Athiti4">เรดาร์ตรวจอากาศ</span></a> </li>
+                <li> <a href="rain_sat.html"><span class="Athiti4">ดาวเทียม</span></a>
+                </li>
+              </ul>
+            </li>
+            <li> <a href="dam.html">&nbsp;&nbsp;<i class="fa fa fa-maxcdn fa-2x"></i><span class="Athiti4">น้ำในเขื่อน</span></a> </li>
+           
+            <li> <a href="#">&nbsp;&nbsp;<i class="fa fa-bars fa-2x"></i><span class="Athiti4">ระดับน้ำ</span><span class="fa arrow"></span></a>
+              <ul class="nav nav-second-level">
+                <li> <a href="waterlevel.html"><span class="Athiti4">ระดับน้ำในแม่น้ำลำคลอง</span></a> </li>
+                <li> <a href="waterlevel_songkhla.html"><span class="Athiti4">วิเคราะห์ระดับน้ำบริเวณ อ.หาดใหญ่</span></a> </li>
+                <li> <a href="waterlevel_sealevel.html"><span class="Athiti4">วิเคราะห์ระดับน้ำและระดับน้ำทะเล</span></a>
+                </li>
+              </ul>
+            </li>             
+
+            <li> <a href="flood_area.html">&nbsp;&nbsp;<i class="fa fa-exclamation-circle fa-2x"></i><span class="Athiti4">พื้นที่น้ำท่วม</span></a> </li>
+            <li> <a href="damage.html">&nbsp;&nbsp;<i class="fa fa fa-plus-square fa-2x"></i><span class="Athiti4">ความเสียหาย</span></a> </li>
+            <li> <a href="news.html">&nbsp;&nbsp;<i class="fa fa-bullhorn fa-2x"></i><span class="Athiti4">ข่าว</span></a> </li>
+            <li style="background: #F5F5F5; text-align: center; "><br>
+              <img src="hatyai_nov2025/hii-logo1.png" width="15%">&nbsp;&nbsp;
+               <img src="hatyai_nov2025/NHCSOC_logo1.png" width="18%">
+              <br>
+              <span class="BaiJamjuree3">Provided by<br>
+                NHC Steering and Operations Center (NHCSOC)</span><br>
+              <span class="BaiJamjuree2"> Hydro Informatics Institute </span><br>
+              <br>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- /. NAV SIDE  -->
+      <div id="page-wrapper">
+        <div id="page-inner">
+          <!-- /. ROW  -->
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="panel panel-default">
+                <div class="panel-heading"><span class="Prompt2">สรุปเหตุการณ์น้ำท่วม
+                  </span><br>
+                  <span class="Prompt3">Summary of flooding in Hat Yai District and the lower southern region in November 2025</span> </div>
+
+                <div class="panel-body">
+                  <div class="table-responsive">
+                    
+  <div class="Prompt1" align="center"><img src="hatyai_nov2025/banner1.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%"></div>                                      
+                    
+                    <br>
+                    
+                    <div class="table">
+                      <div class="tr">
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3"> 
+<span class="Prompt2">หาดใหญ่...เมืองเศรษฐกิจสำคัญที่ตั้งอยู่ในพื้นที่ปลายน้ำ</span> <br><br>                           
+เมื่อพูดถึงอุทกภัยครั้งใหญ่ครั้งรุนแรงที่เกิดขึ้นในพื้นที่ภาคใต้ จังหวัดสงขลา โดยเฉพาะ “อำเภอหาดใหญ่” มักถูกกล่าวถึงเป็นลำดับต้น ๆ เสมอ เพราะเป็นเมืองเศรษฐกิจสำคัญที่ตั้งอยู่บริเวณปลายน้ำของลุ่มน้ำคลองอู่ตะเภาที่มักเกิดอุทกภัยในรูปแบบน้ำหลากที่เกิดขึ้นอย่างรวดเร็วและรับมือได้ยากเมื่อมีฝนตกหนักเกิดขึ้นในช่วงปลายปีซึ่งเป็นฤดูมรสุมของภาคใต้   
+                          </p>
+                        </div>
+                        <div class="td" style="width:2%;text-align: left;"></div>
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+<span class="Prompt2">Hat Yai...A key economic hub located at the downstream areas</span>
+                           <br><br>
+When discussing major and severe flood events in Southern Thailand, Songkhla Province—particularly Hat Yai District—is often mentioned first. This is because Hat Yai is a key economic hub located at the downstream end of the U-Taphao Canal watershed, an area that frequently experiences flash flooding. These floods occur rapidly and are difficult to manage, especially during periods of heavy rainfall in late year, which coincides with the southern monsoon season.                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                 
+                 
+
+             
+                    
+                     
+                    <div class="table">
+                      <div class="tr">
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3"> 
+                           <span class="Prompt2">ปีนี้...น้ำท่วมรุนแรงที่สุด</span> <br><br>  
+                          	ทั้งนี้ เหตุการณ์น้ำท่วมหาดใหญ่เมื่อปี 2543 และ 2553 มักถูกยกขึ้นมาพูดถึงมากที่สุด เนื่องจากความรุนแรงของฝนและน้ำหลากที่ส่งผลกระทบลุกลามไปทั่วเมืองในระยะเวลาอันสั้น แต่กลับสร้างความเสียหายอย่างมหาศาล เนื่องจากเป็นน้ำหลากในย่านเศรษฐกิจใหญ่แห่งหนึ่งของประเทศ ระบบสาธารณูปโภคได้รับความเสียหาย การสัญจรถูกตัดขาด สถานการณ์ภัยเกิดขึ้นอย่างรวดเร็วแต่ต้องใช้เวลาฟื้นฟูอย่างยาวนาน
+                          <br><br>
+                             เดือนพฤศจิกายน ปี 2568 ในครั้งนี้ก็เช่นกัน ที่หาดใหญ่ต้องประสบกับอุทกภัยรุนแรงอีกครั้ง โดยยังคงประสบภัยในรูปแบบเดิมคือ “เกิดขึ้นเร็ว รับมือไม่ทัน ความเสียหายมหาศาล ใช้เวลานานในการฟื้นฟู” และถือเป็นอุทกภัยครั้งรุนแรงที่สุดเมื่อเทียบกับปี 2543 และ 2553                          </p>
+                        </div>
+                        <div class="td" style="width:2%;text-align: left;"></div>
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+                            <span class="Prompt2">This year...The greatest flooding</span> <br><br> 
+                            	In this regard, the Hat Yai flood events of 2000 and 2010 are most frequently cited due to the intensity of the rainfall and flash flooding, which spread across the city within a short period of time. Despite occurring rapidly, these events caused extensive damage, as the flooding affected one of the country’s major economic centers. Public utilities were severely damaged, transportation networks were disrupted, and although the disaster unfolded quickly, recovery required a prolonged period of rehabilitation.
+                          <br><br>
+                            Similarly, in November 2025, Hat Yai once again experienced severe flooding. The pattern remained the same: it occurred rapidly, response efforts were overwhelmed, the damage was extensive, and recovery required a long period of time. This event is considered the most severe flood compared to those in 2000 and 2010. 
+                            
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                 
+ <div align="left"><img src="hatyai_nov2025/flood_hatyai_compare.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%"></div>                     
+                
+          
+                    <br><br>
+                    
+                    <div class="table">
+                      <div class="tr">
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3"> 
+                            <span class="Prompt2">พื้นที่ได้รับผลกระทบ</span> 
+      <br><br>                      
+	จากการรายงานของกรมป้องกันและบรรเทาสาธารณภัยเมื่อวันที่ 30 พฤศจิกายน 2568 
+  ซึ่งเป็นการสรุปสถานการณ์อุทกภัยในช่วงวันที่ 17-30 พฤศจิกายน 2568 รายละเอียดดังนี้<br>
+<span class="Athiti3-bold">พื้นที่ได้รับผลกระทบ : </span>12 จังหวัด ประกอบด้วย ประจวบคีรีขันธ์ ชุมพร สุราษฎร์ธานี กระบี่ นครศรีธรรมราช 
+ ตรัง พัทลุง สตูล สงขลา ปัตตานี นราธิวาส และยะลา รวมทั้งสิ้น 117 อำเภอ 778 ตำบล 5,938 หมู่บ้าน <br>
+<span class="Athiti3-bold">ประชาชนได้รับผลกระทบ :</span> 1,514,895 ครัวเรือน 3,901,155 คน
+<br><br>ทั้งนี้ ณ วันที่ 30 พฤศจิกายน 2568  <br>
+<span class="Athiti3-bold">ยังคงมีสถานการณ์ในพื้นที่ : </span> 9 จังหวัด ได้แก่ สุราษฎร์ธานี นครศรีธรรมราช ตรัง พัทลุง สตูล สงขลา ปัตตานี ยะลา นราธิวาส รวม 81 อำเภอ 522 ตำบล 3,504 หมู่บ้าน 
+ <br><span class="Athiti3-bold">ประชาชนยังคงได้รับผลกระทบ : </span>มากถึง 1,108,031 ครัวเรือน 2,789,684 คน 
+ <br><span class="Athiti3-bold">ผู้เสียชีวิต : </span> 169 ราย ประกอบด้วย นครศรีธรรมราช 10 ราย ตรัง 3 ราย ปัตตานี 9 ราย ยะลา 5 ราย พัทลุง 4 ราย สตูล 3 ราย สงขลา 131 ราย นราธิวาส 4 ราย  
+                          
+                          </p>
+                        </div>
+                        <div class="td" style="width:2%;text-align: left;"></div>
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+                            
+                            <span class="Prompt2"> Affected Areas</span>
+                            <br><br>
+                            
+According to the report issued by the Department of Disaster Prevention and Mitigation (DDPM) 
+on 30 November 2025, summarizing the flood situation during 17–30 November 2025,  
+<br><span class="Athiti3-bold">Affected areas : </span>12 provinces namely Prachuap Khiri Khan, Chumphon, Surat Thani, Krabi, Nakhon Si Thammarat, Trang, Phatthalung, Satun, Songkhla, Pattani, Narathiwat, and Yala.
+In total, 117 districts, 778 subdistricts, and 5,938 villages were affected. 
+<br><span class="Athiti3-bold">Affected people : </span> 1,514,895 households, or 3,901,155 people.
+<br><br>On 30 November 2025, flood conditions remained in, 
+<br><span class="Athiti3-bold">Affected areas : </span> 9 provinces including Surat Thani, Nakhon Si Thammarat, Trang, Phatthalung, Satun, Songkhla, Pattani, Yala, and Narathiwat—covering 81 districts, 522 subdistricts, and 3,504 villages.
+<br><span class="Athiti3-bold">Affected people : </span> 1,108,031 households, or 2,789,684 people, continued to be affected.
+<br><span class="Athiti3-bold">Fatality :</span> the death toll reached 169, including: 10 in Nakhon Si Thammarat, 3 in Trang, 9 in Pattani, 5 in Yala, 4 in Phatthalung, 3 in Satun, 131 in Songkhla, and 4 in Narathiwat.
+
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                   
+<div class="table-wrapper" style="width:100%; text-align:center;">
+<div class="box a1" align="center"><img src="hatyai_nov2025/news16.webp" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%"><br></div>
+<div class="box b1" align="center"><img src="hatyai_nov2025/news18.webp" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%"><br></div>
+<div class="box c1" align="center"><img src="hatyai_nov2025/news19.webp" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%"><br></div>                   
+                    </div>               
+  
+                 <br><br><br>   
+                    <div class="table">
+                      <div class="tr">
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3"> 
+                            <span class="Prompt2">พื้นที่น้ำท่วม น้ำล้นตลิ่ง </span>
+                            <br><br>
+	ข้อมูลจากภาพถ่ายดาวเทียมแสดงให้เห็นพื้นที่ถูกน้ำท่วมที่เกิดขึ้นมีมากถึง 825,365 ไร่ ใน 9 จังหวัด ได้แก่ สงขลา สุราษฏร์ธานี นครศรีธรรมราช พัทลุง ปัตตานี นราธิวาส ยะลา สตูล ตรัง รวม 91 อำเภอ 527 ตำบล พื้นที่น้ำท่วมส่วนใหญ่เกิดขึ้นทางด้านตะวันออกของภาค โดยจังหวัดสงขลามีพื้นที่น้ำท่วมากที่สุดถึง 331,821 ไร่ รองลงมาคือจังหวัดปัตตานี 139,099 ไร่ และนครศรีธรรมราช 132,629 ไร่
+<br><br>
+	ในส่วนของจังหวัดสงขลา จากการตรวจวัดระดับน้ำบริเวณคลองอู่ตะเภาที่บ้านหาดใหญ่ อ.หาดใหญ่ จ.สงขลา พบน้ำล้นตลิ่งต่อเนื่องยาวนานถึง 4 วัน 17 ชั่วโมง ในช่วงวันที่ 23-27 พฤศจิกายน 2568 ซึ่งหากเทียบระดับน้ำท่วมสูงสุดที่เคยเกิดขึ้นที่หาดใหญ่ในปี 2543 และ 2553 พบว่าในครั้งนี้มีระดับน้ำท่วมสูงที่สุดถึง 9.97 เมตร รทก. ส่วนที่บริเวณคลองหวะที่บ้านคลองหวะ อ.หาดใหญ่ จ.สงขลา เกิดน้ำท่วมต่อเนื่องยาวนานถึง 5 วัน 14 ชั่วโมง ในช่วงวันที่ 21-27 พฤศจิกายน 2568 นอกจากนี้บริเวณคลองอู่ตะเภาที่บ้านบางศาลา อ.คลองหอยโข่ง จ.สงขลา มีเหตุการณ์น้ำล้นตลิ่งเกิดขึ้นต่อเนื่องถึง 5 วัน 18 ชั่วโมง อีกทั้งที่บ้านม่วงก็อง อ.สะเดา จ.สงขลา เกิดน้ำล้นตลิ่งยาวนานถึง 5 วัน 11 ชั่วโมง 
+<br><br>
+ นอกจากนี้ยังมีลำน้ำอื่น ๆ ในพื้นที่ภาคใต้ตอนล่างที่เกิดน้ำล้นตลิ่ง ประกอบด้วย 
+<br>-	แม่น้ำตาปี คลองสินปุน คลองอิปัน คลองท่าชนะ บริเวณ จ.สุราษฎร์ธานี 
+<br>-	คลองท่าดี คลองปากนคร คลองวังเคียน คลองเสาธง จ.นครศรีธรรมราช 
+<br>-	คลองเทพา คลองอู่ตะเภา ทะเลสาบสงขลา คลองปากรอ คลองระโนด คลองปากแตระ คลองหวะ คลองต่ำ คลองรัตภูมิ คลองบางกล่ำ คลองเล็ก คลองนาทวี บริเวณ จ.สงขลา
+<br>-	คลองใหญ่ คลองคุ้ง คลองท่าแค คลองปากประ คลองลำปำ คลองอ้ายโต คลองลำสิน ทะเลหลวง บริเวณ จ.พัทลุง
+<br>-	แม่น้ำปัตตานี บริเวณ  จ.ปัตตานี และ จ.ยะลา 
+<br>-	แม่น้ำสายบุรี คลองสุหงาบารู บริเวณ จ.นราธิวาส
+<br>-	แม่น้ำตรัง คลองปะเหลียน คลองบางน้อย คลองยวนปลา บริเวณ จ.ตรัง 
+<br>-	คลองดุสน คลองน้ำพระ คลองละงู บริเวณ จ.สตูล
+<br>-	คลองลำโลน บริเวณ อ.ควนกาหลง จ.สตูล
+
+                          </p>
+                        </div>
+                        <div class="td" style="width:2%;text-align: left;"></div>
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+                            
+                            <span class="Prompt2"> Flooded Areas / Riverbank Overflow</span>
+<br><br>                            
+Satellite imagery data indicate that flooded areas covered as much as 825,365 rai across nine provinces: Songkhla, Surat Thani, Nakhon Si Thammarat, Phatthalung, Pattani, Narathiwat, Yala, Satun, and Trang—affecting a total of 91 districts and 527 subdistricts.
+Most of the flooding occurred in the eastern part of the southern region. Songkhla Province recorded the largest flooded area at 331,821 rai, followed by Pattani with 139,099 rai, and Nakhon Si Thammarat with 132,629 rai.
+<br><br>
+In Songkhla Province, water level monitoring at the U-Taphao Canal in Ban Hat Yai, Hat Yai District, recorded continuous river overflow lasting 4 days and 17 hours during 23–27 November 2025.
+When compared with the highest flood levels previously recorded in Hat Yai in 2000 and 2010, this event reached a new peak water level of 9.97 meters above mean sea level (MSL).
+At Khlong Wa in Ban Khlong Wa, Hat Yai District, flooding persisted for 5 days and 14 hours during 21–27 November 2025.
+Additionally, at the U-Taphao Canal in Ban Bang Sala, Khlong Hoi Khong District, river overflow continued for 5 days and 18 hours. Likewise, at Ban Muang Kong, Sadao District, Songkhla Province, river overflow lasted for 5 days and 11 hours.
+<br><br>
+In addition, several other rivers and waterways in the lower southern region experienced river overflow, including:
+<br>•	Surat Thani Province: Tapi River, Khlong Sin Pun, Khlong Ipan, and Khlong Tha Chana
+<br>•	Nakhon Si Thammarat Province: Khlong Tha Di, Khlong Pak Nakhon, Khlong Wang Khian, and Khlong Sao Thong
+<br>•	Songkhla Province: Khlong Thepha, U-Taphao Canal, Songkhla Lake, Khlong Pak Ro, Khlong Ranot, Khlong Pak Ta Rae, Khlong Wa, Khlong Tam, Khlong Rattaphum, Khlong Bang Klam, Khlong Lek, and Khlong Na Thawi
+<br>•	Phatthalung Province: Khlong Yai, Khlong Khung, Khlong Tha Khae, Khlong Pak Pra, Khlong Lam Pam, Khlong Ai To, Khlong Lam Sin, and Thale Luang
+<br>•	Pattani and Yala Provinces: Pattani River
+<br>•	Narathiwat Province: Sai Buri River and Khlong Su-ngai Baru
+<br>•	Trang Province: Trang River, Khlong Palian, Khlong Bang Noi, and Khlong Yuan Pla
+<br>•	Satun Province: Khlong Duson, Khlong Nam Phra, and Khlong La-ngu
+<br>•	Khuan Kalong District, Satun Province: Khlong Lam Lon<br><br>
+
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                   
+ <div align="left"><img src="hatyai_nov2025/flood_map_nov2025.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%"></div>                       
+                
+  
+                    
+                    <br><br><br>
+                    
+                    <div class="table">
+                      <div class="tr">
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3"> 
+                            <span class="Prompt2">ข้อเท็จจริงและสาเหตุของการเกิดอุทกภัย  </span>
+<br><br><br>
+                            <span class="Prompt2">1. สภาวะอากาศ </span>
+<br><br>
+                            <span class="Athiti3-bold">1.1 มรสุมตะวันออกเฉียงเหนือ </span><br><br>ช่วงปลายปี มรสุมตะวันออกเฉียงเหนือที่พัดปกคลุมอ่าวไทย ภาคใต้และทะเลอันดามัน เป็นตัวแปรหนึ่งที่ทำให้เกิดฝนตกหนักในพื้นที่ภาคใต้ ซึ่งเหตุการณ์อุทกภัยในครั้งนี้ ลมมรสุมมีกำลังค่อนข้างแรงโดยเฉพาะในช่วงวันที่ 17-30 พฤศจิกายน 2568 
+
+                          
+                          </p>
+                        </div>
+                        <div class="td" style="width:2%;text-align: left;"></div>
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+                            
+                            <span class="Prompt2">Facts and Causes of the Flood Event</span>
+<br><br><br>
+                            <span class="Prompt2">1. Weather Conditions</span>
+                            <br><br>
+                            <span class="Athiti3-bold">1.1 Northeast Monsoon</span><br><br>
+During the late-year period, the northeast monsoon prevailing over the Gulf of Thailand, the southern region, and the Andaman Sea is one of the key factors contributing to heavy rainfall in Southern Thailand. In this flood event, the monsoon was relatively strong, particularly during 17–30 November 2025.
+
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+<span class="Prompt1">แผนที่แสดงความเร็วลมในช่วงวันที่ 20-25 พฤศจิกายน 2568</span><br>   
+<span class="Prompt3">Maps of wind speed during 20-25 November 2025</span>                       
+<div class="table-wrapper" style="width:100%; text-align:center;">
+<div class="box a1" align="center"><img src="hatyai_nov2025/wind20.jpg" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%"><br>20/11/2025 07BKKtime</div>
+<div class="box b1" align="center"><img src="hatyai_nov2025/wind21.jpg" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%"><br>21/11/2025 07BKKtime</div>
+<div class="box c1" align="center"><img src="hatyai_nov2025/wind22.jpg" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%"><br>22/11/2025 07BKKtime</div>
+<div class="box d1" align="center"><img src="hatyai_nov2025/wind23.jpg" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%"><br>23/11/2025 07BKKtime</div>
+<div class="box e1" align="center"><img src="hatyai_nov2025/wind24.jpg" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%"><br>24/11/2025 07BKKtime</div>
+<div class="box f1" align="center"><img src="hatyai_nov2025/wind25.jpg" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%"><br>25/11/2025 07BKKtime</div>
+</div>                    
+    <br>                
+ <div align="left"><img src="hatyai_nov2025/wind-scale1.png" width="20%"></div>                        
+                
+                     
+                    <br><br>
+                   
+                    <div class="table">
+                      <div class="tr">
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3"> 
+                            <span class="Athiti3-bold"> 1.2 หย่อมความกดอากาศต่ำและร่องมรสุม </span><br><br>เหตุการณ์น้ำท่วมภาคใต้ในครั้งนี้ หย่อมความกดอากาศต่ำเป็นตัวแปรหลักที่ทำให้เกิดฝนตกหนักเกิดขึ้นในหลายพื้นที่  โดยมีลักษณะการเกิดขึ้นเรียงตัวกันเป็นแนวจากมหาสมุทรอินเดีย ทะเลอันดามันตอนล่าง ประเทศมาเลเซีย อ่าวไทยและทะเลจีนใต้ตอนล่าง โดยเริ่มเกิดขึ้นเรียงตัวกันตั้งแต่วันที่ 15-25 พฤจิกายน 2568 โดยเฉพาะช่วงวันที่ 18-23 พฤศจิกายน 2568 ที่มีหย่อมความกดอากาศต่ำเคลื่อนตัวปกคลุมอยู่บริเวณภาคใต้ตอนล่างและประเทศมาเลเซียอย่างต่อเนื่อง ซึ่งเป็นสาเหตุที่ทำให้เกิดฝนตกแช่บริเวณภาคใต้ตอนล่างของประเทศไทย ซึ่งภายหลังเกิดเป็นร่องมรสุมพาดผ่านภาคใต้ตอนล่างในช่วงวันที่ 24-25 พฤศจิกายน 2568 ซึ่งต่อมาร่องมรสุมได้สลายตัวไป แต่กลับยังคงมีหย่อมความกดอากาศต่ำปกคลุมต่อเนื่องอยู่บริเวณตอนบนของเกาะสุมาตรา 
+                          
+                          </p>
+                        </div>
+                        <div class="td" style="width:2%;text-align: left;"></div>
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+                            
+<span class="Athiti3-bold">1.2 Low-Pressure Cells and the Monsoon Trough</span><br><br>
+In this southern flood event, low-pressure cells were the primary factor contributing to widespread heavy rainfall. These systems developed in a continuous alignment stretching from the Indian Ocean, across the lower Andaman Sea and Malaysia, to the Gulf of Thailand and the lower South China Sea. This alignment began forming during 15–25 November 2025.
+Particularly during 18–23 November 2025, low-pressure cells persistently covered the lower southern region of Thailand and Malaysia, resulting in prolonged and continuous heavy rainfall over the lower South of Thailand.
+Subsequently, a monsoon trough formed and extended across the lower southern region during 24–25 November 2025. Although the monsoon trough later dissipated, low-pressure cells continued to persist over the northern part of Sumatra.
+
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    
+<span class="Prompt1">ภาพแผนที่อากาศแแสดงการเกิดหย่อมความกดอากาศเรียงตัวกันในช่วงวันที่ 18-23 พฤศจิกายน 2568</span><br>                  
+<span class="Prompt3">Weather maps indicate the development of aligned low-pressure systems during 18–23 November 2025.</span>                                      
+<div class="table-wrapper" style="width:100%; text-align:center;">
+<div class="box a1" align="center"><img src="hatyai_nov2025/topchart_18_november_2025_00.jpg" style="border: 1px solid #D2D2D8; border-radius: 8px" width="100%"><br>18/11/2025 00UTC</div>
+<div class="box b1" align="center"><img src="hatyai_nov2025/topchart_19_november_2025_002.jpg" style="border: 1px solid #D2D2D8; border-radius: 8px" width="100%"><br>19/11/2025 00UTC</div>
+<div class="box c1" align="center"><img src="hatyai_nov2025/topchart_20_november_2025_00.jpg" style="border: 1px solid #D2D2D8; border-radius: 8px" width="100%"><br>20/11/2025 00UTC</div>
+<div class="box d1" align="center"><img src="hatyai_nov2025/topchart_21_november_2025_00.jpg" style="border: 1px solid #D2D2D8; border-radius: 8px" width="100%"><br>21/11/2025 00UTC</div>
+<div class="box e1" align="center"><img src="hatyai_nov2025/topchart_22_november_2025_00.jpg" style="border: 1px solid #D2D2D8; border-radius: 8px" width="100%"><br>22/11/2025 00UTC</div>
+<div class="box f1" align="center"><img src="hatyai_nov2025/topchart_23_november_2025_00.jpg" style="border: 1px solid #D2D2D8; border-radius: 8px" width="100%"><br>23/11/2025 00UTC</div>
+
+</div>                      
+ <br><br><br>                    
+                    
+                    
+                    
+                    <div class="table">
+                      <div class="tr">
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3"> 
+                            <span class="Athiti3-bold">1.3 พายุหมุนเขตร้อน </span><br><br>หนึ่งในหย่อมความกดอากาศต่ำที่เคลื่อนตัวอยู่คลุมอยู่บริเวณภาคใต้ตอนล่างของไทยและประเทศมาเลเซียอย่างต่อเนื่องตั้งแต่วันที่ 15 พฤศจิกายน 2568 ได้ทวีกำลังแรงเป็นพายุดีเปรสชันและยกระดับเป็นพายุไซโคลน “ซินยาร์” ( SENYAR) ในวันที่ 25 พฤศจิกายน 2568 ซึ่งการเคลื่อนที่ปกคลุมอยู่บริเวณเดิมเป็นระยะเวลานานในครั้งนี้ส่งผลให้เกิดฝนตกหนักถึงหนักมาก และตกแช่อยู่เป็นเวลานานหลายวันในพื้นที่ตอนล่างของภาคใต้ อีกทั้งหลังจากเคลื่อนลงสู่อ่าวไทย พายุได้เคลื่อนตัวต่อเนื่องไปทางทิศตะวันออกเฉียงเหนือและได้เกิดปรากฎการณ์ “ฟูจิวารา” (Fujiwara Effect) กับพายุไต้ฝุ่น “โคโตะ” (KOTO) ซึ่งเคลื่อนตัวอยู่บริเวณทะเลจีนใต้ตอนบน ส่งผลให้สภาวะอากาศบริเวณทะเลจีนใต้และพื้นที่ใกล้เคียงมีความแปรปรวนค่อนข้างมาก
+<br><br>
+นอกจากนี้ อิทธิพลของมรสุมตะวันออกเฉียงเหนือกำลังแรงที่พัดปกคลุมอ่าวไทย ภาคใต้และทะเลอันดามันตลอดช่วงครึ่งเดือนหลังของเดือนพฤศจิกายน 2568 ประกอบกับในเวลาเดียวกัน อิทธิพลจากหย่อมความกดอากาศต่ำที่เกิดขึ้นเรียงตัวกันเป็นแนวจากทะเลอันดามัน ช่องแคบมะละกา แหลมมาลายู และอ่าวไทยตอนล่าง ได้ส่งผลทำให้เกิดแนวปะทะของลมในบริเวณดังกล่าว โดยเฉพาะในช่วงวันที่ 19-25 พฤศจิกายน 2568 ซึ่งเป็นปัจจัยร่วมที่ทำให้เกิดฝนตกหนักและตกแช่เป็นเวลานานหลายวันในพื้นที่ภาคใต้ตอนล่างของไทย
+<br><br><br>
+                          
+                            
+                           <br><br><br>
+                          
+                          </p>
+                        </div>
+                        <div class="td" style="width:2%;text-align: left;"></div>
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+                            
+<span class="Athiti3-bold">1.3 Tropical Storm</span><br><br>
+One of the low-pressure systems that had persistently covered the lower southern region of Thailand and Malaysia since 15 November 2025 intensified into a tropical depression and was later upgraded to Tropical Cyclone “SENYAR” on 25 November 2025.
+Its prolonged stagnation over the same area resulted in heavy to very heavy rainfall and sustained precipitation for several consecutive days across the lower southern region.
+After moving into the Gulf of Thailand, the storm continued tracking northeastward and interacted with Typhoon “KOTO,” which was located over the upper South China Sea. This interaction led to the “Fujiwara Effect,” causing significant atmospheric instability over the South China Sea and surrounding areas.
+<br><br>
+                            
+In addition, the strong northeast monsoon prevailing over the Gulf of Thailand, the southern region, and the Andaman Sea throughout the second half of November 2025, together with the simultaneous influence of low-pressure systems aligned from the Andaman Sea, the Strait of Malacca, the Malay Peninsula, and the lower Gulf of Thailand, contributed to the formation of a wind convergence zone over the area.
+Particularly during 19–25 November 2025, this combined effect became a key contributing factor to heavy and persistent rainfall lasting several consecutive days across the lower southern region of Thailand.
+
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                   
+ <div class="Prompt1" align="left">แผนที่แสดงเส้นทางพายุไซโคลน "ซินยาร์" และพายุไต้ฝุ่น "โคโตะ"<br>
+   <span class="Prompt3"> Storm Track Map of Cyclone SENYAR and Typhoon KOTO</span> <img src="hatyai_nov2025/storm_map.png" style="border: 1px solid #D2D2D8; border-radius: 8px" width="100%"></div>                       
+              <br><br> 
+                    
+  
+                   
+                    
+                    <div class="table">
+                      <div class="tr">
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+                            </p><div class="Prompt1" align="left"> (ตัวอย่าง) แผนที่แสดงการเกิดลมปะทะในช่วงวันที่ 24-25 พฤศจิกายน 2568</div>
+                             <span class="Athiti3">  ช่วงวันที่ 24-25 พฤศจิกายน 2568 มรสุมตะวันออกเฉียงเหนือมีกำลังค่อนข้างแรง อีกทั้งลมระดับล่างใกล้ผิวพื้นพัดจากทางตะวันออกเฉียงเหนือ 
+    (ลูกศรสีฟ้าหมายเลข 1 ลมตะวันออก (ลูกศรสีฟ้าหมายเลข 2) และลมตะวันตก (ลูกศรสีฟ้าหมายเลข 3)ปัจจัยทั้งหมดส่งผล
+    ทำให้เกิดลักษณะลมไหลมาบรรจบ (Low-Level Convergency : LLC) ที่บริเวณภาคใต้ตอนล่าง ซึ่งส่งผลให้อากาศยกตัว
+     และเกิดฝนตกหนักบริเวณดังกล่าว</span>
+                          
+
+                  
+                        </div>
+                        <div class="td" style="width:2%;text-align: left;"></div>
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+                            
+                          </p><div class="Prompt1" align="left">(Example) Map showing wind convergence during 24–25 November 2025</div>
+
+<span class="Athiti3">During 24–25 November 2025, the northeast monsoon was relatively strong. In addition, low-level winds near the surface blew from the northeast (blue arrow No. 1), easterly winds (blue arrow No. 2), and westerly winds (blue arrow No. 3).
+
+  All of these factors contributed to low-level wind convergence (Low-Level Convergence: LLC) over the lower southern region, resulting in upward air motion and heavy rainfall in the affected area.</span>
+
+                       
+                        </div>
+                      </div>
+                    </div>                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+    <img src="hatyai_nov2025/LLC_map.png" style="border: 1px solid #D2D2D8; border-radius: 8px" width="100%"></div>                                          
+                    
+                    
+                    <br>  <br><br>   
+                    
+ 
+                    
+                    <div class="table">
+                      <div class="tr">
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3"> 
+                            <span class="Prompt2">2. ปริมาณฝน</span> 
+<br><br>
+                            <span class="Athiti3-bold">2.1 ฝนตกหนักต่อเนื่องหลายวันในพื้นที่เดิม</span><br><br>
+ในช่วง 8-10 วัน ระหว่างวันที่ 17-26 พฤศจิกายน 2568 ฝนตกหนักถึงหนักมากที่เกิดขึ้นเป็นบริเวณกว้างในพื้นที่ภาคใต้ตอนล่าง โดยส่วนใหญ่เกิดขึ้นซ้ำในบริเวณเดิม และเป็นปริมาณฝนที่อยู่ในเกณฑ์หนักมาก โดยปริมาณฝนสะสม 10 วันในช่วงเกิดเหตุการณ์ (17-20 พฤศจิกายน 2568) ที่ ต.เทพา อ.เทพา จ.สงขลา มีปริมาณฝนสะสมสูงสุดถึง 1,705 มิลลิเมตร รองลงมาคือที่ ต.บ้านนา อ.จะนะ จ.สงขลา ปริมาณฝน 1,534 มิลลิเมตร และที่ ต.หนองธง อ.ป่าบอน จ.พัทลุง ปริมาณฝน 1,506.5 มิลลิเมตร ซึ่งเป็นตัวเลขปริมาณฝนสะสมเพียง 10 วัน ที่ใกล้เคียงกับครึ่งหนึ่งของปริมาณฝนสะสมทั้งปี และจังหวัดที่มีการตรวจวัดปริมาณฝนสะสม 10 วันในพื้นที่ได้เกิน 1,000 มิลลิเมตร มีถึง 7 จังหวัด ได้แก่ สงขลา พัทลุง นราธิวาส ปัตตานี นครศรีธรรมราช ยะลา และสตูล ซึ่งการมีฝนตกหนักซ้ำที่เดิมเกิดขึ้นต่อเนื่องหลายวัน ส่งผลทำให้ดินอิ่มตัว ศักยภาพในการซึมผ่านลดลง ส่งผลทำให้มวลน้ำที่ไหลเข้าท่วมมีปริมาณมาก
+ 
+                          
+                          </p>
+                        </div>
+                        <div class="td" style="width:2%;text-align: left;"></div>
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+                            
+                            <span class="Prompt2">2. Rainfall</span>
+<br><br>
+                            <span class="Athiti3-bold">2.1 Prolonged Heavy Rainfall over the Same Areas</span><br><br>
+Over a period of 8–10 days, particularly during 17–26 November 2025, widespread heavy to very heavy rainfall occurred across the lower southern region of Thailand. Much of the rainfall repeatedly affected the same areas and was classified as very heavy.
+The 10-day accumulated rainfall during the event (17–20 November 2025) reached its highest level in Thepha Subdistrict, Thepha District, Songkhla Province, with a total of 1,705 mm. This was followed by Ban Na Subdistrict, Chana District, Songkhla Province, with 1,534 mm, and Nong Thong Subdistrict, Pa Bon District, Phatthalung Province, with 1,506.5 mm.
+These 10-day rainfall totals were nearly equivalent to half of the average annual rainfall. In total, seven provinces recorded 10-day accumulated rainfall exceeding 1,000 mm: Songkhla, Phatthalung, Narathiwat, Pattani, Nakhon Si Thammarat, Yala, and Satun.
+The repeated heavy rainfall over the same areas for several consecutive days led to soil saturation and reduced infiltration capacity, resulting in significantly increased surface runoff and flood volume.
+
+
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    
+
+ <div align="center"><img src="hatyai_nov2025/rain24_10pics.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%"></div>                                                                                                                   
+               
+  <br><br><br>              
+                      
+                    
+                    <div class="table">
+                      <div class="tr">
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3"> 
+                            <span class="Athiti3-bold">2.2 ฝนตกในทุกพื้นที่ต้นน้ำที่ไหลลงสู่เมือง</span>
+                            <br><br>
+เหตุการณ์ฝนตกที่เกิดขึ้นในครั้งนี้ เรียกได้ว่าเกิดขึ้นครอบคลุมเกือบทุกพื้นที่ เกือบทุกเส้นทางน้ำที่ไหลลงสู่ อ.หาดใหญ่ ทั้งน้ำที่ไหลมาจากคลองวาด คลองต่ำ คลองหวะ เขาคอหงส์ รวมถึงน้ำจาก อ.สะเดา ที่ไหลผ่านคลองอู่ตะเภาเข้าสู่เมืองสงขลาและเป็นสาเหตุหลักที่ทำให้เกิดน้ำท่วมฉับพลันในครั้งนี้ ซึ่งเหตุการณ์ฝนตกที่เกิดขึ้นเรียกได้ว่าเกิดขึ้นเกือบจะพร้อมกัน เนื่องจากเหตุการณ์ก่อนหน้ายังไม่ทันคลี่คลาย เหตุการณ์ต่อมาก็เกิดขึ้นซ้ำ โดยมีลำดับการเกิดฝนตกหนักเกิดขึ้นเมื่อวันที่ 19 พฤศจิกายน 2568 ที่บริเวณจังหวัดนครศรีธรรมราช และทำให้มีน้ำไหลลงสู่ทะเลหลวง ส่งผลทำให้การระบายน้ำบริเวณทะเลสาบสงขลาค่อนข้างทำได้ช้า ต่อมาในวันที่ 21พฤศจิกายน 2568 มีฝนตกหนักที่เขาคอหงส์ ทำให้มีน้ำไหลจากเขาอย่างรวดเร็วเข้าท่วมเทศบาลนครหาดใหญ่ แล้วต่อด้วยมวลน้ำจาก อ.นาหม่อม ไหลลงสู่คลองหวะ เข้าท่วมเทศบาลนครหาดใหญ่อีกระรอก ในช่วงวันที่ 21-22 พฤศจิกายน 2568 ซึ่งในช่วงเวลานี้ระดับน้ำได้ลดลงเล็กน้อย จนทำให้ประชาชนบางส่วนเข้าใจผิดคิดว่าน้ำจะลดลงแล้ว แต่กลับไม่เป็นเช่นนั้น เพราะวันที่ 24 พฤศจิกายน 2568 กลับมีมวลน้ำมหาศาลไหลมาจาก อ.รัตภูมิ และ อ.สะเดา ผ่านคลองอู่ตะเภาเข้าสู่ อ.หาดใหญ่ อย่างรวดเร็ว ทำให้รับมือไม่ทันนำมาซึ่งความเสียหายอย่างมหาศาล
+
+                          
+                          </p>
+                        </div>
+                        <div class="td" style="width:2%;text-align: left;"></div>
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+                            
+                            <span class="Athiti3-bold">2.2 Rainfall across All Upstreams Flowing into the City</span>
+                            <br><br>
+This rain event affected nearly all upstream areas and almost every watercourse flowing into Hat Yai District. Runoff originated from Khlong Wat, Khlong Tam, Khlong Wa, Khao Kho Hong, as well as from Sadao District via the U-Taphao Canal, eventually flowing toward Songkhla and serving as a primary cause of the flash flooding in this event.
+The rainfall occurred in close succession—before earlier impacts had subsided, new heavy rainfall episodes followed. The sequence began on 19 November 2025, when heavy rain fell in Nakhon Si Thammarat Province, generating runoff into Thale Luang (the inland lake system), which slowed drainage in the Songkhla Lake basin.
+On 21 November 2025, heavy rainfall over Khao Kho Hong triggered rapid runoff from the hills into Hat Yai Municipality. This was followed by additional runoff from Na Mom District flowing into Khlong Wa, causing another wave of flooding in Hat Yai during 21–22 November 2025. During this period, water levels temporarily receded slightly, leading some residents to believe the situation was improving.
+However, on 24 November 2025, a massive volume of runoff from Rattaphum and Sadao Districts surged through the U-Taphao Canal into Hat Yai, rising rapidly and overwhelming response efforts, ultimately resulting in extensive damage.
+
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                 
+<div align="center"><img src="hatyai_nov2025/timeline.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="90%"></div>                                        
+                
+                      
+               <br><br><br>     
+                    
+                    <div class="table">
+                      <div class="tr">
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3"> 
+                            <span class="Prompt2">3. สภาพพื้นที่และโครงสร้างน้ำ </span>
+<br><br>
+  <span class="Athiti3-bold">3.1 ลักษณะภูมิประเทศเป็นแอ่งกระทะ</span>
+<br><br>                            
+อ.หาดใหญ่ตั้งอยู่ในภูมิประเทศที่เป็นแอ่งกระทะ ทำให้ต้องรับน้ำจากหลายทิศทาง ประกอบกับเป็นการไหลลงของน้ำจากพื้นที่ค่อนข้างชัน เนื่องจากเป็นภูเขาและพื้นที่ลาดเอียง เมื่อเกิดฝนตกหนักจึงทำให้น้ำไหลลงสู่พื้นที่ราบอย่างรวดเร็ว 
+
+                          
+                          </p>
+                        </div>
+                        <div class="td" style="width:2%;text-align: left;"></div>
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+                            
+                            <span class="Prompt2">3. Topographic Conditions and Water Infrastructure</span>
+ <br><br>                           
+                            <span class="Athiti3-bold">3.1 Basin-Like Topography</span>
+<br><br>
+                            Hat Yai District is situated in a basin-like topographic setting, which causes it to receive runoff from multiple directions. In addition, much of the inflow originates from relatively steep mountainous and sloping terrain. As a result, when heavy rainfall occurs, water rapidly flows down into the low-lying plains.
+
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                   
+ <div align="center"><img src="hatyai_nov2025/gistda5.jpg" style="border: 0px solid #D2D2D8; border-radius: 8px" width="90%"></div>                                                             
+                
+                     <br><br>
+                    
+                    <div class="table">
+                      <div class="tr">
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3"> 
+                            <span class="Athiti3-bold">  3.2 พื้นที่เมืองเป็นอุปสรรคต่อการระบายน้ำ </span>
+                            <br><br>
+                            พื้นที่ราบตอนกลางและตอนล่างเป็นเขตเมืองมีสิ่งปลูกสร้างหนาแน่น ทำให้น้ำขาดศักยภาพในการซึมลงดิน น้ำส่วนใหญ่จึงไหลลงและเกิดการขังอยู่ในตัวเมืองค่อนข้างง่าย ประกอบกับเมืองหาดใหญ่คือย่านเศรษฐกิจเมื่อเกิดน้ำท่วมจึงทำให้มีมูลค่าความเสียหายค่อนข้างสูง 
+                          
+                          </p>
+                        </div>
+                        <div class="td" style="width:2%;text-align: left;"></div>
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+                            
+                            <span class="Athiti3-bold">3.2 Urban Areas as a Constraint on Drainage</span>
+                            <br><br>
+The central and lower plains are densely built-up urban areas, where extensive infrastructure and impervious surfaces limit the land’s natural infiltration capacity. As a result, most rainfall becomes surface runoff and easily accumulates within the city.
+Moreover, as Hat Yai serves as a major economic center, flooding in the urban area leads to relatively high levels of economic damage
+
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    
+    <br>               
+                      
+                
+                     
+ 
+                    
+                    <div class="table">
+                      <div class="tr">
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3"> 
+                            <span class="Athiti3-bold"> 3.3 เกิดคอขวดการไหลของมวลน้ำ</span>
+                            <br><br>
+เส้นทางหลักที่น้ำไหลเข้าตัวเมืองหาดใหญ่อยู่หลายเส้นทาง แต่มีเส้นทางระบายออกหลักเพียง 2 ทางเท่านั้น คือ การระบายผ่านคลอง ร.1 และคลองอู่ตะเภา ที่มีความสามารถในการระบายออกสูงสุดเพียง 1,721 ลูกบาศก์เมตรต่อวินาทีเท่านั้น จึงทำให้ระบายน้ำไม่ทันและเกิดน้ำท่วมสูงในตัวเมืองเป็นเวลานาน ซึ่งในเหตุการณ์ครั้งนี้ เฉพาะน้ำที่ไหลมาจาก อ.สะเดา ในเหตุการณ์น้ำท่วมครั้งที่ 2 มีอัตราการไหลผ่านสูงสุดมากกว่า 2,700 ลูกบาศก์เมตรต่อวินาที 
+ 
+                          
+                          </p>
+                        </div>
+                        <div class="td" style="width:2%;text-align: left;"></div>
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+                            
+                            <span class="Athiti3-bold"> 3.3 Bottlenecks of Floodwaters</span>
+                            <br><br>
+There are several main inflow routes through which water enters Hat Yai city; however, there are only two primary drainage outlets: discharge through Ror.1 Canal and the U-Taphao Canal. The combined maximum drainage capacity of these channels is approximately 1,721 cubic meters per second, which is insufficient to accommodate large flood volumes. As a result, water could not be discharged quickly enough, leading to prolonged and severe urban flooding.
+In this event, only runoff from Sadao District —during the second wave of flooding—reached a peak flow rate of over 2,700 cubic meters per second, far exceeding the city’s drainage capacity.
+
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                                  
+                       
+ <div align="center"><img src="hatyai_nov2025/waterlevel_analysis_RID1.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="90%"></div>                                                                            
+                     
+                    <br><br>
+                    <div class="table">
+                      <div class="tr">
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3"> 
+                            <span class="Athiti3-bold">3.4 ระดับน้ำในทะเลสาบสงขลาและระดับน้ำทะเล</span>
+                            <br><br>
+ในช่วงวันที่ 20-27 พฤศจิกายน 2568 อิทธิพลจากหย่อมความกดอากาศต่ำและร่องมรสุม ส่งผลทำให้ระดับน้ำทะเลยกตัวขึ้น ซึ่งเป็นอุปสรรคต่อการระบายน้ำจากทะเลหลวงผ่านคลองระโนดออกสู่ทะเล รวมถึงการระบายน้ำออกจากทะเลสาบสงขลาออกสู่ทะเล
+ 
+                          
+                          </p>
+                        </div>
+                        <div class="td" style="width:2%;text-align: left;"></div>
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+                            
+                            <span class="Athiti3-bold">3.4 Water Levels in Songkhla Lake and Sea Level Conditions</span>
+                            <br><br>
+During 20–27 November 2025, the influence of low-pressure systems and the monsoon trough caused sea levels to rise. This elevated sea level hindered the drainage of water from Thale Luang through Khlong Ranot to the sea, as well as the discharge of water from Songkhla Lake into the Gulf.
+
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                
+<div align="center"><img src="hatyai_nov2025/tide3_summary.png" style="border: 0px solid #D2D2D8; border-radius: 8px" width="100%"></div>                                                                                                  
+ 
+                <br><br><br>    
+                    
+                    
+                    <div class="table">
+                      <div class="tr">
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3"> 
+                            <span class="Prompt2">4. การบริหารจัดการน้ำ </span>
+<br><br>
+                            <span class="Athiti3-bold">ก่อนเกิดเหตุการณ์ : </span>ปัญหาหลักไม่ได้อยู่ที่ “ไม่มีข้อมูล” แต่คือ ไม่มีระบบจัดการข้อมูล การตัดสินใจ การสื่อสาร และการเตรียมพร้อมเชิงปฏิบัติการแบบบูรณาการ ส่งผลทำให้เกิดปัญหาขึ้นหลายด้าน เช่น ขาดการวางแผนและการใช้ข้อมูล การบริหารจัดการและโครงสร้างองค์กร การสื่อสารและการเตือนภัย การประสานงานและข้อมูลสาธารณะ แผนอพยพและความพร้อมของชุมชน การจัดการทรัพยากรและกลุ่มเปราะบาง และช่องทางการช่วยเหลือ เป็นต้น 
+<br><br>
+                            <span class="Athiti3-bold">ระหว่างเกิดเหตุการณ์ : </span>ปัญหาไม่ได้อยู่ที่ “ไม่มีคนช่วย” แต่เป็นปัญหาจากการ
+ไม่มีศูนย์บัญชาการ ไม่มีโครงสร้างข้อมูลกลาง ไม่มีการจัดลำดับความสำคัญ และไม่มีการสั่งการเชิงระบบ จึงนำมาซึ่งปัญหามากมาย เช่น ความสับสนด้านข้อมูลจากแหล่งข่าวที่เชื่อถือไม่ได้ ความโกลาหลและการใช้ทรัพยากรอย่างไร้ทิศทาง เป็นต้น
+<br><br>
+
+
+   <span class="Athiti3-bold">หลังเกิดเหตุการณ์ :</span> ต้องถอดบทเรียนเพื่อเตรียมการณ์ให้พร้อมรับมือ หากเกิดวิกฤตอีกครั้ง การเตรียมรับมือวิกฤตที่ดี ไม่ใช่การแก้ปัญหาเฉพาะหน้าแต่ต้องลงทุนล่วงหน้าใน คน ระบบข้อมูล แพลตฟอร์ม การฝึกซ้อม และต้องมีขั้นตอนการดำเนินงานที่เป็นมาตรฐาน ( SOP : Standard Operating Procedures) แบบบูรณาการ
+ 
+                          
+                          </p>
+                        </div>
+                        <div class="td" style="width:2%;text-align: left;"></div>
+                        <div class="td" style="width:20%;text-align: left;">
+                          <p class="Athiti3">
+                            
+                            <span class="Prompt2">4. Water Management</span>
+                            <br><br>
+                            <span class="Athiti3-bold">Before the Event:</span>
+The core problem was not an “insufficient data”, but rather the lack of an integrated system for data management, decision-making, communication, and operational preparedness. This led to multiple challenges, including shortcomings in planning and data utilization; weaknesses in management and organizational structure; gaps in communication and early warning systems; limited coordination and public information sharing; inadequate evacuation planning and community preparedness; insufficient resource management and protection of vulnerable groups; and unclear assistance channels.
+ <br><br>
+                            <span class="Athiti3-bold">During the Event:</span>
+The issue was not the absence of assistance, but rather the lack of a central command center, the absence of a unified data structure, the failure to establish priorities, and the lack of systematic coordination and command.
+This resulted in numerous problems, including confusion caused by unreliable information sources, operational chaos, and inefficient, directionless use of resources.
+<br><br>
+  <span class="Athiti3-bold">After the Event:</span>
+Lessons must be learned to strengthen preparedness for future crises. Effective crisis preparedness is not about ad hoc problem-solving, but about proactive investment in people, data systems, platforms, and training exercises. It also requires the establishment of integrated Standard Operating Procedures (SOPs) to ensure coordinated and systematic response.
+
+                          
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+  
+                  <div class="Prompt1" align="center">ภาพเหตุการณ์น้ำท่วมบริเวณอำเภอหาดใหญ่เมื่อเดือนพฤศจิกายน 2568<br><span class="Prompt3">Photos of flooding in Hat Yai District in November 2025</span><br><img src="hatyai_nov2025/flood_bridge.jpg" style="border: 0px solid #D2D2D8; border-radius: 8px" width="50%"></div>                                  
+
+                  <br><br>                
+                  
+                
+                       
+                  
+                
+                    
+ 
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+  
+
+                      </div>
+                    </div>
+
+ 
+  
+                    </div>
+
+                  
+                  
+                  
+                  
+
+
+                  </div>
+                  <br>
+                </div>
+              </div>
+            </div>
+          
+        
+      
+    
+    <!-- /. PAGE WRAPPER  -->
+    <!-- /. WRAPPER  -->
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+    <!-- MORRIS CHART SCRIPTS -->
+    <script src="assets/js/morris/raphael-2.1.0.min.js"></script>
+    <script src="assets/js/morris/morris.js"></script>
+    <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+</body></html>

@@ -1,0 +1,468 @@
+{
+  "note": "Verifiable public statements about drainage capacity. Values are as stated by the cited source; no value is inferred. English translations are by this project; the Thai quote is authoritative.",
+  "statements": [
+    {
+      "id": "bkk-design-intensity-60mmh-2025",
+      "cityId": "bangkok",
+      "topic": "design-rainfall-intensity",
+      "subject": "Bangkok drainage system (citywide statement)",
+      "value": 60,
+      "unit": "mm/h",
+      "valueType": "stated-capacity",
+      "quoteTh": "กรุงเทพฯ รองรับปริมาณฝนได้จำกัดสูงสุด 60 มิลลิเมตรต่อชั่วโมง แต่ที่ผ่านมาฝนตกในกรุงเทพฯ ไป 80 หรือ 100 มิลลิเมตร",
+      "quoteEnTranslation": "Bangkok can handle rainfall up to a maximum of 60 mm per hour, but recently rain in Bangkok has reached 80 or 100 mm. (translation by this project)",
+      "attribution": "Attasit Petchmeesri (อรรถเศรษฐ์ เพชรมีศรี), adviser to the Bangkok Governor, speaking on 7 Jun 2025",
+      "sourceKey": "thaipublica2025",
+      "caveats": [
+        "Spoken statement reported by media, not a design document.",
+        "A citywide figure; local sub-catchments differ (older pipes vs. upgraded areas)."
+      ],
+      "source": {
+        "url": "https://thaipublica.org/2025/06/green-up-the-world-02/",
+        "publisher": "ThaiPublica",
+        "title": "“อรรถเศรษฐ์ เพชรมีศรี” เล่าเบื้องหลัง “น้ำรอระบายไม่เกิน 1 ชม.” กทม. ทำอะไรบ้าง",
+        "publishedAt": "2025-06-08",
+        "sourceType": "news report quoting a BMA official (adviser to the Bangkok Governor)",
+        "retrievedAt": "2026-11-03T18:19:13.371Z",
+        "rawFile": "data/raw/news/thaipublica_2025_06_green-up-the-world-02.html"
+      },
+      "quoteVerifiedInRetrievedPage": true
+    },
+    {
+      "id": "bkk-design-intensity-60mm-2025-b",
+      "cityId": "bangkok",
+      "topic": "design-rainfall-intensity",
+      "subject": "Bangkok drainage system (citywide statement)",
+      "value": 60,
+      "unit": "mm (unit of time not stated in this quote)",
+      "valueType": "stated-capacity",
+      "quoteTh": "กรุงเทพฯ ถูกออกแบบมาให้รับน้ำฝนได้ 60 มิลลิเมตร วันนี้ฝนตก 100, 120 มิลลิเมตร",
+      "quoteEnTranslation": "Bangkok was designed to take 60 mm of rain; today it rains 100, 120 mm. (translation by this project)",
+      "attribution": "Attasit Petchmeesri, adviser to the Bangkok Governor (same talk)",
+      "sourceKey": "thaipublica2025",
+      "caveats": [
+        "The quote omits the time unit; the same speaker states 60 mm per hour elsewhere in the article."
+      ],
+      "source": {
+        "url": "https://thaipublica.org/2025/06/green-up-the-world-02/",
+        "publisher": "ThaiPublica",
+        "title": "“อรรถเศรษฐ์ เพชรมีศรี” เล่าเบื้องหลัง “น้ำรอระบายไม่เกิน 1 ชม.” กทม. ทำอะไรบ้าง",
+        "publishedAt": "2025-06-08",
+        "sourceType": "news report quoting a BMA official (adviser to the Bangkok Governor)",
+        "retrievedAt": "2026-11-03T18:19:13.371Z",
+        "rawFile": "data/raw/news/thaipublica_2025_06_green-up-the-world-02.html"
+      },
+      "quoteVerifiedInRetrievedPage": true
+    },
+    {
+      "id": "bkk-pipe-limit-60mmh-2016",
+      "cityId": "bangkok",
+      "topic": "design-rainfall-intensity",
+      "subject": "Bangkok street drainage pipes",
+      "value": 60,
+      "unit": "mm/h",
+      "valueType": "stated-capacity",
+      "quoteTh": "ท่อระบายน้ำในกรุงเทพฯ มีขีดจำกัดที่ระบายน้ำได้เพียง 60 มิลลิเมตรต่อชั่วโมงเท่านั้น",
+      "quoteEnTranslation": "Bangkok's drainage pipes are limited to draining only 60 mm per hour. (translation by this project)",
+      "attribution": "Thai PBS reporter (no named official), 21 Jun 2016",
+      "sourceKey": "thaipbs2016",
+      "caveats": [
+        "2016 statement; not attributed to a named BMA official.",
+        "Consistent with the 2025 statement above."
+      ],
+      "source": {
+        "url": "https://www.thaipbs.or.th/news/content/253350",
+        "publisher": "Thai PBS News",
+        "title": "ขีดจำกัดระบายน้ำ \"ดินทรุด-ขยะอุดตัน\" ต้นตอน้ำท่วมขัง กทม.วงกว้าง",
+        "publishedAt": "2016-06-21",
+        "sourceType": "news report (reporter's statement; no named official)",
+        "retrievedAt": "2026-11-03T18:19:11.410Z",
+        "rawFile": "data/raw/news/thaipbs_253350.html"
+      },
+      "quoteVerifiedInRetrievedPage": true
+    },
+    {
+      "id": "bkk-target-76mmh-104mmday-2026",
+      "cityId": "bangkok",
+      "topic": "design-rainfall-target",
+      "subject": "BMA flood action plan 2569 (2026) — target capacity of the drainage system",
+      "value": 76,
+      "unit": "mm/h (with ≤104 mm/day, ~3-hour storm)",
+      "valueType": "design-target",
+      "quoteTh": "กทม.มีเป้าหมายเพิ่มขีดความสามารถของระบบระบายน้ำให้สามารถรองรับปริมาณฝนตกสะสมได้ไม่เกิน 104 มม.ใน 1 วัน โดยเอกสารระบุลักษณะฝนประมาณ 3 ชั่วโมง และความเข้มของฝนที่ 76 มม./ชั่วโมง",
+      "quoteEnTranslation": "The BMA aims to raise drainage capacity to handle accumulated rainfall of up to 104 mm in one day; the document specifies a storm of about 3 hours with an intensity of 76 mm/hour. (translation by this project)",
+      "attribution": "Thai PBS, citing หนังสือแผนปฏิบัติการป้องกันและแก้ไขปัญหาน้ำท่วมกรุงเทพมหานคร ประจำปี 2569 (BMA Drainage and Sewerage Department)",
+      "sourceKey": "thaipbs2026",
+      "caveats": [
+        "A target, not the current citywide capacity.",
+        "Primary document (ebooks.dds.bangkok.go.th/ebook_files/2026/0000059_2.pdf, ~161 MB) was not downloaded; the figure is verified only as quoted by Thai PBS."
+      ],
+      "source": {
+        "url": "https://www.thaipbs.or.th/news/content/558901",
+        "publisher": "Thai PBS News",
+        "title": "เปิดแผน \"อุโมงค์ระบายน้ำ\" กทม. รับมือฝนหนัก-เพิ่มทางด่วนสู่เจ้าพระยา",
+        "publishedAt": "2026-09-30",
+        "sourceType": "news report summarising the BMA Drainage and Sewerage Department's 2569 (2026) flood action plan book",
+        "retrievedAt": "2026-11-03T18:18:27.462Z",
+        "rawFile": "data/raw/news/thaipbs_558901.html"
+      },
+      "quoteVerifiedInRetrievedPage": true
+    },
+    {
+      "id": "bkk-tunnels-5-existing-255m3s",
+      "cityId": "bangkok",
+      "topic": "tunnel-capacity",
+      "subject": "5 existing large drainage tunnels, total (28.57 km)",
+      "value": 255,
+      "unit": "m³/s",
+      "valueType": "combined-capacity",
+      "quoteTh": "เมื่อรวมทั้ง 5 โครงการ จะได้ความยาวอุโมงค์ 28.57 กม. และกำลังระบายน้ำรวม 255 ลบ.ม./วินาที",
+      "quoteEnTranslation": "Combining all 5 projects gives 28.57 km of tunnels with a total drainage capacity of 255 m³/s. (translation by this project)",
+      "attribution": "Thai PBS, citing the BMA DDS 2569 flood action plan",
+      "sourceKey": "thaipbs2026",
+      "caveats": [
+        "Nominal sum; tunnels do not necessarily operate at full capacity simultaneously (the article itself notes this for the 625 m³/s planned total)."
+      ],
+      "source": {
+        "url": "https://www.thaipbs.or.th/news/content/558901",
+        "publisher": "Thai PBS News",
+        "title": "เปิดแผน \"อุโมงค์ระบายน้ำ\" กทม. รับมือฝนหนัก-เพิ่มทางด่วนสู่เจ้าพระยา",
+        "publishedAt": "2026-09-30",
+        "sourceType": "news report summarising the BMA Drainage and Sewerage Department's 2569 (2026) flood action plan book",
+        "retrievedAt": "2026-11-03T18:18:27.462Z",
+        "rawFile": "data/raw/news/thaipbs_558901.html"
+      },
+      "quoteVerifiedInRetrievedPage": true
+    },
+    {
+      "id": "bkk-tunnel-prem-prachakorn-30m3s",
+      "cityId": "bangkok",
+      "topic": "tunnel-capacity",
+      "subject": "Prem Prachakorn diversion system (ระบบผันน้ำเปรมประชากร), Ø3.40 m, ~1.88 km",
+      "value": 30,
+      "unit": "m³/s",
+      "valueType": "stated-capacity",
+      "quoteTh": "มีขีดความสามารถในการระบายน้ำ 30 ลบ.ม./วินาที",
+      "quoteEnTranslation": "Has a drainage capacity of 30 m³/s. (translation by this project)",
+      "attribution": "Thai PBS, citing the BMA DDS 2569 flood action plan",
+      "sourceKey": "thaipbs2026",
+      "caveats": [],
+      "source": {
+        "url": "https://www.thaipbs.or.th/news/content/558901",
+        "publisher": "Thai PBS News",
+        "title": "เปิดแผน \"อุโมงค์ระบายน้ำ\" กทม. รับมือฝนหนัก-เพิ่มทางด่วนสู่เจ้าพระยา",
+        "publishedAt": "2026-09-30",
+        "sourceType": "news report summarising the BMA Drainage and Sewerage Department's 2569 (2026) flood action plan book",
+        "retrievedAt": "2026-11-03T18:18:27.462Z",
+        "rawFile": "data/raw/news/thaipbs_558901.html"
+      },
+      "quoteVerifiedInRetrievedPage": true
+    },
+    {
+      "id": "bkk-tunnel-bueng-makkasan-45m3s",
+      "cityId": "bangkok",
+      "topic": "tunnel-capacity",
+      "subject": "Bueng Makkasan – Chao Phraya tunnel (อุโมงค์บึงมักกะสันลงสู่แม่น้ำเจ้าพระยา), Ø4.60 m, ~5.98 km",
+      "value": 45,
+      "unit": "m³/s",
+      "valueType": "stated-capacity",
+      "quoteTh": "สามารถระบายน้ำได้ 45 ลบ.ม./วินาที",
+      "quoteEnTranslation": "Can drain 45 m³/s. (translation by this project)",
+      "attribution": "Thai PBS, citing the BMA DDS 2569 flood action plan",
+      "sourceKey": "thaipbs2026",
+      "caveats": [],
+      "source": {
+        "url": "https://www.thaipbs.or.th/news/content/558901",
+        "publisher": "Thai PBS News",
+        "title": "เปิดแผน \"อุโมงค์ระบายน้ำ\" กทม. รับมือฝนหนัก-เพิ่มทางด่วนสู่เจ้าพระยา",
+        "publishedAt": "2026-09-30",
+        "sourceType": "news report summarising the BMA Drainage and Sewerage Department's 2569 (2026) flood action plan book",
+        "retrievedAt": "2026-11-03T18:18:27.462Z",
+        "rawFile": "data/raw/news/thaipbs_558901.html"
+      },
+      "quoteVerifiedInRetrievedPage": true
+    },
+    {
+      "id": "bkk-tunnel-saen-saep-lat-phrao-60m3s",
+      "cityId": "bangkok",
+      "topic": "tunnel-capacity",
+      "subject": "Khlong Saen Saep and Khlong Lat Phrao tunnel (อุโมงค์คลองแสนแสบและคลองลาดพร้าว), Ø5 m, ~5.11 km",
+      "value": 60,
+      "unit": "m³/s",
+      "valueType": "stated-capacity",
+      "quoteTh": "อุโมงค์มีเส้นผ่านศูนย์กลาง 5 เมตร ยาวประมาณ 5.11 กม. และมีขีดความสามารถในการระบายน้ำ 60 ลบ.ม./วินาที",
+      "quoteEnTranslation": "The tunnel is 5 m in diameter, about 5.11 km long, with a drainage capacity of 60 m³/s. (translation by this project)",
+      "attribution": "Thai PBS, citing the BMA DDS 2569 flood action plan",
+      "sourceKey": "thaipbs2026",
+      "caveats": [],
+      "source": {
+        "url": "https://www.thaipbs.or.th/news/content/558901",
+        "publisher": "Thai PBS News",
+        "title": "เปิดแผน \"อุโมงค์ระบายน้ำ\" กทม. รับมือฝนหนัก-เพิ่มทางด่วนสู่เจ้าพระยา",
+        "publishedAt": "2026-09-30",
+        "sourceType": "news report summarising the BMA Drainage and Sewerage Department's 2569 (2026) flood action plan book",
+        "retrievedAt": "2026-11-03T18:18:27.462Z",
+        "rawFile": "data/raw/news/thaipbs_558901.html"
+      },
+      "quoteVerifiedInRetrievedPage": true
+    },
+    {
+      "id": "bkk-tunnel-bang-sue-pump-60m3s",
+      "cityId": "bangkok",
+      "topic": "tunnel-capacity",
+      "subject": "Khlong Bang Sue tunnel (อุโมงค์ใต้คลองบางซื่อ), Ø5 m, ~6.40 km — outlet pumping station",
+      "value": 60,
+      "unit": "m³/s",
+      "valueType": "stated-capacity",
+      "quoteTh": "พร้อมสถานีสูบน้ำบริเวณปลายอุโมงค์กำลังสูบ 60 ลบ.ม./วินาที",
+      "quoteEnTranslation": "With a pumping station at the tunnel outlet of 60 m³/s. (translation by this project)",
+      "attribution": "Thai PBS, citing the BMA DDS 2569 flood action plan",
+      "sourceKey": "thaipbs2026",
+      "caveats": [
+        "Capacity stated for the outlet pumping station."
+      ],
+      "source": {
+        "url": "https://www.thaipbs.or.th/news/content/558901",
+        "publisher": "Thai PBS News",
+        "title": "เปิดแผน \"อุโมงค์ระบายน้ำ\" กทม. รับมือฝนหนัก-เพิ่มทางด่วนสู่เจ้าพระยา",
+        "publishedAt": "2026-09-30",
+        "sourceType": "news report summarising the BMA Drainage and Sewerage Department's 2569 (2026) flood action plan book",
+        "retrievedAt": "2026-11-03T18:18:27.462Z",
+        "rawFile": "data/raw/news/thaipbs_558901.html"
+      },
+      "quoteVerifiedInRetrievedPage": true
+    },
+    {
+      "id": "bkk-tunnel-bueng-nong-bon-pump-60m3s",
+      "cityId": "bangkok",
+      "topic": "tunnel-capacity",
+      "subject": "Bueng Nong Bon – Chao Phraya tunnel (อุโมงค์บึงหนองบอนลงสู่แม่น้ำเจ้าพระยา), Ø5 m, ~9.20 km — Bang O pumping station",
+      "value": 60,
+      "unit": "m³/s",
+      "valueType": "stated-capacity",
+      "quoteTh": "สถานีสูบน้ำอุโมงค์บางอ้อกำลังสูบ 60 ลบ.ม./วินาที",
+      "quoteEnTranslation": "Bang O tunnel pumping station: 60 m³/s. (translation by this project)",
+      "attribution": "Thai PBS, citing the BMA DDS 2569 flood action plan",
+      "sourceKey": "thaipbs2026",
+      "caveats": [
+        "Capacity stated for the outlet pumping station."
+      ],
+      "source": {
+        "url": "https://www.thaipbs.or.th/news/content/558901",
+        "publisher": "Thai PBS News",
+        "title": "เปิดแผน \"อุโมงค์ระบายน้ำ\" กทม. รับมือฝนหนัก-เพิ่มทางด่วนสู่เจ้าพระยา",
+        "publishedAt": "2026-09-30",
+        "sourceType": "news report summarising the BMA Drainage and Sewerage Department's 2569 (2026) flood action plan book",
+        "retrievedAt": "2026-11-03T18:18:27.462Z",
+        "rawFile": "data/raw/news/thaipbs_558901.html"
+      },
+      "quoteVerifiedInRetrievedPage": true
+    },
+    {
+      "id": "bkk-tunnels-8-planned-370m3s",
+      "cityId": "bangkok",
+      "topic": "tunnel-capacity",
+      "subject": "8 planned large drainage tunnels (~55.32 km)",
+      "value": 370,
+      "unit": "m³/s",
+      "valueType": "design-target",
+      "quoteTh": "กรุงเทพมหานครมีแผนดำเนินการก่อสร้างอุโมงค์ระบายน้ำขนาดใหญ่อีก 8 แห่ง รวมความยาวประมาณ 55.32 กม. และมีประสิทธิภาพการระบายน้ำรวม 370 ลบ.ม./วินาที",
+      "quoteEnTranslation": "Bangkok plans to build 8 more large drainage tunnels, about 55.32 km in total, with a combined drainage capacity of 370 m³/s. (translation by this project)",
+      "attribution": "Thai PBS, citing the BMA DDS 2569 flood action plan",
+      "sourceKey": "thaipbs2026",
+      "caveats": [
+        "Planned (5 under construction, 3 awaiting FY2027 budget per the article); not operational capacity."
+      ],
+      "source": {
+        "url": "https://www.thaipbs.or.th/news/content/558901",
+        "publisher": "Thai PBS News",
+        "title": "เปิดแผน \"อุโมงค์ระบายน้ำ\" กทม. รับมือฝนหนัก-เพิ่มทางด่วนสู่เจ้าพระยา",
+        "publishedAt": "2026-09-30",
+        "sourceType": "news report summarising the BMA Drainage and Sewerage Department's 2569 (2026) flood action plan book",
+        "retrievedAt": "2026-11-03T18:18:27.462Z",
+        "rawFile": "data/raw/news/thaipbs_558901.html"
+      },
+      "quoteVerifiedInRetrievedPage": true
+    },
+    {
+      "id": "bkk-tunnels-4-operational-195m3s-2025",
+      "cityId": "bangkok",
+      "topic": "tunnel-capacity",
+      "subject": "4 fully operating tunnels in mid-2025 (Prem Prachakorn, Makkasan, Rama 9, Bang Sue)",
+      "value": 195,
+      "unit": "m³/s",
+      "valueType": "combined-capacity",
+      "quoteTh": "ความสามารถในการระบายน้ำรวม 195 ลบ.ม. ต่อวินาที",
+      "quoteEnTranslation": "Combined drainage capacity of 195 m³/s. (translation by this project)",
+      "attribution": "ThaiPublica summary of Attasit Petchmeesri's talk (7 Jun 2025)",
+      "sourceKey": "thaipublica2025",
+      "caveats": [
+        "Mid-2025 figure before the Bueng Nong Bon tunnel was added; consistent with 30+45+60+60 = 195."
+      ],
+      "source": {
+        "url": "https://thaipublica.org/2025/06/green-up-the-world-02/",
+        "publisher": "ThaiPublica",
+        "title": "“อรรถเศรษฐ์ เพชรมีศรี” เล่าเบื้องหลัง “น้ำรอระบายไม่เกิน 1 ชม.” กทม. ทำอะไรบ้าง",
+        "publishedAt": "2025-06-08",
+        "sourceType": "news report quoting a BMA official (adviser to the Bangkok Governor)",
+        "retrievedAt": "2026-11-03T18:19:13.371Z",
+        "rawFile": "data/raw/news/thaipublica_2025_06_green-up-the-world-02.html"
+      },
+      "quoteVerifiedInRetrievedPage": true
+    },
+    {
+      "id": "bkk-pumping-1300m3s-2025",
+      "cityId": "bangkok",
+      "topic": "pumping-capacity",
+      "subject": "Total pumping capacity to the Chao Phraya, both banks",
+      "value": 1300,
+      "unit": "m³/s",
+      "valueType": "stated-capacity",
+      "quoteTh": "กำลังสูบน้ำออกแม่น้ำเจ้าพระยาทั้งสองฝั่งรวมกัน 1,300 ลบ.ม.ต่อวินาที",
+      "quoteEnTranslation": "Combined pumping capacity out to the Chao Phraya on both banks is 1,300 m³/s. (translation by this project)",
+      "attribution": "Attasit Petchmeesri, adviser to the Bangkok Governor (7 Jun 2025)",
+      "sourceKey": "thaipublica2025",
+      "caveats": [
+        "Nominal installed capacity; effective capacity depends on canal levels, river stage and pump availability."
+      ],
+      "source": {
+        "url": "https://thaipublica.org/2025/06/green-up-the-world-02/",
+        "publisher": "ThaiPublica",
+        "title": "“อรรถเศรษฐ์ เพชรมีศรี” เล่าเบื้องหลัง “น้ำรอระบายไม่เกิน 1 ชม.” กทม. ทำอะไรบ้าง",
+        "publishedAt": "2025-06-08",
+        "sourceType": "news report quoting a BMA official (adviser to the Bangkok Governor)",
+        "retrievedAt": "2026-11-03T18:19:13.371Z",
+        "rawFile": "data/raw/news/thaipublica_2025_06_green-up-the-world-02.html"
+      },
+      "quoteVerifiedInRetrievedPage": true
+    },
+    {
+      "id": "bkk-rang-o-rang-kaeo-100mmh-target",
+      "cityId": "bangkok",
+      "topic": "design-rainfall-target",
+      "subject": "Khlong Rang O – Rang Kaeo drainage project, western Bang Khen (~3 km²)",
+      "value": 100,
+      "unit": "mm/h",
+      "valueType": "project-target",
+      "quoteTh": "เพิ่มประสิทธิภาพในการระบายน้ำพื้นที่เขตบางเขนให้สามารถรองรับปริมาณน้ำได้ไม่น้อยกว่า 100 มม./ชั่วโมง",
+      "quoteEnTranslation": "Improve drainage in Bang Khen district so that it can handle not less than 100 mm/hour. (translation by this project)",
+      "attribution": "BMA press release on Deputy Governor Wisanu Subsompon's site visit, 16 Sep 2025",
+      "sourceKey": "bmapr2025",
+      "caveats": [
+        "Local project target for one sub-catchment, not citywide; project was under construction at the time (completion expected Q1 2569 = early 2026 per the release)."
+      ],
+      "source": {
+        "url": "https://pr-bangkok.com/?p=522995",
+        "publisher": "BMA Public Relations Office (สำนักงานประชาสัมพันธ์ กรุงเทพมหานคร)",
+        "title": "รองผู้ว่าฯ วิศณุ ตรวจโครงการระบายน้ำคลองรางอ้อ – รางแก้ว ...",
+        "publishedAt": "2025-09-16",
+        "sourceType": "official BMA press release",
+        "retrievedAt": "2026-11-03T18:19:42.599Z",
+        "rawFile": "data/raw/bma-pr/prbkk_522995.html"
+      },
+      "quoteVerifiedInRetrievedPage": true
+    },
+    {
+      "id": "hy-r1-canal-1200m3s",
+      "cityId": "hatyai",
+      "topic": "canal-capacity",
+      "subject": "RID flood diversion canal R.1 (คลองระบายน้ำ ร.1) — Hat Yai flood relief project phase 2",
+      "value": 1200,
+      "unit": "m³/s",
+      "valueType": "stated-capacity",
+      "quoteTh": "การปรับปรุงคลองระบายน้ำ ร.1 เพื่อเพิ่มประสิทธิภาพการระบายน้ำจากเดิมระบายน้ำได้ 465  ลบ.ม. ต่อวินาที เพิ่มเป็น 1,200 ลบ.ม. ต่อวินาที",
+      "quoteEnTranslation": "Improving drainage canal R.1 raises its capacity from 465 m³/s to 1,200 m³/s. (translation by this project)",
+      "attribution": "Royal Irrigation Department, reported by ONEP, 12 Feb 2020",
+      "sourceKey": "onep2020",
+      "caveats": [
+        "Design capacity after the phase-2 works; R.1 was damaged in the 2025 floods (see status statement)."
+      ],
+      "source": {
+        "url": "https://www.onep.go.th/?p=4759",
+        "publisher": "Office of Natural Resources and Environmental Policy and Planning (ONEP, สำนักงานนโยบายและแผนทรัพยากรธรรมชาติและสิ่งแวดล้อม)",
+        "title": "12 กุมภาพันธ์ 2563 กรมชลประทานเร่งก่อสร้างโครงการบรรเทาอุทกภัยหาดใหญ่ หวังปี 63 รอดน้ำท่วม",
+        "publishedAt": "2020-02-12",
+        "sourceType": "government news item reporting the Royal Irrigation Department (RID)",
+        "retrievedAt": "2026-11-03T18:20:25.545Z",
+        "rawFile": "data/raw/hatyai-drainage/onep_4759.html"
+      },
+      "quoteVerifiedInRetrievedPage": true
+    },
+    {
+      "id": "hy-r1-plus-u-taphao-1665m3s",
+      "cityId": "hatyai",
+      "topic": "canal-capacity",
+      "subject": "R.1 diversion canal + Khlong U-Taphao (คลองอู่ตะเภา) combined",
+      "value": 1665,
+      "unit": "m³/s",
+      "valueType": "combined-capacity",
+      "quoteTh": "เมื่อระบายน้ำร่วมกับคลองอู่ตะเภาในอัตรา 465 ลบ.ม. ต่อวินาที จะสามารถเพิ่มศักยภาพในการระบายน้ำได้สูงสุดรวมกันประมาณ 1,665 ลบ.ม. ต่อวินาที",
+      "quoteEnTranslation": "Together with Khlong U-Taphao at 465 m³/s, the maximum combined drainage potential is about 1,665 m³/s. (translation by this project)",
+      "attribution": "Royal Irrigation Department, reported by ONEP, 12 Feb 2020",
+      "sourceKey": "onep2020",
+      "caveats": [
+        "River/canal conveyance at basin scale, not the municipal street-drainage design intensity."
+      ],
+      "source": {
+        "url": "https://www.onep.go.th/?p=4759",
+        "publisher": "Office of Natural Resources and Environmental Policy and Planning (ONEP, สำนักงานนโยบายและแผนทรัพยากรธรรมชาติและสิ่งแวดล้อม)",
+        "title": "12 กุมภาพันธ์ 2563 กรมชลประทานเร่งก่อสร้างโครงการบรรเทาอุทกภัยหาดใหญ่ หวังปี 63 รอดน้ำท่วม",
+        "publishedAt": "2020-02-12",
+        "sourceType": "government news item reporting the Royal Irrigation Department (RID)",
+        "retrievedAt": "2026-11-03T18:20:25.545Z",
+        "rawFile": "data/raw/hatyai-drainage/onep_4759.html"
+      },
+      "quoteVerifiedInRetrievedPage": true
+    },
+    {
+      "id": "hy-r1-repair-status-2026",
+      "cityId": "hatyai",
+      "topic": "status",
+      "subject": "R.1 diversion canal repair after the 2025 floods",
+      "value": null,
+      "unit": null,
+      "valueType": "status",
+      "quoteTh": "เพื่อให้คลองระบายน้ำ ร.1 สามารถกลับมาระบายน้ำได้อย่างเต็มศักยภาพภายในเดือนพฤศจิกายน 2569",
+      "quoteEnTranslation": "So that canal R.1 can return to full drainage capacity by November 2026. (translation by this project)",
+      "attribution": "Suriya Juangroongruangkit, Minister of Agriculture and Cooperatives, reported 13 Aug 2026",
+      "sourceKey": "dailynews2026",
+      "caveats": [
+        "Status on 13 Aug 2026 (contract signing expected 18 Aug 2026); completion not verified by this project."
+      ],
+      "source": {
+        "url": "https://www.dailynews.co.th/news/6104172/",
+        "publisher": "Daily News (เดลินิวส์)",
+        "title": "“สุริยะ” เร่งฟื้นฟูคลองระบายน้ำ ร.1 สงขลา คืนประสิทธิภาพเต็มศักยภาพ",
+        "publishedAt": "2026-08-13",
+        "sourceType": "news report quoting the Minister of Agriculture and Cooperatives",
+        "retrievedAt": "2026-11-03T18:20:39.821Z",
+        "rawFile": "data/raw/hatyai-drainage/dailynews_6104172.html"
+      },
+      "quoteVerifiedInRetrievedPage": true
+    }
+  ],
+  "unknowns": [
+    {
+      "cityId": "hatyai",
+      "topic": "design-rainfall-intensity",
+      "subject": "Hat Yai Municipality street/stormwater drainage design intensity (mm/h)",
+      "status": "unknown",
+      "note": "No verifiable public figure found (searched Thai news and municipality pages, Nov 2026). Basin-scale canal capacities (R.1, U-Taphao) are listed instead."
+    },
+    {
+      "cityId": "bangkok",
+      "topic": "design-rainfall-intensity",
+      "subject": "Official BMA design document stating the citywide current design intensity",
+      "status": "not retrieved",
+      "note": "The 60 mm/h figure is verified only via media quotes of BMA officials; the DDS 2569 action-plan book (~161 MB PDF) was not downloaded, and pr-bangkok.com/?p=373537 (a 2024 BMA release reported by search results to mention 60 mm) returned HTTP 404."
+    }
+  ],
+  "primaryDocumentNotRetrieved": {
+    "title": "หนังสือแผนปฏิบัติการป้องกันและแก้ไขปัญหาน้ำท่วมกรุงเทพมหานคร ประจำปี 2569 (BMA Drainage and Sewerage Department)",
+    "url": "https://ebooks.dds.bangkok.go.th/ebook_files/2026/0000059_2.pdf",
+    "checkedAt": "2026-11-03T18:35:53Z",
+    "contentLength": 161119984,
+    "lastModified": "Thu, 28 May 2026 03:32:50 GMT",
+    "note": "HTTP HEAD only; file not downloaded"
+  }
+}

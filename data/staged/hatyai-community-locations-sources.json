@@ -1,0 +1,86 @@
+[
+  {
+    "id": "osm-overpass-hatyai-named-features",
+    "nameEn": "OpenStreetMap — all named features in the Hat Yai municipality bbox (Overpass API)",
+    "nameTh": "OpenStreetMap — วัตถุที่มีชื่อทั้งหมดในกรอบพื้นที่เทศบาลนครหาดใหญ่ (Overpass API)",
+    "url": "https://overpass-api.de/api/interpreter",
+    "publisher": "OpenStreetMap contributors (via Overpass API)",
+    "license": "ODbL-1.0",
+    "retrievedAt": "2026-11-04T01:50:12.089Z",
+    "accessStatus": "retrieved",
+    "notes": "Query: [out:json][timeout:180];(nwr[\"name\"](6.9823,100.4238,7.0533,100.5112);nwr[\"name:th\"](6.9823,100.4238,7.0533,100.5112);nwr[\"official_name\"](6.9823,100.4238,7.0533,100.5112);nwr[\"alt_name\"](6.9823,100.4238,7.0533,100.5112);nwr[\"old_name\"](6.9823,100.4238,7.0533,100.5112);nwr[\"short_name\"](6.9823,100.4238,7.0533,100.5112);nwr[\"loc_name\"](6.9823,100.4238,7.0533,100.5112););out tags center bb; — 2681 elements, OSM base 2026-11-04T01:49:58Z. Raw: data/raw/hatyai-community-locations/overpass-named-features.json."
+  },
+  {
+    "id": "osm-nominatim-hatyai-community-search",
+    "nameEn": "OpenStreetMap Nominatim — bounded search for each official community name",
+    "nameTh": "OpenStreetMap Nominatim — ค้นหาชื่อชุมชนทางการทีละชุมชนในกรอบพื้นที่เทศบาล",
+    "url": "https://nominatim.openstreetmap.org/search",
+    "publisher": "OpenStreetMap Foundation (Nominatim)",
+    "license": "ODbL-1.0",
+    "retrievedAt": "2026-11-04T01:52:50.995Z",
+    "accessStatus": "retrieved",
+    "notes": "103/103 queries answered (5 results in total), <= 1 request/s, viewbox 100.4238,7.0533,100.5112,6.9823 bounded=1. Raw: data/raw/hatyai-community-locations/nominatim/<staged id>.json."
+  },
+  {
+    "id": "osm-hatyai-community-location-match",
+    "nameEn": "Verified community locations — OpenStreetMap features matched by official community name (derived)",
+    "nameTh": "ตำแหน่งชุมชนที่ตรวจสอบแล้ว — วัตถุ OpenStreetMap ที่ชื่อตรงกับชื่อชุมชนทางการ",
+    "url": "https://www.openstreetmap.org/",
+    "publisher": "Derived by this project from OpenStreetMap",
+    "license": "ODbL-1.0",
+    "retrievedAt": "2026-11-04T01:50:12.089Z",
+    "accessStatus": "retrieved",
+    "notes": "1 of 103 communities verified. Rules: see data/staged/hatyai-community-locations-notes.md."
+  },
+  {
+    "id": "hatyai-community-illustrative-placement",
+    "nameEn": "Illustrative community placements inside the approximate zones (deterministic demonstration, not real locations)",
+    "nameTh": "ตำแหน่งสาธิตของชุมชนภายในเขต (คำนวณแบบกำหนดได้ ไม่ใช่พิกัดจริง)",
+    "url": "https://www.hatyaicity.go.th/content/cate/258",
+    "publisher": "Derived by this project (community list: เทศบาลนครหาดใหญ่; zone polygons: approximate demonstration partition)",
+    "accessStatus": "retrieved",
+    "notes": "102 communities. Positions carry no real-world meaning beyond zone membership; method in communities.geojson metadata.methods.illustrative and the notes file."
+  },
+  {
+    "id": "hatyaicity-community-list",
+    "nameTh": "เทศบาลนครหาดใหญ่ — รายชื่อชุมชน / ข้อมูลประธานกรรมการชุมชน เขต 1-4",
+    "nameEn": "Hat Yai City Municipality — community list by zone (community-committee chairs, data as of 2026-10-01)",
+    "url": "https://www.hatyaicity.go.th/content/cate/258",
+    "publisher": "เทศบาลนครหาดใหญ่ (Hat Yai City Municipality)",
+    "license": "Government website; no open licence stated",
+    "accessStatus": "retrieved",
+    "retrievedAt": "2026-11-03T18:46:35.516Z",
+    "notes": "Community names and zone assignment only; personal data (names, phones) not reproduced. Names transcribed visually (data/manual/hatyai-communities-official-list.json) and verified against the PDF text layer after mapping Thai PUA glyph variants to Unicode: 103 of 103 exact matches."
+  },
+  {
+    "id": "hatyaicity-boundary-notices",
+    "nameTh": "ประกาศเทศบาลนครหาดใหญ่ เรื่อง การแบ่งแนวเขตพื้นที่ชุมชน / แนวเขตชุมชน เขต 1-4 และแผนที่ชุมชน 103 ชุมชน",
+    "nameEn": "Hat Yai City Municipality — community boundary announcements (zones 1-4, Nov 2022 - May 2023) and 103-community map (rev. 2022-11-14)",
+    "url": "https://www.hatyaicity.go.th/content/cate/259",
+    "publisher": "เทศบาลนครหาดใหญ่ (Hat Yai City Municipality)",
+    "license": "Government website; no open licence stated",
+    "accessStatus": "retrieved",
+    "retrievedAt": "2026-11-03T18:46:30.599Z",
+    "notes": "Per-community area, population (male/female), households and boundary descriptions; zones 2 & 4 text layer, zone 1 & most of zone 3 scanned (manual transcription). Map used only as visual basis for the approximate zone partition."
+  },
+  {
+    "id": "hatyai-zones-approx",
+    "nameEn": "Approximate demonstration partition of Hat Yai municipality into zones 1-4 (derived)",
+    "url": "https://www.openstreetmap.org/",
+    "publisher": "Urban Intelligence demo (derived from OSM ways + municipal map)",
+    "license": "ODbL-1.0 (derived from OpenStreetMap)",
+    "accessStatus": "retrieved",
+    "retrievedAt": "2026-11-03T19:26:18.570Z",
+    "notes": "Not official boundaries. Method in zones.geojson properties.method."
+  },
+  {
+    "id": "osm-hatyai-municipality",
+    "nameEn": "OpenStreetMap relation 19981578 — เทศบาลนครหาดใหญ่ (admin_level 7)",
+    "url": "https://www.openstreetmap.org/relation/19981578",
+    "publisher": "OpenStreetMap contributors (via Overpass API)",
+    "license": "ODbL-1.0",
+    "accessStatus": "retrieved",
+    "retrievedAt": "2026-11-03T18:58:43.029Z",
+    "notes": "Tagged fixme='approximate please verify'; traced from the Royal Gazette (ratchakitcha.soc.go.th/documents/1658230.pdf)."
+  }
+]

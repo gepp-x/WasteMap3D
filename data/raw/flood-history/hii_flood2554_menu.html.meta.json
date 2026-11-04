@@ -1,0 +1,7 @@
+{
+  "url": "https://tiwrmdev.hii.or.th/current/menu.html",
+  "httpStatus": 200,
+  "retrievedAt": "2026-11-04T01:50:44.462Z",
+  "bytes": 407240,
+  "note": "Initial download made manually with curl (same URL and User-Agent) while developing this script; retrievedAt = file modification time."
+}

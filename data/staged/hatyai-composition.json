@@ -1,0 +1,150 @@
+{
+  "cityId": "hatyai",
+  "composition": {
+    "shares": {
+      "organic": 22,
+      "plastic": 49,
+      "paper": 12,
+      "glassMetal": 4,
+      "hazardous": 0,
+      "other": 13
+    },
+    "provenance": {
+      "status": "derived",
+      "sourceId": "psu-tsri-env6405051s-hatyai",
+      "sourceName": "รายงานวิจัยฉบับสมบูรณ์ ENV6405051S 'การศึกษาแนวทางการสร้างชุมชนขยะเป็นศูนย์ ด้วยการแปลงขยะเป็นพลังงาน' (คณะการจัดการสิ่งแวดล้อม ม.สงขลานครินทร์; ทุน กสว./TSRI ปีงบประมาณ 2564)",
+      "sourceUrl": "https://kb.psu.ac.th/psukb/bitstream/2016/19489/1/64052245_400371.pdf",
+      "referenceYear": 2021,
+      "geographicScope": "Hat Yai City Municipality (เทศบาลนครหาดใหญ่), municipality-wide",
+      "methodology": "Published Hat Yai shares ('ณ เดือน สิงหาคม 2564', 8 categories, integer %, sum 100) mapped to the 6 app categories: organic = food; paper = paper; plastic = plastic; glassMetal = glass + metal; other = rubber/leather + textiles + others; hazardous = 0.0 (not a source category). Largest-remainder rounding to 0.1 (no change: inputs are integers).",
+      "limitations": [
+        "Secondary statement in a research report (the report's step 4 'analyse secondary data from Hat Yai Municipality operations… composition of waste at source'); sampling design, sample size and basis (weight vs volume) are not stated.",
+        "Shares are integers (±0.5 percentage-point precision).",
+        "Plastic 49% / food 22% is very different from Bangkok (plastic 21.0%, organic 54.1%, BMA FY2565) and PCD national descriptions (organic ≈ 64%); it may reflect waste after organics diversion or a volume basis. Treat as indicative.",
+        "Hazardous 0.0 = no hazardous category in the source (e-waste parts are inside 'others'); not a measured zero.",
+        "Reference date August 2021 (BE 2564); predates the November 2025 flood."
+      ]
+    }
+  },
+  "status": "derived",
+  "scope": "Hat Yai-specific (municipality-wide), not national or regional",
+  "primary": {
+    "sourceId": "psu-tsri-env6405051s-hatyai",
+    "asOf": "2021-08 (ณ เดือน สิงหาคม 2564, as stated)",
+    "referenceYear": 2021,
+    "textVia": "cached text layer",
+    "quoteTh": "ปริมาณขยะที่เกิดขึ้นในเขตเทศบาล 200 ตัน/วัน มีองค์ประกอบขยะ (ณ เดือน สิงหาคม 2564) ดังนี้ เศษอาหาร ร้อยละ 22 กระดาษ ร้อยละ 12 พลาสติก ร้อยละ 49 แก้ว ร้อยละ 3 โลหะ ร้อยละ 1 ยาง/หนัง ร้อยละ 1 ผ้า ร้อยละ 4 อื่นๆ ร้อยละ 8 โดยอื่นๆ อาทิ วัสดุที่ถอดแยกจากซากเครื่องใช้ไฟฟ้า ฯลฯ",
+    "generatedTPerDayStatedInSameSentence": 200,
+    "sourceCategories": [
+      {
+        "th": "เศษอาหาร",
+        "en": "Food waste",
+        "percent": 22,
+        "mappedTo": "organic"
+      },
+      {
+        "th": "กระดาษ",
+        "en": "Paper",
+        "percent": 12,
+        "mappedTo": "paper"
+      },
+      {
+        "th": "พลาสติก",
+        "en": "Plastic",
+        "percent": 49,
+        "mappedTo": "plastic"
+      },
+      {
+        "th": "แก้ว",
+        "en": "Glass",
+        "percent": 3,
+        "mappedTo": "glassMetal"
+      },
+      {
+        "th": "โลหะ",
+        "en": "Metal",
+        "percent": 1,
+        "mappedTo": "glassMetal"
+      },
+      {
+        "th": "ยาง/หนัง",
+        "en": "Rubber/leather",
+        "percent": 1,
+        "mappedTo": "other"
+      },
+      {
+        "th": "ผ้า",
+        "en": "Textiles",
+        "percent": 4,
+        "mappedTo": "other"
+      },
+      {
+        "th": "อื่นๆ (อาทิ วัสดุที่ถอดแยกจากซากเครื่องใช้ไฟฟ้า)",
+        "en": "Others (e.g. parts dismantled from waste electrical appliances)",
+        "percent": 8,
+        "mappedTo": "other"
+      }
+    ],
+    "sourceSum": 100,
+    "sharesUnrounded": {
+      "organic": 22,
+      "plastic": 49,
+      "paper": 12,
+      "glassMetal": 4,
+      "hazardous": 0,
+      "other": 13
+    },
+    "shares": {
+      "organic": 22,
+      "plastic": 49,
+      "paper": 12,
+      "glassMetal": 4,
+      "hazardous": 0,
+      "other": 13
+    },
+    "sharesSum": 100
+  },
+  "mappingRationale": [
+    "organic = food waste (the source has no separate yard-waste category).",
+    "paper = paper; plastic = plastic (single categories in the source).",
+    "glassMetal = glass 3 + metal 1.",
+    "other = rubber/leather 1 + textiles 4 + others 8 (others include parts dismantled from waste appliances).",
+    "hazardous = 0.0: not a category in the source; 0.0 means 'not reported', not a measured zero."
+  ],
+  "rounding": "Largest remainder on 0.1-percent units (inputs are whole percents, so the result equals the input).",
+  "alternativesConsidered": [
+    {
+      "source": "PMC12247160 (journal article cited in hatyai-waste.json; cached HTML re-checked)",
+      "result": "no composition table",
+      "detail": {
+        "checked": true,
+        "file": "data/raw/pmc/hatyai/PMC12247160.html",
+        "tableCount": 1,
+        "hasCompositionTable": false,
+        "foodOrOrganicPercentInText": false,
+        "finding": "PMC12247160 contains one table (mechanical properties of plastics) and no Hat Yai waste-composition table; it only cites a qualitative ranking. Not usable for shares."
+      }
+    },
+    {
+      "source": "PSU report ENV6405051S landfill characterisation table (p. 40)",
+      "result": "not used",
+      "detail": "Five samples of landfill-mined waste from the Hat Yai landfill (May–July); describes aged landfill material, not current municipal waste; table layout is garbled in the text layer."
+    },
+    {
+      "source": "PCD national composition (organic / recyclable / general / hazardous ≈ 64 / 30 / 3 / 3 %)",
+      "result": "not used",
+      "detail": "Four classes only; cannot be split into plastic / paper / glassMetal without inventing proportions. Hat Yai-specific shares were found, so a national fallback is not needed."
+    }
+  ],
+  "comparison": {
+    "bangkokFy2565Shares": {
+      "organic": 54.1,
+      "plastic": 21,
+      "paper": 11.6,
+      "glassMetal": 3.1,
+      "hazardous": 0,
+      "other": 10.2
+    },
+    "note": "Shown for context only — different city, year and method."
+  }
+}

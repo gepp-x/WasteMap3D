@@ -1,0 +1,412 @@
+{
+ "city": "hatyai",
+ "areasFile": "public/data/hatyai/zones.geojson",
+ "method": {
+  "halfSizeM": 450,
+  "maxBuildings": 6000,
+  "levelHeightM": 3.2,
+  "enu": "x = (lon - lon0) * cos(lat0) * 111320; y = (lat - lat0) * 110574; rounded to 0.1 m",
+  "estimatedHeight": "h = clamp(4 + 2.2*sqrt(areaM2)/6 + (fnv1a32(String(osmId)) % 7), 4, 24), rounded to 0.1 m; areaM2 from the unrounded local footprint (shoelace)",
+  "highwayClasses": [
+   "motorway",
+   "motorway_link",
+   "trunk",
+   "trunk_link",
+   "primary",
+   "primary_link",
+   "secondary",
+   "secondary_link",
+   "tertiary",
+   "tertiary_link",
+   "unclassified",
+   "residential"
+  ],
+  "waterwayLines": [
+   "river",
+   "canal",
+   "stream",
+   "drain",
+   "ditch",
+   "tidal_channel",
+   "brook"
+  ],
+  "waterAreas": "natural=water, waterway=riverbank|dock, landuse=reservoir|basin, or any water=* (not wetland/highway/building); outer rings only",
+  "buildingIds": "OSM way id; building multipolygon relations use the negative relation id and their largest outer ring"
+ },
+ "townhalls": {
+  "key": "_townhalls-hatyai",
+  "origin": "live",
+  "retrievedAt": "2026-11-03T23:13:40.049Z",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "osmBaseTimestamp": "2026-11-03T23:12:12Z",
+  "elements": 1,
+  "candidatesWithPrefix": 0,
+  "error": null
+ },
+ "totals": {
+  "areas": 4,
+  "windowsWritten": 4,
+  "windowsMissing": [],
+  "townhallAnchors": 0,
+  "pointOnSurfaceAnchors": 4,
+  "buildings": 4636,
+  "taggedHeight": 0,
+  "levels": 2,
+  "estimated": 4634,
+  "dropped": 0,
+  "roadPieces": 436,
+  "waterAreaPieces": 3,
+  "waterLinePieces": 14,
+  "outputBytes": 566568,
+  "validationErrors": 0
+ },
+ "areas": [
+  {
+   "areaId": "hy-z1",
+   "code": "1",
+   "nameTh": "เขต 1",
+   "nameEn": "Zone 1",
+   "anchor": [
+    100.482534,
+    7.026764
+   ],
+   "anchorSource": "point-on-surface",
+   "anchorNote": "turf.pointOnFeature; no amenity=townhall named \"สำนักงานเขตเขต 1\" found",
+   "townhallName": null,
+   "rawOrigin": "live",
+   "rawFile": "data/raw/overpass-buildings/hy-z1.json",
+   "rawRetrievedAt": "2026-11-03T23:14:26.844Z",
+   "rawEndpoint": "https://overpass-api.de/api/interpreter",
+   "osmBaseTimestamp": "2026-11-03T23:13:16Z",
+   "rawBytes": 665177,
+   "rawSha256": "ea045c7ae3d85c3e76b6e8a86fa3e12ae380deab9f765982be30ee0d50222cf5",
+   "liveError": null,
+   "liveAttempts": [
+    {
+     "endpoint": "https://overpass-api.de/api/interpreter",
+     "startedAt": "2026-11-03T23:13:40.056Z",
+     "durationMs": 46788,
+     "httpStatus": 200,
+     "error": null
+    }
+   ],
+   "output": "public/data/buildings/hy-z1.json",
+   "outputBytes": 149631,
+   "stats": {
+    "buildingElements": 1256,
+    "buildingsKept": 1227,
+    "buildingsOutsideWindow": 29,
+    "buildingsInvalidGeometry": 0,
+    "buildingsTaggedNo": 0,
+    "buildingRelations": 0,
+    "buildingRelationsMultiOuter": 0,
+    "taggedHeightCount": 0,
+    "levelsCount": 0,
+    "estimatedCount": 1227,
+    "droppedCount": 0,
+    "droppedMaxAreaM2": null,
+    "rejectedHeightTags": 0,
+    "rejectedLevelTags": 0,
+    "roadWays": 138,
+    "roadPieces": 138,
+    "roadLengthM": 17013,
+    "roadsByClass": {
+     "residential": 123,
+     "tertiary": 11,
+     "unclassified": 4
+    },
+    "waterLineWays": 1,
+    "waterLinePieces": 1,
+    "waterAreaFeatures": 0,
+    "waterAreaPieces": 0,
+    "waterAreaOpenRings": 0,
+    "heightMinM": 4.7,
+    "heightMedianM": 11,
+    "heightMaxM": 24
+   },
+   "validationErrors": []
+  },
+  {
+   "areaId": "hy-z2",
+   "code": "2",
+   "nameTh": "เขต 2",
+   "nameEn": "Zone 2",
+   "anchor": [
+    100.483157,
+    7.003623
+   ],
+   "anchorSource": "point-on-surface",
+   "anchorNote": "turf.pointOnFeature; no amenity=townhall named \"สำนักงานเขตเขต 2\" found",
+   "townhallName": null,
+   "rawOrigin": "live",
+   "rawFile": "data/raw/overpass-buildings/hy-z2.json",
+   "rawRetrievedAt": "2026-11-03T23:30:59.478Z",
+   "rawEndpoint": "https://overpass.kumi.systems/api/interpreter",
+   "osmBaseTimestamp": "2026-07-15T15:22:01Z",
+   "rawBytes": 614213,
+   "rawSha256": "ce89b31c06cc5bb24654e93ba52eb9d10176019b1fdd67f0da8d085b0c60b55d",
+   "liveError": null,
+   "liveAttempts": [
+    {
+     "endpoint": "https://overpass-api.de/api/interpreter",
+     "startedAt": "2026-11-03T23:14:26.875Z",
+     "durationMs": 257,
+     "httpStatus": 502,
+     "error": "HTTP 502"
+    },
+    {
+     "endpoint": "https://overpass.kumi.systems/api/interpreter",
+     "startedAt": "2026-11-03T23:14:32.137Z",
+     "durationMs": 150000,
+     "httpStatus": null,
+     "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+     "endpoint": "https://overpass.private.coffee/api/interpreter",
+     "startedAt": "2026-11-03T23:17:12.144Z",
+     "durationMs": 150000,
+     "httpStatus": null,
+     "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+     "endpoint": "https://overpass-api.de/api/interpreter",
+     "startedAt": "2026-11-03T23:20:02.150Z",
+     "durationMs": 622,
+     "httpStatus": 502,
+     "error": "HTTP 502"
+    },
+    {
+     "endpoint": "https://overpass.kumi.systems/api/interpreter",
+     "startedAt": "2026-11-03T23:20:42.775Z",
+     "durationMs": 90028,
+     "httpStatus": 504,
+     "error": "HTTP 504"
+    },
+    {
+     "endpoint": "https://overpass.private.coffee/api/interpreter",
+     "startedAt": "2026-11-03T23:23:33.390Z",
+     "durationMs": 123793,
+     "httpStatus": 504,
+     "error": "HTTP 504"
+    },
+    {
+     "endpoint": "https://overpass-api.de/api/interpreter",
+     "startedAt": "2026-11-03T23:27:37.185Z",
+     "durationMs": 666,
+     "httpStatus": 502,
+     "error": "HTTP 502"
+    },
+    {
+     "endpoint": "https://overpass.kumi.systems/api/interpreter",
+     "startedAt": "2026-11-03T23:29:37.852Z",
+     "durationMs": 81626,
+     "httpStatus": 200,
+     "error": null
+    }
+   ],
+   "output": "public/data/buildings/hy-z2.json",
+   "outputBytes": 137206,
+   "stats": {
+    "buildingElements": 1109,
+    "buildingsKept": 1079,
+    "buildingsOutsideWindow": 30,
+    "buildingsInvalidGeometry": 0,
+    "buildingsTaggedNo": 0,
+    "buildingRelations": 0,
+    "buildingRelationsMultiOuter": 0,
+    "taggedHeightCount": 0,
+    "levelsCount": 2,
+    "estimatedCount": 1077,
+    "droppedCount": 0,
+    "droppedMaxAreaM2": null,
+    "rejectedHeightTags": 0,
+    "rejectedLevelTags": 0,
+    "roadWays": 139,
+    "roadPieces": 139,
+    "roadLengthM": 17138,
+    "roadsByClass": {
+     "residential": 108,
+     "secondary": 11,
+     "tertiary": 18,
+     "tertiary_link": 2
+    },
+    "waterLineWays": 9,
+    "waterLinePieces": 9,
+    "waterAreaFeatures": 0,
+    "waterAreaPieces": 0,
+    "waterAreaOpenRings": 0,
+    "heightMinM": 3.2,
+    "heightMedianM": 12.1,
+    "heightMaxM": 24
+   },
+   "validationErrors": []
+  },
+  {
+   "areaId": "hy-z3",
+   "code": "3",
+   "nameTh": "เขต 3",
+   "nameEn": "Zone 3",
+   "anchor": [
+    100.458805,
+    6.997219
+   ],
+   "anchorSource": "point-on-surface",
+   "anchorNote": "turf.pointOnFeature; no amenity=townhall named \"สำนักงานเขตเขต 3\" found",
+   "townhallName": null,
+   "rawOrigin": "live",
+   "rawFile": "data/raw/overpass-buildings/hy-z3.json",
+   "rawRetrievedAt": "2026-11-03T23:42:25.419Z",
+   "rawEndpoint": "https://overpass-api.de/api/interpreter",
+   "osmBaseTimestamp": "2026-11-03T23:41:36Z",
+   "rawBytes": 978962,
+   "rawSha256": "a2954dfb956bcf57a50a288668420cd88696134a5da390f5d08e3790a8528894",
+   "liveError": null,
+   "liveAttempts": [
+    {
+     "endpoint": "https://overpass.kumi.systems/api/interpreter",
+     "startedAt": "2026-11-03T23:30:59.503Z",
+     "durationMs": 120312,
+     "httpStatus": 504,
+     "error": "HTTP 504"
+    },
+    {
+     "endpoint": "https://overpass.private.coffee/api/interpreter",
+     "startedAt": "2026-11-03T23:33:04.819Z",
+     "durationMs": 110349,
+     "httpStatus": 504,
+     "error": "HTTP 504"
+    },
+    {
+     "endpoint": "https://overpass-api.de/api/interpreter",
+     "startedAt": "2026-11-03T23:35:05.174Z",
+     "durationMs": 690,
+     "httpStatus": 502,
+     "error": "HTTP 502"
+    },
+    {
+     "endpoint": "https://overpass.kumi.systems/api/interpreter",
+     "startedAt": "2026-11-03T23:35:25.869Z",
+     "durationMs": 149999,
+     "httpStatus": null,
+     "error": "TimeoutError: The operation was aborted due to timeout"
+    },
+    {
+     "endpoint": "https://overpass.private.coffee/api/interpreter",
+     "startedAt": "2026-11-03T23:38:35.871Z",
+     "durationMs": 118021,
+     "httpStatus": 504,
+     "error": "HTTP 504"
+    },
+    {
+     "endpoint": "https://overpass-api.de/api/interpreter",
+     "startedAt": "2026-11-03T23:41:53.895Z",
+     "durationMs": 31524,
+     "httpStatus": 200,
+     "error": null
+    }
+   ],
+   "output": "public/data/buildings/hy-z3.json",
+   "outputBytes": 216938,
+   "stats": {
+    "buildingElements": 1873,
+    "buildingsKept": 1825,
+    "buildingsOutsideWindow": 48,
+    "buildingsInvalidGeometry": 0,
+    "buildingsTaggedNo": 0,
+    "buildingRelations": 0,
+    "buildingRelationsMultiOuter": 0,
+    "taggedHeightCount": 0,
+    "levelsCount": 0,
+    "estimatedCount": 1825,
+    "droppedCount": 0,
+    "droppedMaxAreaM2": null,
+    "rejectedHeightTags": 0,
+    "rejectedLevelTags": 0,
+    "roadWays": 100,
+    "roadPieces": 100,
+    "roadLengthM": 12229,
+    "roadsByClass": {
+     "residential": 86,
+     "secondary": 8,
+     "secondary_link": 1,
+     "tertiary": 4,
+     "unclassified": 1
+    },
+    "waterLineWays": 1,
+    "waterLinePieces": 1,
+    "waterAreaFeatures": 2,
+    "waterAreaPieces": 2,
+    "waterAreaOpenRings": 0,
+    "heightMinM": 4.5,
+    "heightMedianM": 10.4,
+    "heightMaxM": 24
+   },
+   "validationErrors": []
+  },
+  {
+   "areaId": "hy-z4",
+   "code": "4",
+   "nameTh": "เขต 4",
+   "nameEn": "Zone 4",
+   "anchor": [
+    100.450297,
+    7.012188
+   ],
+   "anchorSource": "point-on-surface",
+   "anchorNote": "turf.pointOnFeature; no amenity=townhall named \"สำนักงานเขตเขต 4\" found",
+   "townhallName": null,
+   "rawOrigin": "live",
+   "rawFile": "data/raw/overpass-buildings/hy-z4.json",
+   "rawRetrievedAt": "2026-11-03T23:43:06.440Z",
+   "rawEndpoint": "https://overpass-api.de/api/interpreter",
+   "osmBaseTimestamp": "2026-11-03T23:41:36Z",
+   "rawBytes": 331494,
+   "rawSha256": "fcfbb3150c6356d9ee6fc8c12ab85fe6f696d28f7cda0de32f66d12b838b2c28",
+   "liveError": null,
+   "liveAttempts": [
+    {
+     "endpoint": "https://overpass-api.de/api/interpreter",
+     "startedAt": "2026-11-03T23:42:25.453Z",
+     "durationMs": 40987,
+     "httpStatus": 200,
+     "error": null
+    }
+   ],
+   "output": "public/data/buildings/hy-z4.json",
+   "outputBytes": 62793,
+   "stats": {
+    "buildingElements": 522,
+    "buildingsKept": 505,
+    "buildingsOutsideWindow": 17,
+    "buildingsInvalidGeometry": 0,
+    "buildingsTaggedNo": 0,
+    "buildingRelations": 0,
+    "buildingRelationsMultiOuter": 0,
+    "taggedHeightCount": 0,
+    "levelsCount": 0,
+    "estimatedCount": 505,
+    "droppedCount": 0,
+    "droppedMaxAreaM2": null,
+    "rejectedHeightTags": 0,
+    "rejectedLevelTags": 0,
+    "roadWays": 58,
+    "roadPieces": 59,
+    "roadLengthM": 7811,
+    "roadsByClass": {
+     "residential": 54,
+     "tertiary": 4,
+     "unclassified": 1
+    },
+    "waterLineWays": 2,
+    "waterLinePieces": 3,
+    "waterAreaFeatures": 1,
+    "waterAreaPieces": 1,
+    "waterAreaOpenRings": 0,
+    "heightMinM": 5.1,
+    "heightMedianM": 11,
+    "heightMaxM": 21.6
+   },
+   "validationErrors": []
+  }
+ ]
+}

@@ -1,0 +1,1046 @@
+{
+  "script": "scripts/data/fetch-hatyai-community-locations.ts",
+  "updatedAt": "2026-11-04T01:54:07.752Z",
+  "files": {
+    "overpass-named-features": {
+      "key": "overpass-named-features",
+      "url": "https://overpass-api.de/api/interpreter",
+      "file": "data/raw/hatyai-community-locations/overpass-named-features.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 888722,
+      "sha256": "088aa398e69bb266ed3e8f39b4a7bcab2cfcc969a89b0d40c07b60a3cfe1d77c",
+      "retrievedAt": "2026-11-04T01:50:12.089Z"
+    },
+    "nominatim:hy-c1-01": {
+      "key": "nominatim:hy-c1-01",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%B2%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%93%E0%B8%B0&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-01.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:50:58.642Z"
+    },
+    "nominatim:hy-c1-02": {
+      "key": "nominatim:hy-c1-02",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%97%E0%B8%B1%E0%B8%81%E0%B8%A9%E0%B8%B4%E0%B8%93%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%87&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-02.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:50:59.743Z"
+    },
+    "nominatim:hy-c1-03": {
+      "key": "nominatim:hy-c1-03",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AA%E0%B8%B8%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%AD%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%AB%E0%B8%A7%E0%B8%B2%E0%B8%99&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-03.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:00.844Z"
+    },
+    "nominatim:hy-c1-04": {
+      "key": "nominatim:hy-c1-04",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%B2%E0%B8%93%E0%B8%A3%E0%B8%87%E0%B8%84%E0%B9%8C&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-04.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:01.946Z"
+    },
+    "nominatim:hy-c1-05": {
+      "key": "nominatim:hy-c1-05",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%A0%E0%B8%B2%E0%B8%AA%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%87&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-05.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:03.047Z"
+    },
+    "nominatim:hy-c1-06": {
+      "key": "nominatim:hy-c1-06",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AD%E0%B8%B9%E0%B9%88+%E0%B8%97.%E0%B8%AA.&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-06.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:04.149Z"
+    },
+    "nominatim:hy-c1-07": {
+      "key": "nominatim:hy-c1-07",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%9E%E0%B8%A3%E0%B8%B8%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%AD%E0%B8%99&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-07.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:05.250Z"
+    },
+    "nominatim:hy-c1-08": {
+      "key": "nominatim:hy-c1-08",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%8D%E0%B8%88%E0%B8%99%E0%B9%8C%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-08.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:06.351Z"
+    },
+    "nominatim:hy-c1-09": {
+      "key": "nominatim:hy-c1-09",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%A5%E0%B8%B4%E0%B9%80%E0%B8%95%E0%B8%B2&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-09.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:07.452Z"
+    },
+    "nominatim:hy-c1-10": {
+      "key": "nominatim:hy-c1-10",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%95%E0%B8%A2&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-10.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:08.554Z"
+    },
+    "nominatim:hy-c1-11": {
+      "key": "nominatim:hy-c1-11",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%9B%E0%B8%B9%E0%B8%99&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-11.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:09.656Z"
+    },
+    "nominatim:hy-c1-12": {
+      "key": "nominatim:hy-c1-12",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%AA%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%AD%E0%B8%B2%E0%B8%88%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B9%8C%E0%B8%97%E0%B8%AD%E0%B8%87&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-12.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:10.757Z"
+    },
+    "nominatim:hy-c1-13": {
+      "key": "nominatim:hy-c1-13",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%84%E0%B8%B5&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-13.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:11.858Z"
+    },
+    "nominatim:hy-c1-14": {
+      "key": "nominatim:hy-c1-14",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2+%E0%B8%A3%E0%B8%9E.%E0%B8%A8%E0%B8%B4%E0%B8%84%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-14.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:12.959Z"
+    },
+    "nominatim:hy-c1-15": {
+      "key": "nominatim:hy-c1-15",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-15.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:14.061Z"
+    },
+    "nominatim:hy-c1-16": {
+      "key": "nominatim:hy-c1-16",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%99%E0%B8%B2%E0%B8%A1%E0%B8%81%E0%B8%B5%E0%B8%AC%E0%B8%B2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-16.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:15.163Z"
+    },
+    "nominatim:hy-c1-17": {
+      "key": "nominatim:hy-c1-17",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99+%E0%B8%8D.%E0%B8%A7.&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-17.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:16.265Z"
+    },
+    "nominatim:hy-c1-18": {
+      "key": "nominatim:hy-c1-18",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%99%E0%B8%B4%E0%B8%A5&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-18.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:17.367Z"
+    },
+    "nominatim:hy-c1-19": {
+      "key": "nominatim:hy-c1-19",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%A1%E0%B8%B1%E0%B8%94%E0%B8%A2%E0%B8%B2%E0%B9%80%E0%B8%A1%E0%B9%8A%E0%B8%B2%E0%B8%B0&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-19.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:18.468Z"
+    },
+    "nominatim:hy-c1-20": {
+      "key": "nominatim:hy-c1-20",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%A1+6&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-20.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:19.569Z"
+    },
+    "nominatim:hy-c1-21": {
+      "key": "nominatim:hy-c1-21",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%99%E0%B8%B2%E0%B8%A1%E0%B8%81%E0%B8%B5%E0%B8%AC%E0%B8%B2%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-21.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:20.669Z"
+    },
+    "nominatim:hy-c1-22": {
+      "key": "nominatim:hy-c1-22",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%A3%E0%B8%B5&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-22.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:21.769Z"
+    },
+    "nominatim:hy-c1-23": {
+      "key": "nominatim:hy-c1-23",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%A8%E0%B8%B4%E0%B8%84%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-23.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:22.871Z"
+    },
+    "nominatim:hy-c1-24": {
+      "key": "nominatim:hy-c1-24",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%96%E0%B8%81%E0%B8%B2%E0%B8%A3&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-24.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:23.972Z"
+    },
+    "nominatim:hy-c1-25": {
+      "key": "nominatim:hy-c1-25",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-25.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:25.073Z"
+    },
+    "nominatim:hy-c1-26": {
+      "key": "nominatim:hy-c1-26",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%A1%E0%B8%B8%E0%B8%AA%E0%B8%A5%E0%B8%B4%E0%B8%A1&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-26.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:26.174Z"
+    },
+    "nominatim:hy-c1-27": {
+      "key": "nominatim:hy-c1-27",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%AD%E0%B8%99%E0%B8%B2%E0%B8%AC%E0%B8%B4%E0%B8%81%E0%B8%B2&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-27.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:27.274Z"
+    },
+    "nominatim:hy-c1-28": {
+      "key": "nominatim:hy-c1-28",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%9E%E0%B8%A5%E0%B9%87%E0%B8%81%E0%B8%8B%E0%B9%8C&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c1-28.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:28.377Z"
+    },
+    "nominatim:hy-c2-01": {
+      "key": "nominatim:hy-c2-01",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-01.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:29.478Z"
+    },
+    "nominatim:hy-c2-02": {
+      "key": "nominatim:hy-c2-02",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%9E%E0%B9%88%E0%B8%AD%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-02.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:30.580Z"
+    },
+    "nominatim:hy-c2-03": {
+      "key": "nominatim:hy-c2-03",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-03.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:31.681Z"
+    },
+    "nominatim:hy-c2-04": {
+      "key": "nominatim:hy-c2-04",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%81%E0%B8%B4%E0%B8%A1%E0%B8%AB%E0%B8%A2%E0%B8%87%E0%B8%AA%E0%B8%B1%E0%B8%99%E0%B8%95%E0%B8%B4%E0%B8%AA%E0%B8%B8%E0%B8%82&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-04.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:32.782Z"
+    },
+    "nominatim:hy-c2-05": {
+      "key": "nominatim:hy-c2-05",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B9%88%E0%B8%AB%E0%B8%B2%E0%B8%A1%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B8%B5&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-05.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:33.883Z"
+    },
+    "nominatim:hy-c2-06": {
+      "key": "nominatim:hy-c2-06",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%9B%E0%B9%89%E0%B8%AD%E0%B8%A1+%E0%B9%94&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-06.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:34.983Z"
+    },
+    "nominatim:hy-c2-07": {
+      "key": "nominatim:hy-c2-07",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B9%81%E0%B8%AA%E0%B8%87%E0%B8%A8%E0%B8%A3%E0%B8%B5&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-07.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:36.083Z"
+    },
+    "nominatim:hy-c2-08": {
+      "key": "nominatim:hy-c2-08",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%A8%E0%B8%B4%E0%B8%A3%E0%B8%B4&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-08.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:37.183Z"
+    },
+    "nominatim:hy-c2-09": {
+      "key": "nominatim:hy-c2-09",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%88%E0%B8%B4%E0%B8%A3%E0%B8%B0%E0%B8%99%E0%B8%84%E0%B8%A3&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-09.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:38.284Z"
+    },
+    "nominatim:hy-c2-10": {
+      "key": "nominatim:hy-c2-10",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%97%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%87%E0%B8%95%E0%B8%B6%E0%B9%8A%E0%B8%87&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-10.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:39.385Z"
+    },
+    "nominatim:hy-c2-11": {
+      "key": "nominatim:hy-c2-11",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%98%E0%B8%B4%E0%B8%9B%E0%B8%B1%E0%B8%95%E0%B8%A2%E0%B9%8C&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-11.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:40.486Z"
+    },
+    "nominatim:hy-c2-12": {
+      "key": "nominatim:hy-c2-12",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%8A%E0%B8%B1%E0%B8%A2&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-12.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:41.587Z"
+    },
+    "nominatim:hy-c2-13": {
+      "key": "nominatim:hy-c2-13",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99+%E0%B8%8D.%E0%B8%A7.&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-13.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:42.687Z"
+    },
+    "nominatim:hy-c2-14": {
+      "key": "nominatim:hy-c2-14",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%B4%E0%B8%A8&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-14.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:43.788Z"
+    },
+    "nominatim:hy-c2-15": {
+      "key": "nominatim:hy-c2-15",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-15.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:44.890Z"
+    },
+    "nominatim:hy-c2-16": {
+      "key": "nominatim:hy-c2-16",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%88%E0%B9%88%E0%B8%B2&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-16.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:45.992Z"
+    },
+    "nominatim:hy-c2-17": {
+      "key": "nominatim:hy-c2-17",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%94%E0%B8%A3%E0%B8%B8%E0%B8%93%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-17.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:47.093Z"
+    },
+    "nominatim:hy-c2-18": {
+      "key": "nominatim:hy-c2-18",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%99%E0%B8%B2&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-18.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:48.195Z"
+    },
+    "nominatim:hy-c2-19": {
+      "key": "nominatim:hy-c2-19",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%82%E0%B8%AA%E0%B8%95%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-19.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:49.295Z"
+    },
+    "nominatim:hy-c2-20": {
+      "key": "nominatim:hy-c2-20",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%99%E0%B8%B2%E0%B8%AB%E0%B8%B1%E0%B8%81&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-20.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:50.396Z"
+    },
+    "nominatim:hy-c2-21": {
+      "key": "nominatim:hy-c2-21",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%8B%E0%B8%B5%E0%B8%81%E0%B8%B4%E0%B8%A1%E0%B8%AB%E0%B8%A2%E0%B8%87&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-21.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:51.497Z"
+    },
+    "nominatim:hy-c2-22": {
+      "key": "nominatim:hy-c2-22",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%A5%E0%B8%B0%E0%B8%A1%E0%B9%89%E0%B8%B2%E0%B8%A2%E0%B8%AA%E0%B8%87%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%B0%E0%B8%AB%E0%B9%8C&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-22.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:52.598Z"
+    },
+    "nominatim:hy-c2-23": {
+      "key": "nominatim:hy-c2-23",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-23.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:53.699Z"
+    },
+    "nominatim:hy-c2-24": {
+      "key": "nominatim:hy-c2-24",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B9%88%E0%B8%A1%E0%B9%80%E0%B8%A2%E0%B9%87%E0%B8%99&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-24.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:54.800Z"
+    },
+    "nominatim:hy-c2-25": {
+      "key": "nominatim:hy-c2-25",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-25.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:55.901Z"
+    },
+    "nominatim:hy-c2-26": {
+      "key": "nominatim:hy-c2-26",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-26.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:57.004Z"
+    },
+    "nominatim:hy-c2-27": {
+      "key": "nominatim:hy-c2-27",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99+%E0%B8%A1%E0%B8%AD.+-+%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99+%E0%B9%91&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-27.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:58.106Z"
+    },
+    "nominatim:hy-c2-28": {
+      "key": "nominatim:hy-c2-28",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B9%81%E0%B8%A2%E0%B8%81%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-28.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:51:59.208Z"
+    },
+    "nominatim:hy-c2-29": {
+      "key": "nominatim:hy-c2-29",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%9C%E0%B8%B2%E0%B8%AA%E0%B8%B8%E0%B8%81+-+%E0%B9%80%E0%B8%84%E0%B8%B5%E0%B8%A2%E0%B8%87%E0%B8%94%E0%B8%B2%E0%B8%A7&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c2-29.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:00.307Z"
+    },
+    "nominatim:hy-c3-01": {
+      "key": "nominatim:hy-c3-01",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%84%E0%B8%A7%E0%B8%99&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-01.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:01.409Z"
+    },
+    "nominatim:hy-c3-02": {
+      "key": "nominatim:hy-c3-02",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%97%E0%B8%B5%E0%B9%88+1&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-02.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:02.510Z"
+    },
+    "nominatim:hy-c3-03": {
+      "key": "nominatim:hy-c3-03",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%B2%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-03.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:03.612Z"
+    },
+    "nominatim:hy-c3-04": {
+      "key": "nominatim:hy-c3-04",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%E0%B8%9E%E0%B9%88%E0%B8%AD%E0%B8%9E%E0%B8%A3%E0%B8%AB%E0%B8%A1&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-04.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:04.714Z"
+    },
+    "nominatim:hy-c3-05": {
+      "key": "nominatim:hy-c3-05",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%A8%E0%B8%B2%E0%B8%A5%E0%B8%B2%E0%B8%A5%E0%B8%B8%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%87&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-05.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:05.816Z"
+    },
+    "nominatim:hy-c3-06": {
+      "key": "nominatim:hy-c3-06",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%A7%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-06.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:06.919Z"
+    },
+    "nominatim:hy-c3-07": {
+      "key": "nominatim:hy-c3-07",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-07.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2193,
+      "sha256": "52affc8f3a7f6c9ec8586fedd17f12bd9d36d828fadedce45f397216871f5757",
+      "retrievedAt": "2026-11-04T01:52:08.021Z"
+    },
+    "nominatim:hy-c3-08": {
+      "key": "nominatim:hy-c3-08",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%84%E0%B8%B5%E0%B8%A2%E0%B8%99&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-08.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:09.123Z"
+    },
+    "nominatim:hy-c3-09": {
+      "key": "nominatim:hy-c3-09",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%94%E0%B8%B5%E0%B9%81%E0%B8%A5%E0%B8%99%E0%B8%94%E0%B9%8C+-+%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-09.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:10.225Z"
+    },
+    "nominatim:hy-c3-10": {
+      "key": "nominatim:hy-c3-10",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%9B%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%A3%E0%B8%B4%E0%B8%A1&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-10.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:11.327Z"
+    },
+    "nominatim:hy-c3-11": {
+      "key": "nominatim:hy-c3-11",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B5%E0%B8%9B&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-11.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:12.428Z"
+    },
+    "nominatim:hy-c3-12": {
+      "key": "nominatim:hy-c3-12",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B4%E0%B9%82%E0%B8%A3%E0%B8%88%E0%B8%99%E0%B9%8C&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-12.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:13.531Z"
+    },
+    "nominatim:hy-c3-13": {
+      "key": "nominatim:hy-c3-13",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%95%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%9A%E0%B8%B9%E0%B8%A5%E0%B8%A2%E0%B9%8C&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-13.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:14.634Z"
+    },
+    "nominatim:hy-c3-14": {
+      "key": "nominatim:hy-c3-14",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%88%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C%E0%B8%99%E0%B8%B4%E0%B9%80%E0%B8%A7%E0%B8%A8%E0%B8%99%E0%B9%8C&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-14.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:15.735Z"
+    },
+    "nominatim:hy-c3-15": {
+      "key": "nominatim:hy-c3-15",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B9%80%E0%B8%AA%E0%B8%B2&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-15.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:16.837Z"
+    },
+    "nominatim:hy-c3-16": {
+      "key": "nominatim:hy-c3-16",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AD%E0%B8%B9%E0%B9%88%E0%B8%8D%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B8%E0%B9%88%E0%B8%99&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-16.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:17.939Z"
+    },
+    "nominatim:hy-c3-17": {
+      "key": "nominatim:hy-c3-17",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%82%E0%B8%99%E0%B8%AA%E0%B9%88%E0%B8%87&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-17.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:19.042Z"
+    },
+    "nominatim:hy-c3-18": {
+      "key": "nominatim:hy-c3-18",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-18.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:20.145Z"
+    },
+    "nominatim:hy-c3-19": {
+      "key": "nominatim:hy-c3-19",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B9%82%E0%B8%AE%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%A5&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-19.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 1161,
+      "sha256": "4ce075b46c85a583af090c1561e95afdd9ea58c13646d012116339ce786ece80",
+      "retrievedAt": "2026-11-04T01:52:21.247Z"
+    },
+    "nominatim:hy-c3-20": {
+      "key": "nominatim:hy-c3-20",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-20.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:22.349Z"
+    },
+    "nominatim:hy-c3-21": {
+      "key": "nominatim:hy-c3-21",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%9E%E0%B8%B1%E0%B8%81&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-21.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:23.452Z"
+    },
+    "nominatim:hy-c3-22": {
+      "key": "nominatim:hy-c3-22",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%AD%E0%B8%B9%E0%B9%88%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-22.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:24.554Z"
+    },
+    "nominatim:hy-c3-23": {
+      "key": "nominatim:hy-c3-23",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A9%E0%B8%8E%E0%B8%A3%E0%B9%8C%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%B4%E0%B8%A8&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-23.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:25.655Z"
+    },
+    "nominatim:hy-c3-24": {
+      "key": "nominatim:hy-c3-24",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B9%81%E0%B8%9F%E0%B8%A5%E0%B8%95%E0%B9%80%E0%B8%84%E0%B8%AB%E0%B8%B0%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-24.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:26.754Z"
+    },
+    "nominatim:hy-c3-25": {
+      "key": "nominatim:hy-c3-25",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B9%81%E0%B8%9F%E0%B8%A5%E0%B8%95%E0%B9%80%E0%B8%84%E0%B8%AB%E0%B8%B0%E0%B9%80%E0%B8%81%E0%B9%88%E0%B8%B2&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c3-25.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:27.856Z"
+    },
+    "nominatim:hy-c4-01": {
+      "key": "nominatim:hy-c4-01",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B9%84%E0%B8%97%E0%B8%A3&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-01.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:28.958Z"
+    },
+    "nominatim:hy-c4-02": {
+      "key": "nominatim:hy-c4-02",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%AD%E0%B8%B9%E0%B9%88%E0%B8%95%E0%B8%B0%E0%B9%80%E0%B8%A0%E0%B8%B2&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-02.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:30.058Z"
+    },
+    "nominatim:hy-c4-03": {
+      "key": "nominatim:hy-c4-03",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%82%E0%B8%94&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-03.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:31.159Z"
+    },
+    "nominatim:hy-c4-04": {
+      "key": "nominatim:hy-c4-04",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B8%A3%E0%B8%A3%E0%B8%9E%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%A3&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-04.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:32.261Z"
+    },
+    "nominatim:hy-c4-05": {
+      "key": "nominatim:hy-c4-05",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AA%E0%B8%B1%E0%B8%88%E0%B8%88%E0%B8%81%E0%B8%B8%E0%B8%A5&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-05.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:33.363Z"
+    },
+    "nominatim:hy-c4-06": {
+      "key": "nominatim:hy-c4-06",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%8A%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%A0%E0%B8%B4%E0%B9%80%E0%B8%A9%E0%B8%81&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-06.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:34.466Z"
+    },
+    "nominatim:hy-c4-07": {
+      "key": "nominatim:hy-c4-07",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%89%E0%B8%B2%E0%B8%87&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-07.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:35.568Z"
+    },
+    "nominatim:hy-c4-08": {
+      "key": "nominatim:hy-c4-08",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%97%E0%B8%AB%E0%B8%B2%E0%B8%A3&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-08.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:36.670Z"
+    },
+    "nominatim:hy-c4-09": {
+      "key": "nominatim:hy-c4-09",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%B1%E0%B8%81&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-09.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:37.772Z"
+    },
+    "nominatim:hy-c4-10": {
+      "key": "nominatim:hy-c4-10",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B9%80%E0%B8%A5%E0%B8%B5%E0%B8%A2%E0%B8%9A&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-10.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:38.874Z"
+    },
+    "nominatim:hy-c4-11": {
+      "key": "nominatim:hy-c4-11",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%95%E0%B8%99%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%B4%E0%B8%A8&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-11.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:39.976Z"
+    },
+    "nominatim:hy-c4-12": {
+      "key": "nominatim:hy-c4-12",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5+2&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-12.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:41.077Z"
+    },
+    "nominatim:hy-c4-13": {
+      "key": "nominatim:hy-c4-13",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%A1%E0%B8%87%E0%B8%84%E0%B8%A5%E0%B8%AB%E0%B8%A3%E0%B8%A3%E0%B8%A9%E0%B8%B2&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-13.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:42.179Z"
+    },
+    "nominatim:hy-c4-14": {
+      "key": "nominatim:hy-c4-14",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-14.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:43.281Z"
+    },
+    "nominatim:hy-c4-15": {
+      "key": "nominatim:hy-c4-15",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B9%82%E0%B8%8A%E0%B8%84%E0%B8%AA%E0%B8%A1%E0%B8%B2%E0%B8%99&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-15.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:44.383Z"
+    },
+    "nominatim:hy-c4-16": {
+      "key": "nominatim:hy-c4-16",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-16.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2193,
+      "sha256": "52affc8f3a7f6c9ec8586fedd17f12bd9d36d828fadedce45f397216871f5757",
+      "retrievedAt": "2026-11-04T01:52:45.485Z"
+    },
+    "nominatim:hy-c4-17": {
+      "key": "nominatim:hy-c4-17",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%A3%E0%B8%B2%E0%B8%A9%E0%B8%8E%E0%B8%A3%E0%B9%8C%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%B4%E0%B8%A8&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-17.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:46.588Z"
+    },
+    "nominatim:hy-c4-18": {
+      "key": "nominatim:hy-c4-18",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%82%E0%B8%84%E0%B8%81%E0%B8%AA%E0%B8%A1%E0%B8%B2%E0%B8%99%E0%B8%84%E0%B8%B8%E0%B8%93&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-18.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:47.690Z"
+    },
+    "nominatim:hy-c4-19": {
+      "key": "nominatim:hy-c4-19",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88%E0%B9%83%E0%B8%99&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-19.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:48.792Z"
+    },
+    "nominatim:hy-c4-20": {
+      "key": "nominatim:hy-c4-20",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B5%E0%B8%82%E0%B8%99%E0%B8%AA%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%B2%E0%B8%94%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88%E0%B9%83%E0%B8%99&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-20.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:49.894Z"
+    },
+    "nominatim:hy-c4-21": {
+      "key": "nominatim:hy-c4-21",
+      "url": "https://nominatim.openstreetmap.org/search?q=%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%8A%E0%B8%99%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B8%9E%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B8%96%E0%B9%84%E0%B8%9F&format=jsonv2&limit=10&viewbox=100.4238%2C7.0533%2C100.5112%2C6.9823&bounded=1&countrycodes=th&namedetails=1&extratags=1&accept-language=th",
+      "file": "data/raw/hatyai-community-locations/nominatim/hy-c4-21.json",
+      "status": "cached",
+      "httpStatus": 200,
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievedAt": "2026-11-04T01:52:50.995Z"
+    }
+  }
+}

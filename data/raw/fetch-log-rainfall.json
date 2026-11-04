@@ -1,0 +1,2343 @@
+{
+  "runs": [
+    {
+      "at": "2026-11-03T18:35:53.298Z",
+      "argv": [
+        "--sections=stations,normals,drainage,ckan"
+      ],
+      "fetches": [
+        {
+          "id": "thaiwater-public-rain24h",
+          "url": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+          "ok": true,
+          "status": 200,
+          "fromCache": false,
+          "retrievedAt": "2026-11-03T18:35:46.967Z",
+          "bytes": 4835693,
+          "cacheFile": "data/raw/thaiwater/public_rain_24h.json"
+        },
+        {
+          "id": "bma-dds-weather-page",
+          "url": "https://weather.bangkok.go.th/",
+          "ok": true,
+          "status": 200,
+          "fromCache": false,
+          "retrievedAt": "2026-11-03T18:35:49.658Z",
+          "bytes": 1164327,
+          "cacheFile": "data/raw/bma-weather/weather_bangkok_index.html"
+        },
+        {
+          "id": "tmd-aeromet2-rainfall-report",
+          "url": "https://aeromet2.tmd.go.th/api/daily-obs/rainfall-report",
+          "ok": true,
+          "status": 200,
+          "fromCache": false,
+          "retrievedAt": "2026-11-03T18:35:49.752Z",
+          "bytes": 6172,
+          "cacheFile": "data/raw/tmd/aeromet2_rainfall_report.json"
+        },
+        {
+          "id": "tmd-opendata-probe-no-key",
+          "url": "https://data.tmd.go.th/api/WeatherToday/V2/?type=json",
+          "ok": false,
+          "status": 200,
+          "fromCache": false,
+          "retrievedAt": null,
+          "bytes": 0,
+          "cacheFile": "data/raw/tmd/tmd_opendata_probe_nokey.txt",
+          "error": "invalid payload: empty body without uid/ukey"
+        },
+        {
+          "id": "tmd-climate-normals-1991-2020-pdf",
+          "url": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:14:49.166Z",
+          "bytes": 2891555,
+          "cacheFile": "data/raw/tmd/ubonmet_climate_normal_1991-2020.pdf",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "tmd-weather-criteria-page",
+          "url": "https://www.tmd.go.th/info/%E0%B9%80%E0%B8%81%E0%B8%93%E0%B8%91%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:16:26.854Z",
+          "bytes": 107589,
+          "cacheFile": "data/raw/tmd/tmd_info_weather_criteria.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "tmd-aeromet2-legend-bundle",
+          "url": "https://aeromet2.tmd.go.th/assets/rainfallExport-O01ssJWd.js",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:11:31.458Z",
+          "bytes": 417737,
+          "cacheFile": "data/raw/tmd/aeromet2_rainfallExport-O01ssJWd.js.txt",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipublica2025",
+          "url": "https://thaipublica.org/2025/06/green-up-the-world-02/",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:13.371Z",
+          "bytes": 171917,
+          "cacheFile": "data/raw/news/thaipublica_2025_06_green-up-the-world-02.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipbs2016",
+          "url": "https://www.thaipbs.or.th/news/content/253350",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:11.410Z",
+          "bytes": 482380,
+          "cacheFile": "data/raw/news/thaipbs_253350.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipbs2026",
+          "url": "https://www.thaipbs.or.th/news/content/558901",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:18:27.462Z",
+          "bytes": 510144,
+          "cacheFile": "data/raw/news/thaipbs_558901.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-bmapr2025",
+          "url": "https://pr-bangkok.com/?p=522995",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:42.599Z",
+          "bytes": 236200,
+          "cacheFile": "data/raw/bma-pr/prbkk_522995.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-onep2020",
+          "url": "https://www.onep.go.th/?p=4759",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:20:25.545Z",
+          "bytes": 112446,
+          "cacheFile": "data/raw/hatyai-drainage/onep_4759.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-dailynews2026",
+          "url": "https://www.dailynews.co.th/news/6104172/",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:20:39.821Z",
+          "bytes": 399264,
+          "cacheFile": "data/raw/hatyai-drainage/dailynews_6104172.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "bma-ckan-package-rainfall",
+          "url": "https://data.bangkok.go.th/api/3/action/package_show?id=rainfall",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:22:13.827Z",
+          "bytes": 9531,
+          "cacheFile": "data/raw/ckan/bma_ckan_package_rainfall.json",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "bma-ckan-rainfall-csv",
+          "url": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:22:20.976Z",
+          "bytes": 7092,
+          "cacheFile": "data/raw/ckan/dds015-rainfall2023.csv",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-03T18:37:54.105Z",
+      "argv": [
+        "--offline",
+        "--sections=normals,ckan"
+      ],
+      "fetches": [
+        {
+          "id": "tmd-climate-normals-1991-2020-pdf",
+          "url": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:14:49.166Z",
+          "bytes": 2891555,
+          "cacheFile": "data/raw/tmd/ubonmet_climate_normal_1991-2020.pdf",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "tmd-weather-criteria-page",
+          "url": "https://www.tmd.go.th/info/%E0%B9%80%E0%B8%81%E0%B8%93%E0%B8%91%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:16:26.854Z",
+          "bytes": 107589,
+          "cacheFile": "data/raw/tmd/tmd_info_weather_criteria.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "tmd-aeromet2-legend-bundle",
+          "url": "https://aeromet2.tmd.go.th/assets/rainfallExport-O01ssJWd.js",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:11:31.458Z",
+          "bytes": 417737,
+          "cacheFile": "data/raw/tmd/aeromet2_rainfallExport-O01ssJWd.js.txt",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "bma-ckan-package-rainfall",
+          "url": "https://data.bangkok.go.th/api/3/action/package_show?id=rainfall",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:22:13.827Z",
+          "bytes": 9531,
+          "cacheFile": "data/raw/ckan/bma_ckan_package_rainfall.json",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "bma-ckan-rainfall-csv",
+          "url": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:22:20.976Z",
+          "bytes": 7092,
+          "cacheFile": "data/raw/ckan/dds015-rainfall2023.csv",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-03T23:01:43.988Z",
+      "argv": [
+        "--sections=openmeteo"
+      ],
+      "fetches": [
+        {
+          "id": "open-meteo-era5_land-precip-check",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.75&longitude=100.55&start_date=2024-01-01&end_date=2024-01-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5_land",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:13.729Z",
+          "bytes": 532,
+          "cacheFile": "data/raw/open-meteo/check_era5_land_precip_2024-01.json"
+        },
+        {
+          "id": "open-meteo-model-identity-bkk-2024-01",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2024-01-01&end_date=2024-01-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:17.062Z",
+          "bytes": 839,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_bkk-2024-01.json"
+        },
+        {
+          "id": "open-meteo-model-identity-bkk-2025-06",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2025-06-01&end_date=2025-06-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:19.057Z",
+          "bytes": 847,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_bkk-2025-06.json"
+        },
+        {
+          "id": "open-meteo-model-identity-hy-2025-11",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-18&end_date=2025-11-27&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:21.056Z",
+          "bytes": 756,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_hy-2025-11.json"
+        },
+        {
+          "id": "open-meteo-era5-daily-vs-hourly-check",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-20&end_date=2025-11-21&hourly=precipitation&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": false,
+          "retrievedAt": "2026-11-03T22:59:29.550Z",
+          "bytes": 1575,
+          "cacheFile": "data/raw/open-meteo/check_era5_daily_vs_hourly_hy_2025-11-20_2025-11-21.json"
+        },
+        {
+          "id": "open-meteo-era5-latest-complete-date-probe",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639%2C7.015&longitude=100.56%2C100.47&start_date=2026-10-21&end_date=2026-11-03&hourly=precipitation&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": false,
+          "retrievedAt": "2026-11-03T22:59:30.866Z",
+          "bytes": 16686,
+          "cacheFile": "data/raw/open-meteo/period_probe_era5_2026-11-04.json"
+        },
+        {
+          "id": "open-meteo-centres-daily-era5-best_match",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639%2C7.015&longitude=100.56%2C100.47&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5%2Cbest_match",
+          "ok": true,
+          "status": 200,
+          "fromCache": false,
+          "retrievedAt": "2026-11-03T22:59:33.217Z",
+          "bytes": 48880,
+          "cacheFile": "data/raw/open-meteo/centres_daily_era5_best_match_2024-01-01_2026-10-28.json"
+        },
+        {
+          "id": "open-meteo-era5-cellmap-hatyai",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.925%2C6.925%2C6.925%2C6.925%2C6.925%2C6.975%2C6.975%2C6.975%2C6.975%2C6.975%2C7.025%2C7.025%2C7.025%2C7.025%2C7.025%2C7.075%2C7.075%2C7.075%2C7.075%2C7.075%2C7.125%2C7.125%2C7.125%2C7.125%2C7.125&longitude=100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575&start_date=2025-11-18&end_date=2025-11-27&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": false,
+          "retrievedAt": "2026-11-03T22:59:35.009Z",
+          "bytes": 12118,
+          "cacheFile": "data/raw/open-meteo/cellmap_hatyai_era5_2025-11-18_2025-11-27.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-hatyai-b1of1",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.925%2C7.125&longitude=100.375%2C100.375&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": false,
+          "retrievedAt": "2026-11-03T22:59:36.895Z",
+          "bytes": 38023,
+          "cacheFile": "data/raw/open-meteo/grid_hatyai_era5_cells_2024-01-01_2026-10-28_b01.json"
+        },
+        {
+          "id": "open-meteo-era5-cellmap-bangkok",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950&longitude=100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950&start_date=2024-09-01&end_date=2024-09-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": false,
+          "retrievedAt": "2026-11-03T22:59:38.886Z",
+          "bytes": 23092,
+          "cacheFile": "data/raw/open-meteo/cellmap_bangkok_era5_2024-09-01_2024-09-14.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-bangkok-b1of2",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.450%2C13.450%2C13.450%2C13.550%2C13.650%2C13.650&longitude=100.350%2C100.550%2C100.950%2C100.450%2C100.350%2C100.650&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": false,
+          "retrievedAt": "2026-11-03T23:00:40.731Z",
+          "bytes": 113807,
+          "cacheFile": "data/raw/open-meteo/grid_bangkok_era5_cells_2024-01-01_2026-10-28_b01.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-bangkok-b2of2",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.650%2C13.950%2C13.950%2C13.950%2C13.950&longitude=100.950%2C100.350%2C100.450%2C100.650%2C100.950&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": false,
+          "retrievedAt": "2026-11-03T23:01:41.737Z",
+          "bytes": 94957,
+          "cacheFile": "data/raw/open-meteo/grid_bangkok_era5_cells_2024-01-01_2026-10-28_b02.json"
+        },
+        {
+          "id": "open-meteo-hourly-hatyai-2025-11-18_2025-11-27",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-18&end_date=2025-11-27&hourly=precipitation&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": false,
+          "retrievedAt": "2026-11-03T23:01:41.972Z",
+          "bytes": 6044,
+          "cacheFile": "data/raw/open-meteo/hourly_hatyai-2025-11-18_2025-11-27_era5.json"
+        },
+        {
+          "id": "open-meteo-hourly-bangkok-heaviest-day-2026-09-26",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2026-09-25&end_date=2026-09-27&hourly=precipitation&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": false,
+          "retrievedAt": "2026-11-03T23:01:43.974Z",
+          "bytes": 1999,
+          "cacheFile": "data/raw/open-meteo/hourly_bangkok-heaviest-day-2026-09-26_era5.json"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-03T23:01:56.098Z",
+      "argv": [
+        "--offline"
+      ],
+      "fetches": [
+        {
+          "id": "thaiwater-public-rain24h",
+          "url": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:46.967Z",
+          "bytes": 4835693,
+          "cacheFile": "data/raw/thaiwater/public_rain_24h.json",
+          "error": "offline mode"
+        },
+        {
+          "id": "bma-dds-weather-page",
+          "url": "https://weather.bangkok.go.th/",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:49.658Z",
+          "bytes": 1164327,
+          "cacheFile": "data/raw/bma-weather/weather_bangkok_index.html",
+          "error": "offline mode"
+        },
+        {
+          "id": "tmd-aeromet2-rainfall-report",
+          "url": "https://aeromet2.tmd.go.th/api/daily-obs/rainfall-report",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:49.752Z",
+          "bytes": 6172,
+          "cacheFile": "data/raw/tmd/aeromet2_rainfall_report.json",
+          "error": "offline mode"
+        },
+        {
+          "id": "tmd-opendata-probe-no-key",
+          "url": "https://data.tmd.go.th/api/WeatherToday/V2/?type=json",
+          "ok": false,
+          "status": null,
+          "fromCache": false,
+          "retrievedAt": null,
+          "bytes": 0,
+          "cacheFile": "data/raw/tmd/tmd_opendata_probe_nokey.txt",
+          "error": "offline mode and no cached file"
+        },
+        {
+          "id": "tmd-climate-normals-1991-2020-pdf",
+          "url": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:14:49.166Z",
+          "bytes": 2891555,
+          "cacheFile": "data/raw/tmd/ubonmet_climate_normal_1991-2020.pdf",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "tmd-weather-criteria-page",
+          "url": "https://www.tmd.go.th/info/%E0%B9%80%E0%B8%81%E0%B8%93%E0%B8%91%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:16:26.854Z",
+          "bytes": 107589,
+          "cacheFile": "data/raw/tmd/tmd_info_weather_criteria.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "tmd-aeromet2-legend-bundle",
+          "url": "https://aeromet2.tmd.go.th/assets/rainfallExport-O01ssJWd.js",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:11:31.458Z",
+          "bytes": 417737,
+          "cacheFile": "data/raw/tmd/aeromet2_rainfallExport-O01ssJWd.js.txt",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipublica2025",
+          "url": "https://thaipublica.org/2025/06/green-up-the-world-02/",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:13.371Z",
+          "bytes": 171917,
+          "cacheFile": "data/raw/news/thaipublica_2025_06_green-up-the-world-02.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipbs2016",
+          "url": "https://www.thaipbs.or.th/news/content/253350",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:11.410Z",
+          "bytes": 482380,
+          "cacheFile": "data/raw/news/thaipbs_253350.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipbs2026",
+          "url": "https://www.thaipbs.or.th/news/content/558901",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:18:27.462Z",
+          "bytes": 510144,
+          "cacheFile": "data/raw/news/thaipbs_558901.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-bmapr2025",
+          "url": "https://pr-bangkok.com/?p=522995",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:42.599Z",
+          "bytes": 236200,
+          "cacheFile": "data/raw/bma-pr/prbkk_522995.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-onep2020",
+          "url": "https://www.onep.go.th/?p=4759",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:20:25.545Z",
+          "bytes": 112446,
+          "cacheFile": "data/raw/hatyai-drainage/onep_4759.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-dailynews2026",
+          "url": "https://www.dailynews.co.th/news/6104172/",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:20:39.821Z",
+          "bytes": 399264,
+          "cacheFile": "data/raw/hatyai-drainage/dailynews_6104172.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "bma-ckan-package-rainfall",
+          "url": "https://data.bangkok.go.th/api/3/action/package_show?id=rainfall",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:22:13.827Z",
+          "bytes": 9531,
+          "cacheFile": "data/raw/ckan/bma_ckan_package_rainfall.json",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "bma-ckan-rainfall-csv",
+          "url": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:22:20.976Z",
+          "bytes": 7092,
+          "cacheFile": "data/raw/ckan/dds015-rainfall2023.csv",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "open-meteo-era5_land-precip-check",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.75&longitude=100.55&start_date=2024-01-01&end_date=2024-01-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5_land",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:13.729Z",
+          "bytes": 532,
+          "cacheFile": "data/raw/open-meteo/check_era5_land_precip_2024-01.json"
+        },
+        {
+          "id": "open-meteo-model-identity-bkk-2024-01",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2024-01-01&end_date=2024-01-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:17.062Z",
+          "bytes": 839,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_bkk-2024-01.json"
+        },
+        {
+          "id": "open-meteo-model-identity-bkk-2025-06",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2025-06-01&end_date=2025-06-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:19.057Z",
+          "bytes": 847,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_bkk-2025-06.json"
+        },
+        {
+          "id": "open-meteo-model-identity-hy-2025-11",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-18&end_date=2025-11-27&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:21.056Z",
+          "bytes": 756,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_hy-2025-11.json"
+        },
+        {
+          "id": "open-meteo-era5-daily-vs-hourly-check",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-20&end_date=2025-11-21&hourly=precipitation&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:29.550Z",
+          "bytes": 1575,
+          "cacheFile": "data/raw/open-meteo/check_era5_daily_vs_hourly_hy_2025-11-20_2025-11-21.json"
+        },
+        {
+          "id": "open-meteo-centres-daily-era5-best_match",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639%2C7.015&longitude=100.56%2C100.47&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5%2Cbest_match",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:33.217Z",
+          "bytes": 48880,
+          "cacheFile": "data/raw/open-meteo/centres_daily_era5_best_match_2024-01-01_2026-10-28.json"
+        },
+        {
+          "id": "open-meteo-era5-cellmap-hatyai",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.925%2C6.925%2C6.925%2C6.925%2C6.925%2C6.975%2C6.975%2C6.975%2C6.975%2C6.975%2C7.025%2C7.025%2C7.025%2C7.025%2C7.025%2C7.075%2C7.075%2C7.075%2C7.075%2C7.075%2C7.125%2C7.125%2C7.125%2C7.125%2C7.125&longitude=100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575&start_date=2025-11-18&end_date=2025-11-27&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:35.009Z",
+          "bytes": 12118,
+          "cacheFile": "data/raw/open-meteo/cellmap_hatyai_era5_2025-11-18_2025-11-27.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-hatyai-b1of1",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.925%2C7.125&longitude=100.375%2C100.375&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:36.895Z",
+          "bytes": 38023,
+          "cacheFile": "data/raw/open-meteo/grid_hatyai_era5_cells_2024-01-01_2026-10-28_b01.json"
+        },
+        {
+          "id": "open-meteo-era5-cellmap-bangkok",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950&longitude=100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950&start_date=2024-09-01&end_date=2024-09-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:38.886Z",
+          "bytes": 23092,
+          "cacheFile": "data/raw/open-meteo/cellmap_bangkok_era5_2024-09-01_2024-09-14.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-bangkok-b1of2",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.450%2C13.450%2C13.450%2C13.550%2C13.650%2C13.650&longitude=100.350%2C100.550%2C100.950%2C100.450%2C100.350%2C100.650&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:00:40.731Z",
+          "bytes": 113807,
+          "cacheFile": "data/raw/open-meteo/grid_bangkok_era5_cells_2024-01-01_2026-10-28_b01.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-bangkok-b2of2",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.650%2C13.950%2C13.950%2C13.950%2C13.950&longitude=100.950%2C100.350%2C100.450%2C100.650%2C100.950&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:41.737Z",
+          "bytes": 94957,
+          "cacheFile": "data/raw/open-meteo/grid_bangkok_era5_cells_2024-01-01_2026-10-28_b02.json"
+        },
+        {
+          "id": "open-meteo-hourly-hatyai-2025-11-18_2025-11-27",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-18&end_date=2025-11-27&hourly=precipitation&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:41.972Z",
+          "bytes": 6044,
+          "cacheFile": "data/raw/open-meteo/hourly_hatyai-2025-11-18_2025-11-27_era5.json"
+        },
+        {
+          "id": "open-meteo-hourly-bangkok-heaviest-day-2026-09-26",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2026-09-25&end_date=2026-09-27&hourly=precipitation&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:43.974Z",
+          "bytes": 1999,
+          "cacheFile": "data/raw/open-meteo/hourly_bangkok-heaviest-day-2026-09-26_era5.json"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-03T23:02:54.024Z",
+      "argv": [
+        "--offline"
+      ],
+      "fetches": [
+        {
+          "id": "thaiwater-public-rain24h",
+          "url": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:46.967Z",
+          "bytes": 4835693,
+          "cacheFile": "data/raw/thaiwater/public_rain_24h.json",
+          "error": "offline mode"
+        },
+        {
+          "id": "bma-dds-weather-page",
+          "url": "https://weather.bangkok.go.th/",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:49.658Z",
+          "bytes": 1164327,
+          "cacheFile": "data/raw/bma-weather/weather_bangkok_index.html",
+          "error": "offline mode"
+        },
+        {
+          "id": "tmd-aeromet2-rainfall-report",
+          "url": "https://aeromet2.tmd.go.th/api/daily-obs/rainfall-report",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:49.752Z",
+          "bytes": 6172,
+          "cacheFile": "data/raw/tmd/aeromet2_rainfall_report.json",
+          "error": "offline mode"
+        },
+        {
+          "id": "tmd-opendata-probe-no-key",
+          "url": "https://data.tmd.go.th/api/WeatherToday/V2/?type=json",
+          "ok": false,
+          "status": null,
+          "fromCache": false,
+          "retrievedAt": null,
+          "bytes": 0,
+          "cacheFile": "data/raw/tmd/tmd_opendata_probe_nokey.txt",
+          "error": "offline mode and no cached file"
+        },
+        {
+          "id": "tmd-climate-normals-1991-2020-pdf",
+          "url": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:14:49.166Z",
+          "bytes": 2891555,
+          "cacheFile": "data/raw/tmd/ubonmet_climate_normal_1991-2020.pdf",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "tmd-weather-criteria-page",
+          "url": "https://www.tmd.go.th/info/%E0%B9%80%E0%B8%81%E0%B8%93%E0%B8%91%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:16:26.854Z",
+          "bytes": 107589,
+          "cacheFile": "data/raw/tmd/tmd_info_weather_criteria.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "tmd-aeromet2-legend-bundle",
+          "url": "https://aeromet2.tmd.go.th/assets/rainfallExport-O01ssJWd.js",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:11:31.458Z",
+          "bytes": 417737,
+          "cacheFile": "data/raw/tmd/aeromet2_rainfallExport-O01ssJWd.js.txt",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipublica2025",
+          "url": "https://thaipublica.org/2025/06/green-up-the-world-02/",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:13.371Z",
+          "bytes": 171917,
+          "cacheFile": "data/raw/news/thaipublica_2025_06_green-up-the-world-02.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipbs2016",
+          "url": "https://www.thaipbs.or.th/news/content/253350",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:11.410Z",
+          "bytes": 482380,
+          "cacheFile": "data/raw/news/thaipbs_253350.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipbs2026",
+          "url": "https://www.thaipbs.or.th/news/content/558901",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:18:27.462Z",
+          "bytes": 510144,
+          "cacheFile": "data/raw/news/thaipbs_558901.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-bmapr2025",
+          "url": "https://pr-bangkok.com/?p=522995",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:42.599Z",
+          "bytes": 236200,
+          "cacheFile": "data/raw/bma-pr/prbkk_522995.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-onep2020",
+          "url": "https://www.onep.go.th/?p=4759",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:20:25.545Z",
+          "bytes": 112446,
+          "cacheFile": "data/raw/hatyai-drainage/onep_4759.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-dailynews2026",
+          "url": "https://www.dailynews.co.th/news/6104172/",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:20:39.821Z",
+          "bytes": 399264,
+          "cacheFile": "data/raw/hatyai-drainage/dailynews_6104172.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "bma-ckan-package-rainfall",
+          "url": "https://data.bangkok.go.th/api/3/action/package_show?id=rainfall",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:22:13.827Z",
+          "bytes": 9531,
+          "cacheFile": "data/raw/ckan/bma_ckan_package_rainfall.json",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "bma-ckan-rainfall-csv",
+          "url": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:22:20.976Z",
+          "bytes": 7092,
+          "cacheFile": "data/raw/ckan/dds015-rainfall2023.csv",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "open-meteo-era5_land-precip-check",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.75&longitude=100.55&start_date=2024-01-01&end_date=2024-01-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5_land",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:13.729Z",
+          "bytes": 532,
+          "cacheFile": "data/raw/open-meteo/check_era5_land_precip_2024-01.json"
+        },
+        {
+          "id": "open-meteo-model-identity-bkk-2024-01",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2024-01-01&end_date=2024-01-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:17.062Z",
+          "bytes": 839,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_bkk-2024-01.json"
+        },
+        {
+          "id": "open-meteo-model-identity-bkk-2025-06",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2025-06-01&end_date=2025-06-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:19.057Z",
+          "bytes": 847,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_bkk-2025-06.json"
+        },
+        {
+          "id": "open-meteo-model-identity-hy-2025-11",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-18&end_date=2025-11-27&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:21.056Z",
+          "bytes": 756,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_hy-2025-11.json"
+        },
+        {
+          "id": "open-meteo-era5-daily-vs-hourly-check",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-20&end_date=2025-11-21&hourly=precipitation&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:29.550Z",
+          "bytes": 1575,
+          "cacheFile": "data/raw/open-meteo/check_era5_daily_vs_hourly_hy_2025-11-20_2025-11-21.json"
+        },
+        {
+          "id": "open-meteo-centres-daily-era5-best_match",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639%2C7.015&longitude=100.56%2C100.47&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5%2Cbest_match",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:33.217Z",
+          "bytes": 48880,
+          "cacheFile": "data/raw/open-meteo/centres_daily_era5_best_match_2024-01-01_2026-10-28.json"
+        },
+        {
+          "id": "open-meteo-era5-cellmap-hatyai",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.925%2C6.925%2C6.925%2C6.925%2C6.925%2C6.975%2C6.975%2C6.975%2C6.975%2C6.975%2C7.025%2C7.025%2C7.025%2C7.025%2C7.025%2C7.075%2C7.075%2C7.075%2C7.075%2C7.075%2C7.125%2C7.125%2C7.125%2C7.125%2C7.125&longitude=100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575&start_date=2025-11-18&end_date=2025-11-27&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:35.009Z",
+          "bytes": 12118,
+          "cacheFile": "data/raw/open-meteo/cellmap_hatyai_era5_2025-11-18_2025-11-27.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-hatyai-b1of1",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.925%2C7.125&longitude=100.375%2C100.375&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:36.895Z",
+          "bytes": 38023,
+          "cacheFile": "data/raw/open-meteo/grid_hatyai_era5_cells_2024-01-01_2026-10-28_b01.json"
+        },
+        {
+          "id": "open-meteo-era5-cellmap-bangkok",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950&longitude=100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950&start_date=2024-09-01&end_date=2024-09-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:38.886Z",
+          "bytes": 23092,
+          "cacheFile": "data/raw/open-meteo/cellmap_bangkok_era5_2024-09-01_2024-09-14.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-bangkok-b1of2",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.450%2C13.450%2C13.450%2C13.550%2C13.650%2C13.650&longitude=100.350%2C100.550%2C100.950%2C100.450%2C100.350%2C100.650&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:00:40.731Z",
+          "bytes": 113807,
+          "cacheFile": "data/raw/open-meteo/grid_bangkok_era5_cells_2024-01-01_2026-10-28_b01.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-bangkok-b2of2",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.650%2C13.950%2C13.950%2C13.950%2C13.950&longitude=100.950%2C100.350%2C100.450%2C100.650%2C100.950&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:41.737Z",
+          "bytes": 94957,
+          "cacheFile": "data/raw/open-meteo/grid_bangkok_era5_cells_2024-01-01_2026-10-28_b02.json"
+        },
+        {
+          "id": "open-meteo-hourly-hatyai-2025-11-18_2025-11-27",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-18&end_date=2025-11-27&hourly=precipitation&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:41.972Z",
+          "bytes": 6044,
+          "cacheFile": "data/raw/open-meteo/hourly_hatyai-2025-11-18_2025-11-27_era5.json"
+        },
+        {
+          "id": "open-meteo-hourly-bangkok-heaviest-day-2026-09-26",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2026-09-25&end_date=2026-09-27&hourly=precipitation&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:43.974Z",
+          "bytes": 1999,
+          "cacheFile": "data/raw/open-meteo/hourly_bangkok-heaviest-day-2026-09-26_era5.json"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-03T23:03:30.243Z",
+      "argv": [
+        "--offline"
+      ],
+      "fetches": [
+        {
+          "id": "thaiwater-public-rain24h",
+          "url": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:46.967Z",
+          "bytes": 4835693,
+          "cacheFile": "data/raw/thaiwater/public_rain_24h.json",
+          "error": "offline mode"
+        },
+        {
+          "id": "bma-dds-weather-page",
+          "url": "https://weather.bangkok.go.th/",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:49.658Z",
+          "bytes": 1164327,
+          "cacheFile": "data/raw/bma-weather/weather_bangkok_index.html",
+          "error": "offline mode"
+        },
+        {
+          "id": "tmd-aeromet2-rainfall-report",
+          "url": "https://aeromet2.tmd.go.th/api/daily-obs/rainfall-report",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:49.752Z",
+          "bytes": 6172,
+          "cacheFile": "data/raw/tmd/aeromet2_rainfall_report.json",
+          "error": "offline mode"
+        },
+        {
+          "id": "tmd-opendata-probe-no-key",
+          "url": "https://data.tmd.go.th/api/WeatherToday/V2/?type=json",
+          "ok": false,
+          "status": null,
+          "fromCache": false,
+          "retrievedAt": null,
+          "bytes": 0,
+          "cacheFile": "data/raw/tmd/tmd_opendata_probe_nokey.txt",
+          "error": "offline mode and no cached file"
+        },
+        {
+          "id": "tmd-climate-normals-1991-2020-pdf",
+          "url": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:14:49.166Z",
+          "bytes": 2891555,
+          "cacheFile": "data/raw/tmd/ubonmet_climate_normal_1991-2020.pdf",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "tmd-weather-criteria-page",
+          "url": "https://www.tmd.go.th/info/%E0%B9%80%E0%B8%81%E0%B8%93%E0%B8%91%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:16:26.854Z",
+          "bytes": 107589,
+          "cacheFile": "data/raw/tmd/tmd_info_weather_criteria.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "tmd-aeromet2-legend-bundle",
+          "url": "https://aeromet2.tmd.go.th/assets/rainfallExport-O01ssJWd.js",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:11:31.458Z",
+          "bytes": 417737,
+          "cacheFile": "data/raw/tmd/aeromet2_rainfallExport-O01ssJWd.js.txt",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipublica2025",
+          "url": "https://thaipublica.org/2025/06/green-up-the-world-02/",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:13.371Z",
+          "bytes": 171917,
+          "cacheFile": "data/raw/news/thaipublica_2025_06_green-up-the-world-02.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipbs2016",
+          "url": "https://www.thaipbs.or.th/news/content/253350",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:11.410Z",
+          "bytes": 482380,
+          "cacheFile": "data/raw/news/thaipbs_253350.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipbs2026",
+          "url": "https://www.thaipbs.or.th/news/content/558901",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:18:27.462Z",
+          "bytes": 510144,
+          "cacheFile": "data/raw/news/thaipbs_558901.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-bmapr2025",
+          "url": "https://pr-bangkok.com/?p=522995",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:42.599Z",
+          "bytes": 236200,
+          "cacheFile": "data/raw/bma-pr/prbkk_522995.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-onep2020",
+          "url": "https://www.onep.go.th/?p=4759",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:20:25.545Z",
+          "bytes": 112446,
+          "cacheFile": "data/raw/hatyai-drainage/onep_4759.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-dailynews2026",
+          "url": "https://www.dailynews.co.th/news/6104172/",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:20:39.821Z",
+          "bytes": 399264,
+          "cacheFile": "data/raw/hatyai-drainage/dailynews_6104172.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "bma-ckan-package-rainfall",
+          "url": "https://data.bangkok.go.th/api/3/action/package_show?id=rainfall",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:22:13.827Z",
+          "bytes": 9531,
+          "cacheFile": "data/raw/ckan/bma_ckan_package_rainfall.json",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "bma-ckan-rainfall-csv",
+          "url": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:22:20.976Z",
+          "bytes": 7092,
+          "cacheFile": "data/raw/ckan/dds015-rainfall2023.csv",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "open-meteo-era5_land-precip-check",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.75&longitude=100.55&start_date=2024-01-01&end_date=2024-01-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5_land",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:13.729Z",
+          "bytes": 532,
+          "cacheFile": "data/raw/open-meteo/check_era5_land_precip_2024-01.json"
+        },
+        {
+          "id": "open-meteo-model-identity-bkk-2024-01",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2024-01-01&end_date=2024-01-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:17.062Z",
+          "bytes": 839,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_bkk-2024-01.json"
+        },
+        {
+          "id": "open-meteo-model-identity-bkk-2025-06",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2025-06-01&end_date=2025-06-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:19.057Z",
+          "bytes": 847,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_bkk-2025-06.json"
+        },
+        {
+          "id": "open-meteo-model-identity-hy-2025-11",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-18&end_date=2025-11-27&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:21.056Z",
+          "bytes": 756,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_hy-2025-11.json"
+        },
+        {
+          "id": "open-meteo-era5-daily-vs-hourly-check",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-20&end_date=2025-11-21&hourly=precipitation&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:29.550Z",
+          "bytes": 1575,
+          "cacheFile": "data/raw/open-meteo/check_era5_daily_vs_hourly_hy_2025-11-20_2025-11-21.json"
+        },
+        {
+          "id": "open-meteo-centres-daily-era5-best_match",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639%2C7.015&longitude=100.56%2C100.47&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5%2Cbest_match",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:33.217Z",
+          "bytes": 48880,
+          "cacheFile": "data/raw/open-meteo/centres_daily_era5_best_match_2024-01-01_2026-10-28.json"
+        },
+        {
+          "id": "open-meteo-era5-cellmap-hatyai",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.925%2C6.925%2C6.925%2C6.925%2C6.925%2C6.975%2C6.975%2C6.975%2C6.975%2C6.975%2C7.025%2C7.025%2C7.025%2C7.025%2C7.025%2C7.075%2C7.075%2C7.075%2C7.075%2C7.075%2C7.125%2C7.125%2C7.125%2C7.125%2C7.125&longitude=100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575&start_date=2025-11-18&end_date=2025-11-27&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:35.009Z",
+          "bytes": 12118,
+          "cacheFile": "data/raw/open-meteo/cellmap_hatyai_era5_2025-11-18_2025-11-27.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-hatyai-b1of1",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.925%2C7.125&longitude=100.375%2C100.375&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:36.895Z",
+          "bytes": 38023,
+          "cacheFile": "data/raw/open-meteo/grid_hatyai_era5_cells_2024-01-01_2026-10-28_b01.json"
+        },
+        {
+          "id": "open-meteo-era5-cellmap-bangkok",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950&longitude=100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950&start_date=2024-09-01&end_date=2024-09-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:38.886Z",
+          "bytes": 23092,
+          "cacheFile": "data/raw/open-meteo/cellmap_bangkok_era5_2024-09-01_2024-09-14.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-bangkok-b1of2",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.450%2C13.450%2C13.450%2C13.550%2C13.650%2C13.650&longitude=100.350%2C100.550%2C100.950%2C100.450%2C100.350%2C100.650&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:00:40.731Z",
+          "bytes": 113807,
+          "cacheFile": "data/raw/open-meteo/grid_bangkok_era5_cells_2024-01-01_2026-10-28_b01.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-bangkok-b2of2",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.650%2C13.950%2C13.950%2C13.950%2C13.950&longitude=100.950%2C100.350%2C100.450%2C100.650%2C100.950&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:41.737Z",
+          "bytes": 94957,
+          "cacheFile": "data/raw/open-meteo/grid_bangkok_era5_cells_2024-01-01_2026-10-28_b02.json"
+        },
+        {
+          "id": "open-meteo-hourly-hatyai-2025-11-18_2025-11-27",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-18&end_date=2025-11-27&hourly=precipitation&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:41.972Z",
+          "bytes": 6044,
+          "cacheFile": "data/raw/open-meteo/hourly_hatyai-2025-11-18_2025-11-27_era5.json"
+        },
+        {
+          "id": "open-meteo-hourly-bangkok-heaviest-day-2026-09-26",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2026-09-25&end_date=2026-09-27&hourly=precipitation&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:43.974Z",
+          "bytes": 1999,
+          "cacheFile": "data/raw/open-meteo/hourly_bangkok-heaviest-day-2026-09-26_era5.json"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-03T23:03:41.445Z",
+      "argv": [
+        "--offline"
+      ],
+      "fetches": [
+        {
+          "id": "thaiwater-public-rain24h",
+          "url": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:46.967Z",
+          "bytes": 4835693,
+          "cacheFile": "data/raw/thaiwater/public_rain_24h.json",
+          "error": "offline mode"
+        },
+        {
+          "id": "bma-dds-weather-page",
+          "url": "https://weather.bangkok.go.th/",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:49.658Z",
+          "bytes": 1164327,
+          "cacheFile": "data/raw/bma-weather/weather_bangkok_index.html",
+          "error": "offline mode"
+        },
+        {
+          "id": "tmd-aeromet2-rainfall-report",
+          "url": "https://aeromet2.tmd.go.th/api/daily-obs/rainfall-report",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:49.752Z",
+          "bytes": 6172,
+          "cacheFile": "data/raw/tmd/aeromet2_rainfall_report.json",
+          "error": "offline mode"
+        },
+        {
+          "id": "tmd-opendata-probe-no-key",
+          "url": "https://data.tmd.go.th/api/WeatherToday/V2/?type=json",
+          "ok": false,
+          "status": null,
+          "fromCache": false,
+          "retrievedAt": null,
+          "bytes": 0,
+          "cacheFile": "data/raw/tmd/tmd_opendata_probe_nokey.txt",
+          "error": "offline mode and no cached file"
+        },
+        {
+          "id": "tmd-climate-normals-1991-2020-pdf",
+          "url": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:14:49.166Z",
+          "bytes": 2891555,
+          "cacheFile": "data/raw/tmd/ubonmet_climate_normal_1991-2020.pdf",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "tmd-weather-criteria-page",
+          "url": "https://www.tmd.go.th/info/%E0%B9%80%E0%B8%81%E0%B8%93%E0%B8%91%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:16:26.854Z",
+          "bytes": 107589,
+          "cacheFile": "data/raw/tmd/tmd_info_weather_criteria.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "tmd-aeromet2-legend-bundle",
+          "url": "https://aeromet2.tmd.go.th/assets/rainfallExport-O01ssJWd.js",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:11:31.458Z",
+          "bytes": 417737,
+          "cacheFile": "data/raw/tmd/aeromet2_rainfallExport-O01ssJWd.js.txt",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipublica2025",
+          "url": "https://thaipublica.org/2025/06/green-up-the-world-02/",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:13.371Z",
+          "bytes": 171917,
+          "cacheFile": "data/raw/news/thaipublica_2025_06_green-up-the-world-02.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipbs2016",
+          "url": "https://www.thaipbs.or.th/news/content/253350",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:11.410Z",
+          "bytes": 482380,
+          "cacheFile": "data/raw/news/thaipbs_253350.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipbs2026",
+          "url": "https://www.thaipbs.or.th/news/content/558901",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:18:27.462Z",
+          "bytes": 510144,
+          "cacheFile": "data/raw/news/thaipbs_558901.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-bmapr2025",
+          "url": "https://pr-bangkok.com/?p=522995",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:42.599Z",
+          "bytes": 236200,
+          "cacheFile": "data/raw/bma-pr/prbkk_522995.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-onep2020",
+          "url": "https://www.onep.go.th/?p=4759",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:20:25.545Z",
+          "bytes": 112446,
+          "cacheFile": "data/raw/hatyai-drainage/onep_4759.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-dailynews2026",
+          "url": "https://www.dailynews.co.th/news/6104172/",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:20:39.821Z",
+          "bytes": 399264,
+          "cacheFile": "data/raw/hatyai-drainage/dailynews_6104172.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "bma-ckan-package-rainfall",
+          "url": "https://data.bangkok.go.th/api/3/action/package_show?id=rainfall",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:22:13.827Z",
+          "bytes": 9531,
+          "cacheFile": "data/raw/ckan/bma_ckan_package_rainfall.json",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "bma-ckan-rainfall-csv",
+          "url": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:22:20.976Z",
+          "bytes": 7092,
+          "cacheFile": "data/raw/ckan/dds015-rainfall2023.csv",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "open-meteo-era5_land-precip-check",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.75&longitude=100.55&start_date=2024-01-01&end_date=2024-01-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5_land",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:13.729Z",
+          "bytes": 532,
+          "cacheFile": "data/raw/open-meteo/check_era5_land_precip_2024-01.json"
+        },
+        {
+          "id": "open-meteo-model-identity-bkk-2024-01",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2024-01-01&end_date=2024-01-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:17.062Z",
+          "bytes": 839,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_bkk-2024-01.json"
+        },
+        {
+          "id": "open-meteo-model-identity-bkk-2025-06",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2025-06-01&end_date=2025-06-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:19.057Z",
+          "bytes": 847,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_bkk-2025-06.json"
+        },
+        {
+          "id": "open-meteo-model-identity-hy-2025-11",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-18&end_date=2025-11-27&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:21.056Z",
+          "bytes": 756,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_hy-2025-11.json"
+        },
+        {
+          "id": "open-meteo-era5-daily-vs-hourly-check",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-20&end_date=2025-11-21&hourly=precipitation&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:29.550Z",
+          "bytes": 1575,
+          "cacheFile": "data/raw/open-meteo/check_era5_daily_vs_hourly_hy_2025-11-20_2025-11-21.json"
+        },
+        {
+          "id": "open-meteo-centres-daily-era5-best_match",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639%2C7.015&longitude=100.56%2C100.47&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5%2Cbest_match",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:33.217Z",
+          "bytes": 48880,
+          "cacheFile": "data/raw/open-meteo/centres_daily_era5_best_match_2024-01-01_2026-10-28.json"
+        },
+        {
+          "id": "open-meteo-era5-cellmap-hatyai",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.925%2C6.925%2C6.925%2C6.925%2C6.925%2C6.975%2C6.975%2C6.975%2C6.975%2C6.975%2C7.025%2C7.025%2C7.025%2C7.025%2C7.025%2C7.075%2C7.075%2C7.075%2C7.075%2C7.075%2C7.125%2C7.125%2C7.125%2C7.125%2C7.125&longitude=100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575&start_date=2025-11-18&end_date=2025-11-27&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:35.009Z",
+          "bytes": 12118,
+          "cacheFile": "data/raw/open-meteo/cellmap_hatyai_era5_2025-11-18_2025-11-27.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-hatyai-b1of1",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.925%2C7.125&longitude=100.375%2C100.375&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:36.895Z",
+          "bytes": 38023,
+          "cacheFile": "data/raw/open-meteo/grid_hatyai_era5_cells_2024-01-01_2026-10-28_b01.json"
+        },
+        {
+          "id": "open-meteo-era5-cellmap-bangkok",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950&longitude=100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950&start_date=2024-09-01&end_date=2024-09-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:38.886Z",
+          "bytes": 23092,
+          "cacheFile": "data/raw/open-meteo/cellmap_bangkok_era5_2024-09-01_2024-09-14.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-bangkok-b1of2",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.450%2C13.450%2C13.450%2C13.550%2C13.650%2C13.650&longitude=100.350%2C100.550%2C100.950%2C100.450%2C100.350%2C100.650&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:00:40.731Z",
+          "bytes": 113807,
+          "cacheFile": "data/raw/open-meteo/grid_bangkok_era5_cells_2024-01-01_2026-10-28_b01.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-bangkok-b2of2",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.650%2C13.950%2C13.950%2C13.950%2C13.950&longitude=100.950%2C100.350%2C100.450%2C100.650%2C100.950&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:41.737Z",
+          "bytes": 94957,
+          "cacheFile": "data/raw/open-meteo/grid_bangkok_era5_cells_2024-01-01_2026-10-28_b02.json"
+        },
+        {
+          "id": "open-meteo-hourly-hatyai-2025-11-18_2025-11-27",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-18&end_date=2025-11-27&hourly=precipitation&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:41.972Z",
+          "bytes": 6044,
+          "cacheFile": "data/raw/open-meteo/hourly_hatyai-2025-11-18_2025-11-27_era5.json"
+        },
+        {
+          "id": "open-meteo-hourly-bangkok-heaviest-day-2026-09-26",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2026-09-25&end_date=2026-09-27&hourly=precipitation&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:43.974Z",
+          "bytes": 1999,
+          "cacheFile": "data/raw/open-meteo/hourly_bangkok-heaviest-day-2026-09-26_era5.json"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-03T23:04:00.662Z",
+      "argv": [
+        "--offline"
+      ],
+      "fetches": [
+        {
+          "id": "thaiwater-public-rain24h",
+          "url": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:46.967Z",
+          "bytes": 4835693,
+          "cacheFile": "data/raw/thaiwater/public_rain_24h.json",
+          "error": "offline mode"
+        },
+        {
+          "id": "bma-dds-weather-page",
+          "url": "https://weather.bangkok.go.th/",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:49.658Z",
+          "bytes": 1164327,
+          "cacheFile": "data/raw/bma-weather/weather_bangkok_index.html",
+          "error": "offline mode"
+        },
+        {
+          "id": "tmd-aeromet2-rainfall-report",
+          "url": "https://aeromet2.tmd.go.th/api/daily-obs/rainfall-report",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:49.752Z",
+          "bytes": 6172,
+          "cacheFile": "data/raw/tmd/aeromet2_rainfall_report.json",
+          "error": "offline mode"
+        },
+        {
+          "id": "tmd-opendata-probe-no-key",
+          "url": "https://data.tmd.go.th/api/WeatherToday/V2/?type=json",
+          "ok": false,
+          "status": null,
+          "fromCache": false,
+          "retrievedAt": null,
+          "bytes": 0,
+          "cacheFile": "data/raw/tmd/tmd_opendata_probe_nokey.txt",
+          "error": "offline mode and no cached file"
+        },
+        {
+          "id": "tmd-climate-normals-1991-2020-pdf",
+          "url": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:14:49.166Z",
+          "bytes": 2891555,
+          "cacheFile": "data/raw/tmd/ubonmet_climate_normal_1991-2020.pdf",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "tmd-weather-criteria-page",
+          "url": "https://www.tmd.go.th/info/%E0%B9%80%E0%B8%81%E0%B8%93%E0%B8%91%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:16:26.854Z",
+          "bytes": 107589,
+          "cacheFile": "data/raw/tmd/tmd_info_weather_criteria.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "tmd-aeromet2-legend-bundle",
+          "url": "https://aeromet2.tmd.go.th/assets/rainfallExport-O01ssJWd.js",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:11:31.458Z",
+          "bytes": 417737,
+          "cacheFile": "data/raw/tmd/aeromet2_rainfallExport-O01ssJWd.js.txt",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipublica2025",
+          "url": "https://thaipublica.org/2025/06/green-up-the-world-02/",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:13.371Z",
+          "bytes": 171917,
+          "cacheFile": "data/raw/news/thaipublica_2025_06_green-up-the-world-02.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipbs2016",
+          "url": "https://www.thaipbs.or.th/news/content/253350",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:11.410Z",
+          "bytes": 482380,
+          "cacheFile": "data/raw/news/thaipbs_253350.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipbs2026",
+          "url": "https://www.thaipbs.or.th/news/content/558901",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:18:27.462Z",
+          "bytes": 510144,
+          "cacheFile": "data/raw/news/thaipbs_558901.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-bmapr2025",
+          "url": "https://pr-bangkok.com/?p=522995",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:42.599Z",
+          "bytes": 236200,
+          "cacheFile": "data/raw/bma-pr/prbkk_522995.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-onep2020",
+          "url": "https://www.onep.go.th/?p=4759",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:20:25.545Z",
+          "bytes": 112446,
+          "cacheFile": "data/raw/hatyai-drainage/onep_4759.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-dailynews2026",
+          "url": "https://www.dailynews.co.th/news/6104172/",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:20:39.821Z",
+          "bytes": 399264,
+          "cacheFile": "data/raw/hatyai-drainage/dailynews_6104172.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "bma-ckan-package-rainfall",
+          "url": "https://data.bangkok.go.th/api/3/action/package_show?id=rainfall",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:22:13.827Z",
+          "bytes": 9531,
+          "cacheFile": "data/raw/ckan/bma_ckan_package_rainfall.json",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "bma-ckan-rainfall-csv",
+          "url": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:22:20.976Z",
+          "bytes": 7092,
+          "cacheFile": "data/raw/ckan/dds015-rainfall2023.csv",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "open-meteo-era5_land-precip-check",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.75&longitude=100.55&start_date=2024-01-01&end_date=2024-01-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5_land",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:13.729Z",
+          "bytes": 532,
+          "cacheFile": "data/raw/open-meteo/check_era5_land_precip_2024-01.json"
+        },
+        {
+          "id": "open-meteo-model-identity-bkk-2024-01",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2024-01-01&end_date=2024-01-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:17.062Z",
+          "bytes": 839,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_bkk-2024-01.json"
+        },
+        {
+          "id": "open-meteo-model-identity-bkk-2025-06",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2025-06-01&end_date=2025-06-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:19.057Z",
+          "bytes": 847,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_bkk-2025-06.json"
+        },
+        {
+          "id": "open-meteo-model-identity-hy-2025-11",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-18&end_date=2025-11-27&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:21.056Z",
+          "bytes": 756,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_hy-2025-11.json"
+        },
+        {
+          "id": "open-meteo-era5-daily-vs-hourly-check",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-20&end_date=2025-11-21&hourly=precipitation&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:29.550Z",
+          "bytes": 1575,
+          "cacheFile": "data/raw/open-meteo/check_era5_daily_vs_hourly_hy_2025-11-20_2025-11-21.json"
+        },
+        {
+          "id": "open-meteo-centres-daily-era5-best_match",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639%2C7.015&longitude=100.56%2C100.47&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5%2Cbest_match",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:33.217Z",
+          "bytes": 48880,
+          "cacheFile": "data/raw/open-meteo/centres_daily_era5_best_match_2024-01-01_2026-10-28.json"
+        },
+        {
+          "id": "open-meteo-era5-cellmap-hatyai",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.925%2C6.925%2C6.925%2C6.925%2C6.925%2C6.975%2C6.975%2C6.975%2C6.975%2C6.975%2C7.025%2C7.025%2C7.025%2C7.025%2C7.025%2C7.075%2C7.075%2C7.075%2C7.075%2C7.075%2C7.125%2C7.125%2C7.125%2C7.125%2C7.125&longitude=100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575&start_date=2025-11-18&end_date=2025-11-27&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:35.009Z",
+          "bytes": 12118,
+          "cacheFile": "data/raw/open-meteo/cellmap_hatyai_era5_2025-11-18_2025-11-27.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-hatyai-b1of1",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.925%2C7.125&longitude=100.375%2C100.375&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:36.895Z",
+          "bytes": 38023,
+          "cacheFile": "data/raw/open-meteo/grid_hatyai_era5_cells_2024-01-01_2026-10-28_b01.json"
+        },
+        {
+          "id": "open-meteo-era5-cellmap-bangkok",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950&longitude=100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950&start_date=2024-09-01&end_date=2024-09-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:38.886Z",
+          "bytes": 23092,
+          "cacheFile": "data/raw/open-meteo/cellmap_bangkok_era5_2024-09-01_2024-09-14.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-bangkok-b1of2",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.450%2C13.450%2C13.450%2C13.550%2C13.650%2C13.650&longitude=100.350%2C100.550%2C100.950%2C100.450%2C100.350%2C100.650&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:00:40.731Z",
+          "bytes": 113807,
+          "cacheFile": "data/raw/open-meteo/grid_bangkok_era5_cells_2024-01-01_2026-10-28_b01.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-bangkok-b2of2",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.650%2C13.950%2C13.950%2C13.950%2C13.950&longitude=100.950%2C100.350%2C100.450%2C100.650%2C100.950&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:41.737Z",
+          "bytes": 94957,
+          "cacheFile": "data/raw/open-meteo/grid_bangkok_era5_cells_2024-01-01_2026-10-28_b02.json"
+        },
+        {
+          "id": "open-meteo-hourly-hatyai-2025-11-18_2025-11-27",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-18&end_date=2025-11-27&hourly=precipitation&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:41.972Z",
+          "bytes": 6044,
+          "cacheFile": "data/raw/open-meteo/hourly_hatyai-2025-11-18_2025-11-27_era5.json"
+        },
+        {
+          "id": "open-meteo-hourly-bangkok-heaviest-day-2026-09-26",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2026-09-25&end_date=2026-09-27&hourly=precipitation&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:43.974Z",
+          "bytes": 1999,
+          "cacheFile": "data/raw/open-meteo/hourly_bangkok-heaviest-day-2026-09-26_era5.json"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-03T23:04:05.748Z",
+      "argv": [
+        "--offline",
+        "--sections=openmeteo"
+      ],
+      "fetches": [
+        {
+          "id": "open-meteo-era5_land-precip-check",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.75&longitude=100.55&start_date=2024-01-01&end_date=2024-01-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5_land",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:13.729Z",
+          "bytes": 532,
+          "cacheFile": "data/raw/open-meteo/check_era5_land_precip_2024-01.json"
+        },
+        {
+          "id": "open-meteo-model-identity-bkk-2024-01",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2024-01-01&end_date=2024-01-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:17.062Z",
+          "bytes": 839,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_bkk-2024-01.json"
+        },
+        {
+          "id": "open-meteo-model-identity-bkk-2025-06",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2025-06-01&end_date=2025-06-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:19.057Z",
+          "bytes": 847,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_bkk-2025-06.json"
+        },
+        {
+          "id": "open-meteo-model-identity-hy-2025-11",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-18&end_date=2025-11-27&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:21.056Z",
+          "bytes": 756,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_hy-2025-11.json"
+        },
+        {
+          "id": "open-meteo-era5-daily-vs-hourly-check",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-20&end_date=2025-11-21&hourly=precipitation&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:29.550Z",
+          "bytes": 1575,
+          "cacheFile": "data/raw/open-meteo/check_era5_daily_vs_hourly_hy_2025-11-20_2025-11-21.json"
+        },
+        {
+          "id": "open-meteo-centres-daily-era5-best_match",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639%2C7.015&longitude=100.56%2C100.47&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5%2Cbest_match",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:33.217Z",
+          "bytes": 48880,
+          "cacheFile": "data/raw/open-meteo/centres_daily_era5_best_match_2024-01-01_2026-10-28.json"
+        },
+        {
+          "id": "open-meteo-era5-cellmap-hatyai",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.925%2C6.925%2C6.925%2C6.925%2C6.925%2C6.975%2C6.975%2C6.975%2C6.975%2C6.975%2C7.025%2C7.025%2C7.025%2C7.025%2C7.025%2C7.075%2C7.075%2C7.075%2C7.075%2C7.075%2C7.125%2C7.125%2C7.125%2C7.125%2C7.125&longitude=100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575&start_date=2025-11-18&end_date=2025-11-27&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:35.009Z",
+          "bytes": 12118,
+          "cacheFile": "data/raw/open-meteo/cellmap_hatyai_era5_2025-11-18_2025-11-27.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-hatyai-b1of1",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.925%2C7.125&longitude=100.375%2C100.375&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:36.895Z",
+          "bytes": 38023,
+          "cacheFile": "data/raw/open-meteo/grid_hatyai_era5_cells_2024-01-01_2026-10-28_b01.json"
+        },
+        {
+          "id": "open-meteo-era5-cellmap-bangkok",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950&longitude=100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950&start_date=2024-09-01&end_date=2024-09-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:38.886Z",
+          "bytes": 23092,
+          "cacheFile": "data/raw/open-meteo/cellmap_bangkok_era5_2024-09-01_2024-09-14.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-bangkok-b1of2",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.450%2C13.450%2C13.450%2C13.550%2C13.650%2C13.650&longitude=100.350%2C100.550%2C100.950%2C100.450%2C100.350%2C100.650&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:00:40.731Z",
+          "bytes": 113807,
+          "cacheFile": "data/raw/open-meteo/grid_bangkok_era5_cells_2024-01-01_2026-10-28_b01.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-bangkok-b2of2",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.650%2C13.950%2C13.950%2C13.950%2C13.950&longitude=100.950%2C100.350%2C100.450%2C100.650%2C100.950&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:41.737Z",
+          "bytes": 94957,
+          "cacheFile": "data/raw/open-meteo/grid_bangkok_era5_cells_2024-01-01_2026-10-28_b02.json"
+        },
+        {
+          "id": "open-meteo-hourly-hatyai-2025-11-18_2025-11-27",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-18&end_date=2025-11-27&hourly=precipitation&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:41.972Z",
+          "bytes": 6044,
+          "cacheFile": "data/raw/open-meteo/hourly_hatyai-2025-11-18_2025-11-27_era5.json"
+        },
+        {
+          "id": "open-meteo-hourly-bangkok-heaviest-day-2026-09-26",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2026-09-25&end_date=2026-09-27&hourly=precipitation&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:43.974Z",
+          "bytes": 1999,
+          "cacheFile": "data/raw/open-meteo/hourly_bangkok-heaviest-day-2026-09-26_era5.json"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-03T23:04:11.569Z",
+      "argv": [
+        "--offline"
+      ],
+      "fetches": [
+        {
+          "id": "thaiwater-public-rain24h",
+          "url": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:46.967Z",
+          "bytes": 4835693,
+          "cacheFile": "data/raw/thaiwater/public_rain_24h.json",
+          "error": "offline mode"
+        },
+        {
+          "id": "bma-dds-weather-page",
+          "url": "https://weather.bangkok.go.th/",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:49.658Z",
+          "bytes": 1164327,
+          "cacheFile": "data/raw/bma-weather/weather_bangkok_index.html",
+          "error": "offline mode"
+        },
+        {
+          "id": "tmd-aeromet2-rainfall-report",
+          "url": "https://aeromet2.tmd.go.th/api/daily-obs/rainfall-report",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:49.752Z",
+          "bytes": 6172,
+          "cacheFile": "data/raw/tmd/aeromet2_rainfall_report.json",
+          "error": "offline mode"
+        },
+        {
+          "id": "tmd-opendata-probe-no-key",
+          "url": "https://data.tmd.go.th/api/WeatherToday/V2/?type=json",
+          "ok": false,
+          "status": null,
+          "fromCache": false,
+          "retrievedAt": null,
+          "bytes": 0,
+          "cacheFile": "data/raw/tmd/tmd_opendata_probe_nokey.txt",
+          "error": "offline mode and no cached file"
+        },
+        {
+          "id": "tmd-climate-normals-1991-2020-pdf",
+          "url": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:14:49.166Z",
+          "bytes": 2891555,
+          "cacheFile": "data/raw/tmd/ubonmet_climate_normal_1991-2020.pdf",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "tmd-weather-criteria-page",
+          "url": "https://www.tmd.go.th/info/%E0%B9%80%E0%B8%81%E0%B8%93%E0%B8%91%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:16:26.854Z",
+          "bytes": 107589,
+          "cacheFile": "data/raw/tmd/tmd_info_weather_criteria.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "tmd-aeromet2-legend-bundle",
+          "url": "https://aeromet2.tmd.go.th/assets/rainfallExport-O01ssJWd.js",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:11:31.458Z",
+          "bytes": 417737,
+          "cacheFile": "data/raw/tmd/aeromet2_rainfallExport-O01ssJWd.js.txt",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipublica2025",
+          "url": "https://thaipublica.org/2025/06/green-up-the-world-02/",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:13.371Z",
+          "bytes": 171917,
+          "cacheFile": "data/raw/news/thaipublica_2025_06_green-up-the-world-02.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipbs2016",
+          "url": "https://www.thaipbs.or.th/news/content/253350",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:11.410Z",
+          "bytes": 482380,
+          "cacheFile": "data/raw/news/thaipbs_253350.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-thaipbs2026",
+          "url": "https://www.thaipbs.or.th/news/content/558901",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:18:27.462Z",
+          "bytes": 510144,
+          "cacheFile": "data/raw/news/thaipbs_558901.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-bmapr2025",
+          "url": "https://pr-bangkok.com/?p=522995",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:19:42.599Z",
+          "bytes": 236200,
+          "cacheFile": "data/raw/bma-pr/prbkk_522995.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-onep2020",
+          "url": "https://www.onep.go.th/?p=4759",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:20:25.545Z",
+          "bytes": 112446,
+          "cacheFile": "data/raw/hatyai-drainage/onep_4759.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "drainage-src-dailynews2026",
+          "url": "https://www.dailynews.co.th/news/6104172/",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:20:39.821Z",
+          "bytes": 399264,
+          "cacheFile": "data/raw/hatyai-drainage/dailynews_6104172.html",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "bma-ckan-package-rainfall",
+          "url": "https://data.bangkok.go.th/api/3/action/package_show?id=rainfall",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:22:13.827Z",
+          "bytes": 9531,
+          "cacheFile": "data/raw/ckan/bma_ckan_package_rainfall.json",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "bma-ckan-rainfall-csv",
+          "url": "https://data.bangkok.go.th/dataset/59b8108d-9938-4603-b917-144cfff3110f/resource/6a7a8eaf-a31d-41f5-a22d-fcb82f35c1d6/download/dds015-rainfall2023.csv",
+          "ok": true,
+          "status": null,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:22:20.976Z",
+          "bytes": 7092,
+          "cacheFile": "data/raw/ckan/dds015-rainfall2023.csv",
+          "note": "cached file has no meta; retrievedAt = file mtime"
+        },
+        {
+          "id": "open-meteo-era5_land-precip-check",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.75&longitude=100.55&start_date=2024-01-01&end_date=2024-01-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5_land",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:13.729Z",
+          "bytes": 532,
+          "cacheFile": "data/raw/open-meteo/check_era5_land_precip_2024-01.json"
+        },
+        {
+          "id": "open-meteo-model-identity-bkk-2024-01",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2024-01-01&end_date=2024-01-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:17.062Z",
+          "bytes": 839,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_bkk-2024-01.json"
+        },
+        {
+          "id": "open-meteo-model-identity-bkk-2025-06",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2025-06-01&end_date=2025-06-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:19.057Z",
+          "bytes": 847,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_bkk-2025-06.json"
+        },
+        {
+          "id": "open-meteo-model-identity-hy-2025-11",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-18&end_date=2025-11-27&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match%2Cecmwf_ifs%2Cera5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T18:35:21.056Z",
+          "bytes": 756,
+          "cacheFile": "data/raw/open-meteo/check_model_identity_hy-2025-11.json"
+        },
+        {
+          "id": "open-meteo-era5-daily-vs-hourly-check",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-20&end_date=2025-11-21&hourly=precipitation&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:29.550Z",
+          "bytes": 1575,
+          "cacheFile": "data/raw/open-meteo/check_era5_daily_vs_hourly_hy_2025-11-20_2025-11-21.json"
+        },
+        {
+          "id": "open-meteo-centres-daily-era5-best_match",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639%2C7.015&longitude=100.56%2C100.47&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5%2Cbest_match",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:33.217Z",
+          "bytes": 48880,
+          "cacheFile": "data/raw/open-meteo/centres_daily_era5_best_match_2024-01-01_2026-10-28.json"
+        },
+        {
+          "id": "open-meteo-era5-cellmap-hatyai",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.925%2C6.925%2C6.925%2C6.925%2C6.925%2C6.975%2C6.975%2C6.975%2C6.975%2C6.975%2C7.025%2C7.025%2C7.025%2C7.025%2C7.025%2C7.075%2C7.075%2C7.075%2C7.075%2C7.075%2C7.125%2C7.125%2C7.125%2C7.125%2C7.125&longitude=100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575%2C100.375%2C100.425%2C100.475%2C100.525%2C100.575&start_date=2025-11-18&end_date=2025-11-27&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:35.009Z",
+          "bytes": 12118,
+          "cacheFile": "data/raw/open-meteo/cellmap_hatyai_era5_2025-11-18_2025-11-27.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-hatyai-b1of1",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=6.925%2C7.125&longitude=100.375%2C100.375&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:36.895Z",
+          "bytes": 38023,
+          "cacheFile": "data/raw/open-meteo/grid_hatyai_era5_cells_2024-01-01_2026-10-28_b01.json"
+        },
+        {
+          "id": "open-meteo-era5-cellmap-bangkok",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.450%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.550%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.650%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.750%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.850%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950%2C13.950&longitude=100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650%2C100.750%2C100.850%2C100.950&start_date=2024-09-01&end_date=2024-09-14&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T22:59:38.886Z",
+          "bytes": 23092,
+          "cacheFile": "data/raw/open-meteo/cellmap_bangkok_era5_2024-09-01_2024-09-14.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-bangkok-b1of2",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.450%2C13.450%2C13.450%2C13.550%2C13.650%2C13.650&longitude=100.350%2C100.550%2C100.950%2C100.450%2C100.350%2C100.650&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:00:40.731Z",
+          "bytes": 113807,
+          "cacheFile": "data/raw/open-meteo/grid_bangkok_era5_cells_2024-01-01_2026-10-28_b01.json"
+        },
+        {
+          "id": "open-meteo-era5-grid-bangkok-b2of2",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.650%2C13.950%2C13.950%2C13.950%2C13.950&longitude=100.950%2C100.350%2C100.450%2C100.650%2C100.950&start_date=2024-01-01&end_date=2026-10-28&daily=precipitation_sum&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:41.737Z",
+          "bytes": 94957,
+          "cacheFile": "data/raw/open-meteo/grid_bangkok_era5_cells_2024-01-01_2026-10-28_b02.json"
+        },
+        {
+          "id": "open-meteo-hourly-hatyai-2025-11-18_2025-11-27",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=7.015&longitude=100.47&start_date=2025-11-18&end_date=2025-11-27&hourly=precipitation&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:41.972Z",
+          "bytes": 6044,
+          "cacheFile": "data/raw/open-meteo/hourly_hatyai-2025-11-18_2025-11-27_era5.json"
+        },
+        {
+          "id": "open-meteo-hourly-bangkok-heaviest-day-2026-09-26",
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2026-09-25&end_date=2026-09-27&hourly=precipitation&timezone=Asia%2FBangkok&models=era5",
+          "ok": true,
+          "status": 200,
+          "fromCache": true,
+          "retrievedAt": "2026-11-03T23:01:43.974Z",
+          "bytes": 1999,
+          "cacheFile": "data/raw/open-meteo/hourly_bangkok-heaviest-day-2026-09-26_era5.json"
+        }
+      ]
+    }
+  ]
+}

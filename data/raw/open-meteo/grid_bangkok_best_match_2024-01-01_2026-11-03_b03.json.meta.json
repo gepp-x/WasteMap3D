@@ -1,0 +1,8 @@
+{
+  "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.550%2C13.550%2C13.650%2C13.650%2C13.650%2C13.650&longitude=100.850%2C100.950%2C100.350%2C100.450%2C100.550%2C100.650&start_date=2024-01-01&end_date=2026-11-03&daily=precipitation_sum&timezone=Asia%2FBangkok&models=best_match",
+  "status": 200,
+  "retrievedAt": "2026-11-03T18:44:32.898Z",
+  "bytes": 114983,
+  "contentType": "application/json; charset=utf-8",
+  "retrievedAtSource": "http"
+}

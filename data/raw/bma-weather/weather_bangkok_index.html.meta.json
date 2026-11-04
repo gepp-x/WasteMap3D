@@ -1,0 +1,8 @@
+{
+  "url": "https://weather.bangkok.go.th/",
+  "status": 200,
+  "retrievedAt": "2026-11-03T18:35:49.658Z",
+  "bytes": 1164327,
+  "contentType": "text/html; charset=utf-8",
+  "retrievedAtSource": "http"
+}

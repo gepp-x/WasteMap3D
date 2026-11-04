@@ -1,0 +1,8 @@
+{
+  "url": "https://archive-api.open-meteo.com/v1/archive?latitude=13.72639&longitude=100.56&start_date=2026-09-25&end_date=2026-09-27&hourly=precipitation&timezone=Asia%2FBangkok&models=era5",
+  "status": 200,
+  "retrievedAt": "2026-11-03T23:01:43.974Z",
+  "bytes": 1999,
+  "contentType": "application/json; charset=utf-8",
+  "retrievedAtSource": "http"
+}

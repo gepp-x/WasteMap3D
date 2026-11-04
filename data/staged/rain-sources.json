@@ -1,0 +1,180 @@
+[
+  {
+    "id": "thaiwater-public-rain24h",
+    "nameTh": "คลังข้อมูลน้ำแห่งชาติ (ThaiWater) — ฝน 24 ชั่วโมง",
+    "nameEn": "HII ThaiWater public API — 24-hour rainfall at telemetry stations",
+    "url": "https://api-v3.thaiwater.net/api/v1/thaiwater30/public/rain_24h",
+    "publisher": "Hydro-Informatics Institute (HII, สสน.), aggregating BMA, TMD, RID, DWR, DDPM, HII, EGAT and other agencies",
+    "license": "No licence stated on the public API or front-end; attribute ThaiWater/HII and the originating agency.",
+    "retrievedAt": "2026-11-03T18:35:46.967Z",
+    "accessStatus": "retrieved",
+    "notes": "Unauthenticated public endpoint used by www.thaiwater.net. 4787 station records; snapshot. Served from cache: offline mode"
+  },
+  {
+    "id": "bma-dds-weather-rain",
+    "nameTh": "สำนักการระบายน้ำ กรุงเทพมหานคร — ระบบตรวจวัดปริมาณฝน",
+    "nameEn": "BMA Drainage and Sewerage Department — weather.bangkok.go.th rain gauges",
+    "url": "https://weather.bangkok.go.th/",
+    "publisher": "Bangkok Metropolitan Administration, Drainage and Sewerage Department",
+    "license": "© BMA Drainage and Sewerage Department (page footer); no open licence stated.",
+    "retrievedAt": "2026-11-03T18:35:49.658Z",
+    "accessStatus": "retrieved",
+    "notes": "Station arrays embedded in the public HTML (no JSON API, no authentication). 124 stations parsed; column 12 = “ฝนสะสม 24 ชั่วโมง”."
+  },
+  {
+    "id": "tmd-aeromet2-daily-rainfall",
+    "nameTh": "กรมอุตุนิยมวิทยา กองอุตุนิยมวิทยาการบิน — รายงานปริมาณน้ำฝนรายวันบริเวณท่าอากาศยาน",
+    "nameEn": "TMD Aeronautical Meteorological Division — airport daily rainfall report",
+    "url": "https://aeromet2.tmd.go.th/api/daily-obs/rainfall-report",
+    "publisher": "Thai Meteorological Department",
+    "license": "© Thai Meteorological Department; no open licence stated.",
+    "retrievedAt": "2026-11-03T18:35:49.752Z",
+    "accessStatus": "partial",
+    "notes": "JSON endpoint behind https://aeromet2.tmd.go.th/reports/daily-rainfall (robots.txt allows /). Used only in data/staged/tmd-airport-daily-rain.json: the report publishes no coordinates, so it is not in stations.json."
+  },
+  {
+    "id": "tmd-opendata-api",
+    "nameEn": "TMD open data API (data.tmd.go.th)",
+    "url": "https://data.tmd.go.th/api/WeatherToday/V2/?type=json",
+    "publisher": "Thai Meteorological Department",
+    "retrievedAt": "2026-11-03T23:02:43.000Z",
+    "accessStatus": "failed",
+    "notes": "Requires uid/ukey credentials; a request without them (attempted 2026-11-03T23:02:43.000Z) returned HTTP 200 with an empty body. Not used (task rule: only if no key is required). retrievedAt here = attempt time."
+  },
+  {
+    "id": "open-meteo-archive-era5",
+    "nameEn": "Open-Meteo Historical Weather API — ECMWF ERA5 reanalysis (models=era5), daily and hourly precipitation",
+    "url": "https://archive-api.open-meteo.com/v1/archive",
+    "publisher": "Open-Meteo.com; underlying data: ECMWF ERA5 reanalysis, Copernicus Climate Change Service (C3S)",
+    "license": "CC BY 4.0 (Open-Meteo API data; attribution “Weather data by Open-Meteo.com”); contains modified Copernicus Climate Change Service information. Free tier: non-commercial use, 10 000 calls/day.",
+    "retrievedAt": "2026-11-03T23:01:43.974Z",
+    "accessStatus": "retrieved",
+    "notes": "Used for public/data/{bangkok,hatyai}/rain-grid.json and data/staged/rain-hourly-events.json. Model ECMWF ERA5 reanalysis (Copernicus Climate Change Service, C3S); 0.25° × 0.25° regular latitude/longitude grid (≈27–28 km), hourly. Period 2024-01-01..2026-10-28 (Last local (Asia/Bangkok) date in [2026-10-21, 2026-11-03] whose 24 hourly precipitation values are all non-null at both city-centre points (models=era5).). Distinct ERA5 cells: Bangkok 11 for 42 lattice points, Hat Yai 2 for 25. Raw requests retrieved 2026-11-03T22:59:33.217Z … 2026-11-03T23:01:43.974Z."
+  },
+  {
+    "id": "open-meteo-archive-best-match",
+    "nameEn": "Open-Meteo Historical Weather API — models=best_match (comparison only; = ECMWF IFS for precipitation on the checked windows)",
+    "url": "https://archive-api.open-meteo.com/v1/archive",
+    "publisher": "Open-Meteo.com (ECMWF IFS operational archive)",
+    "license": "CC BY 4.0 (Open-Meteo API data); attribution “Weather data by Open-Meteo.com”.",
+    "retrievedAt": "2026-11-03T22:59:33.217Z",
+    "accessStatus": "retrieved",
+    "notes": "NOT used in any published value. Only for the model-identity checks and the city-centre comparison in data/staged/rain-grid-meta.json. best_match precipitation was identical to models=ecmwf_ifs (operational IFS analysis/short-range forecast archive, ~9 km) on all checked windows — not a reanalysis. An earlier draft of the grids used best_match; those raw files remain in data/raw/open-meteo/grid_*_best_match_* and are superseded."
+  },
+  {
+    "id": "open-meteo-archive-era5-land",
+    "nameEn": "Open-Meteo Historical Weather API — models=era5_land (precipitation)",
+    "url": "https://open-meteo.com/en/docs/historical-weather-api",
+    "publisher": "Open-Meteo.com",
+    "license": "CC BY 4.0",
+    "retrievedAt": "2026-11-03T18:35:13.729Z",
+    "accessStatus": "failed",
+    "notes": "HTTP 200 but precipitation_sum is null for every day of the check window: Open-Meteo does not serve ERA5-Land precipitation (ERA5-Land is forced by ERA5 precipitation). Not used; models=era5 used instead."
+  },
+  {
+    "id": "tmd-climate-normals-1991-2020",
+    "nameTh": "สถิติภูมิอากาศของประเทศไทยในคาบ 30 ปี (พ.ศ.2534-2563)",
+    "nameEn": "TMD Climatological Data of Thailand for 30 Year Period (1991-2020), Meteorological Data report No. 551.586-13-2023",
+    "url": "https://ubonmet.tmd.go.th/files/MetInfo/climate_normal.pdf",
+    "publisher": "Thai Meteorological Department",
+    "license": "© Thai Meteorological Department; no open licence stated.",
+    "retrievedAt": "2026-11-03T18:14:49.166Z",
+    "accessStatus": "retrieved",
+    "notes": "PDF hosted on ubonmet.tmd.go.th; station pages for BANGKOK METROPOLIS (48455) and HAT YAI AIRPORT (48569) parsed from the PDF text layer."
+  },
+  {
+    "id": "tmd-weather-criteria",
+    "nameTh": "กรมอุตุนิยมวิทยา — เกณฑ์อากาศ (เกณฑ์ปริมาณฝน)",
+    "nameEn": "TMD weather criteria page — rainfall amount classes",
+    "url": "https://www.tmd.go.th/info/%E0%B9%80%E0%B8%81%E0%B8%93%E0%B8%91%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8",
+    "publisher": "Thai Meteorological Department – Weather Forecast Division",
+    "license": "© Thai Meteorological Department; no open licence stated.",
+    "retrievedAt": "2026-11-03T18:16:26.854Z",
+    "accessStatus": "retrieved",
+    "notes": "Light 0.1–10.0, moderate 10.1–35.0, heavy 35.1–90.0, very heavy >= 90.1 mm."
+  },
+  {
+    "id": "thaipublica-2025-06-08-bma-adviser",
+    "nameEn": "ThaiPublica (2025-06-08): BMA adviser Attasit Petchmeesri on Bangkok drainage",
+    "url": "https://thaipublica.org/2025/06/green-up-the-world-02/",
+    "publisher": "ThaiPublica",
+    "license": "© ThaiPublica; short quotations for citation only.",
+    "retrievedAt": "2026-11-03T18:19:13.371Z",
+    "accessStatus": "retrieved",
+    "notes": "60 mm/h citywide capacity statement; 1,300 m³/s pumping; 195 m³/s for 4 tunnels."
+  },
+  {
+    "id": "thaipbs-2016-06-21-drainage-limit",
+    "nameEn": "Thai PBS (2016-06-21): Bangkok drainage pipe limit 60 mm/h",
+    "url": "https://www.thaipbs.or.th/news/content/253350",
+    "publisher": "Thai PBS",
+    "license": "© Thai PBS; short quotations for citation only.",
+    "retrievedAt": "2026-11-03T18:19:11.410Z",
+    "accessStatus": "retrieved"
+  },
+  {
+    "id": "thaipbs-2026-09-30-bma-tunnels",
+    "nameEn": "Thai PBS (2026-09-30): BMA drainage tunnel plan (citing the DDS 2569 flood action plan)",
+    "url": "https://www.thaipbs.or.th/news/content/558901",
+    "publisher": "Thai PBS",
+    "license": "© Thai PBS; short quotations for citation only.",
+    "retrievedAt": "2026-11-03T18:18:27.462Z",
+    "accessStatus": "retrieved",
+    "notes": "Tunnel capacities (30/45/60/60/60 m³/s; total 255), planned 370 m³/s, 76 mm/h & 104 mm/day target."
+  },
+  {
+    "id": "bma-dds-flood-action-plan-2569",
+    "nameTh": "หนังสือแผนปฏิบัติการป้องกันและแก้ไขปัญหาน้ำท่วมกรุงเทพมหานคร ประจำปี 2569",
+    "nameEn": "BMA DDS flood prevention action plan 2026 (book, PDF)",
+    "url": "https://ebooks.dds.bangkok.go.th/ebook_files/2026/0000059_2.pdf",
+    "publisher": "BMA Drainage and Sewerage Department",
+    "accessStatus": "manual-reference",
+    "notes": "Primary document behind the Thai PBS figures. Not downloaded (HEAD: 161119984 bytes, Last-Modified Thu, 28 May 2026 03:32:50 GMT)."
+  },
+  {
+    "id": "bma-pr-2025-09-16-rang-o",
+    "nameEn": "BMA PR (2025-09-16): Khlong Rang O – Rang Kaeo drainage project (≥100 mm/h target)",
+    "url": "https://pr-bangkok.com/?p=522995",
+    "publisher": "BMA Public Relations Office",
+    "license": "© BMA; no open licence stated.",
+    "retrievedAt": "2026-11-03T18:19:42.599Z",
+    "accessStatus": "retrieved"
+  },
+  {
+    "id": "bma-pr-373537",
+    "nameEn": "BMA PR article pr-bangkok.com/?p=373537 (reported by web search to mention rainfall above 60 mm)",
+    "url": "https://pr-bangkok.com/?p=373537",
+    "publisher": "BMA Public Relations Office",
+    "accessStatus": "failed",
+    "notes": "HTTP 404 on 2026-11-03 (curl and WebFetch). Not used."
+  },
+  {
+    "id": "onep-2020-02-12-hatyai-r1",
+    "nameEn": "ONEP (2020-02-12): RID Hat Yai flood relief project — R.1 canal 465→1,200 m³/s",
+    "url": "https://www.onep.go.th/?p=4759",
+    "publisher": "Office of Natural Resources and Environmental Policy and Planning (reporting the Royal Irrigation Department)",
+    "license": "© ONEP; no open licence stated.",
+    "retrievedAt": "2026-11-03T18:20:25.545Z",
+    "accessStatus": "retrieved"
+  },
+  {
+    "id": "dailynews-2026-08-13-r1-repair",
+    "nameEn": "Daily News (2026-08-13): R.1 canal repair after the 2025 floods",
+    "url": "https://www.dailynews.co.th/news/6104172/",
+    "publisher": "Daily News",
+    "license": "© Daily News; short quotations for citation only.",
+    "retrievedAt": "2026-11-03T18:20:39.821Z",
+    "accessStatus": "retrieved"
+  },
+  {
+    "id": "bma-ckan-rainfall-district",
+    "nameTh": "ข้อมูลปริมาณฝนรายเดือนในพื้นที่กรุงเทพมหานครจำแนกตามพื้นที่เขต",
+    "nameEn": "BMA open data: monthly rainfall by Bangkok district",
+    "url": "https://data.bangkok.go.th/dataset/rainfall",
+    "publisher": "BMA Drainage and Sewerage Department (data.bangkok.go.th)",
+    "license": "Creative Commons Attributions",
+    "retrievedAt": "2026-11-03T18:22:20.976Z",
+    "accessStatus": "partial",
+    "notes": "Only 2023 months 1,2,3,4,5,6,7,8,9 are published (partial year). TIS-620 CSV converted to UTF-8. Staged in data/staged/bma-district-rainfall-2023.json."
+  }
+]

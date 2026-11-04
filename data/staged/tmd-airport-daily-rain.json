@@ -1,0 +1,82 @@
+{
+  "kind": "snapshot",
+  "source": {
+    "sourceId": "tmd-aeromet2-daily-rainfall",
+    "url": "https://aeromet2.tmd.go.th/api/daily-obs/rainfall-report",
+    "page": "https://aeromet2.tmd.go.th/reports/daily-rainfall",
+    "publisher": "Thai Meteorological Department – Aeronautical Meteorological Division (กองอุตุนิยมวิทยาการบิน)"
+  },
+  "retrievedAt": "2026-11-03T18:35:49.752Z",
+  "report": {
+    "date": "2026-11-02",
+    "periodStart": "2026-11-02",
+    "periodEnd": "2026-11-03",
+    "issuedAt": "2026-11-03T01:00:00.000Z",
+    "latestDate": "2026-11-02",
+    "stationCount": 34
+  },
+  "definition": "TMD aeromet2 daily airport rainfall: “ข้อมูลฝนสะสม 24 ชั่วโมง”, period 07:00 local on periodStart to 07:00 local on periodEnd (as printed on https://aeromet2.tmd.go.th/reports/daily-rainfall). 'trace' = < 0.1 mm (T).",
+  "note": "Not written to stations.json because this report publishes no station coordinates; matching ICAO codes to coordinates would be an inference.",
+  "airports": [
+    {
+      "cityId": "bangkok",
+      "icao": "VTBS",
+      "nameTh": "ท่าอากาศยานนานาชาติสุวรรณภูมิ",
+      "status": "missing",
+      "band": "missing",
+      "rainMm": {
+        "value": null,
+        "unit": "mm",
+        "provenance": {
+          "status": "unavailable",
+          "sourceId": "tmd-aeromet2-daily-rainfall",
+          "sourceUrl": "https://aeromet2.tmd.go.th/api/daily-obs/rainfall-report",
+          "observedFrom": "2026-11-02",
+          "observedTo": "2026-11-03",
+          "referenceYear": 2026,
+          "methodology": "Airport daily rainfall 07:00 2026-11-02 – 07:00 2026-11-03 (local). Published label: \"ไม่ได้ส่งข้อมูล\"."
+        }
+      }
+    },
+    {
+      "cityId": "bangkok",
+      "icao": "VTBD",
+      "nameTh": "ท่าอากาศยานนานาชาติดอนเมือง",
+      "status": "value",
+      "band": "trace",
+      "rainMm": {
+        "value": 0,
+        "unit": "mm",
+        "provenance": {
+          "status": "observed",
+          "sourceId": "tmd-aeromet2-daily-rainfall",
+          "sourceUrl": "https://aeromet2.tmd.go.th/api/daily-obs/rainfall-report",
+          "observedFrom": "2026-11-02",
+          "observedTo": "2026-11-03",
+          "referenceYear": 2026,
+          "methodology": "Airport daily rainfall 07:00 2026-11-02 – 07:00 2026-11-03 (local). Published label: \"0.0\"."
+        }
+      }
+    },
+    {
+      "cityId": "hatyai",
+      "icao": "VTSS",
+      "nameTh": "ท่าอากาศยานนานาชาติหาดใหญ่",
+      "status": "value",
+      "band": "light",
+      "rainMm": {
+        "value": 0.6,
+        "unit": "mm",
+        "provenance": {
+          "status": "observed",
+          "sourceId": "tmd-aeromet2-daily-rainfall",
+          "sourceUrl": "https://aeromet2.tmd.go.th/api/daily-obs/rainfall-report",
+          "observedFrom": "2026-11-02",
+          "observedTo": "2026-11-03",
+          "referenceYear": 2026,
+          "methodology": "Airport daily rainfall 07:00 2026-11-02 – 07:00 2026-11-03 (local). Published label: \"0.6\"."
+        }
+      }
+    }
+  ]
+}

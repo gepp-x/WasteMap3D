@@ -1,0 +1,7 @@
+{
+  "url": "https://data.bangkok.go.th/api/3/action/package_show?id=water-station",
+  "httpStatus": 200,
+  "retrievedAt": "2026-11-04T01:46:18.430Z",
+  "bytes": 9068,
+  "note": "Initial download made manually with curl (same URL and User-Agent) while developing this script; retrievedAt = file modification time."
+}

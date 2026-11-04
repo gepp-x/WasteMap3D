@@ -1,0 +1,213 @@
+[
+ {
+  "id": "bkk-flood-2011",
+  "cityId": "bangkok",
+  "titleTh": "มหาอุทกภัย พ.ศ. 2554 (กรุงเทพมหานคร)",
+  "titleEn": "Great flood of 2011 (Bangkok)",
+  "from": "2011-10-01",
+  "to": "2011-11-30",
+  "summaryTh": "น้ำท่วมใหญ่ที่สุดในกรุงเทพฯ ในรอบ 70 ปี (นับจากปี 2485) จากน้ำหลากลุ่มน้ำเจ้าพระยาที่ไหลเข้าทางทิศเหนือ ร่วมกับฝนสะสมสูงสุดเป็นประวัติการณ์และน้ำทะเลหนุน; รายงาน ปภ. เดือนตุลาคม 2554 ระบุกรุงเทพฯ ประสบอุทกภัย 32 เขต; ฝนสะสมกรุงเทพฯ ตั้งแต่ต้นปีถึง 1 ธ.ค. 2554 = 2,257.5 มม. (เดือน ต.ค. 388.0 มม.); ระดับน้ำทะเลหนุนสูงสุด 2.53 ม. วันที่ 30 ต.ค. 2554 (สถานีกองบัญชาการกองทัพเรือ) (สสน.)",
+  "summaryEn": "Bangkok's worst flood in 70 years (since 1942), driven by Chao Phraya basin floodwater entering from the north, record cumulative rainfall and high tides. The DDPM October 2011 report listed 32 Bangkok districts as affected; Bangkok rainfall from 1 Jan to 1 Dec 2011 was 2,257.5 mm (October 388.0 mm); the tide peaked at 2.53 m on 30 Oct 2011 at the Royal Thai Navy HQ gauge (HII). Nationally: THB 1.43 trillion damage and losses (World Bank).",
+  "sourceId": "hii-flood-2011-record",
+  "sourceIds": [
+   "hii-flood-2011-record",
+   "worldbank-thai-flood-2011-overview"
+  ],
+  "peakValues": [
+   {
+    "label": "Bangkok rainfall, 1 Jan – 1 Dec 2011 (BMA DDS)",
+    "value": 2257.5,
+    "unit": "mm",
+    "period": "2011-01-01/2011-12-01",
+    "place": "Bangkok (BMA DDS gauges)",
+    "status": "observed",
+    "sourceId": "hii-flood-2011-record",
+    "quoteTh": "ในวันที่ 1 ธันวาคม 2554 มีปริมาณฝนสะสมตั้งแต่ต้นปีอยู่ที่ 2,257.5 มิลลิเมตร"
+   },
+   {
+    "label": "Bangkok monthly rainfall, October 2011 (highest month)",
+    "value": 388,
+    "unit": "mm/month",
+    "period": "2011-10",
+    "place": "Bangkok (BMA DDS gauges)",
+    "status": "observed",
+    "sourceId": "hii-flood-2011-record",
+    "quoteTh": "เดือนตุลาคมมีปริมาณฝนสะสมสูงที่สุดอยู่ที่ 388.0 มิลลิเมตร"
+   },
+   {
+    "label": "Peak tide level, late October 2011",
+    "value": 2.53,
+    "unit": "m (datum not stated in the source)",
+    "period": "2011-10-30",
+    "place": "Royal Thai Navy Headquarters gauge (Royal Thai Navy Hydrographic Department)",
+    "status": "observed",
+    "sourceId": "hii-flood-2011-record",
+    "quoteTh": "ระดับน้ำสูงสุด อยู่ที่ 2.53 เมตร ในวันที่ 30 ตุลาคม"
+   },
+   {
+    "label": "Peak tide level, mid-November 2011",
+    "value": 2.41,
+    "unit": "m (datum not stated in the source)",
+    "period": "2011-11-12",
+    "place": "Royal Thai Navy Headquarters gauge",
+    "status": "observed",
+    "sourceId": "hii-flood-2011-record",
+    "quoteTh": "ช่วงกลางเดือนระดับน้ำสูงสุดอยู่ที่ 2.41 เมตร ในวันที่ 12 พฤศจิกายน"
+   },
+   {
+    "label": "National damage and losses (World Bank)",
+    "value": 1.43,
+    "unit": "trillion THB",
+    "period": "2011 (losses assumed over 2011–2013)",
+    "place": "Thailand (national)",
+    "status": "observed",
+    "sourceId": "worldbank-thai-flood-2011-overview",
+    "quoteEn": "THB 1.43 trillion (USD 46.5 billion)"
+   }
+  ],
+  "affectedDistricts": {
+   "count": 32,
+   "namedTh": [
+    "สายไหม",
+    "คลองสามวา"
+   ],
+   "scope": "Count from the DDPM October 2011 situation summary as reproduced by HII; HII also names Sai Mai and Khlong Sam Wa as areas where water from the north could not drain. A complete per-district list is not given in the cited sources.",
+   "sourceId": "hii-flood-2011-record"
+  },
+  "eventWindowNote": "from/to bound the reporting window in which DDPM lists Bangkok as affected (October 2011 report → 30 Nov 2011 report, when Bangkok was still affected); district-level onset and recession dates are not stated in the cited sources. Nationally the flood lasted July–December 2011 (World Bank)."
+ },
+ {
+  "id": "bkk-flood-2022-05-17",
+  "cityId": "bangkok",
+  "titleTh": "น้ำท่วมขังจากฝนตกหนัก กรุงเทพฯ 17–18 พ.ค. 2565",
+  "titleEn": "Heavy-rain urban flooding, Bangkok, 17–18 May 2022",
+  "from": "2022-05-17",
+  "to": "2022-05-18",
+  "summaryTh": "มวลอากาศเย็นจากจีนร่วมกับมรสุมตะวันตกเฉียงใต้ทำให้ฝนตกหนักมาก: สถานีวัดฝน สนน. 35 สถานีวัดได้เกิน 90 มม./วัน (21 สถานีเกิน 100 มม.) สูงสุด 136.0 มม. ที่สถานี ซ.สะพานขวา (07.00 น. 17 พ.ค. – 07.00 น. 18 พ.ค. 2565) เกิดน้ำท่วมบนถนนหลายสาย เช่น รัชดาภิเษก แจ้งวัฒนะ พหลโยธิน วิภาวดีรังสิต ลาดพร้าว (ThaiWater/สสน.)",
+  "summaryEn": "A cold air mass from China with the southwest monsoon brought very heavy rain: 35 BMA DDS gauges exceeded 90 mm/day (21 exceeded 100 mm), peaking at 136.0 mm at Soi Saphan Khwai station (07:00 17 May – 07:00 18 May 2022). Flooding was reported on many roads, e.g. Ratchadaphisek, Chaengwattana, Phahonyothin, Vibhavadi-Rangsit, Lat Phrao (ThaiWater/HII).",
+  "peakRainMm": {
+   "value": 136,
+   "unit": "mm/day",
+   "provenance": {
+    "status": "observed",
+    "sourceId": "thaiwater-floodbkk-may2022",
+    "sourceName": "ThaiWater/HII — Flooding in Bangkok, 17–18 May 2022",
+    "sourceUrl": "https://www.thaiwater.net/uploads/contents/current/2022/FloodBKK_May2022/summary.html",
+    "observedFrom": "2022-05-17",
+    "observedTo": "2022-05-18",
+    "referenceYear": 2022,
+    "geographicScope": "BMA DDS rain gauge 'ซ.สะพานขวา' (Soi Saphan Khwai), Bangkok",
+    "methodology": "Maximum 24-hour gauge rainfall (07:00 17 May → 07:00 18 May 2022) among BMA DDS stations, as published by HII.",
+    "limitations": [
+     "Single-gauge maximum; not an areal average.",
+     "The English text of the source gives a two-day window; the Thai original (one day) is used."
+    ]
+   }
+  },
+  "sourceId": "thaiwater-floodbkk-may2022",
+  "sourceIds": [
+   "thaiwater-floodbkk-may2022"
+  ],
+  "peakValues": [
+   {
+    "label": "Highest 24-h gauge rainfall (BMA DDS)",
+    "value": 136,
+    "unit": "mm/day",
+    "period": "2022-05-17T07:00+07:00/2022-05-18T07:00+07:00",
+    "place": "ซ.สะพานขวา (Soi Saphan Khwai)",
+    "status": "observed",
+    "sourceId": "thaiwater-floodbkk-may2022",
+    "quoteTh": "สถานี ซ.สะพานขวา มีฝนตกมากที่สุด 136.0 มิลลิเมตรต่อวัน"
+   },
+   {
+    "label": "Gauges above 90 mm/day",
+    "value": 35,
+    "unit": "stations",
+    "period": "2022-05-17T07:00+07:00/2022-05-18T07:00+07:00",
+    "place": "Bangkok (BMA DDS network)",
+    "status": "observed",
+    "sourceId": "thaiwater-floodbkk-may2022",
+    "quoteTh": "ทั้งหมด 35 สถานี โดยมีสถานีที่วัดฝนได้เกิน 100 มิลลิเมตรอยู่ถึง 21 สถานี"
+   }
+  ],
+  "affectedDistricts": null,
+  "eventWindowNote": "Rain and road flooding from the evening of 17 May to the morning of 18 May 2022, as stated by the source."
+ },
+ {
+  "id": "bkk-flood-2026-09-25",
+  "cityId": "bangkok",
+  "titleTh": "ฝนตกหนักและน้ำท่วมขัง กรุงเทพฯ 25–27 ก.ย. 2569 (ประกาศพื้นที่ประสบสาธารณภัย 50 เขต)",
+  "titleEn": "Heavy rain and flooding, Bangkok, 25–27 Sep 2026 (disaster area declared for all 50 districts)",
+  "from": "2026-09-24",
+  "to": "2026-09-27",
+  "summaryTh": "ฝนตกต่อเนื่องเกือบ 48 ชั่วโมงตั้งแต่ 16.00 น. 24 ก.ย. 2569 ฝนสะสมใกล้ 300 มม. (มีนบุรี 274.5 มม., คลองสามวา 273.0 มม. ณ 06.00 น. 26 ก.ย.) ฝน 24 ชม. สูงสุด 210.0 มม. ที่จุดวัดเทศบาลสงเคราะห์ เขตจตุจักร (07.00 น. 25 ก.ย. – 07.00 น. 26 ก.ย.) กทม. ขยายประกาศเขตพื้นที่ประสบสาธารณภัยจาก 3 เขตเป็นทั้ง 50 เขต มีผลตั้งแต่ 25 ก.ย. 2569 และเดินเครื่องสูบน้ำเต็มกำลังรวม 1,200 ลบ.ม./วินาที (กทม. ผ่าน Thai PBS)",
+  "summaryEn": "Almost 48 hours of continuous rain from 16:00 on 24 Sep 2026, with accumulations near 300 mm (Min Buri 274.5 mm, Khlong Sam Wa 273.0 mm by 06:00 on 26 Sep). Highest 24-h gauge total 210.0 mm at Thetsaban Songkhro, Chatuchak (07:00 25 Sep → 07:00 26 Sep). The BMA extended its disaster-area declaration from 3 districts to all 50, effective 25 Sep 2026, and ran pumps at full capacity (1,200 m³/s) (BMA via Thai PBS).",
+  "peakRainMm": {
+   "value": 210,
+   "unit": "mm/day",
+   "provenance": {
+    "status": "observed",
+    "sourceId": "thaipbs-2026-09-27-bkk-rain-report",
+    "sourceName": "Thai PBS (27 Sep 2026) reporting BMA DDS rainfall 25–27 Sep 2026",
+    "sourceUrl": "https://www.thaipbs.or.th/news/content/558661",
+    "observedFrom": "2026-09-25",
+    "observedTo": "2026-09-26",
+    "referenceYear": 2026,
+    "geographicScope": "BMA DDS rain gauge 'เทศบาลสงเคราะห์', Chatuchak district, Bangkok",
+    "methodology": "Maximum 24-hour gauge rainfall (07:00 25 Sep → 07:00 26 Sep 2026) among BMA stations, as reported by the BMA and published by Thai PBS.",
+    "limitations": [
+     "Single-gauge maximum reported via news media; the BMA primary report was not retrieved."
+    ]
+   }
+  },
+  "sourceId": "thaipbs-2026-09-27-bkk-rain-report",
+  "sourceIds": [
+   "thaipbs-2026-09-27-bkk-rain-report",
+   "thaipbs-2026-09-26-bkk-48h-rain",
+   "thaipbs-2026-09-26-bkk-50-districts"
+  ],
+  "peakValues": [
+   {
+    "label": "Highest 24-h gauge rainfall (BMA)",
+    "value": 210,
+    "unit": "mm/day",
+    "period": "2026-09-25T07:00+07:00/2026-09-26T07:00+07:00",
+    "place": "เทศบาลสงเคราะห์, เขตจตุจักร",
+    "status": "observed",
+    "sourceId": "thaipbs-2026-09-27-bkk-rain-report",
+    "quoteTh": "ปริมาณฝนสูงสุดที่ จุดวัด เทศบาลสงเคราะห์ เขตจตตุจักร 210.0 มม."
+   },
+   {
+    "label": "Accumulated rain since 16:00 24 Sep, Min Buri",
+    "value": 274.5,
+    "unit": "mm",
+    "period": "2026-09-24T16:00+07:00/2026-09-26T06:00+07:00",
+    "place": "เขตมีนบุรี",
+    "status": "observed",
+    "sourceId": "thaipbs-2026-09-26-bkk-48h-rain",
+    "quoteTh": "เขตมีนบุรีวัดได้ 274.5 มม. และคลองสามวา 273.0 มม."
+   },
+   {
+    "label": "BMA pumping at full capacity, both banks",
+    "value": 1200,
+    "unit": "m³/s",
+    "period": "2026-09-26",
+    "place": "Bangkok",
+    "status": "observed",
+    "sourceId": "thaipbs-2026-09-26-bkk-48h-rain",
+    "quoteTh": "รวม 1,200 ลบ.ม./วินาที"
+   }
+  ],
+  "affectedDistricts": {
+   "count": 50,
+   "namedTh": [
+    "หนองจอก",
+    "สวนหลวง",
+    "คันนายาว"
+   ],
+   "scope": "Disaster-area declaration (legal designation) extended from 3 districts (named) to all 50 districts, effective 25 Sep 2026 — a declaration, not a measured inundation extent.",
+   "sourceId": "thaipbs-2026-09-26-bkk-50-districts"
+  },
+  "eventWindowNote": "from = start of the continuous rain (16:00 24 Sep 2026); to = end of the last BMA 24-h rainfall report cited (07:00 27 Sep 2026). Street flooding persisted in places after that."
+ }
+]
